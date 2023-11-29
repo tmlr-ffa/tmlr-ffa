@@ -1,0 +1,2050 @@
+loading model from  ./bt/temp/appendicitis/appendicitis_train1/appendicitis_train1_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl
+loading data from  ./bt/temp/appendicitis/appendicitis_train1/appendicitis_train1_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl.splitdata.pkl
+encoding vars: 349
+encoding clauses: 1596 (1449 path + 147 common)
+
+inst: 0
+lits: [9, 24, 37, 50, 61, 66, 77]
+  explaining:  "IF At1 == 0.378 AND At2 == 0.732 AND At3 == 0.402 AND At4 == 0.278 AND At5 == 0.223 AND At6 == 0.687 AND At7 == 0.35 THEN 0"
+iter: 1
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [2, 3, 4]
+  coextime: 0.04
+iter: 2
+cand: [2]
+core: [0, 1, 3, 4, 5]
+coex: [0, 1, 3, 4, 5]
+  coextime: 0.06
+iter: 3
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [2, 4, 5]
+  coextime: 0.08
+iter: 4
+cand: [4]
+core: [0, 1, 2, 3, 5]
+coex: [2, 3, 5]
+  coextime: 0.10
+iter: 5
+cand: [3, 4]
+core: [0, 1, 2, 5]
+coex: [0, 2, 5]
+  coextime: 0.13
+iter: 6
+cand: [4, 5]
+core: [0, 1, 2, 3]
+coex: [0, 1, 2, 3]
+  coextime: 0.15
+iter: 7
+cand: [3, 5]
+core: [0, 1, 2, 4]
+coex: [1, 2, 4]
+  coextime: 0.16
+iter: 8
+cand: [0, 2]
+expl: [0, 2]
+  expltime: 0.17
+iter: 9
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.17
+iter: 10
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.18
+iter: 11
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.18
+iter: 12
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.18
+iter: 13
+cand: [1, 4, 5]
+expl: [1, 4, 5]
+  expltime: 0.19
+iter: 14
+cand: [3, 4, 5]
+expl: [3, 4, 5]
+  expltime: 0.19
+iter: 15
+cand: [1, 3, 5]
+core: [0, 2, 4]
+coex: [0, 2, 4]
+  coextime: 0.21
+iter: 16
+cand: [0, 4, 5]
+expl: [0, 4, 5]
+  expltime: 0.21
+iter: 17
+cand: [0, 3, 4]
+expl: [0, 3, 4]
+  expltime: 0.22
+iter: 18
+cand: [0, 1, 3, 5]
+expl: [0, 1, 3, 5]
+  expltime: 0.22
+iter: 19
+cand: None
+  prediciton: 0
+  explanation: "IF At1 != 0.378 AND At3 != 0.402 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.17
+  explanation: "IF At3 != 0.402 AND At6 != 0.687 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.17
+  explanation: "IF At2 != 0.732 AND At3 != 0.402 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.18
+  explanation: "IF At3 != 0.402 AND At5 != 0.223 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.18
+  explanation: "IF At3 != 0.402 AND At4 != 0.278 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.18
+  explanation: "IF At2 != 0.732 AND At5 != 0.223 AND At6 != 0.687 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.19
+  explanation: "IF At4 != 0.278 AND At5 != 0.223 AND At6 != 0.687 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.19
+  explanation: "IF At1 != 0.378 AND At5 != 0.223 AND At6 != 0.687 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.21
+  explanation: "IF At1 != 0.378 AND At4 != 0.278 AND At5 != 0.223 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.22
+  explanation: "IF At1 != 0.378 AND At2 != 0.732 AND At4 != 0.278 AND At6 != 0.687 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.22
+  dual explanation: "IF At3 == 0.402 AND At4 == 0.278 AND At5 == 0.223 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.378 AND At2 == 0.732 AND At4 == 0.278 AND At5 == 0.223 AND At6 == 0.687 THEN 0"
+  dual explanation size: 5
+  dual explanation: "IF At3 == 0.402 AND At5 == 0.223 AND At6 == 0.687 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At3 == 0.402 AND At4 == 0.278 AND At6 == 0.687 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.378 AND At3 == 0.402 AND At6 == 0.687 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.378 AND At2 == 0.732 AND At3 == 0.402 AND At4 == 0.278 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF At2 == 0.732 AND At3 == 0.402 AND At5 == 0.223 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.378 AND At3 == 0.402 AND At5 == 0.223 THEN 0"
+  dual explanation size: 3
+  calls: 7
+  rtime: 0.22
+
+inst: 1
+lits: [9, 22, 37, 42, 53, 68, 77]
+  explaining:  "IF At1 == 0.413 AND At2 == 0.714 AND At3 == 0.428 AND At4 == 0.028 AND At5 == 0.024 AND At6 == 0.73 AND At7 == 0.393 THEN 0"
+iter: 1
+cand: [5]
+expl: [5]
+  expltime: 0.02
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.02
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.02
+iter: 4
+cand: [6]
+core: [0, 1, 2, 3, 4, 5]
+coex: [0, 1, 2, 4, 5]
+  coextime: 0.05
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.06
+iter: 6
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 7
+cand: None
+  prediciton: 0
+  explanation: "IF At6 != 0.73 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.02
+  explanation: "IF At1 != 0.413 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.02
+  explanation: "IF At3 != 0.428 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.02
+  explanation: "IF At5 != 0.024 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF At2 != 0.714 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF At1 == 0.413 AND At2 == 0.714 AND At3 == 0.428 AND At5 == 0.024 AND At6 == 0.73 THEN 0"
+  dual explanation size: 5
+  calls: 9
+  rtime: 0.06
+
+inst: 2
+lits: [3, 14, 31, 44, 55, 62, 75]
+  explaining:  "IF At1 == 0.302 AND At2 == 0.482 AND At3 == 0.258 AND At4 == 0.069 AND At5 == 0.048 AND At6 == 0.599 AND At7 == 0.263 THEN 0"
+iter: 1
+cand: [5]
+expl: [5]
+  expltime: 0.02
+iter: 2
+cand: [0]
+core: [1, 2, 3, 4, 5]
+coex: [2, 3, 5]
+  coextime: 0.05
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.05
+iter: 4
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [1, 2, 5]
+  coextime: 0.08
+iter: 5
+cand: [1, 3]
+core: [0, 2, 4, 5, 6]
+coex: [2, 5, 6]
+  coextime: 0.11
+iter: 6
+cand: [1, 3, 6]
+core: [0, 2, 4, 5]
+coex: [0, 2, 5]
+  coextime: 0.14
+iter: 7
+cand: [0, 1, 3, 6]
+expl: [0, 1, 3, 6]
+  expltime: 0.14
+iter: 8
+cand: None
+  prediciton: 0
+  explanation: "IF At6 != 0.599 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.02
+  explanation: "IF At3 != 0.258 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF At1 != 0.302 AND At2 != 0.482 AND At4 != 0.069 AND At7 != 0.263 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.14
+  dual explanation: "IF At3 == 0.258 AND At4 == 0.069 AND At6 == 0.599 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At2 == 0.482 AND At3 == 0.258 AND At6 == 0.599 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At3 == 0.258 AND At6 == 0.599 AND At7 == 0.263 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.302 AND At3 == 0.258 AND At6 == 0.599 THEN 0"
+  dual explanation size: 3
+  calls: 6
+  rtime: 0.14
+
+inst: 3
+lits: [3, -25, 35, 50, 59, 74, 75]
+  explaining:  "IF At1 == 0.298 AND At2 == 0.839 AND At3 == 0.36 AND At4 == 0.208 AND At5 == 0.143 AND At6 == 0.856 AND At7 == 0.32 THEN 0"
+iter: 1
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [2, 3, 4]
+  coextime: 0.04
+iter: 2
+cand: [2]
+core: [0, 1, 3, 4, 5]
+coex: [1, 3, 4, 5]
+  coextime: 0.06
+iter: 3
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [2, 5]
+  coextime: 0.08
+iter: 4
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.09
+iter: 5
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.09
+iter: 6
+cand: [3, 5]
+core: [0, 1, 2, 4]
+coex: [1, 2, 4]
+  coextime: 0.11
+iter: 7
+cand: [4, 5]
+core: [0, 1, 2, 3, 6]
+coex: [0, 1, 2, 3, 6]
+  coextime: 0.13
+iter: 8
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.14
+iter: 9
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.14
+iter: 10
+cand: [0, 4, 5]
+expl: [0, 4, 5]
+  expltime: 0.15
+iter: 11
+cand: [4, 5, 6]
+expl: [4, 5, 6]
+  expltime: 0.15
+iter: 12
+cand: [1, 4, 5]
+expl: [1, 4, 5]
+  expltime: 0.16
+iter: 13
+cand: [3, 4, 5]
+expl: [3, 4, 5]
+  expltime: 0.16
+iter: 14
+cand: [1, 3, 5]
+core: [0, 2, 4, 6]
+coex: [0, 2, 4]
+  coextime: 0.18
+iter: 15
+cand: [0, 1, 3, 5]
+expl: [0, 1, 3, 5]
+  expltime: 0.19
+iter: 16
+cand: None
+  prediciton: 0
+  explanation: "IF At3 != 0.36 AND At4 != 0.208 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.09
+  explanation: "IF At3 != 0.36 AND At5 != 0.143 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.09
+  explanation: "IF At3 != 0.36 AND At6 != 0.856 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.14
+  explanation: "IF At2 != 0.839 AND At3 != 0.36 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.14
+  explanation: "IF At1 != 0.298 AND At5 != 0.143 AND At6 != 0.856 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.15
+  explanation: "IF At5 != 0.143 AND At6 != 0.856 AND At7 != 0.32 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.15
+  explanation: "IF At2 != 0.839 AND At5 != 0.143 AND At6 != 0.856 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.16
+  explanation: "IF At4 != 0.208 AND At5 != 0.143 AND At6 != 0.856 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.16
+  explanation: "IF At1 != 0.298 AND At2 != 0.839 AND At4 != 0.208 AND At6 != 0.856 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.19
+  dual explanation: "IF At3 == 0.36 AND At4 == 0.208 AND At5 == 0.143 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At2 == 0.839 AND At4 == 0.208 AND At5 == 0.143 AND At6 == 0.856 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF At3 == 0.36 AND At6 == 0.856 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF At2 == 0.839 AND At3 == 0.36 AND At5 == 0.143 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.298 AND At2 == 0.839 AND At3 == 0.36 AND At4 == 0.208 AND At7 == 0.32 THEN 0"
+  dual explanation size: 5
+  dual explanation: "IF At1 == 0.298 AND At3 == 0.36 AND At5 == 0.143 THEN 0"
+  dual explanation size: 3
+  calls: 6
+  rtime: 0.19
+
+inst: 4
+lits: [3, -25, 35, 50, 59, 74, 75]
+  explaining:  "IF At1 == 0.271 AND At2 == 0.857 AND At3 == 0.338 AND At4 == 0.292 AND At5 == 0.189 AND At6 == 0.778 AND At7 == 0.278 THEN 0"
+iter: 1
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [2, 3, 4]
+  coextime: 0.04
+iter: 2
+cand: [2]
+core: [0, 1, 3, 4, 5]
+coex: [1, 3, 4, 5]
+  coextime: 0.06
+iter: 3
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [2, 5]
+  coextime: 0.08
+iter: 4
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.09
+iter: 5
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.09
+iter: 6
+cand: [3, 5]
+core: [0, 1, 2, 4]
+coex: [1, 2, 4]
+  coextime: 0.11
+iter: 7
+cand: [4, 5]
+core: [0, 1, 2, 3, 6]
+coex: [0, 1, 2, 3, 6]
+  coextime: 0.13
+iter: 8
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.14
+iter: 9
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.14
+iter: 10
+cand: [0, 4, 5]
+expl: [0, 4, 5]
+  expltime: 0.14
+iter: 11
+cand: [4, 5, 6]
+expl: [4, 5, 6]
+  expltime: 0.15
+iter: 12
+cand: [1, 4, 5]
+expl: [1, 4, 5]
+  expltime: 0.15
+iter: 13
+cand: [3, 4, 5]
+expl: [3, 4, 5]
+  expltime: 0.16
+iter: 14
+cand: [1, 3, 5]
+core: [0, 2, 4, 6]
+coex: [0, 2, 4]
+  coextime: 0.18
+iter: 15
+cand: [0, 1, 3, 5]
+expl: [0, 1, 3, 5]
+  expltime: 0.19
+iter: 16
+cand: None
+  prediciton: 0
+  explanation: "IF At3 != 0.338 AND At4 != 0.292 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.09
+  explanation: "IF At3 != 0.338 AND At5 != 0.189 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.09
+  explanation: "IF At3 != 0.338 AND At6 != 0.778 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.14
+  explanation: "IF At2 != 0.857 AND At3 != 0.338 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.14
+  explanation: "IF At1 != 0.271 AND At5 != 0.189 AND At6 != 0.778 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.14
+  explanation: "IF At5 != 0.189 AND At6 != 0.778 AND At7 != 0.278 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.15
+  explanation: "IF At2 != 0.857 AND At5 != 0.189 AND At6 != 0.778 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.15
+  explanation: "IF At4 != 0.292 AND At5 != 0.189 AND At6 != 0.778 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.16
+  explanation: "IF At1 != 0.271 AND At2 != 0.857 AND At4 != 0.292 AND At6 != 0.778 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.19
+  dual explanation: "IF At3 == 0.338 AND At4 == 0.292 AND At5 == 0.189 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At2 == 0.857 AND At4 == 0.292 AND At5 == 0.189 AND At6 == 0.778 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF At3 == 0.338 AND At6 == 0.778 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF At2 == 0.857 AND At3 == 0.338 AND At5 == 0.189 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.271 AND At2 == 0.857 AND At3 == 0.338 AND At4 == 0.292 AND At7 == 0.278 THEN 0"
+  dual explanation size: 5
+  dual explanation: "IF At1 == 0.271 AND At3 == 0.338 AND At5 == 0.189 THEN 0"
+  dual explanation size: 3
+  calls: 6
+  rtime: 0.19
+
+inst: 5
+lits: [9, 26, 37, 42, 53, 74, -76]
+  explaining:  "IF At1 == 0.44 AND At2 == 0.804 AND At3 == 0.486 AND At4 == 0.0 AND At5 == 0.0 AND At6 == 0.829 AND At7 == 0.447 THEN 0"
+iter: 1
+cand: [5]
+expl: [5]
+  expltime: 0.02
+iter: 2
+cand: [0]
+core: [2, 3, 4, 5, 6]
+coex: [2, 5]
+  coextime: 0.04
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.04
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF At6 != 0.829 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.02
+  explanation: "IF At3 != 0.486 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF At3 == 0.486 AND At6 == 0.829 THEN 0"
+  dual explanation size: 2
+  calls: 7
+  rtime: 0.04
+
+inst: 6
+lits: [9, 16, 35, 50, 59, 62, 75]
+  explaining:  "IF At1 == 0.378 AND At2 == 0.589 AND At3 == 0.352 AND At4 == 0.181 AND At5 == 0.145 AND At6 == 0.574 AND At7 == 0.319 THEN 0"
+iter: 1
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [2, 3, 4]
+  coextime: 0.04
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.04
+iter: 3
+cand: [4]
+core: [0, 1, 2, 3, 5]
+coex: [2, 3, 5]
+  coextime: 0.07
+iter: 4
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [2, 4, 5]
+  coextime: 0.09
+iter: 5
+cand: [3, 4]
+core: [0, 1, 2, 5]
+coex: [1, 2, 5]
+  coextime: 0.12
+iter: 6
+cand: [3, 5]
+core: [0, 1, 2, 4]
+coex: [1, 2, 4]
+  coextime: 0.14
+iter: 7
+cand: [4, 5]
+core: [0, 1, 2, 3]
+coex: [0, 1, 2, 3]
+  coextime: 0.16
+iter: 8
+cand: [0, 4, 5]
+expl: [0, 4, 5]
+  expltime: 0.16
+iter: 9
+cand: [3, 4, 5]
+expl: [3, 4, 5]
+  expltime: 0.17
+iter: 10
+cand: [1, 4, 5]
+expl: [1, 4, 5]
+  expltime: 0.18
+iter: 11
+cand: [1, 3, 4]
+core: [0, 2, 5]
+coex: [0, 2, 5]
+  coextime: 0.20
+iter: 12
+cand: [1, 3, 5]
+core: [0, 2, 4]
+coex: [0, 2, 4]
+  coextime: 0.21
+iter: 13
+cand: [0, 1, 3, 5]
+expl: [0, 1, 3, 5]
+  expltime: 0.22
+iter: 14
+cand: [0, 1, 3, 4]
+core: [2, 5, 6]
+coex: [2, 5, 6]
+  coextime: 0.24
+iter: 15
+cand: [0, 1, 3, 4, 6]
+expl: [0, 1, 3, 4, 6]
+  expltime: 0.24
+iter: 16
+cand: None
+  prediciton: 0
+  explanation: "IF At3 != 0.352 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.04
+  explanation: "IF At1 != 0.378 AND At5 != 0.145 AND At6 != 0.574 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.16
+  explanation: "IF At4 != 0.181 AND At5 != 0.145 AND At6 != 0.574 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.17
+  explanation: "IF At2 != 0.589 AND At5 != 0.145 AND At6 != 0.574 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.18
+  explanation: "IF At1 != 0.378 AND At2 != 0.589 AND At4 != 0.181 AND At6 != 0.574 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.22
+  explanation: "IF At1 != 0.378 AND At2 != 0.589 AND At4 != 0.181 AND At5 != 0.145 AND At7 != 0.319 THEN NOT 0"
+  explanation size: 5
+  expl time: 0.24
+  dual explanation: "IF At3 == 0.352 AND At4 == 0.181 AND At5 == 0.145 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At3 == 0.352 AND At4 == 0.181 AND At6 == 0.574 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At3 == 0.352 AND At5 == 0.145 AND At6 == 0.574 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At2 == 0.589 AND At3 == 0.352 AND At6 == 0.574 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At2 == 0.589 AND At3 == 0.352 AND At5 == 0.145 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.378 AND At2 == 0.589 AND At3 == 0.352 AND At4 == 0.181 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF At1 == 0.378 AND At3 == 0.352 AND At6 == 0.574 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.378 AND At3 == 0.352 AND At5 == 0.145 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At3 == 0.352 AND At6 == 0.574 AND At7 == 0.319 THEN 0"
+  dual explanation size: 3
+  calls: 5
+  rtime: 0.24
+
+inst: 7
+lits: [-10, 26, 37, -51, -60, 74, -76]
+  explaining:  "IF At1 == 0.52 AND At2 == 0.804 AND At3 == 0.564 AND At4 == 0.361 AND At5 == 0.364 AND At6 == 0.816 AND At7 == 0.518 THEN 0"
+iter: 1
+cand: [5]
+core: [0, 1, 2, 3, 4, 6]
+coex: [2, 3, 4]
+  coextime: 0.05
+iter: 2
+cand: [2]
+core: [0, 1, 3, 4, 5, 6]
+coex: [3, 5, 6]
+  coextime: 0.09
+iter: 3
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [2, 5]
+  coextime: 0.11
+iter: 4
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.11
+iter: 5
+cand: [2, 5]
+core: [0, 1, 3, 4, 6]
+coex: [0, 1, 3, 4, 6]
+  coextime: 0.14
+iter: 6
+cand: [4, 5]
+core: [0, 1, 2, 3, 6]
+coex: [0, 2, 3]
+  coextime: 0.16
+iter: 7
+cand: [2, 6]
+core: [0, 1, 3, 4, 5]
+coex: [3, 4, 5]
+  coextime: 0.19
+iter: 8
+cand: [3, 5]
+core: [0, 1, 2, 4]
+coex: [0, 2, 4]
+  coextime: 0.21
+iter: 9
+cand: [3, 4, 5]
+expl: [3, 4, 5]
+  expltime: 0.21
+iter: 10
+cand: [0, 3, 5]
+expl: [0, 3, 5]
+  expltime: 0.22
+iter: 11
+cand: [0, 4, 5]
+expl: [0, 4, 5]
+  expltime: 0.22
+iter: 12
+cand: [2, 4, 5]
+expl: [2, 4, 5]
+  expltime: 0.22
+iter: 13
+cand: [2, 4, 6]
+expl: [2, 4, 6]
+  expltime: 0.23
+iter: 14
+cand: [1, 2, 5]
+expl: [1, 2, 5]
+  expltime: 0.23
+iter: 15
+cand: [2, 5, 6]
+expl: [2, 5, 6]
+  expltime: 0.24
+iter: 16
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.24
+iter: 17
+cand: None
+  prediciton: 0
+  explanation: "IF At3 != 0.564 AND At4 != 0.361 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.11
+  explanation: "IF At4 != 0.361 AND At5 != 0.364 AND At6 != 0.816 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.21
+  explanation: "IF At1 != 0.52 AND At4 != 0.361 AND At6 != 0.816 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.22
+  explanation: "IF At1 != 0.52 AND At5 != 0.364 AND At6 != 0.816 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.22
+  explanation: "IF At3 != 0.564 AND At5 != 0.364 AND At6 != 0.816 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.22
+  explanation: "IF At3 != 0.564 AND At5 != 0.364 AND At7 != 0.518 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.23
+  explanation: "IF At2 != 0.804 AND At3 != 0.564 AND At6 != 0.816 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.23
+  explanation: "IF At3 != 0.564 AND At6 != 0.816 AND At7 != 0.518 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.24
+  explanation: "IF At1 != 0.52 AND At3 != 0.564 AND At6 != 0.816 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.24
+  dual explanation: "IF At3 == 0.564 AND At4 == 0.361 AND At5 == 0.364 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At4 == 0.361 AND At6 == 0.816 AND At7 == 0.518 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At3 == 0.564 AND At6 == 0.816 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF At1 == 0.52 AND At2 == 0.804 AND At4 == 0.361 AND At5 == 0.364 AND At7 == 0.518 THEN 0"
+  dual explanation size: 5
+  dual explanation: "IF At1 == 0.52 AND At3 == 0.564 AND At4 == 0.361 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At4 == 0.361 AND At5 == 0.364 AND At6 == 0.816 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.52 AND At3 == 0.564 AND At5 == 0.364 THEN 0"
+  dual explanation size: 3
+  calls: 13
+  rtime: 0.24
+
+inst: 8
+lits: [1, 24, 27, -51, 61, 74, 75]
+  explaining:  "IF At1 == 0.062 AND At2 == 0.75 AND At3 == 0.114 AND At4 == 0.625 AND At5 == 0.214 AND At6 == 0.82 AND At7 == 0.09 THEN 0"
+iter: 1
+cand: [5]
+expl: [5]
+  expltime: 0.02
+iter: 2
+cand: [0]
+core: [1, 2, 3, 4, 5]
+coex: [3, 4, 5]
+  coextime: 0.04
+iter: 3
+cand: [4]
+core: [0, 1, 2, 3, 5]
+coex: [0, 1, 3, 5]
+  coextime: 0.07
+iter: 4
+cand: [3]
+expl: [3]
+  expltime: 0.07
+iter: 5
+cand: [0, 4]
+expl: [0, 4]
+  expltime: 0.07
+iter: 6
+cand: [1, 4]
+expl: [1, 4]
+  expltime: 0.08
+iter: 7
+cand: None
+  prediciton: 0
+  explanation: "IF At6 != 0.82 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.02
+  explanation: "IF At4 != 0.625 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF At1 != 0.062 AND At5 != 0.214 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.07
+  explanation: "IF At2 != 0.75 AND At5 != 0.214 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.08
+  dual explanation: "IF At4 == 0.625 AND At5 == 0.214 AND At6 == 0.82 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.062 AND At2 == 0.75 AND At4 == 0.625 AND At6 == 0.82 THEN 0"
+  dual explanation size: 4
+  calls: 9
+  rtime: 0.08
+
+inst: 9
+lits: [11, -25, 37, 44, 55, 74, -76]
+  explaining:  "IF At1 == 0.48 AND At2 == 0.857 AND At3 == 0.547 AND At4 == 0.056 AND At5 == 0.053 AND At6 == 0.836 AND At7 == 0.487 THEN 0"
+iter: 1
+cand: [5]
+core: [0, 1, 2, 3, 6]
+coex: [1, 2, 3, 6]
+  coextime: 0.03
+iter: 2
+cand: [6]
+core: [0, 1, 2, 3, 4, 5]
+coex: [2, 5]
+  coextime: 0.06
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.06
+iter: 4
+cand: [5, 6]
+core: [0, 1, 2, 3]
+coex: [0, 2, 3]
+  coextime: 0.08
+iter: 5
+cand: [3, 5]
+core: [0, 1, 2, 4, 6]
+coex: [0, 1, 2]
+  coextime: 0.11
+iter: 6
+cand: [1, 3, 5]
+expl: [1, 3, 5]
+  expltime: 0.12
+iter: 7
+cand: [0, 3, 5]
+expl: [0, 3, 5]
+  expltime: 0.12
+iter: 8
+cand: [0, 1, 5]
+expl: [0, 1, 5]
+  expltime: 0.12
+iter: 9
+cand: [0, 5, 6]
+expl: [0, 5, 6]
+  expltime: 0.13
+iter: 10
+cand: None
+  prediciton: 0
+  explanation: "IF At3 != 0.547 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF At2 != 0.857 AND At4 != 0.056 AND At6 != 0.836 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.12
+  explanation: "IF At1 != 0.48 AND At4 != 0.056 AND At6 != 0.836 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.12
+  explanation: "IF At1 != 0.48 AND At2 != 0.857 AND At6 != 0.836 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.12
+  explanation: "IF At1 != 0.48 AND At6 != 0.836 AND At7 != 0.487 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.13
+  dual explanation: "IF At2 == 0.857 AND At3 == 0.547 AND At4 == 0.056 AND At7 == 0.487 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF At3 == 0.547 AND At6 == 0.836 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF At1 == 0.48 AND At3 == 0.547 AND At4 == 0.056 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.48 AND At2 == 0.857 AND At3 == 0.547 THEN 0"
+  dual explanation size: 3
+  calls: 10
+  rtime: 0.13
+
+inst: 10
+lits: [9, 14, 35, 50, 61, 62, 75]
+  explaining:  "IF At1 == 0.378 AND At2 == 0.518 AND At3 == 0.328 AND At4 == 0.292 AND At5 == 0.234 AND At6 == 0.512 AND At7 == 0.302 THEN 0"
+iter: 1
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [2, 3, 4]
+  coextime: 0.04
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.05
+iter: 3
+cand: [4]
+core: [0, 1, 2, 3, 5]
+coex: [2, 3, 5]
+  coextime: 0.08
+iter: 4
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [2, 4, 5]
+  coextime: 0.11
+iter: 5
+cand: [3, 4]
+core: [0, 1, 2, 5]
+coex: [1, 2, 5]
+  coextime: 0.13
+iter: 6
+cand: [3, 5]
+core: [0, 1, 2, 4]
+coex: [1, 2, 4]
+  coextime: 0.15
+iter: 7
+cand: [4, 5]
+core: [0, 1, 2, 3]
+coex: [0, 1, 2, 3]
+  coextime: 0.18
+iter: 8
+cand: [0, 4, 5]
+expl: [0, 4, 5]
+  expltime: 0.18
+iter: 9
+cand: [3, 4, 5]
+expl: [3, 4, 5]
+  expltime: 0.19
+iter: 10
+cand: [1, 4, 5]
+expl: [1, 4, 5]
+  expltime: 0.20
+iter: 11
+cand: [1, 3, 4]
+core: [0, 2, 5]
+coex: [0, 2, 5]
+  coextime: 0.22
+iter: 12
+cand: [1, 3, 5]
+core: [0, 2, 4]
+coex: [0, 2, 4]
+  coextime: 0.23
+iter: 13
+cand: [0, 1, 3, 5]
+expl: [0, 1, 3, 5]
+  expltime: 0.24
+iter: 14
+cand: [0, 1, 3, 4]
+core: [2, 5, 6]
+coex: [2, 5, 6]
+  coextime: 0.26
+iter: 15
+cand: [0, 1, 3, 4, 6]
+expl: [0, 1, 3, 4, 6]
+  expltime: 0.26
+iter: 16
+cand: None
+  prediciton: 0
+  explanation: "IF At3 != 0.328 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF At1 != 0.378 AND At5 != 0.234 AND At6 != 0.512 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.18
+  explanation: "IF At4 != 0.292 AND At5 != 0.234 AND At6 != 0.512 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.19
+  explanation: "IF At2 != 0.518 AND At5 != 0.234 AND At6 != 0.512 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.20
+  explanation: "IF At1 != 0.378 AND At2 != 0.518 AND At4 != 0.292 AND At6 != 0.512 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.24
+  explanation: "IF At1 != 0.378 AND At2 != 0.518 AND At4 != 0.292 AND At5 != 0.234 AND At7 != 0.302 THEN NOT 0"
+  explanation size: 5
+  expl time: 0.26
+  dual explanation: "IF At3 == 0.328 AND At4 == 0.292 AND At5 == 0.234 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At3 == 0.328 AND At4 == 0.292 AND At6 == 0.512 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At3 == 0.328 AND At5 == 0.234 AND At6 == 0.512 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At2 == 0.518 AND At3 == 0.328 AND At6 == 0.512 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At2 == 0.518 AND At3 == 0.328 AND At5 == 0.234 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.378 AND At2 == 0.518 AND At3 == 0.328 AND At4 == 0.292 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF At1 == 0.378 AND At3 == 0.328 AND At6 == 0.512 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.378 AND At3 == 0.328 AND At5 == 0.234 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At3 == 0.328 AND At6 == 0.512 AND At7 == 0.302 THEN 0"
+  dual explanation size: 3
+  calls: 5
+  rtime: 0.26
+
+inst: 11
+lits: [-10, 26, -40, 50, -60, 74, -76]
+  explaining:  "IF At1 == 0.764 AND At2 == 0.786 AND At3 == 0.789 AND At4 == 0.25 AND At5 == 0.341 AND At6 == 0.854 AND At7 == 0.762 THEN 0"
+iter: 1
+cand: [5]
+core: [0, 1, 2, 3, 4, 6]
+coex: [2, 3, 4]
+  coextime: 0.05
+iter: 2
+cand: [2]
+core: [0, 1, 3, 4, 5, 6]
+coex: [1, 3, 4, 5]
+  coextime: 0.08
+iter: 3
+cand: [3]
+core: [0, 1, 2, 4, 5, 6]
+coex: [2, 5]
+  coextime: 0.12
+iter: 4
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.12
+iter: 5
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.13
+iter: 6
+cand: [3, 5]
+core: [0, 1, 2, 4, 6]
+coex: [0, 2, 4]
+  coextime: 0.16
+iter: 7
+cand: [4, 5]
+core: [0, 1, 2, 3, 6]
+coex: [0, 2, 3, 6]
+  coextime: 0.18
+iter: 8
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.19
+iter: 9
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.20
+iter: 10
+cand: [0, 4, 5]
+expl: [0, 4, 5]
+  expltime: 0.20
+iter: 11
+cand: [4, 5, 6]
+expl: [4, 5, 6]
+  expltime: 0.21
+iter: 12
+cand: [3, 4, 5]
+expl: [3, 4, 5]
+  expltime: 0.21
+iter: 13
+cand: [0, 3, 5]
+expl: [0, 3, 5]
+  expltime: 0.22
+iter: 14
+cand: None
+  prediciton: 0
+  explanation: "IF At3 != 0.789 AND At4 != 0.25 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.12
+  explanation: "IF At3 != 0.789 AND At5 != 0.341 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.13
+  explanation: "IF At3 != 0.789 AND At6 != 0.854 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.19
+  explanation: "IF At2 != 0.786 AND At3 != 0.789 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.20
+  explanation: "IF At1 != 0.764 AND At5 != 0.341 AND At6 != 0.854 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.20
+  explanation: "IF At5 != 0.341 AND At6 != 0.854 AND At7 != 0.762 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.21
+  explanation: "IF At4 != 0.25 AND At5 != 0.341 AND At6 != 0.854 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.21
+  explanation: "IF At1 != 0.764 AND At4 != 0.25 AND At6 != 0.854 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.22
+  dual explanation: "IF At3 == 0.789 AND At4 == 0.25 AND At5 == 0.341 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At2 == 0.786 AND At4 == 0.25 AND At5 == 0.341 AND At6 == 0.854 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF At3 == 0.789 AND At6 == 0.854 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF At1 == 0.764 AND At3 == 0.789 AND At5 == 0.341 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.764 AND At3 == 0.789 AND At4 == 0.25 AND At7 == 0.762 THEN 0"
+  dual explanation size: 4
+  calls: 12
+  rtime: 0.22
+
+inst: 12
+lits: [-10, 16, 37, 44, 55, 64, -76]
+  explaining:  "IF At1 == 0.516 AND At2 == 0.625 AND At3 == 0.482 AND At4 == 0.056 AND At5 == 0.056 AND At6 == 0.65 AND At7 == 0.456 THEN 0"
+iter: 1
+cand: [5]
+core: [0, 1, 2, 3, 4, 6]
+coex: [0, 2, 3]
+  coextime: 0.05
+iter: 2
+cand: [0]
+core: [1, 2, 3, 5, 6]
+coex: [2, 5, 6]
+  coextime: 0.08
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.08
+iter: 4
+cand: [3, 5]
+core: [0, 1, 2, 4, 6]
+coex: [0, 1, 2]
+  coextime: 0.11
+iter: 5
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.12
+iter: 6
+cand: [0, 6]
+core: [1, 2, 3, 5]
+coex: [2, 3, 5]
+  coextime: 0.14
+iter: 7
+cand: [0, 3, 6]
+core: [1, 2, 4, 5]
+coex: [1, 2, 5]
+  coextime: 0.16
+iter: 8
+cand: [1, 3, 6]
+core: [0, 2, 5]
+coex: [0, 2, 5]
+  coextime: 0.18
+iter: 9
+cand: [1, 3, 5]
+expl: [1, 3, 5]
+  expltime: 0.19
+iter: 10
+cand: [0, 1, 3, 6]
+expl: [0, 1, 3, 6]
+  expltime: 0.19
+iter: 11
+cand: None
+  prediciton: 0
+  explanation: "IF At3 != 0.482 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF At1 != 0.516 AND At6 != 0.65 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.12
+  explanation: "IF At2 != 0.625 AND At4 != 0.056 AND At6 != 0.65 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.19
+  explanation: "IF At1 != 0.516 AND At2 != 0.625 AND At4 != 0.056 AND At7 != 0.456 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.19
+  dual explanation: "IF At1 == 0.516 AND At3 == 0.482 AND At4 == 0.056 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At3 == 0.482 AND At6 == 0.65 AND At7 == 0.456 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.516 AND At2 == 0.625 AND At3 == 0.482 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At3 == 0.482 AND At4 == 0.056 AND At6 == 0.65 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At2 == 0.625 AND At3 == 0.482 AND At6 == 0.65 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.516 AND At3 == 0.482 AND At6 == 0.65 THEN 0"
+  dual explanation size: 3
+  calls: 6
+  rtime: 0.19
+
+inst: 13
+lits: [-10, -25, 37, -51, -60, 74, -76]
+  explaining:  "IF At1 == 0.502 AND At2 == 0.857 AND At3 == 0.569 AND At4 == 0.528 AND At5 == 0.519 AND At6 == 0.832 AND At7 == 0.506 THEN 0"
+iter: 1
+cand: [5]
+core: [0, 1, 2, 3, 4, 6]
+coex: [2, 3, 4]
+  coextime: 0.05
+iter: 2
+cand: [2]
+core: [0, 1, 3, 4, 5, 6]
+coex: [3, 5, 6]
+  coextime: 0.08
+iter: 3
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [2, 5]
+  coextime: 0.11
+iter: 4
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.11
+iter: 5
+cand: [2, 5]
+core: [0, 1, 3, 4, 6]
+coex: [0, 1, 3, 4]
+  coextime: 0.14
+iter: 6
+cand: [4, 5]
+core: [0, 1, 2, 3, 6]
+coex: [1, 2, 3, 6]
+  coextime: 0.16
+iter: 7
+cand: [3, 5]
+core: [0, 1, 2, 4]
+coex: [1, 2, 4]
+  coextime: 0.18
+iter: 8
+cand: [3, 4, 5]
+core: [0, 1, 2, 6]
+coex: [0, 1, 2]
+  coextime: 0.20
+iter: 9
+cand: [1, 3, 5]
+core: [0, 2, 4, 6]
+coex: [0, 2, 4]
+  coextime: 0.22
+iter: 10
+cand: [1, 4, 5]
+core: [0, 2, 3, 6]
+coex: [0, 2, 3]
+  coextime: 0.24
+iter: 11
+cand: [2, 4, 5]
+expl: [2, 4, 5]
+  expltime: 0.25
+iter: 12
+cand: [2, 4, 6]
+core: [0, 1, 3, 5]
+coex: [1, 3, 5]
+  coextime: 0.27
+iter: 13
+cand: [1, 2, 6]
+core: [0, 3, 4, 5]
+coex: [3, 4, 5]
+  coextime: 0.29
+iter: 14
+cand: [1, 2, 5]
+expl: [1, 2, 5]
+  expltime: 0.30
+iter: 15
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.30
+iter: 16
+cand: [1, 2, 4, 6]
+expl: [1, 2, 4, 6]
+  expltime: 0.31
+iter: 17
+cand: [0, 1, 4, 5]
+expl: [0, 1, 4, 5]
+  expltime: 0.31
+iter: 18
+cand: [0, 4, 5, 6]
+expl: [0, 4, 5, 6]
+  expltime: 0.32
+iter: 19
+cand: [0, 3, 4, 5]
+expl: [0, 3, 4, 5]
+  expltime: 0.32
+iter: 20
+cand: [1, 3, 4, 5]
+expl: [1, 3, 4, 5]
+  expltime: 0.33
+iter: 21
+cand: [0, 1, 3, 5]
+expl: [0, 1, 3, 5]
+  expltime: 0.33
+iter: 22
+cand: None
+  prediciton: 0
+  explanation: "IF At3 != 0.569 AND At4 != 0.528 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.11
+  explanation: "IF At3 != 0.569 AND At5 != 0.519 AND At6 != 0.832 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.25
+  explanation: "IF At2 != 0.857 AND At3 != 0.569 AND At6 != 0.832 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.30
+  explanation: "IF At1 != 0.502 AND At3 != 0.569 AND At6 != 0.832 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.30
+  explanation: "IF At2 != 0.857 AND At3 != 0.569 AND At5 != 0.519 AND At7 != 0.506 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.31
+  explanation: "IF At1 != 0.502 AND At2 != 0.857 AND At5 != 0.519 AND At6 != 0.832 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.31
+  explanation: "IF At1 != 0.502 AND At5 != 0.519 AND At6 != 0.832 AND At7 != 0.506 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.32
+  explanation: "IF At1 != 0.502 AND At4 != 0.528 AND At5 != 0.519 AND At6 != 0.832 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.32
+  explanation: "IF At2 != 0.857 AND At4 != 0.528 AND At5 != 0.519 AND At6 != 0.832 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.33
+  explanation: "IF At1 != 0.502 AND At2 != 0.857 AND At4 != 0.528 AND At6 != 0.832 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.33
+  dual explanation: "IF At3 == 0.569 AND At4 == 0.528 AND At5 == 0.519 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At4 == 0.528 AND At6 == 0.832 AND At7 == 0.506 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At3 == 0.569 AND At6 == 0.832 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF At1 == 0.502 AND At2 == 0.857 AND At4 == 0.528 AND At5 == 0.519 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF At2 == 0.857 AND At3 == 0.569 AND At4 == 0.528 AND At7 == 0.506 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF At2 == 0.857 AND At3 == 0.569 AND At5 == 0.519 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.502 AND At2 == 0.857 AND At3 == 0.569 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.502 AND At3 == 0.569 AND At5 == 0.519 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.502 AND At3 == 0.569 AND At4 == 0.528 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At2 == 0.857 AND At4 == 0.528 AND At6 == 0.832 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At4 == 0.528 AND At5 == 0.519 AND At6 == 0.832 THEN 0"
+  dual explanation size: 3
+  calls: 13
+  rtime: 0.33
+
+inst: 14
+lits: [-10, 22, 39, 42, 53, 74, -76]
+  explaining:  "IF At1 == 0.68 AND At2 == 0.714 AND At3 == 0.67 AND At4 == 0.014 AND At5 == 0.017 AND At6 == 0.851 AND At7 == 0.681 THEN 0"
+iter: 1
+cand: [5]
+core: [0, 1, 2, 3, 4, 6]
+coex: [0, 2, 4, 6]
+  coextime: 0.05
+iter: 2
+cand: [6]
+core: [0, 1, 2, 3, 4, 5]
+coex: [2, 5]
+  coextime: 0.08
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.08
+iter: 4
+cand: [4, 5]
+core: [0, 1, 2, 3, 6]
+coex: [0, 1, 2, 6]
+  coextime: 0.10
+iter: 5
+cand: [5, 6]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 2, 4]
+  coextime: 0.13
+iter: 6
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.13
+iter: 7
+cand: [1, 4, 5]
+expl: [1, 4, 5]
+  expltime: 0.14
+iter: 8
+cand: [4, 5, 6]
+expl: [4, 5, 6]
+  expltime: 0.14
+iter: 9
+cand: [1, 5, 6]
+expl: [1, 5, 6]
+  expltime: 0.15
+iter: 10
+cand: None
+  prediciton: 0
+  explanation: "IF At3 != 0.67 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF At1 != 0.68 AND At6 != 0.851 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.13
+  explanation: "IF At2 != 0.714 AND At5 != 0.017 AND At6 != 0.851 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.14
+  explanation: "IF At5 != 0.017 AND At6 != 0.851 AND At7 != 0.681 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.14
+  explanation: "IF At2 != 0.714 AND At6 != 0.851 AND At7 != 0.681 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.15
+  dual explanation: "IF At1 == 0.68 AND At3 == 0.67 AND At5 == 0.017 AND At7 == 0.681 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF At3 == 0.67 AND At6 == 0.851 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF At1 == 0.68 AND At2 == 0.714 AND At3 == 0.67 AND At7 == 0.681 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF At1 == 0.68 AND At2 == 0.714 AND At3 == 0.67 AND At5 == 0.017 THEN 0"
+  dual explanation size: 4
+  calls: 10
+  rtime: 0.15
+
+inst: 15
+lits: [9, -25, 37, 48, 57, 70, 77]
+  explaining:  "IF At1 == 0.396 AND At2 == 0.911 AND At3 == 0.482 AND At4 == 0.111 AND At5 == 0.092 AND At6 == 0.754 AND At7 == 0.384 THEN 0"
+iter: 1
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 2, 3]
+  coextime: 0.04
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.04
+iter: 3
+cand: [3]
+expl: [3]
+  expltime: 0.05
+iter: 4
+cand: [2]
+expl: [2]
+  expltime: 0.05
+iter: 5
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 6
+cand: None
+  prediciton: 0
+  explanation: "IF At1 != 0.396 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.04
+  explanation: "IF At4 != 0.111 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF At3 != 0.482 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF At2 != 0.911 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF At1 == 0.396 AND At2 == 0.911 AND At3 == 0.482 AND At4 == 0.111 THEN 0"
+  dual explanation size: 4
+  calls: 10
+  rtime: 0.06
+
+inst: 16
+lits: [-10, -25, 39, -51, -60, -73, -76]
+  explaining:  "IF At1 == 0.587 AND At2 == 0.875 AND At3 == 0.662 AND At4 == 0.625 AND At5 == 0.692 AND At6 == 0.911 AND At7 == 0.616 THEN 0"
+iter: 1
+cand: [5]
+core: [0, 1, 2, 3, 4, 6]
+coex: [2, 3, 4]
+  coextime: 0.04
+iter: 2
+cand: [2]
+core: [0, 1, 3, 4, 5, 6]
+coex: [3, 5, 6]
+  coextime: 0.08
+iter: 3
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [2, 5]
+  coextime: 0.10
+iter: 4
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.11
+iter: 5
+cand: [2, 5]
+core: [0, 1, 3, 4, 6]
+coex: [0, 1, 3, 4]
+  coextime: 0.13
+iter: 6
+cand: [4, 5]
+core: [0, 1, 2, 3, 6]
+coex: [1, 2, 3, 6]
+  coextime: 0.15
+iter: 7
+cand: [3, 5]
+core: [0, 1, 2, 4]
+coex: [1, 2, 4]
+  coextime: 0.17
+iter: 8
+cand: [3, 4, 5]
+core: [0, 1, 2, 6]
+coex: [0, 1, 2]
+  coextime: 0.19
+iter: 9
+cand: [1, 3, 5]
+core: [0, 2, 4, 6]
+coex: [0, 2, 4]
+  coextime: 0.21
+iter: 10
+cand: [1, 4, 5]
+core: [0, 2, 3, 6]
+coex: [0, 2, 3]
+  coextime: 0.24
+iter: 11
+cand: [2, 4, 5]
+expl: [2, 4, 5]
+  expltime: 0.24
+iter: 12
+cand: [2, 4, 6]
+core: [0, 1, 3, 5]
+coex: [1, 3, 5]
+  coextime: 0.26
+iter: 13
+cand: [1, 2, 6]
+core: [0, 3, 4, 5]
+coex: [3, 4, 5]
+  coextime: 0.29
+iter: 14
+cand: [1, 2, 5]
+expl: [1, 2, 5]
+  expltime: 0.29
+iter: 15
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.30
+iter: 16
+cand: [1, 2, 4, 6]
+expl: [1, 2, 4, 6]
+  expltime: 0.30
+iter: 17
+cand: [0, 1, 4, 5]
+expl: [0, 1, 4, 5]
+  expltime: 0.31
+iter: 18
+cand: [0, 4, 5, 6]
+expl: [0, 4, 5, 6]
+  expltime: 0.32
+iter: 19
+cand: [0, 3, 4, 5]
+expl: [0, 3, 4, 5]
+  expltime: 0.32
+iter: 20
+cand: [1, 3, 4, 5]
+expl: [1, 3, 4, 5]
+  expltime: 0.32
+iter: 21
+cand: [0, 1, 3, 5]
+expl: [0, 1, 3, 5]
+  expltime: 0.33
+iter: 22
+cand: None
+  prediciton: 0
+  explanation: "IF At3 != 0.662 AND At4 != 0.625 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.11
+  explanation: "IF At3 != 0.662 AND At5 != 0.692 AND At6 != 0.911 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.24
+  explanation: "IF At2 != 0.875 AND At3 != 0.662 AND At6 != 0.911 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.29
+  explanation: "IF At1 != 0.587 AND At3 != 0.662 AND At6 != 0.911 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.30
+  explanation: "IF At2 != 0.875 AND At3 != 0.662 AND At5 != 0.692 AND At7 != 0.616 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.30
+  explanation: "IF At1 != 0.587 AND At2 != 0.875 AND At5 != 0.692 AND At6 != 0.911 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.31
+  explanation: "IF At1 != 0.587 AND At5 != 0.692 AND At6 != 0.911 AND At7 != 0.616 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.32
+  explanation: "IF At1 != 0.587 AND At4 != 0.625 AND At5 != 0.692 AND At6 != 0.911 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.32
+  explanation: "IF At2 != 0.875 AND At4 != 0.625 AND At5 != 0.692 AND At6 != 0.911 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.32
+  explanation: "IF At1 != 0.587 AND At2 != 0.875 AND At4 != 0.625 AND At6 != 0.911 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.33
+  dual explanation: "IF At3 == 0.662 AND At4 == 0.625 AND At5 == 0.692 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At4 == 0.625 AND At6 == 0.911 AND At7 == 0.616 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At3 == 0.662 AND At6 == 0.911 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF At1 == 0.587 AND At2 == 0.875 AND At4 == 0.625 AND At5 == 0.692 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF At2 == 0.875 AND At3 == 0.662 AND At4 == 0.625 AND At7 == 0.616 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF At2 == 0.875 AND At3 == 0.662 AND At5 == 0.692 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.587 AND At2 == 0.875 AND At3 == 0.662 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.587 AND At3 == 0.662 AND At5 == 0.692 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.587 AND At3 == 0.662 AND At4 == 0.625 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At2 == 0.875 AND At4 == 0.625 AND At6 == 0.911 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At4 == 0.625 AND At5 == 0.692 AND At6 == 0.911 THEN 0"
+  dual explanation size: 3
+  calls: 13
+  rtime: 0.33
+
+inst: 17
+lits: [9, -25, 37, 48, 57, 74, 77]
+  explaining:  "IF At1 == 0.418 AND At2 == 0.857 AND At3 == 0.485 AND At4 == 0.111 AND At5 == 0.096 AND At6 == 0.792 AND At7 == 0.415 THEN 0"
+iter: 1
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 2, 3]
+  coextime: 0.04
+iter: 2
+cand: [0]
+core: [1, 2, 3, 4, 5]
+coex: [2, 5]
+  coextime: 0.06
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.07
+iter: 4
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.07
+iter: 5
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.07
+iter: 6
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.08
+iter: 7
+cand: None
+  prediciton: 0
+  explanation: "IF At3 != 0.485 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF At2 != 0.857 AND At6 != 0.792 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.07
+  explanation: "IF At1 != 0.418 AND At6 != 0.792 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.07
+  explanation: "IF At4 != 0.111 AND At6 != 0.792 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.08
+  dual explanation: "IF At1 == 0.418 AND At2 == 0.857 AND At3 == 0.485 AND At4 == 0.111 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF At3 == 0.485 AND At6 == 0.792 THEN 0"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.08
+
+inst: 18
+lits: [3, 12, 27, 50, 59, 62, 75]
+  explaining:  "IF At1 == 0.271 AND At2 == 0.196 AND At3 == 0.154 AND At4 == 0.25 AND At5 == 0.162 AND At6 == 0.22 AND At7 == 0.154 THEN 1"
+iter: 1
+cand: [5]
+expl: [5]
+  expltime: 0.02
+iter: 2
+cand: [0]
+core: [1, 2, 3, 4, 5, 6]
+coex: [1, 2, 3, 5, 6]
+  coextime: 0.05
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.05
+iter: 4
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 5
+cand: [6]
+core: [0, 1, 2, 3, 4, 5]
+coex: [0, 1, 2, 3, 5]
+  coextime: 0.08
+iter: 6
+cand: [3]
+expl: [3]
+  expltime: 0.08
+iter: 7
+cand: [0, 6]
+expl: [0, 6]
+  expltime: 0.08
+iter: 8
+cand: None
+  prediciton: 1
+  explanation: "IF At6 != 0.22 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.02
+  explanation: "IF At3 != 0.154 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF At2 != 0.196 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF At4 != 0.25 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF At1 != 0.271 AND At7 != 0.154 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.08
+  dual explanation: "IF At2 == 0.196 AND At3 == 0.154 AND At4 == 0.25 AND At6 == 0.22 AND At7 == 0.154 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF At1 == 0.271 AND At2 == 0.196 AND At3 == 0.154 AND At4 == 0.25 AND At6 == 0.22 THEN 1"
+  dual explanation size: 5
+  calls: 9
+  rtime: 0.08
+
+inst: 19
+lits: [-10, 16, 39, 52, -60, 70, -76]
+  explaining:  "IF At1 == 0.613 AND At2 == 0.643 AND At3 == 0.574 AND At4 == 0.319 AND At5 == 0.366 AND At6 == 0.738 AND At7 == 0.574 THEN 0"
+iter: 1
+cand: [5]
+core: [0, 1, 2, 3, 4, 6]
+coex: [2, 3, 4, 6]
+  coextime: 0.04
+iter: 2
+cand: [6]
+core: [0, 1, 2, 3, 4, 5]
+coex: [1, 2, 4]
+  coextime: 0.07
+iter: 3
+cand: [4]
+core: [0, 1, 2, 3, 5, 6]
+coex: [0, 2, 3]
+  coextime: 0.11
+iter: 4
+cand: [2]
+expl: [2]
+  expltime: 0.11
+iter: 5
+cand: [0, 4]
+expl: [0, 4]
+  expltime: 0.11
+iter: 6
+cand: [3, 4]
+core: [0, 1, 2, 5, 6]
+coex: [0, 1, 2]
+  coextime: 0.14
+iter: 7
+cand: [1, 3]
+core: [0, 2, 4, 5, 6]
+coex: [0, 2, 4]
+  coextime: 0.16
+iter: 8
+cand: [0, 1, 6]
+expl: [0, 1, 6]
+  expltime: 0.17
+iter: 9
+cand: [0, 1, 3]
+expl: [0, 1, 3]
+  expltime: 0.17
+iter: 10
+cand: [1, 3, 4]
+expl: [1, 3, 4]
+  expltime: 0.18
+iter: 11
+cand: None
+  prediciton: 0
+  explanation: "IF At3 != 0.574 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF At1 != 0.613 AND At5 != 0.366 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.11
+  explanation: "IF At1 != 0.613 AND At2 != 0.643 AND At7 != 0.574 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.17
+  explanation: "IF At1 != 0.613 AND At2 != 0.643 AND At4 != 0.319 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.17
+  explanation: "IF At2 != 0.643 AND At4 != 0.319 AND At5 != 0.366 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.18
+  dual explanation: "IF At3 == 0.574 AND At4 == 0.319 AND At5 == 0.366 AND At7 == 0.574 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF At2 == 0.643 AND At3 == 0.574 AND At5 == 0.366 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.613 AND At3 == 0.574 AND At4 == 0.319 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.613 AND At2 == 0.643 AND At3 == 0.574 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.613 AND At3 == 0.574 AND At5 == 0.366 THEN 0"
+  dual explanation size: 3
+  calls: 9
+  rtime: 0.18
+
+inst: 20
+lits: [-10, 24, -40, -51, -60, 62, -76]
+  explaining:  "IF At1 == 0.778 AND At2 == 0.732 AND At3 == 0.769 AND At4 == 0.722 AND At5 == 1.0 AND At6 == 0.503 AND At7 == 0.608 THEN 0"
+iter: 1
+cand: [5]
+core: [0, 1, 2, 3, 4, 6]
+coex: [2, 3, 4]
+  coextime: 0.05
+iter: 2
+cand: [2]
+core: [0, 1, 3, 4, 5, 6]
+coex: [1, 3, 4, 5, 6]
+  coextime: 0.08
+iter: 3
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [2, 4, 5]
+  coextime: 0.10
+iter: 4
+cand: [4]
+core: [0, 1, 2, 3, 5, 6]
+coex: [2, 5, 6]
+  coextime: 0.14
+iter: 5
+cand: [2, 4]
+core: [0, 1, 3, 5, 6]
+coex: [0, 3, 5, 6]
+  coextime: 0.16
+iter: 6
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.16
+iter: 7
+cand: [2, 6]
+core: [0, 1, 3, 4, 5]
+coex: [0, 3, 4, 5]
+  coextime: 0.19
+iter: 8
+cand: [4, 6]
+core: [0, 1, 2, 3, 5]
+coex: [2, 3, 5]
+  coextime: 0.22
+iter: 9
+cand: [2, 5]
+core: [0, 1, 3, 4, 6]
+coex: [0, 1, 3, 4, 6]
+  coextime: 0.24
+iter: 10
+cand: [4, 5]
+core: [0, 1, 2, 3, 6]
+coex: [0, 2, 3]
+  coextime: 0.26
+iter: 11
+cand: [3, 5]
+core: [0, 1, 2, 4, 6]
+coex: [0, 2, 4]
+  coextime: 0.29
+iter: 12
+cand: [0, 3, 5]
+expl: [0, 3, 5]
+  expltime: 0.30
+iter: 13
+cand: [3, 4, 5]
+expl: [3, 4, 5]
+  expltime: 0.30
+iter: 14
+cand: [3, 4, 6]
+core: [0, 1, 2, 5]
+coex: [1, 2, 5]
+  coextime: 0.32
+iter: 15
+cand: [0, 4, 5]
+expl: [0, 4, 5]
+  expltime: 0.33
+iter: 16
+cand: [2, 4, 5]
+expl: [2, 4, 5]
+  expltime: 0.33
+iter: 17
+cand: [1, 2, 5]
+expl: [1, 2, 5]
+  expltime: 0.34
+iter: 18
+cand: [2, 5, 6]
+expl: [2, 5, 6]
+  expltime: 0.34
+iter: 19
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.35
+iter: 20
+cand: [0, 1, 2]
+expl: [0, 1, 2]
+  expltime: 0.35
+iter: 21
+cand: [0, 2, 6]
+expl: [0, 2, 6]
+  expltime: 0.36
+iter: 22
+cand: [0, 2, 4]
+expl: [0, 2, 4]
+  expltime: 0.36
+iter: 23
+cand: [2, 4, 6]
+core: [0, 1, 3, 5]
+coex: [0, 1, 3, 5]
+  coextime: 0.38
+iter: 24
+cand: [1, 2, 4, 6]
+expl: [1, 2, 4, 6]
+  expltime: 0.38
+iter: 25
+cand: [1, 3, 4, 6]
+core: [0, 2, 5]
+coex: [0, 2, 5]
+  coextime: 0.40
+iter: 26
+cand: [0, 1, 3, 4, 6]
+expl: [0, 1, 3, 4, 6]
+  expltime: 0.41
+iter: 27
+cand: None
+  prediciton: 0
+  explanation: "IF At3 != 0.769 AND At4 != 0.722 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.16
+  explanation: "IF At1 != 0.778 AND At4 != 0.722 AND At6 != 0.503 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.30
+  explanation: "IF At4 != 0.722 AND At5 != 1.0 AND At6 != 0.503 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.30
+  explanation: "IF At1 != 0.778 AND At5 != 1.0 AND At6 != 0.503 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.33
+  explanation: "IF At3 != 0.769 AND At5 != 1.0 AND At6 != 0.503 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.33
+  explanation: "IF At2 != 0.732 AND At3 != 0.769 AND At6 != 0.503 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.34
+  explanation: "IF At3 != 0.769 AND At6 != 0.503 AND At7 != 0.608 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.34
+  explanation: "IF At1 != 0.778 AND At3 != 0.769 AND At6 != 0.503 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.35
+  explanation: "IF At1 != 0.778 AND At2 != 0.732 AND At3 != 0.769 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.35
+  explanation: "IF At1 != 0.778 AND At3 != 0.769 AND At7 != 0.608 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.36
+  explanation: "IF At1 != 0.778 AND At3 != 0.769 AND At5 != 1.0 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.36
+  explanation: "IF At2 != 0.732 AND At3 != 0.769 AND At5 != 1.0 AND At7 != 0.608 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.38
+  explanation: "IF At1 != 0.778 AND At2 != 0.732 AND At4 != 0.722 AND At5 != 1.0 AND At7 != 0.608 THEN NOT 0"
+  explanation size: 5
+  expl time: 0.41
+  dual explanation: "IF At3 == 0.769 AND At4 == 0.722 AND At5 == 1.0 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At2 == 0.732 AND At4 == 0.722 AND At5 == 1.0 AND At6 == 0.503 AND At7 == 0.608 THEN 0"
+  dual explanation size: 5
+  dual explanation: "IF At3 == 0.769 AND At5 == 1.0 AND At6 == 0.503 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At3 == 0.769 AND At6 == 0.503 AND At7 == 0.608 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.778 AND At4 == 0.722 AND At6 == 0.503 AND At7 == 0.608 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF At1 == 0.778 AND At4 == 0.722 AND At5 == 1.0 AND At6 == 0.503 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF At3 == 0.769 AND At4 == 0.722 AND At6 == 0.503 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.778 AND At2 == 0.732 AND At4 == 0.722 AND At5 == 1.0 AND At7 == 0.608 THEN 0"
+  dual explanation size: 5
+  dual explanation: "IF At1 == 0.778 AND At3 == 0.769 AND At4 == 0.722 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.778 AND At3 == 0.769 AND At5 == 1.0 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At2 == 0.732 AND At3 == 0.769 AND At6 == 0.503 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF At1 == 0.778 AND At2 == 0.732 AND At4 == 0.722 AND At6 == 0.503 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF At1 == 0.778 AND At3 == 0.769 AND At6 == 0.503 THEN 0"
+  dual explanation size: 3
+  calls: 5
+  rtime: 0.41
+
+inst: 21
+lits: [1, 12, 27, 42, 53, 62, 75]
+  explaining:  "IF At1 == 0.102 AND At2 == 0.0 AND At3 == 0.022 AND At4 == 0.0 AND At5 == 0.0 AND At6 == 0.0 AND At7 == 0.017 THEN 1"
+iter: 1
+cand: [5]
+core: [0, 1, 2, 3, 4, 6]
+coex: [2, 3]
+  coextime: 0.04
+iter: 2
+cand: [3]
+core: [0, 1, 2, 4, 5, 6]
+coex: [1, 2, 4, 5, 6]
+  coextime: 0.06
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.06
+iter: 4
+cand: [3, 6]
+core: [0, 1, 2, 4, 5]
+coex: [0, 1, 2, 5]
+  coextime: 0.09
+iter: 5
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.09
+iter: 6
+cand: [1, 3]
+core: [0, 2, 4, 5, 6]
+coex: [0, 2, 4, 5, 6]
+  coextime: 0.11
+iter: 7
+cand: [0, 1, 3]
+expl: [0, 1, 3]
+  expltime: 0.11
+iter: 8
+cand: [0, 3, 4]
+expl: [0, 3, 4]
+  expltime: 0.12
+iter: 9
+cand: [1, 3, 4]
+expl: [1, 3, 4]
+  expltime: 0.12
+iter: 10
+cand: [1, 3, 6]
+expl: [1, 3, 6]
+  expltime: 0.13
+iter: 11
+cand: [0, 3, 6]
+expl: [0, 3, 6]
+  expltime: 0.13
+iter: 12
+cand: None
+  prediciton: 1
+  explanation: "IF At3 != 0.022 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF At4 != 0.0 AND At6 != 0.0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.09
+  explanation: "IF At1 != 0.102 AND At2 != 0.0 AND At4 != 0.0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.11
+  explanation: "IF At1 != 0.102 AND At4 != 0.0 AND At5 != 0.0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.12
+  explanation: "IF At2 != 0.0 AND At4 != 0.0 AND At5 != 0.0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.12
+  explanation: "IF At2 != 0.0 AND At4 != 0.0 AND At7 != 0.017 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.13
+  explanation: "IF At1 != 0.102 AND At4 != 0.0 AND At7 != 0.017 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.13
+  dual explanation: "IF At3 == 0.022 AND At4 == 0.0 THEN 1"
+  dual explanation size: 2
+  dual explanation: "IF At2 == 0.0 AND At3 == 0.022 AND At5 == 0.0 AND At6 == 0.0 AND At7 == 0.017 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF At1 == 0.102 AND At2 == 0.0 AND At3 == 0.022 AND At6 == 0.0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF At1 == 0.102 AND At3 == 0.022 AND At5 == 0.0 AND At6 == 0.0 AND At7 == 0.017 THEN 1"
+  dual explanation size: 5
+  calls: 11
+  rtime: 0.13

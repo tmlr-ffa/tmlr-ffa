@@ -1,0 +1,4461 @@
+loading model from  ./bt/temp/liver-disorder/liver-disorder_train1_data/liver-disorder_train1_data_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl
+loading data from  ./bt/temp/liver-disorder/liver-disorder_train1_data/liver-disorder_train1_data_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl.splitdata.pkl
+encoding vars: 589
+encoding clauses: 2708 (2422 path + 286 common)
+
+inst: 0
+lits: [-16, -49, 65, 98, 121, 144]
+  explaining:  "IF mean-corpuscular-vol == 98.0 AND alkaline-phosphotase == 123.0 AND alamine-aminotransferase == 28.0 AND aspartate-aminotransferase == 24.0 AND gamma-glutamyl-transpeptidase == 31.0 AND num-half-pint-equivalents == 8.0 THEN 1.0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.07
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.08
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.08
+iter: 4
+cand: [3]
+expl: [3]
+  expltime: 0.09
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.10
+iter: 6
+cand: [2]
+core: [0, 1, 3, 4, 5]
+coex: [0, 1, 3, 4, 5]
+  coextime: 0.16
+iter: 7
+cand: None
+  prediciton: 1.0
+  explanation: "IF alkaline-phosphotase != 123.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF mean-corpuscular-vol != 98.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF num-half-pint-equivalents != 8.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF aspartate-aminotransferase != 24.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.09
+  explanation: "IF gamma-glutamyl-transpeptidase != 31.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.10
+  dual explanation: "IF mean-corpuscular-vol == 98.0 AND alkaline-phosphotase == 123.0 AND aspartate-aminotransferase == 24.0 AND gamma-glutamyl-transpeptidase == 31.0 AND num-half-pint-equivalents == 8.0 THEN 1.0"
+  dual explanation size: 5
+  calls: 6
+  rtime: 0.16
+
+inst: 1
+lits: [11, -49, 75, 98, 129, 136]
+  explaining:  "IF mean-corpuscular-vol == 91.0 AND alkaline-phosphotase == 105.0 AND alamine-aminotransferase == 40.0 AND aspartate-aminotransferase == 26.0 AND gamma-glutamyl-transpeptidase == 56.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 3, 4, 5]
+  coextime: 0.11
+iter: 2
+cand: [4]
+expl: [4]
+  expltime: 0.12
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.13
+iter: 4
+cand: [2]
+core: [0, 1, 3, 4, 5]
+coex: [0, 3, 4, 5]
+  coextime: 0.20
+iter: 5
+cand: [3]
+expl: [3]
+  expltime: 0.21
+iter: 6
+cand: [0, 2]
+expl: [0, 2]
+  expltime: 0.23
+iter: 7
+cand: None
+  prediciton: 2.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 56.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF num-half-pint-equivalents != 0.5 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF aspartate-aminotransferase != 26.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.21
+  explanation: "IF mean-corpuscular-vol != 91.0 AND alamine-aminotransferase != 40.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.23
+  dual explanation: "IF alamine-aminotransferase == 40.0 AND aspartate-aminotransferase == 26.0 AND gamma-glutamyl-transpeptidase == 56.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 91.0 AND aspartate-aminotransferase == 26.0 AND gamma-glutamyl-transpeptidase == 56.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 4
+  calls: 8
+  rtime: 0.23
+
+inst: 2
+lits: [5, 44, -80, 98, 131, 138]
+  explaining:  "IF mean-corpuscular-vol == 88.0 AND alkaline-phosphotase == 69.0 AND alamine-aminotransferase == 70.0 AND aspartate-aminotransferase == 24.0 AND gamma-glutamyl-transpeptidase == 64.0 AND num-half-pint-equivalents == 2.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 3, 4, 5]
+  coextime: 0.13
+iter: 2
+cand: [4]
+expl: [4]
+  expltime: 0.13
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.15
+iter: 4
+cand: [2]
+core: [0, 1, 3, 4, 5]
+coex: [1, 3, 4, 5]
+  coextime: 0.22
+iter: 5
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [0, 2, 4, 5]
+  coextime: 0.30
+iter: 6
+cand: [2, 3]
+core: [0, 1, 4, 5]
+coex: [0, 1, 4, 5]
+  coextime: 0.37
+iter: 7
+cand: [0, 3]
+expl: [0, 3]
+  expltime: 0.38
+iter: 8
+cand: [1, 2]
+core: [0, 3, 4, 5]
+coex: [0, 3, 4, 5]
+  coextime: 0.46
+iter: 9
+cand: [0, 1, 2]
+expl: [0, 1, 2]
+  expltime: 0.47
+iter: 10
+cand: [1, 2, 3]
+expl: [1, 2, 3]
+  expltime: 0.50
+iter: 11
+cand: None
+  prediciton: 2.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 64.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF num-half-pint-equivalents != 2.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF mean-corpuscular-vol != 88.0 AND aspartate-aminotransferase != 24.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.38
+  explanation: "IF mean-corpuscular-vol != 88.0 AND alkaline-phosphotase != 69.0 AND alamine-aminotransferase != 70.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.47
+  explanation: "IF alkaline-phosphotase != 69.0 AND alamine-aminotransferase != 70.0 AND aspartate-aminotransferase != 24.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.50
+  dual explanation: "IF alamine-aminotransferase == 70.0 AND aspartate-aminotransferase == 24.0 AND gamma-glutamyl-transpeptidase == 64.0 AND num-half-pint-equivalents == 2.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF alkaline-phosphotase == 69.0 AND aspartate-aminotransferase == 24.0 AND gamma-glutamyl-transpeptidase == 64.0 AND num-half-pint-equivalents == 2.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 88.0 AND alamine-aminotransferase == 70.0 AND gamma-glutamyl-transpeptidase == 64.0 AND num-half-pint-equivalents == 2.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 88.0 AND alkaline-phosphotase == 69.0 AND gamma-glutamyl-transpeptidase == 64.0 AND num-half-pint-equivalents == 2.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 88.0 AND aspartate-aminotransferase == 24.0 AND gamma-glutamyl-transpeptidase == 64.0 AND num-half-pint-equivalents == 2.0 THEN 2.0"
+  dual explanation size: 4
+  calls: 7
+  rtime: 0.50
+
+inst: 3
+lits: [5, 50, 51, 84, 111, 138]
+  explaining:  "IF mean-corpuscular-vol == 88.0 AND alkaline-phosphotase == 85.0 AND alamine-aminotransferase == 14.0 AND aspartate-aminotransferase == 15.0 AND gamma-glutamyl-transpeptidase == 10.0 AND num-half-pint-equivalents == 2.0 THEN 2.0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.07
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.07
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 2, 3, 4]
+  coextime: 0.14
+iter: 4
+cand: [3]
+expl: [3]
+  expltime: 0.15
+iter: 5
+cand: [2]
+expl: [2]
+  expltime: 0.15
+iter: 6
+cand: [4]
+expl: [4]
+  expltime: 0.16
+iter: 7
+cand: None
+  prediciton: 2.0
+  explanation: "IF alkaline-phosphotase != 85.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF mean-corpuscular-vol != 88.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF aspartate-aminotransferase != 15.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF alamine-aminotransferase != 14.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF gamma-glutamyl-transpeptidase != 10.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.16
+  dual explanation: "IF mean-corpuscular-vol == 88.0 AND alkaline-phosphotase == 85.0 AND alamine-aminotransferase == 14.0 AND aspartate-aminotransferase == 15.0 AND gamma-glutamyl-transpeptidase == 10.0 THEN 2.0"
+  dual explanation size: 5
+  calls: 9
+  rtime: 0.16
+
+inst: 4
+lits: [9, 38, 81, 102, 115, 136]
+  explaining:  "IF mean-corpuscular-vol == 90.0 AND alkaline-phosphotase == 64.0 AND alamine-aminotransferase == 61.0 AND aspartate-aminotransferase == 32.0 AND gamma-glutamyl-transpeptidase == 13.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [0, 2, 3, 4, 5]
+  coextime: 0.09
+iter: 2
+cand: [0]
+core: [1, 2, 3, 4, 5]
+coex: [1, 2, 3, 4, 5]
+  coextime: 0.15
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.15
+iter: 4
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 2, 3, 4]
+  coextime: 0.21
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.22
+iter: 6
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [0, 1, 2, 4, 5]
+  coextime: 0.27
+iter: 7
+cand: [0, 3]
+expl: [0, 3]
+  expltime: 0.28
+iter: 8
+cand: [1, 3]
+expl: [1, 3]
+  expltime: 0.29
+iter: 9
+cand: [0, 1]
+expl: [0, 1]
+  expltime: 0.30
+iter: 10
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.31
+iter: 11
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.32
+iter: 12
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.33
+iter: 13
+cand: None
+  prediciton: 1.0
+  explanation: "IF alamine-aminotransferase != 61.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF gamma-glutamyl-transpeptidase != 13.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.22
+  explanation: "IF mean-corpuscular-vol != 90.0 AND aspartate-aminotransferase != 32.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.28
+  explanation: "IF alkaline-phosphotase != 64.0 AND aspartate-aminotransferase != 32.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.29
+  explanation: "IF mean-corpuscular-vol != 90.0 AND alkaline-phosphotase != 64.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.30
+  explanation: "IF aspartate-aminotransferase != 32.0 AND num-half-pint-equivalents != 0.5 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.31
+  explanation: "IF mean-corpuscular-vol != 90.0 AND num-half-pint-equivalents != 0.5 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.32
+  explanation: "IF alkaline-phosphotase != 64.0 AND num-half-pint-equivalents != 0.5 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.33
+  dual explanation: "IF mean-corpuscular-vol == 90.0 AND alamine-aminotransferase == 61.0 AND aspartate-aminotransferase == 32.0 AND gamma-glutamyl-transpeptidase == 13.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+  dual explanation size: 5
+  dual explanation: "IF alkaline-phosphotase == 64.0 AND alamine-aminotransferase == 61.0 AND aspartate-aminotransferase == 32.0 AND gamma-glutamyl-transpeptidase == 13.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+  dual explanation size: 5
+  dual explanation: "IF mean-corpuscular-vol == 90.0 AND alkaline-phosphotase == 64.0 AND alamine-aminotransferase == 61.0 AND aspartate-aminotransferase == 32.0 AND gamma-glutamyl-transpeptidase == 13.0 THEN 1.0"
+  dual explanation size: 5
+  dual explanation: "IF mean-corpuscular-vol == 90.0 AND alkaline-phosphotase == 64.0 AND alamine-aminotransferase == 61.0 AND gamma-glutamyl-transpeptidase == 13.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+  dual explanation size: 5
+  calls: 12
+  rtime: 0.33
+
+inst: 5
+lits: [13, 48, 69, 86, 121, 136]
+  explaining:  "IF mean-corpuscular-vol == 93.0 AND alkaline-phosphotase == 77.0 AND alamine-aminotransferase == 32.0 AND aspartate-aminotransferase == 18.0 AND gamma-glutamyl-transpeptidase == 29.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+core: [1, 2, 3, 4, 5]
+coex: [1, 2, 3, 4, 5]
+  coextime: 0.12
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.13
+iter: 4
+cand: [4]
+expl: [4]
+  expltime: 0.14
+iter: 5
+cand: [2]
+expl: [2]
+  expltime: 0.15
+iter: 6
+cand: [3]
+expl: [3]
+  expltime: 0.16
+iter: 7
+cand: None
+  prediciton: 1.0
+  explanation: "IF alkaline-phosphotase != 77.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF num-half-pint-equivalents != 0.5 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF gamma-glutamyl-transpeptidase != 29.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF alamine-aminotransferase != 32.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF aspartate-aminotransferase != 18.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.16
+  dual explanation: "IF alkaline-phosphotase == 77.0 AND alamine-aminotransferase == 32.0 AND aspartate-aminotransferase == 18.0 AND gamma-glutamyl-transpeptidase == 29.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+  dual explanation size: 5
+  calls: 10
+  rtime: 0.16
+
+inst: 6
+lits: [13, 30, 81, 104, 133, 136]
+  explaining:  "IF mean-corpuscular-vol == 92.0 AND alkaline-phosphotase == 57.0 AND alamine-aminotransferase == 64.0 AND aspartate-aminotransferase == 36.0 AND gamma-glutamyl-transpeptidase == 90.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 3, 4, 5]
+  coextime: 0.12
+iter: 2
+cand: [4]
+expl: [4]
+  expltime: 0.13
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.14
+iter: 4
+cand: [2]
+core: [0, 1, 3, 4, 5]
+coex: [1, 4, 5]
+  coextime: 0.21
+iter: 5
+cand: [1, 2]
+core: [0, 3, 4, 5]
+coex: [0, 3, 4, 5]
+  coextime: 0.28
+iter: 6
+cand: [1, 3]
+expl: [1, 3]
+  expltime: 0.30
+iter: 7
+cand: [0, 1, 2]
+expl: [0, 1, 2]
+  expltime: 0.32
+iter: 8
+cand: None
+  prediciton: 2.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 90.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF num-half-pint-equivalents != 0.5 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF alkaline-phosphotase != 57.0 AND aspartate-aminotransferase != 36.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.30
+  explanation: "IF mean-corpuscular-vol != 92.0 AND alkaline-phosphotase != 57.0 AND alamine-aminotransferase != 64.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.32
+  dual explanation: "IF alamine-aminotransferase == 64.0 AND aspartate-aminotransferase == 36.0 AND gamma-glutamyl-transpeptidase == 90.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF alkaline-phosphotase == 57.0 AND gamma-glutamyl-transpeptidase == 90.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF mean-corpuscular-vol == 92.0 AND aspartate-aminotransferase == 36.0 AND gamma-glutamyl-transpeptidase == 90.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 4
+  calls: 7
+  rtime: 0.32
+
+inst: 7
+lits: [15, 50, 65, 88, 115, 136]
+  explaining:  "IF mean-corpuscular-vol == 94.0 AND alkaline-phosphotase == 91.0 AND alamine-aminotransferase == 27.0 AND aspartate-aminotransferase == 20.0 AND gamma-glutamyl-transpeptidase == 15.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 3, 4, 5]
+  coextime: 0.10
+iter: 2
+cand: [4]
+expl: [4]
+  expltime: 0.11
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [1, 2, 3, 4]
+  coextime: 0.14
+iter: 4
+cand: [2]
+expl: [2]
+  expltime: 0.16
+iter: 5
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [1, 2, 4, 5]
+  coextime: 0.21
+iter: 6
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.22
+iter: 7
+cand: [1, 5]
+core: [0, 2, 3, 4]
+coex: [0, 2, 3, 4]
+  coextime: 0.26
+iter: 8
+cand: [1, 3]
+expl: [1, 3]
+  expltime: 0.27
+iter: 9
+cand: [0, 1, 5]
+expl: [0, 1, 5]
+  expltime: 0.28
+iter: 10
+cand: None
+  prediciton: 1.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 15.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF alamine-aminotransferase != 27.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.16
+  explanation: "IF aspartate-aminotransferase != 20.0 AND num-half-pint-equivalents != 0.5 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.22
+  explanation: "IF alkaline-phosphotase != 91.0 AND aspartate-aminotransferase != 20.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.27
+  explanation: "IF mean-corpuscular-vol != 94.0 AND alkaline-phosphotase != 91.0 AND num-half-pint-equivalents != 0.5 THEN NOT 1.0"
+  explanation size: 3
+  expl time: 0.28
+  dual explanation: "IF alamine-aminotransferase == 27.0 AND aspartate-aminotransferase == 20.0 AND gamma-glutamyl-transpeptidase == 15.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+  dual explanation size: 4
+  dual explanation: "IF alkaline-phosphotase == 91.0 AND alamine-aminotransferase == 27.0 AND aspartate-aminotransferase == 20.0 AND gamma-glutamyl-transpeptidase == 15.0 THEN 1.0"
+  dual explanation size: 4
+  dual explanation: "IF alkaline-phosphotase == 91.0 AND alamine-aminotransferase == 27.0 AND gamma-glutamyl-transpeptidase == 15.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 94.0 AND alamine-aminotransferase == 27.0 AND aspartate-aminotransferase == 20.0 AND gamma-glutamyl-transpeptidase == 15.0 THEN 1.0"
+  dual explanation size: 4
+  calls: 7
+  rtime: 0.28
+
+inst: 8
+lits: [1, 44, 75, 100, 129, 136]
+  explaining:  "IF mean-corpuscular-vol == 82.0 AND alkaline-phosphotase == 74.0 AND alamine-aminotransferase == 38.0 AND aspartate-aminotransferase == 28.0 AND gamma-glutamyl-transpeptidase == 48.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 3, 4, 5]
+  coextime: 0.12
+iter: 2
+cand: [4]
+expl: [4]
+  expltime: 0.13
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 2, 3, 4]
+  coextime: 0.21
+iter: 4
+cand: [2]
+core: [0, 1, 3, 4, 5]
+coex: [1, 3, 4, 5]
+  coextime: 0.28
+iter: 5
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [0, 2, 4, 5]
+  coextime: 0.35
+iter: 6
+cand: [2, 3]
+core: [0, 1, 4, 5]
+coex: [0, 1, 4, 5]
+  coextime: 0.41
+iter: 7
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.42
+iter: 8
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.44
+iter: 9
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.44
+iter: 10
+cand: [0, 3]
+expl: [0, 3]
+  expltime: 0.46
+iter: 11
+cand: [1, 2]
+core: [0, 3, 4, 5]
+coex: [0, 3, 4, 5]
+  coextime: 0.53
+iter: 12
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.55
+iter: 13
+cand: [1, 2, 3]
+expl: [1, 2, 3]
+  expltime: 0.56
+iter: 14
+cand: [0, 1, 2]
+expl: [0, 1, 2]
+  expltime: 0.58
+iter: 15
+cand: None
+  prediciton: 2.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 48.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF aspartate-aminotransferase != 28.0 AND num-half-pint-equivalents != 0.5 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.42
+  explanation: "IF alamine-aminotransferase != 38.0 AND num-half-pint-equivalents != 0.5 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.44
+  explanation: "IF mean-corpuscular-vol != 82.0 AND num-half-pint-equivalents != 0.5 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.44
+  explanation: "IF mean-corpuscular-vol != 82.0 AND aspartate-aminotransferase != 28.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.46
+  explanation: "IF alkaline-phosphotase != 74.0 AND num-half-pint-equivalents != 0.5 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.55
+  explanation: "IF alkaline-phosphotase != 74.0 AND alamine-aminotransferase != 38.0 AND aspartate-aminotransferase != 28.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.56
+  explanation: "IF mean-corpuscular-vol != 82.0 AND alkaline-phosphotase != 74.0 AND alamine-aminotransferase != 38.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.58
+  dual explanation: "IF alamine-aminotransferase == 38.0 AND aspartate-aminotransferase == 28.0 AND gamma-glutamyl-transpeptidase == 48.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 82.0 AND alkaline-phosphotase == 74.0 AND alamine-aminotransferase == 38.0 AND aspartate-aminotransferase == 28.0 AND gamma-glutamyl-transpeptidase == 48.0 THEN 2.0"
+  dual explanation size: 5
+  dual explanation: "IF alkaline-phosphotase == 74.0 AND aspartate-aminotransferase == 28.0 AND gamma-glutamyl-transpeptidase == 48.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 82.0 AND alamine-aminotransferase == 38.0 AND gamma-glutamyl-transpeptidase == 48.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 82.0 AND alkaline-phosphotase == 74.0 AND gamma-glutamyl-transpeptidase == 48.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 82.0 AND aspartate-aminotransferase == 28.0 AND gamma-glutamyl-transpeptidase == 48.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 4
+  calls: 8
+  rtime: 0.58
+
+inst: 9
+lits: [15, -49, -80, -105, 129, 140]
+  explaining:  "IF mean-corpuscular-vol == 94.0 AND alkaline-phosphotase == 117.0 AND alamine-aminotransferase == 77.0 AND aspartate-aminotransferase == 56.0 AND gamma-glutamyl-transpeptidase == 52.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [3, 4, 5]
+  coextime: 0.14
+iter: 2
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 3, 4]
+  coextime: 0.22
+iter: 3
+cand: [4]
+expl: [4]
+  expltime: 0.23
+iter: 4
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [2, 4, 5]
+  coextime: 0.30
+iter: 5
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.31
+iter: 6
+cand: [2, 3]
+core: [0, 1, 4, 5]
+coex: [0, 4, 5]
+  coextime: 0.37
+iter: 7
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.39
+iter: 8
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.40
+iter: 9
+cand: [0, 2, 3]
+expl: [0, 2, 3]
+  expltime: 0.42
+iter: 10
+cand: None
+  prediciton: 2.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 52.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.23
+  explanation: "IF aspartate-aminotransferase != 56.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.31
+  explanation: "IF mean-corpuscular-vol != 94.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.39
+  explanation: "IF alkaline-phosphotase != 117.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.40
+  explanation: "IF mean-corpuscular-vol != 94.0 AND alamine-aminotransferase != 77.0 AND aspartate-aminotransferase != 56.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.42
+  dual explanation: "IF aspartate-aminotransferase == 56.0 AND gamma-glutamyl-transpeptidase == 52.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF mean-corpuscular-vol == 94.0 AND alkaline-phosphotase == 117.0 AND aspartate-aminotransferase == 56.0 AND gamma-glutamyl-transpeptidase == 52.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF alamine-aminotransferase == 77.0 AND gamma-glutamyl-transpeptidase == 52.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF mean-corpuscular-vol == 94.0 AND gamma-glutamyl-transpeptidase == 52.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 3
+  calls: 8
+  rtime: 0.42
+
+inst: 10
+lits: [5, 34, 55, 90, 115, 136]
+  explaining:  "IF mean-corpuscular-vol == 88.0 AND alkaline-phosphotase == 61.0 AND alamine-aminotransferase == 19.0 AND aspartate-aminotransferase == 21.0 AND gamma-glutamyl-transpeptidase == 13.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [0, 2, 3, 4]
+  coextime: 0.11
+iter: 2
+cand: [0]
+core: [1, 2, 3, 4, 5]
+coex: [1, 2, 3, 4, 5]
+  coextime: 0.16
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.16
+iter: 4
+cand: [4]
+expl: [4]
+  expltime: 0.17
+iter: 5
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [0, 1, 2, 4]
+  coextime: 0.22
+iter: 6
+cand: [0, 1]
+expl: [0, 1]
+  expltime: 0.23
+iter: 7
+cand: [1, 3]
+expl: [1, 3]
+  expltime: 0.23
+iter: 8
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.24
+iter: 9
+cand: [0, 3]
+expl: [0, 3]
+  expltime: 0.25
+iter: 10
+cand: None
+  prediciton: 2.0
+  explanation: "IF alamine-aminotransferase != 19.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.16
+  explanation: "IF gamma-glutamyl-transpeptidase != 13.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF mean-corpuscular-vol != 88.0 AND alkaline-phosphotase != 61.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.23
+  explanation: "IF alkaline-phosphotase != 61.0 AND aspartate-aminotransferase != 21.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.23
+  explanation: "IF mean-corpuscular-vol != 88.0 AND num-half-pint-equivalents != 0.5 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.24
+  explanation: "IF mean-corpuscular-vol != 88.0 AND aspartate-aminotransferase != 21.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.25
+  dual explanation: "IF mean-corpuscular-vol == 88.0 AND alamine-aminotransferase == 19.0 AND aspartate-aminotransferase == 21.0 AND gamma-glutamyl-transpeptidase == 13.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF alkaline-phosphotase == 61.0 AND alamine-aminotransferase == 19.0 AND aspartate-aminotransferase == 21.0 AND gamma-glutamyl-transpeptidase == 13.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 5
+  dual explanation: "IF mean-corpuscular-vol == 88.0 AND alkaline-phosphotase == 61.0 AND alamine-aminotransferase == 19.0 AND gamma-glutamyl-transpeptidase == 13.0 THEN 2.0"
+  dual explanation size: 4
+  calls: 10
+  rtime: 0.25
+
+inst: 11
+lits: [13, 44, 71, 104, 135, 140]
+  explaining:  "IF mean-corpuscular-vol == 92.0 AND alkaline-phosphotase == 73.0 AND alamine-aminotransferase == 33.0 AND aspartate-aminotransferase == 34.0 AND gamma-glutamyl-transpeptidase == 115.0 AND num-half-pint-equivalents == 5.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [3, 4, 5]
+  coextime: 0.13
+iter: 2
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 2, 3, 4]
+  coextime: 0.19
+iter: 3
+cand: [4]
+expl: [4]
+  expltime: 0.20
+iter: 4
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [2, 4, 5]
+  coextime: 0.29
+iter: 5
+cand: [2, 3]
+core: [0, 1, 4, 5]
+coex: [1, 4, 5]
+  coextime: 0.36
+iter: 6
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.37
+iter: 7
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.38
+iter: 8
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.39
+iter: 9
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.40
+iter: 10
+cand: [1, 2, 3]
+core: [0, 4, 5]
+coex: [0, 4, 5]
+  coextime: 0.46
+iter: 11
+cand: [0, 1, 2, 3]
+expl: [0, 1, 2, 3]
+  expltime: 0.49
+iter: 12
+cand: None
+  prediciton: 2.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 115.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.20
+  explanation: "IF aspartate-aminotransferase != 34.0 AND num-half-pint-equivalents != 5.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.37
+  explanation: "IF alamine-aminotransferase != 33.0 AND num-half-pint-equivalents != 5.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.38
+  explanation: "IF mean-corpuscular-vol != 92.0 AND num-half-pint-equivalents != 5.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.39
+  explanation: "IF alkaline-phosphotase != 73.0 AND num-half-pint-equivalents != 5.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.40
+  explanation: "IF mean-corpuscular-vol != 92.0 AND alkaline-phosphotase != 73.0 AND alamine-aminotransferase != 33.0 AND aspartate-aminotransferase != 34.0 THEN NOT 2.0"
+  explanation size: 4
+  expl time: 0.49
+  dual explanation: "IF aspartate-aminotransferase == 34.0 AND gamma-glutamyl-transpeptidase == 115.0 AND num-half-pint-equivalents == 5.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF mean-corpuscular-vol == 92.0 AND alkaline-phosphotase == 73.0 AND alamine-aminotransferase == 33.0 AND aspartate-aminotransferase == 34.0 AND gamma-glutamyl-transpeptidase == 115.0 THEN 2.0"
+  dual explanation size: 5
+  dual explanation: "IF alamine-aminotransferase == 33.0 AND gamma-glutamyl-transpeptidase == 115.0 AND num-half-pint-equivalents == 5.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF alkaline-phosphotase == 73.0 AND gamma-glutamyl-transpeptidase == 115.0 AND num-half-pint-equivalents == 5.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF mean-corpuscular-vol == 92.0 AND gamma-glutamyl-transpeptidase == 115.0 AND num-half-pint-equivalents == 5.0 THEN 2.0"
+  dual explanation size: 3
+  calls: 5
+  rtime: 0.49
+
+inst: 12
+lits: [15, 28, 81, 104, 127, 140]
+  explaining:  "IF mean-corpuscular-vol == 96.0 AND alkaline-phosphotase == 55.0 AND alamine-aminotransferase == 48.0 AND aspartate-aminotransferase == 39.0 AND gamma-glutamyl-transpeptidase == 42.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [3, 4, 5]
+  coextime: 0.13
+iter: 2
+cand: [5]
+expl: [5]
+  expltime: 0.13
+iter: 3
+cand: [4]
+expl: [4]
+  expltime: 0.14
+iter: 4
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [1, 4, 5]
+  coextime: 0.20
+iter: 5
+cand: [1, 3]
+expl: [1, 3]
+  expltime: 0.22
+iter: 6
+cand: None
+  prediciton: 2.0
+  explanation: "IF num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF gamma-glutamyl-transpeptidase != 42.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF alkaline-phosphotase != 55.0 AND aspartate-aminotransferase != 39.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.22
+  dual explanation: "IF aspartate-aminotransferase == 39.0 AND gamma-glutamyl-transpeptidase == 42.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF alkaline-phosphotase == 55.0 AND gamma-glutamyl-transpeptidase == 42.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 3
+  calls: 7
+  rtime: 0.22
+
+inst: 13
+lits: [1, 50, 53, 100, 119, 140]
+  explaining:  "IF mean-corpuscular-vol == 79.0 AND alkaline-phosphotase == 101.0 AND alamine-aminotransferase == 17.0 AND aspartate-aminotransferase == 27.0 AND gamma-glutamyl-transpeptidase == 23.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 3, 4, 5]
+  coextime: 0.13
+iter: 2
+cand: [4]
+core: [0, 1, 2, 3, 5]
+coex: [0, 2, 3, 5]
+  coextime: 0.24
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 2, 4]
+  coextime: 0.34
+iter: 4
+cand: [2]
+core: [0, 1, 3, 4, 5]
+coex: [0, 3, 4, 5]
+  coextime: 0.43
+iter: 5
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.44
+iter: 6
+cand: [0, 2]
+expl: [0, 2]
+  expltime: 0.46
+iter: 7
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.48
+iter: 8
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.48
+iter: 9
+cand: [0, 4]
+expl: [0, 4]
+  expltime: 0.49
+iter: 10
+cand: [3, 4]
+core: [0, 1, 2, 5]
+coex: [0, 1, 2, 5]
+  coextime: 0.56
+iter: 11
+cand: [4, 5]
+core: [0, 1, 2, 3]
+coex: [0, 1, 2, 3]
+  coextime: 0.67
+iter: 12
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.68
+iter: 13
+cand: [0, 3]
+core: [1, 2, 4, 5]
+coex: [1, 2, 4, 5]
+  coextime: 0.76
+iter: 14
+cand: [0, 1, 3]
+expl: [0, 1, 3]
+  expltime: 0.79
+iter: 15
+cand: [1, 3, 4]
+expl: [1, 3, 4]
+  expltime: 0.82
+iter: 16
+cand: [3, 4, 5]
+expl: [3, 4, 5]
+  expltime: 0.84
+iter: 17
+cand: [1, 4, 5]
+expl: [1, 4, 5]
+  expltime: 0.89
+iter: 18
+cand: None
+  prediciton: 2.0
+  explanation: "IF alamine-aminotransferase != 17.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.44
+  explanation: "IF mean-corpuscular-vol != 79.0 AND alamine-aminotransferase != 17.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.46
+  explanation: "IF alamine-aminotransferase != 17.0 AND aspartate-aminotransferase != 27.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.48
+  explanation: "IF alamine-aminotransferase != 17.0 AND gamma-glutamyl-transpeptidase != 23.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.48
+  explanation: "IF mean-corpuscular-vol != 79.0 AND gamma-glutamyl-transpeptidase != 23.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.49
+  explanation: "IF mean-corpuscular-vol != 79.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.68
+  explanation: "IF mean-corpuscular-vol != 79.0 AND alkaline-phosphotase != 101.0 AND aspartate-aminotransferase != 27.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.79
+  explanation: "IF alkaline-phosphotase != 101.0 AND aspartate-aminotransferase != 27.0 AND gamma-glutamyl-transpeptidase != 23.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.82
+  explanation: "IF aspartate-aminotransferase != 27.0 AND gamma-glutamyl-transpeptidase != 23.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.84
+  explanation: "IF alkaline-phosphotase != 101.0 AND gamma-glutamyl-transpeptidase != 23.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.89
+  dual explanation: "IF alamine-aminotransferase == 17.0 AND aspartate-aminotransferase == 27.0 AND gamma-glutamyl-transpeptidase == 23.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 79.0 AND alamine-aminotransferase == 17.0 AND aspartate-aminotransferase == 27.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 79.0 AND alamine-aminotransferase == 17.0 AND gamma-glutamyl-transpeptidase == 23.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF mean-corpuscular-vol == 79.0 AND aspartate-aminotransferase == 27.0 AND gamma-glutamyl-transpeptidase == 23.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 79.0 AND alkaline-phosphotase == 101.0 AND alamine-aminotransferase == 17.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 79.0 AND alkaline-phosphotase == 101.0 AND alamine-aminotransferase == 17.0 AND aspartate-aminotransferase == 27.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF alkaline-phosphotase == 101.0 AND alamine-aminotransferase == 17.0 AND gamma-glutamyl-transpeptidase == 23.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 4
+  calls: 9
+  rtime: 0.89
+
+inst: 14
+lits: [9, 44, 71, 90, 119, 138]
+  explaining:  "IF mean-corpuscular-vol == 90.0 AND alkaline-phosphotase == 73.0 AND alamine-aminotransferase == 34.0 AND aspartate-aminotransferase == 21.0 AND gamma-glutamyl-transpeptidase == 22.0 AND num-half-pint-equivalents == 2.0 THEN 1.0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+core: [1, 2, 3, 4, 5]
+coex: [1, 2, 3, 4, 5]
+  coextime: 0.11
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 2, 3, 4]
+  coextime: 0.16
+iter: 4
+cand: [4]
+expl: [4]
+  expltime: 0.17
+iter: 5
+cand: [3]
+expl: [3]
+  expltime: 0.18
+iter: 6
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 7
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.19
+iter: 8
+cand: None
+  prediciton: 1.0
+  explanation: "IF alkaline-phosphotase != 73.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF gamma-glutamyl-transpeptidase != 22.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF aspartate-aminotransferase != 21.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF alamine-aminotransferase != 34.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF mean-corpuscular-vol != 90.0 AND num-half-pint-equivalents != 2.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.19
+  dual explanation: "IF alkaline-phosphotase == 73.0 AND alamine-aminotransferase == 34.0 AND aspartate-aminotransferase == 21.0 AND gamma-glutamyl-transpeptidase == 22.0 AND num-half-pint-equivalents == 2.0 THEN 1.0"
+  dual explanation size: 5
+  dual explanation: "IF mean-corpuscular-vol == 90.0 AND alkaline-phosphotase == 73.0 AND alamine-aminotransferase == 34.0 AND aspartate-aminotransferase == 21.0 AND gamma-glutamyl-transpeptidase == 22.0 THEN 1.0"
+  dual explanation size: 5
+  calls: 10
+  rtime: 0.19
+
+inst: 15
+lits: [7, 44, 55, 94, 115, 136]
+  explaining:  "IF mean-corpuscular-vol == 89.0 AND alkaline-phosphotase == 74.0 AND alamine-aminotransferase == 19.0 AND aspartate-aminotransferase == 23.0 AND gamma-glutamyl-transpeptidase == 16.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [0, 2, 3, 4]
+  coextime: 0.13
+iter: 2
+cand: [0]
+core: [1, 2, 3, 4, 5]
+coex: [1, 2, 3, 4, 5]
+  coextime: 0.18
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.26
+iter: 4
+cand: [4]
+expl: [4]
+  expltime: 0.28
+iter: 5
+cand: [3]
+expl: [3]
+  expltime: 0.29
+iter: 6
+cand: [0, 1]
+expl: [0, 1]
+  expltime: 0.30
+iter: 7
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.31
+iter: 8
+cand: None
+  prediciton: 2.0
+  explanation: "IF alamine-aminotransferase != 19.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.26
+  explanation: "IF gamma-glutamyl-transpeptidase != 16.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.28
+  explanation: "IF aspartate-aminotransferase != 23.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.29
+  explanation: "IF mean-corpuscular-vol != 89.0 AND alkaline-phosphotase != 74.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.30
+  explanation: "IF mean-corpuscular-vol != 89.0 AND num-half-pint-equivalents != 0.5 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.31
+  dual explanation: "IF mean-corpuscular-vol == 89.0 AND alamine-aminotransferase == 19.0 AND aspartate-aminotransferase == 23.0 AND gamma-glutamyl-transpeptidase == 16.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF alkaline-phosphotase == 74.0 AND alamine-aminotransferase == 19.0 AND aspartate-aminotransferase == 23.0 AND gamma-glutamyl-transpeptidase == 16.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 5
+  calls: 11
+  rtime: 0.31
+
+inst: 16
+lits: [-16, 20, 51, 90, 129, 140]
+  explaining:  "IF mean-corpuscular-vol == 99.0 AND alkaline-phosphotase == 42.0 AND alamine-aminotransferase == 14.0 AND aspartate-aminotransferase == 21.0 AND gamma-glutamyl-transpeptidase == 49.0 AND num-half-pint-equivalents == 5.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [3, 4, 5]
+  coextime: 0.16
+iter: 2
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [1, 2, 3, 4]
+  coextime: 0.26
+iter: 3
+cand: [4]
+core: [0, 1, 2, 3, 5]
+coex: [1, 2, 3, 5]
+  coextime: 0.37
+iter: 4
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [2, 4, 5]
+  coextime: 0.47
+iter: 5
+cand: [2, 3]
+core: [0, 1, 4, 5]
+coex: [1, 4, 5]
+  coextime: 0.54
+iter: 6
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.56
+iter: 7
+cand: [3, 4]
+expl: [3, 4]
+  expltime: 0.58
+iter: 8
+cand: [1, 4]
+expl: [1, 4]
+  expltime: 0.60
+iter: 9
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.60
+iter: 10
+cand: [4, 5]
+expl: [4, 5]
+  expltime: 0.63
+iter: 11
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.65
+iter: 12
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.65
+iter: 13
+cand: [1, 2, 3]
+expl: [1, 2, 3]
+  expltime: 0.68
+iter: 14
+cand: None
+  prediciton: 2.0
+  explanation: "IF aspartate-aminotransferase != 21.0 AND num-half-pint-equivalents != 5.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.56
+  explanation: "IF aspartate-aminotransferase != 21.0 AND gamma-glutamyl-transpeptidase != 49.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.58
+  explanation: "IF alkaline-phosphotase != 42.0 AND gamma-glutamyl-transpeptidase != 49.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.60
+  explanation: "IF alamine-aminotransferase != 14.0 AND gamma-glutamyl-transpeptidase != 49.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.60
+  explanation: "IF gamma-glutamyl-transpeptidase != 49.0 AND num-half-pint-equivalents != 5.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.63
+  explanation: "IF alkaline-phosphotase != 42.0 AND num-half-pint-equivalents != 5.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.65
+  explanation: "IF alamine-aminotransferase != 14.0 AND num-half-pint-equivalents != 5.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.65
+  explanation: "IF alkaline-phosphotase != 42.0 AND alamine-aminotransferase != 14.0 AND aspartate-aminotransferase != 21.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.68
+  dual explanation: "IF aspartate-aminotransferase == 21.0 AND gamma-glutamyl-transpeptidase == 49.0 AND num-half-pint-equivalents == 5.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF alkaline-phosphotase == 42.0 AND alamine-aminotransferase == 14.0 AND aspartate-aminotransferase == 21.0 AND gamma-glutamyl-transpeptidase == 49.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF alkaline-phosphotase == 42.0 AND alamine-aminotransferase == 14.0 AND aspartate-aminotransferase == 21.0 AND num-half-pint-equivalents == 5.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF alamine-aminotransferase == 14.0 AND gamma-glutamyl-transpeptidase == 49.0 AND num-half-pint-equivalents == 5.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF alkaline-phosphotase == 42.0 AND gamma-glutamyl-transpeptidase == 49.0 AND num-half-pint-equivalents == 5.0 THEN 2.0"
+  dual explanation size: 3
+  calls: 13
+  rtime: 0.68
+
+inst: 17
+lits: [11, 50, 71, 92, -134, 136]
+  explaining:  "IF mean-corpuscular-vol == 91.0 AND alkaline-phosphotase == 96.0 AND alamine-aminotransferase == 35.0 AND aspartate-aminotransferase == 22.0 AND gamma-glutamyl-transpeptidase == 135.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 4, 5]
+  coextime: 0.18
+iter: 2
+cand: [5]
+expl: [5]
+  expltime: 0.20
+iter: 3
+cand: [4]
+expl: [4]
+  expltime: 0.20
+iter: 4
+cand: [2]
+core: [0, 1, 3, 4, 5]
+coex: [0, 1, 3, 4, 5]
+  coextime: 0.30
+iter: 5
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.32
+iter: 6
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.35
+iter: 7
+cand: [0, 2]
+expl: [0, 2]
+  expltime: 0.37
+iter: 8
+cand: None
+  prediciton: 2.0
+  explanation: "IF num-half-pint-equivalents != 0.5 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.20
+  explanation: "IF gamma-glutamyl-transpeptidase != 135.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.20
+  explanation: "IF alamine-aminotransferase != 35.0 AND aspartate-aminotransferase != 22.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.32
+  explanation: "IF alkaline-phosphotase != 96.0 AND alamine-aminotransferase != 35.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.35
+  explanation: "IF mean-corpuscular-vol != 91.0 AND alamine-aminotransferase != 35.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.37
+  dual explanation: "IF alamine-aminotransferase == 35.0 AND gamma-glutamyl-transpeptidase == 135.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF mean-corpuscular-vol == 91.0 AND alkaline-phosphotase == 96.0 AND aspartate-aminotransferase == 22.0 AND gamma-glutamyl-transpeptidase == 135.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 5
+  calls: 9
+  rtime: 0.37
+
+inst: 18
+lits: [-16, 30, 71, 90, 119, 138]
+  explaining:  "IF mean-corpuscular-vol == 98.0 AND alkaline-phosphotase == 58.0 AND alamine-aminotransferase == 33.0 AND aspartate-aminotransferase == 21.0 AND gamma-glutamyl-transpeptidase == 28.0 AND num-half-pint-equivalents == 2.0 THEN 2.0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.08
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.09
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.09
+iter: 4
+cand: [3]
+expl: [3]
+  expltime: 0.10
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.10
+iter: 6
+cand: [2]
+expl: [2]
+  expltime: 0.11
+iter: 7
+cand: None
+  prediciton: 2.0
+  explanation: "IF alkaline-phosphotase != 58.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF mean-corpuscular-vol != 98.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.09
+  explanation: "IF num-half-pint-equivalents != 2.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.09
+  explanation: "IF aspartate-aminotransferase != 21.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF gamma-glutamyl-transpeptidase != 28.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF alamine-aminotransferase != 33.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.11
+  calls: 21
+  rtime: 0.11
+
+inst: 19
+lits: [1, 38, 61, 92, 113, 136]
+  explaining:  "IF mean-corpuscular-vol == 85.0 AND alkaline-phosphotase == 64.0 AND alamine-aminotransferase == 24.0 AND aspartate-aminotransferase == 22.0 AND gamma-glutamyl-transpeptidase == 11.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.07
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.08
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 2, 3, 4]
+  coextime: 0.16
+iter: 4
+cand: [3]
+expl: [3]
+  expltime: 0.17
+iter: 5
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 6
+cand: [4]
+expl: [4]
+  expltime: 0.19
+iter: 7
+cand: None
+  prediciton: 2.0
+  explanation: "IF alkaline-phosphotase != 64.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF mean-corpuscular-vol != 85.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF aspartate-aminotransferase != 22.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF alamine-aminotransferase != 24.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF gamma-glutamyl-transpeptidase != 11.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.19
+  dual explanation: "IF mean-corpuscular-vol == 85.0 AND alkaline-phosphotase == 64.0 AND alamine-aminotransferase == 24.0 AND aspartate-aminotransferase == 22.0 AND gamma-glutamyl-transpeptidase == 11.0 THEN 2.0"
+  dual explanation size: 5
+  calls: 9
+  rtime: 0.19
+
+inst: 20
+lits: [13, 50, 81, 104, 135, 144]
+  explaining:  "IF mean-corpuscular-vol == 92.0 AND alkaline-phosphotase == 93.0 AND alamine-aminotransferase == 58.0 AND aspartate-aminotransferase == 35.0 AND gamma-glutamyl-transpeptidase == 120.0 AND num-half-pint-equivalents == 7.0 THEN 1.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [0, 2, 3, 4, 5]
+  coextime: 0.09
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.10
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.11
+iter: 4
+cand: [3]
+expl: [3]
+  expltime: 0.11
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.13
+iter: 6
+cand: [5]
+expl: [5]
+  expltime: 0.13
+iter: 7
+cand: None
+  prediciton: 1.0
+  explanation: "IF mean-corpuscular-vol != 92.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF alamine-aminotransferase != 58.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF aspartate-aminotransferase != 35.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF gamma-glutamyl-transpeptidase != 120.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF num-half-pint-equivalents != 7.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.13
+  dual explanation: "IF mean-corpuscular-vol == 92.0 AND alamine-aminotransferase == 58.0 AND aspartate-aminotransferase == 35.0 AND gamma-glutamyl-transpeptidase == 120.0 AND num-half-pint-equivalents == 7.0 THEN 1.0"
+  dual explanation size: 5
+  calls: 11
+  rtime: 0.13
+
+inst: 21
+lits: [11, 38, 59, 86, 119, 138]
+  explaining:  "IF mean-corpuscular-vol == 91.0 AND alkaline-phosphotase == 64.0 AND alamine-aminotransferase == 21.0 AND aspartate-aminotransferase == 17.0 AND gamma-glutamyl-transpeptidase == 26.0 AND num-half-pint-equivalents == 3.0 THEN 2.0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.07
+iter: 2
+cand: [0]
+core: [1, 2, 3, 4, 5]
+coex: [1, 2, 4, 5]
+  coextime: 0.14
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.15
+iter: 4
+cand: [4]
+expl: [4]
+  expltime: 0.15
+iter: 5
+cand: [2]
+expl: [2]
+  expltime: 0.16
+iter: 6
+cand: None
+  prediciton: 2.0
+  explanation: "IF alkaline-phosphotase != 64.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF num-half-pint-equivalents != 3.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF gamma-glutamyl-transpeptidase != 26.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF alamine-aminotransferase != 21.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.16
+  dual explanation: "IF alkaline-phosphotase == 64.0 AND alamine-aminotransferase == 21.0 AND gamma-glutamyl-transpeptidase == 26.0 AND num-half-pint-equivalents == 3.0 THEN 2.0"
+  dual explanation size: 4
+  calls: 9
+  rtime: 0.16
+
+inst: 22
+lits: [3, 44, 61, -105, 111, 140]
+  explaining:  "IF mean-corpuscular-vol == 87.0 AND alkaline-phosphotase == 76.0 AND alamine-aminotransferase == 22.0 AND aspartate-aminotransferase == 55.0 AND gamma-glutamyl-transpeptidase == 9.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [0, 2, 3, 4, 5]
+  coextime: 0.13
+iter: 2
+cand: [0]
+core: [1, 2, 3, 4, 5]
+coex: [1, 2, 3, 4, 5]
+  coextime: 0.22
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.23
+iter: 4
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 2, 3, 4]
+  coextime: 0.31
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.33
+iter: 6
+cand: [3]
+expl: [3]
+  expltime: 0.34
+iter: 7
+cand: [0, 1]
+expl: [0, 1]
+  expltime: 0.36
+iter: 8
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.37
+iter: 9
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.38
+iter: 10
+cand: None
+  prediciton: 2.0
+  explanation: "IF alamine-aminotransferase != 22.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.23
+  explanation: "IF gamma-glutamyl-transpeptidase != 9.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.33
+  explanation: "IF aspartate-aminotransferase != 55.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.34
+  explanation: "IF mean-corpuscular-vol != 87.0 AND alkaline-phosphotase != 76.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.36
+  explanation: "IF alkaline-phosphotase != 76.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.37
+  explanation: "IF mean-corpuscular-vol != 87.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.38
+  dual explanation: "IF mean-corpuscular-vol == 87.0 AND alamine-aminotransferase == 22.0 AND aspartate-aminotransferase == 55.0 AND gamma-glutamyl-transpeptidase == 9.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 5
+  dual explanation: "IF alkaline-phosphotase == 76.0 AND alamine-aminotransferase == 22.0 AND aspartate-aminotransferase == 55.0 AND gamma-glutamyl-transpeptidase == 9.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 5
+  dual explanation: "IF mean-corpuscular-vol == 87.0 AND alkaline-phosphotase == 76.0 AND alamine-aminotransferase == 22.0 AND aspartate-aminotransferase == 55.0 AND gamma-glutamyl-transpeptidase == 9.0 THEN 2.0"
+  dual explanation size: 5
+  calls: 11
+  rtime: 0.38
+
+inst: 23
+lits: [15, 48, 65, 98, 121, 138]
+  explaining:  "IF mean-corpuscular-vol == 95.0 AND alkaline-phosphotase == 78.0 AND alamine-aminotransferase == 27.0 AND aspartate-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 30.0 AND num-half-pint-equivalents == 2.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [0, 2, 3, 4, 5]
+  coextime: 0.13
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.14
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.15
+iter: 4
+cand: [3]
+expl: [3]
+  expltime: 0.16
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.16
+iter: 6
+cand: [5]
+expl: [5]
+  expltime: 0.18
+iter: 7
+cand: None
+  prediciton: 2.0
+  explanation: "IF mean-corpuscular-vol != 95.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF alamine-aminotransferase != 27.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF aspartate-aminotransferase != 25.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.16
+  explanation: "IF gamma-glutamyl-transpeptidase != 30.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.16
+  explanation: "IF num-half-pint-equivalents != 2.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.18
+  dual explanation: "IF mean-corpuscular-vol == 95.0 AND alamine-aminotransferase == 27.0 AND aspartate-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 30.0 AND num-half-pint-equivalents == 2.0 THEN 2.0"
+  dual explanation size: 5
+  calls: 11
+  rtime: 0.18
+
+inst: 24
+lits: [15, 30, 59, 86, 119, 138]
+  explaining:  "IF mean-corpuscular-vol == 94.0 AND alkaline-phosphotase == 58.0 AND alamine-aminotransferase == 21.0 AND aspartate-aminotransferase == 18.0 AND gamma-glutamyl-transpeptidase == 26.0 AND num-half-pint-equivalents == 2.0 THEN 2.0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.07
+iter: 2
+cand: [0]
+core: [1, 2, 3, 4, 5]
+coex: [1, 2, 4, 5]
+  coextime: 0.14
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.15
+iter: 4
+cand: [4]
+expl: [4]
+  expltime: 0.16
+iter: 5
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 6
+cand: None
+  prediciton: 2.0
+  explanation: "IF alkaline-phosphotase != 58.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF num-half-pint-equivalents != 2.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF gamma-glutamyl-transpeptidase != 26.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.16
+  explanation: "IF alamine-aminotransferase != 21.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.17
+  dual explanation: "IF alkaline-phosphotase == 58.0 AND alamine-aminotransferase == 21.0 AND gamma-glutamyl-transpeptidase == 26.0 AND num-half-pint-equivalents == 2.0 THEN 2.0"
+  dual explanation size: 4
+  calls: 9
+  rtime: 0.18
+
+inst: 25
+lits: [9, 32, 63, 86, 107, 136]
+  explaining:  "IF mean-corpuscular-vol == 90.0 AND alkaline-phosphotase == 60.0 AND alamine-aminotransferase == 25.0 AND aspartate-aminotransferase == 19.0 AND gamma-glutamyl-transpeptidase == 5.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 3, 4, 5]
+  coextime: 0.11
+iter: 2
+cand: [4]
+expl: [4]
+  expltime: 0.12
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [1, 2, 3, 4]
+  coextime: 0.17
+iter: 4
+cand: [2]
+core: [0, 1, 3, 4, 5]
+coex: [1, 3, 4, 5]
+  coextime: 0.23
+iter: 5
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [1, 2, 4, 5]
+  coextime: 0.29
+iter: 6
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.30
+iter: 7
+cand: [3, 5]
+core: [0, 1, 2, 4]
+coex: [0, 2, 4]
+  coextime: 0.34
+iter: 8
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.36
+iter: 9
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.37
+iter: 10
+cand: [0, 3, 5]
+expl: [0, 3, 5]
+  expltime: 0.38
+iter: 11
+cand: [0, 1, 5]
+expl: [0, 1, 5]
+  expltime: 0.39
+iter: 12
+cand: [0, 1, 3]
+expl: [0, 1, 3]
+  expltime: 0.40
+iter: 13
+cand: None
+  prediciton: 1.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 5.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF alamine-aminotransferase != 25.0 AND aspartate-aminotransferase != 19.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.30
+  explanation: "IF alamine-aminotransferase != 25.0 AND num-half-pint-equivalents != 0.5 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.36
+  explanation: "IF alkaline-phosphotase != 60.0 AND alamine-aminotransferase != 25.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.37
+  explanation: "IF mean-corpuscular-vol != 90.0 AND aspartate-aminotransferase != 19.0 AND num-half-pint-equivalents != 0.5 THEN NOT 1.0"
+  explanation size: 3
+  expl time: 0.38
+  explanation: "IF mean-corpuscular-vol != 90.0 AND alkaline-phosphotase != 60.0 AND num-half-pint-equivalents != 0.5 THEN NOT 1.0"
+  explanation size: 3
+  expl time: 0.39
+  explanation: "IF mean-corpuscular-vol != 90.0 AND alkaline-phosphotase != 60.0 AND aspartate-aminotransferase != 19.0 THEN NOT 1.0"
+  explanation size: 3
+  expl time: 0.40
+  dual explanation: "IF alamine-aminotransferase == 25.0 AND aspartate-aminotransferase == 19.0 AND gamma-glutamyl-transpeptidase == 5.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+  dual explanation size: 4
+  dual explanation: "IF alkaline-phosphotase == 60.0 AND alamine-aminotransferase == 25.0 AND aspartate-aminotransferase == 19.0 AND gamma-glutamyl-transpeptidase == 5.0 THEN 1.0"
+  dual explanation size: 4
+  dual explanation: "IF alkaline-phosphotase == 60.0 AND aspartate-aminotransferase == 19.0 AND gamma-glutamyl-transpeptidase == 5.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+  dual explanation size: 4
+  dual explanation: "IF alkaline-phosphotase == 60.0 AND alamine-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 5.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 90.0 AND alamine-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 5.0 THEN 1.0"
+  dual explanation size: 3
+  calls: 10
+  rtime: 0.40
+
+inst: 26
+lits: [13, 48, -80, 104, 121, 144]
+  explaining:  "IF mean-corpuscular-vol == 92.0 AND alkaline-phosphotase == 77.0 AND alamine-aminotransferase == 86.0 AND aspartate-aminotransferase == 41.0 AND gamma-glutamyl-transpeptidase == 31.0 AND num-half-pint-equivalents == 10.0 THEN 1.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [0, 2, 3, 4, 5]
+  coextime: 0.10
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.11
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.11
+iter: 4
+cand: [3]
+expl: [3]
+  expltime: 0.12
+iter: 5
+cand: [4]
+core: [0, 1, 2, 3, 5]
+coex: [0, 1, 2, 3, 5]
+  coextime: 0.17
+iter: 6
+cand: [5]
+expl: [5]
+  expltime: 0.18
+iter: 7
+cand: [1, 4]
+expl: [1, 4]
+  expltime: 0.19
+iter: 8
+cand: None
+  prediciton: 1.0
+  explanation: "IF mean-corpuscular-vol != 92.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF alamine-aminotransferase != 86.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF aspartate-aminotransferase != 41.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF num-half-pint-equivalents != 10.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF alkaline-phosphotase != 77.0 AND gamma-glutamyl-transpeptidase != 31.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.19
+  dual explanation: "IF mean-corpuscular-vol == 92.0 AND alamine-aminotransferase == 86.0 AND aspartate-aminotransferase == 41.0 AND gamma-glutamyl-transpeptidase == 31.0 AND num-half-pint-equivalents == 10.0 THEN 1.0"
+  dual explanation size: 5
+  dual explanation: "IF mean-corpuscular-vol == 92.0 AND alkaline-phosphotase == 77.0 AND alamine-aminotransferase == 86.0 AND aspartate-aminotransferase == 41.0 AND num-half-pint-equivalents == 10.0 THEN 1.0"
+  dual explanation size: 5
+  calls: 8
+  rtime: 0.19
+
+inst: 27
+lits: [3, -49, 53, 92, 119, 142]
+  explaining:  "IF mean-corpuscular-vol == 86.0 AND alkaline-phosphotase == 109.0 AND alamine-aminotransferase == 16.0 AND aspartate-aminotransferase == 22.0 AND gamma-glutamyl-transpeptidase == 28.0 AND num-half-pint-equivalents == 6.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [0, 2, 4]
+  coextime: 0.16
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.17
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 4
+cand: [4]
+core: [0, 1, 2, 3, 5]
+coex: [0, 2, 3, 5]
+  coextime: 0.30
+iter: 5
+cand: [4, 5]
+expl: [4, 5]
+  expltime: 0.33
+iter: 6
+cand: [3, 4]
+expl: [3, 4]
+  expltime: 0.35
+iter: 7
+cand: None
+  prediciton: 2.0
+  explanation: "IF mean-corpuscular-vol != 86.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF alamine-aminotransferase != 16.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF gamma-glutamyl-transpeptidase != 28.0 AND num-half-pint-equivalents != 6.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.33
+  explanation: "IF aspartate-aminotransferase != 22.0 AND gamma-glutamyl-transpeptidase != 28.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.35
+  dual explanation: "IF mean-corpuscular-vol == 86.0 AND alamine-aminotransferase == 16.0 AND gamma-glutamyl-transpeptidase == 28.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF mean-corpuscular-vol == 86.0 AND alamine-aminotransferase == 16.0 AND aspartate-aminotransferase == 22.0 AND num-half-pint-equivalents == 6.0 THEN 2.0"
+  dual explanation size: 4
+  calls: 8
+  rtime: 0.35
+
+inst: 28
+lits: [11, 36, 63, 98, 115, 142]
+  explaining:  "IF mean-corpuscular-vol == 91.0 AND alkaline-phosphotase == 63.0 AND alamine-aminotransferase == 25.0 AND aspartate-aminotransferase == 26.0 AND gamma-glutamyl-transpeptidase == 15.0 AND num-half-pint-equivalents == 6.0 THEN 1.0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.07
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.08
+iter: 4
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [0, 1, 2, 4, 5]
+  coextime: 0.12
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.12
+iter: 6
+cand: [2]
+expl: [2]
+  expltime: 0.14
+iter: 7
+cand: None
+  prediciton: 1.0
+  explanation: "IF alkaline-phosphotase != 63.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF mean-corpuscular-vol != 91.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF num-half-pint-equivalents != 6.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF gamma-glutamyl-transpeptidase != 15.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF alamine-aminotransferase != 25.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.14
+  dual explanation: "IF mean-corpuscular-vol == 91.0 AND alkaline-phosphotase == 63.0 AND alamine-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 15.0 AND num-half-pint-equivalents == 6.0 THEN 1.0"
+  dual explanation size: 5
+  calls: 8
+  rtime: 0.14
+
+inst: 29
+lits: [1, 24, 51, 86, 115, 144]
+  explaining:  "IF mean-corpuscular-vol == 85.0 AND alkaline-phosphotase == 50.0 AND alamine-aminotransferase == 12.0 AND aspartate-aminotransferase == 18.0 AND gamma-glutamyl-transpeptidase == 14.0 AND num-half-pint-equivalents == 7.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [0, 2, 4]
+  coextime: 0.16
+iter: 2
+cand: [0]
+core: [1, 2, 3, 4, 5]
+coex: [1, 2, 3, 5]
+  coextime: 0.27
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.28
+iter: 4
+cand: [3, 4]
+core: [0, 1, 2, 5]
+coex: [0, 1, 2, 5]
+  coextime: 0.39
+iter: 5
+cand: [4, 5]
+core: [0, 1, 2, 3]
+coex: [0, 1, 2, 3]
+  coextime: 0.50
+iter: 6
+cand: [1, 4]
+core: [0, 2, 3, 5]
+coex: [0, 2, 3, 5]
+  coextime: 0.61
+iter: 7
+cand: [0, 1]
+expl: [0, 1]
+  expltime: 0.63
+iter: 8
+cand: [0, 3]
+expl: [0, 3]
+  expltime: 0.65
+iter: 9
+cand: [0, 5]
+core: [1, 2, 3, 4]
+coex: [1, 2, 3, 4]
+  coextime: 0.72
+iter: 10
+cand: [0, 4, 5]
+expl: [0, 4, 5]
+  expltime: 0.75
+iter: 11
+cand: [1, 4, 5]
+expl: [1, 4, 5]
+  expltime: 0.77
+iter: 12
+cand: [3, 4, 5]
+expl: [3, 4, 5]
+  expltime: 0.79
+iter: 13
+cand: [1, 3, 4]
+expl: [1, 3, 4]
+  expltime: 0.83
+iter: 14
+cand: None
+  prediciton: 2.0
+  explanation: "IF alamine-aminotransferase != 12.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.28
+  explanation: "IF mean-corpuscular-vol != 85.0 AND alkaline-phosphotase != 50.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.63
+  explanation: "IF mean-corpuscular-vol != 85.0 AND aspartate-aminotransferase != 18.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.65
+  explanation: "IF mean-corpuscular-vol != 85.0 AND gamma-glutamyl-transpeptidase != 14.0 AND num-half-pint-equivalents != 7.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.75
+  explanation: "IF alkaline-phosphotase != 50.0 AND gamma-glutamyl-transpeptidase != 14.0 AND num-half-pint-equivalents != 7.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.77
+  explanation: "IF aspartate-aminotransferase != 18.0 AND gamma-glutamyl-transpeptidase != 14.0 AND num-half-pint-equivalents != 7.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.79
+  explanation: "IF alkaline-phosphotase != 50.0 AND aspartate-aminotransferase != 18.0 AND gamma-glutamyl-transpeptidase != 14.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.83
+  dual explanation: "IF mean-corpuscular-vol == 85.0 AND alamine-aminotransferase == 12.0 AND gamma-glutamyl-transpeptidase == 14.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF alkaline-phosphotase == 50.0 AND alamine-aminotransferase == 12.0 AND aspartate-aminotransferase == 18.0 AND num-half-pint-equivalents == 7.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 85.0 AND alkaline-phosphotase == 50.0 AND alamine-aminotransferase == 12.0 AND num-half-pint-equivalents == 7.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 85.0 AND alkaline-phosphotase == 50.0 AND alamine-aminotransferase == 12.0 AND aspartate-aminotransferase == 18.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 85.0 AND alamine-aminotransferase == 12.0 AND aspartate-aminotransferase == 18.0 AND num-half-pint-equivalents == 7.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF alkaline-phosphotase == 50.0 AND alamine-aminotransferase == 12.0 AND aspartate-aminotransferase == 18.0 AND gamma-glutamyl-transpeptidase == 14.0 THEN 2.0"
+  dual explanation size: 4
+  calls: 9
+  rtime: 0.84
+
+inst: 30
+lits: [1, 50, 71, 86, 119, 144]
+  explaining:  "IF mean-corpuscular-vol == 84.0 AND alkaline-phosphotase == 99.0 AND alamine-aminotransferase == 33.0 AND aspartate-aminotransferase == 19.0 AND gamma-glutamyl-transpeptidase == 26.0 AND num-half-pint-equivalents == 8.0 THEN 1.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 3, 4, 5]
+  coextime: 0.10
+iter: 2
+cand: [4]
+expl: [4]
+  expltime: 0.11
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.12
+iter: 4
+cand: [2]
+expl: [2]
+  expltime: 0.13
+iter: 5
+cand: [3]
+expl: [3]
+  expltime: 0.13
+iter: 6
+cand: None
+  prediciton: 1.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 26.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF num-half-pint-equivalents != 8.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF alamine-aminotransferase != 33.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF aspartate-aminotransferase != 19.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.13
+  dual explanation: "IF alamine-aminotransferase == 33.0 AND aspartate-aminotransferase == 19.0 AND gamma-glutamyl-transpeptidase == 26.0 AND num-half-pint-equivalents == 8.0 THEN 1.0"
+  dual explanation size: 4
+  calls: 10
+  rtime: 0.13
+
+inst: 31
+lits: [13, 50, 53, 86, 107, 144]
+  explaining:  "IF mean-corpuscular-vol == 92.0 AND alkaline-phosphotase == 94.0 AND alamine-aminotransferase == 18.0 AND aspartate-aminotransferase == 17.0 AND gamma-glutamyl-transpeptidase == 6.0 AND num-half-pint-equivalents == 8.0 THEN 1.0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.08
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 4]
+  coextime: 0.13
+iter: 4
+cand: [4]
+core: [0, 1, 2, 3, 5]
+coex: [0, 1, 2, 3, 5]
+  coextime: 0.20
+iter: 5
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.21
+iter: 6
+cand: [4, 5]
+expl: [4, 5]
+  expltime: 0.22
+iter: 7
+cand: [3, 4]
+expl: [3, 4]
+  expltime: 0.23
+iter: 8
+cand: None
+  prediciton: 1.0
+  explanation: "IF alkaline-phosphotase != 94.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF mean-corpuscular-vol != 92.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF alamine-aminotransferase != 18.0 AND gamma-glutamyl-transpeptidase != 6.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.21
+  explanation: "IF gamma-glutamyl-transpeptidase != 6.0 AND num-half-pint-equivalents != 8.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.22
+  explanation: "IF aspartate-aminotransferase != 17.0 AND gamma-glutamyl-transpeptidase != 6.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.23
+  dual explanation: "IF mean-corpuscular-vol == 92.0 AND alkaline-phosphotase == 94.0 AND gamma-glutamyl-transpeptidase == 6.0 THEN 1.0"
+  dual explanation size: 3
+  dual explanation: "IF mean-corpuscular-vol == 92.0 AND alkaline-phosphotase == 94.0 AND alamine-aminotransferase == 18.0 AND aspartate-aminotransferase == 17.0 AND num-half-pint-equivalents == 8.0 THEN 1.0"
+  dual explanation size: 5
+  calls: 9
+  rtime: 0.23
+
+inst: 32
+lits: [13, -49, 81, 104, 133, 146]
+  explaining:  "IF mean-corpuscular-vol == 92.0 AND alkaline-phosphotase == 108.0 AND alamine-aminotransferase == 53.0 AND aspartate-aminotransferase == 33.0 AND gamma-glutamyl-transpeptidase == 94.0 AND num-half-pint-equivalents == 12.0 THEN 1.0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.07
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.08
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.08
+iter: 4
+cand: [3]
+expl: [3]
+  expltime: 0.09
+iter: 5
+cand: [4]
+core: [0, 1, 2, 3, 5]
+coex: [0, 1, 2, 3, 5]
+  coextime: 0.15
+iter: 6
+cand: [2]
+expl: [2]
+  expltime: 0.16
+iter: 7
+cand: None
+  prediciton: 1.0
+  explanation: "IF alkaline-phosphotase != 108.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF mean-corpuscular-vol != 92.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF num-half-pint-equivalents != 12.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF aspartate-aminotransferase != 33.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.09
+  explanation: "IF alamine-aminotransferase != 53.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.16
+  dual explanation: "IF mean-corpuscular-vol == 92.0 AND alkaline-phosphotase == 108.0 AND alamine-aminotransferase == 53.0 AND aspartate-aminotransferase == 33.0 AND num-half-pint-equivalents == 12.0 THEN 1.0"
+  dual explanation size: 5
+  calls: 7
+  rtime: 0.16
+
+inst: 33
+lits: [13, 42, 59, 86, 121, 140]
+  explaining:  "IF mean-corpuscular-vol == 92.0 AND alkaline-phosphotase == 66.0 AND alamine-aminotransferase == 21.0 AND aspartate-aminotransferase == 16.0 AND gamma-glutamyl-transpeptidase == 33.0 AND num-half-pint-equivalents == 5.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 4, 5]
+  coextime: 0.16
+iter: 2
+cand: [5]
+expl: [5]
+  expltime: 0.17
+iter: 3
+cand: [4]
+expl: [4]
+  expltime: 0.18
+iter: 4
+cand: [2]
+expl: [2]
+  expltime: 0.19
+iter: 5
+cand: None
+  prediciton: 2.0
+  explanation: "IF num-half-pint-equivalents != 5.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF gamma-glutamyl-transpeptidase != 33.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF alamine-aminotransferase != 21.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.19
+  dual explanation: "IF alamine-aminotransferase == 21.0 AND gamma-glutamyl-transpeptidase == 33.0 AND num-half-pint-equivalents == 5.0 THEN 2.0"
+  dual explanation size: 3
+  calls: 9
+  rtime: 0.19
+
+inst: 34
+lits: [15, 44, 63, 98, 121, 140]
+  explaining:  "IF mean-corpuscular-vol == 94.0 AND alkaline-phosphotase == 71.0 AND alamine-aminotransferase == 25.0 AND aspartate-aminotransferase == 26.0 AND gamma-glutamyl-transpeptidase == 31.0 AND num-half-pint-equivalents == 5.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 3, 4, 5]
+  coextime: 0.16
+iter: 2
+cand: [4]
+expl: [4]
+  expltime: 0.17
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 2, 3, 4]
+  coextime: 0.25
+iter: 4
+cand: [2]
+core: [0, 1, 3, 4, 5]
+coex: [0, 3, 4, 5]
+  coextime: 0.34
+iter: 5
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [1, 2, 4, 5]
+  coextime: 0.43
+iter: 6
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.44
+iter: 7
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.45
+iter: 8
+cand: [1, 3]
+core: [0, 2, 4, 5]
+coex: [0, 2, 4, 5]
+  coextime: 0.53
+iter: 9
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.56
+iter: 10
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.58
+iter: 11
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.58
+iter: 12
+cand: [0, 2]
+expl: [0, 2]
+  expltime: 0.60
+iter: 13
+cand: [0, 1, 3]
+expl: [0, 1, 3]
+  expltime: 0.63
+iter: 14
+cand: None
+  prediciton: 2.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 31.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF alamine-aminotransferase != 25.0 AND aspartate-aminotransferase != 26.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.44
+  explanation: "IF aspartate-aminotransferase != 26.0 AND num-half-pint-equivalents != 5.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.45
+  explanation: "IF mean-corpuscular-vol != 94.0 AND num-half-pint-equivalents != 5.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.56
+  explanation: "IF alkaline-phosphotase != 71.0 AND num-half-pint-equivalents != 5.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.58
+  explanation: "IF alamine-aminotransferase != 25.0 AND num-half-pint-equivalents != 5.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.58
+  explanation: "IF mean-corpuscular-vol != 94.0 AND alamine-aminotransferase != 25.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.60
+  explanation: "IF mean-corpuscular-vol != 94.0 AND alkaline-phosphotase != 71.0 AND aspartate-aminotransferase != 26.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.63
+  dual explanation: "IF alamine-aminotransferase == 25.0 AND aspartate-aminotransferase == 26.0 AND gamma-glutamyl-transpeptidase == 31.0 AND num-half-pint-equivalents == 5.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 94.0 AND alkaline-phosphotase == 71.0 AND alamine-aminotransferase == 25.0 AND aspartate-aminotransferase == 26.0 AND gamma-glutamyl-transpeptidase == 31.0 THEN 2.0"
+  dual explanation size: 5
+  dual explanation: "IF mean-corpuscular-vol == 94.0 AND aspartate-aminotransferase == 26.0 AND gamma-glutamyl-transpeptidase == 31.0 AND num-half-pint-equivalents == 5.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF alkaline-phosphotase == 71.0 AND alamine-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 31.0 AND num-half-pint-equivalents == 5.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 94.0 AND alamine-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 31.0 AND num-half-pint-equivalents == 5.0 THEN 2.0"
+  dual explanation size: 4
+  calls: 10
+  rtime: 0.63
+
+inst: 35
+lits: [13, 50, 81, -105, 129, 144]
+  explaining:  "IF mean-corpuscular-vol == 93.0 AND alkaline-phosphotase == 84.0 AND alamine-aminotransferase == 58.0 AND aspartate-aminotransferase == 47.0 AND gamma-glutamyl-transpeptidase == 62.0 AND num-half-pint-equivalents == 7.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [3, 4, 5]
+  coextime: 0.18
+iter: 2
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 3, 4]
+  coextime: 0.28
+iter: 3
+cand: [4]
+expl: [4]
+  expltime: 0.29
+iter: 4
+cand: [3]
+expl: [3]
+  expltime: 0.30
+iter: 5
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.32
+iter: 6
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.34
+iter: 7
+cand: None
+  prediciton: 2.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 62.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.29
+  explanation: "IF aspartate-aminotransferase != 47.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.30
+  explanation: "IF mean-corpuscular-vol != 93.0 AND num-half-pint-equivalents != 7.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.32
+  explanation: "IF alkaline-phosphotase != 84.0 AND num-half-pint-equivalents != 7.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.34
+  dual explanation: "IF aspartate-aminotransferase == 47.0 AND gamma-glutamyl-transpeptidase == 62.0 AND num-half-pint-equivalents == 7.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF mean-corpuscular-vol == 93.0 AND alkaline-phosphotase == 84.0 AND aspartate-aminotransferase == 47.0 AND gamma-glutamyl-transpeptidase == 62.0 THEN 2.0"
+  dual explanation size: 4
+  calls: 10
+  rtime: 0.34
+
+inst: 36
+lits: [15, 44, 57, 98, 127, 136]
+  explaining:  "IF mean-corpuscular-vol == 94.0 AND alkaline-phosphotase == 75.0 AND alamine-aminotransferase == 20.0 AND aspartate-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 38.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 3, 4, 5]
+  coextime: 0.19
+iter: 2
+cand: [4]
+expl: [4]
+  expltime: 0.20
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [1, 2, 3, 4]
+  coextime: 0.30
+iter: 4
+cand: [2]
+core: [0, 1, 3, 4, 5]
+coex: [0, 1, 3, 4, 5]
+  coextime: 0.40
+iter: 5
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [1, 2, 4, 5]
+  coextime: 0.49
+iter: 6
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.49
+iter: 7
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.51
+iter: 8
+cand: [1, 3]
+expl: [1, 3]
+  expltime: 0.54
+iter: 9
+cand: [1, 5]
+core: [0, 2, 3, 4]
+coex: [0, 2, 3, 4]
+  coextime: 0.63
+iter: 10
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.67
+iter: 11
+cand: [0, 2]
+expl: [0, 2]
+  expltime: 0.68
+iter: 12
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.69
+iter: 13
+cand: [0, 1, 5]
+expl: [0, 1, 5]
+  expltime: 0.72
+iter: 14
+cand: None
+  prediciton: 2.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 38.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.20
+  explanation: "IF alamine-aminotransferase != 20.0 AND aspartate-aminotransferase != 25.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.49
+  explanation: "IF aspartate-aminotransferase != 25.0 AND num-half-pint-equivalents != 0.5 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.51
+  explanation: "IF alkaline-phosphotase != 75.0 AND aspartate-aminotransferase != 25.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.54
+  explanation: "IF alkaline-phosphotase != 75.0 AND alamine-aminotransferase != 20.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.67
+  explanation: "IF mean-corpuscular-vol != 94.0 AND alamine-aminotransferase != 20.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.68
+  explanation: "IF alamine-aminotransferase != 20.0 AND num-half-pint-equivalents != 0.5 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.69
+  explanation: "IF mean-corpuscular-vol != 94.0 AND alkaline-phosphotase != 75.0 AND num-half-pint-equivalents != 0.5 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.72
+  dual explanation: "IF alamine-aminotransferase == 20.0 AND aspartate-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 38.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF alkaline-phosphotase == 75.0 AND alamine-aminotransferase == 20.0 AND aspartate-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 38.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 94.0 AND alkaline-phosphotase == 75.0 AND aspartate-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 38.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 5
+  dual explanation: "IF alkaline-phosphotase == 75.0 AND alamine-aminotransferase == 20.0 AND gamma-glutamyl-transpeptidase == 38.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 94.0 AND alamine-aminotransferase == 20.0 AND aspartate-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 38.0 THEN 2.0"
+  dual explanation size: 4
+  calls: 9
+  rtime: 0.72
+
+inst: 37
+lits: [13, 38, 65, 92, 111, 136]
+  explaining:  "IF mean-corpuscular-vol == 93.0 AND alkaline-phosphotase == 65.0 AND alamine-aminotransferase == 28.0 AND aspartate-aminotransferase == 22.0 AND gamma-glutamyl-transpeptidase == 10.0 AND num-half-pint-equivalents == 1.0 THEN 1.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 3, 4, 5]
+  coextime: 0.10
+iter: 2
+cand: [4]
+expl: [4]
+  expltime: 0.11
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 2, 3, 4]
+  coextime: 0.16
+iter: 4
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 5
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [1, 2, 4, 5]
+  coextime: 0.22
+iter: 6
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.24
+iter: 7
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.24
+iter: 8
+cand: [1, 3]
+expl: [1, 3]
+  expltime: 0.25
+iter: 9
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.27
+iter: 10
+cand: None
+  prediciton: 1.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 10.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF alamine-aminotransferase != 28.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF aspartate-aminotransferase != 22.0 AND num-half-pint-equivalents != 1.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.24
+  explanation: "IF alkaline-phosphotase != 65.0 AND num-half-pint-equivalents != 1.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.24
+  explanation: "IF alkaline-phosphotase != 65.0 AND aspartate-aminotransferase != 22.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.25
+  explanation: "IF mean-corpuscular-vol != 93.0 AND num-half-pint-equivalents != 1.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.27
+  dual explanation: "IF alamine-aminotransferase == 28.0 AND aspartate-aminotransferase == 22.0 AND gamma-glutamyl-transpeptidase == 10.0 AND num-half-pint-equivalents == 1.0 THEN 1.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 93.0 AND alkaline-phosphotase == 65.0 AND alamine-aminotransferase == 28.0 AND aspartate-aminotransferase == 22.0 AND gamma-glutamyl-transpeptidase == 10.0 THEN 1.0"
+  dual explanation size: 5
+  dual explanation: "IF alkaline-phosphotase == 65.0 AND alamine-aminotransferase == 28.0 AND gamma-glutamyl-transpeptidase == 10.0 AND num-half-pint-equivalents == 1.0 THEN 1.0"
+  dual explanation size: 4
+  calls: 10
+  rtime: 0.27
+
+inst: 38
+lits: [-16, 50, 71, -105, -134, 144]
+  explaining:  "IF mean-corpuscular-vol == 102.0 AND alkaline-phosphotase == 82.0 AND alamine-aminotransferase == 34.0 AND aspartate-aminotransferase == 78.0 AND gamma-glutamyl-transpeptidase == 203.0 AND num-half-pint-equivalents == 7.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 3, 4]
+  coextime: 0.20
+iter: 2
+cand: [4]
+expl: [4]
+  expltime: 0.21
+iter: 3
+cand: [3]
+expl: [3]
+  expltime: 0.23
+iter: 4
+cand: [2]
+core: [0, 1, 3, 4, 5]
+coex: [1, 3, 4, 5]
+  coextime: 0.34
+iter: 5
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.37
+iter: 6
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.38
+iter: 7
+cand: None
+  prediciton: 2.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 203.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.21
+  explanation: "IF aspartate-aminotransferase != 78.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.23
+  explanation: "IF alkaline-phosphotase != 82.0 AND alamine-aminotransferase != 34.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.37
+  explanation: "IF alamine-aminotransferase != 34.0 AND num-half-pint-equivalents != 7.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.38
+  dual explanation: "IF alamine-aminotransferase == 34.0 AND aspartate-aminotransferase == 78.0 AND gamma-glutamyl-transpeptidase == 203.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF alkaline-phosphotase == 82.0 AND aspartate-aminotransferase == 78.0 AND gamma-glutamyl-transpeptidase == 203.0 AND num-half-pint-equivalents == 7.0 THEN 2.0"
+  dual explanation size: 4
+  calls: 8
+  rtime: 0.38
+
+inst: 39
+lits: [13, 26, 81, 104, 133, 142]
+  explaining:  "IF mean-corpuscular-vol == 92.0 AND alkaline-phosphotase == 53.0 AND alamine-aminotransferase == 51.0 AND aspartate-aminotransferase == 33.0 AND gamma-glutamyl-transpeptidase == 92.0 AND num-half-pint-equivalents == 6.0 THEN 1.0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.07
+iter: 4
+cand: [3]
+expl: [3]
+  expltime: 0.08
+iter: 5
+cand: [4]
+core: [0, 1, 2, 3, 5]
+coex: [0, 1, 2, 3, 5]
+  coextime: 0.12
+iter: 6
+cand: [2]
+expl: [2]
+  expltime: 0.13
+iter: 7
+cand: None
+  prediciton: 1.0
+  explanation: "IF alkaline-phosphotase != 53.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF mean-corpuscular-vol != 92.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF num-half-pint-equivalents != 6.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF aspartate-aminotransferase != 33.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF alamine-aminotransferase != 51.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.13
+  dual explanation: "IF mean-corpuscular-vol == 92.0 AND alkaline-phosphotase == 53.0 AND alamine-aminotransferase == 51.0 AND aspartate-aminotransferase == 33.0 AND num-half-pint-equivalents == 6.0 THEN 1.0"
+  dual explanation size: 5
+  calls: 7
+  rtime: 0.13
+
+inst: 40
+lits: [1, 30, -80, -105, 129, 138]
+  explaining:  "IF mean-corpuscular-vol == 85.0 AND alkaline-phosphotase == 58.0 AND alamine-aminotransferase == 83.0 AND aspartate-aminotransferase == 49.0 AND gamma-glutamyl-transpeptidase == 51.0 AND num-half-pint-equivalents == 3.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [3, 4, 5]
+  coextime: 0.21
+iter: 2
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [1, 3, 4]
+  coextime: 0.32
+iter: 3
+cand: [4]
+expl: [4]
+  expltime: 0.34
+iter: 4
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [1, 4, 5]
+  coextime: 0.40
+iter: 5
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.42
+iter: 6
+cand: [1, 3]
+expl: [1, 3]
+  expltime: 0.44
+iter: 7
+cand: [1, 5]
+core: [0, 2, 3, 4]
+coex: [0, 3, 4]
+  coextime: 0.56
+iter: 8
+cand: [0, 1, 5]
+expl: [0, 1, 5]
+  expltime: 0.58
+iter: 9
+cand: None
+  prediciton: 2.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 51.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.34
+  explanation: "IF aspartate-aminotransferase != 49.0 AND num-half-pint-equivalents != 3.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.42
+  explanation: "IF alkaline-phosphotase != 58.0 AND aspartate-aminotransferase != 49.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.44
+  explanation: "IF mean-corpuscular-vol != 85.0 AND alkaline-phosphotase != 58.0 AND num-half-pint-equivalents != 3.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.58
+  dual explanation: "IF aspartate-aminotransferase == 49.0 AND gamma-glutamyl-transpeptidase == 51.0 AND num-half-pint-equivalents == 3.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF alkaline-phosphotase == 58.0 AND aspartate-aminotransferase == 49.0 AND gamma-glutamyl-transpeptidase == 51.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF alkaline-phosphotase == 58.0 AND gamma-glutamyl-transpeptidase == 51.0 AND num-half-pint-equivalents == 3.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF mean-corpuscular-vol == 85.0 AND aspartate-aminotransferase == 49.0 AND gamma-glutamyl-transpeptidase == 51.0 THEN 2.0"
+  dual explanation size: 3
+  calls: 6
+  rtime: 0.58
+
+inst: 41
+lits: [1, 18, 65, 98, 127, 136]
+  explaining:  "IF mean-corpuscular-vol == 83.0 AND alkaline-phosphotase == 40.0 AND alamine-aminotransferase == 29.0 AND aspartate-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 38.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 3, 4, 5]
+  coextime: 0.20
+iter: 2
+cand: [4]
+expl: [4]
+  expltime: 0.21
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 2, 3, 4]
+  coextime: 0.31
+iter: 4
+cand: [2]
+core: [0, 1, 3, 4, 5]
+coex: [0, 3, 4, 5]
+  coextime: 0.41
+iter: 5
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [0, 1, 2, 4, 5]
+  coextime: 0.49
+iter: 6
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.50
+iter: 7
+cand: [1, 3]
+expl: [1, 3]
+  expltime: 0.51
+iter: 8
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.53
+iter: 9
+cand: [0, 3]
+expl: [0, 3]
+  expltime: 0.55
+iter: 10
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.56
+iter: 11
+cand: [0, 2]
+expl: [0, 2]
+  expltime: 0.59
+iter: 12
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.59
+iter: 13
+cand: None
+  prediciton: 2.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 38.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.21
+  explanation: "IF alamine-aminotransferase != 29.0 AND aspartate-aminotransferase != 25.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.50
+  explanation: "IF alkaline-phosphotase != 40.0 AND aspartate-aminotransferase != 25.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.51
+  explanation: "IF aspartate-aminotransferase != 25.0 AND num-half-pint-equivalents != 0.5 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.53
+  explanation: "IF mean-corpuscular-vol != 83.0 AND aspartate-aminotransferase != 25.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.55
+  explanation: "IF mean-corpuscular-vol != 83.0 AND num-half-pint-equivalents != 0.5 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.56
+  explanation: "IF mean-corpuscular-vol != 83.0 AND alamine-aminotransferase != 29.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.59
+  explanation: "IF alamine-aminotransferase != 29.0 AND num-half-pint-equivalents != 0.5 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.59
+  dual explanation: "IF alamine-aminotransferase == 29.0 AND aspartate-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 38.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 83.0 AND alamine-aminotransferase == 29.0 AND aspartate-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 38.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 83.0 AND aspartate-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 38.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 83.0 AND alkaline-phosphotase == 40.0 AND alamine-aminotransferase == 29.0 AND gamma-glutamyl-transpeptidase == 38.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 5
+  calls: 13
+  rtime: 0.59
+
+inst: 42
+lits: [5, -49, 71, 100, 127, 136]
+  explaining:  "IF mean-corpuscular-vol == 88.0 AND alkaline-phosphotase == 122.0 AND alamine-aminotransferase == 35.0 AND aspartate-aminotransferase == 29.0 AND gamma-glutamyl-transpeptidase == 42.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [0, 3, 4, 5]
+  coextime: 0.19
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.21
+iter: 3
+cand: [3]
+expl: [3]
+  expltime: 0.22
+iter: 4
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 2, 3, 4]
+  coextime: 0.32
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.33
+iter: 6
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.34
+iter: 7
+cand: None
+  prediciton: 2.0
+  explanation: "IF mean-corpuscular-vol != 88.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.21
+  explanation: "IF aspartate-aminotransferase != 29.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.22
+  explanation: "IF gamma-glutamyl-transpeptidase != 42.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.33
+  explanation: "IF alamine-aminotransferase != 35.0 AND num-half-pint-equivalents != 0.5 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.34
+  dual explanation: "IF mean-corpuscular-vol == 88.0 AND aspartate-aminotransferase == 29.0 AND gamma-glutamyl-transpeptidase == 42.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 88.0 AND alamine-aminotransferase == 35.0 AND aspartate-aminotransferase == 29.0 AND gamma-glutamyl-transpeptidase == 42.0 THEN 2.0"
+  dual explanation size: 4
+  calls: 8
+  rtime: 0.34
+
+inst: 43
+lits: [9, 36, 79, 98, 133, 136]
+  explaining:  "IF mean-corpuscular-vol == 90.0 AND alkaline-phosphotase == 63.0 AND alamine-aminotransferase == 45.0 AND aspartate-aminotransferase == 24.0 AND gamma-glutamyl-transpeptidase == 85.0 AND num-half-pint-equivalents == 1.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [0, 3, 4, 5]
+  coextime: 0.19
+iter: 2
+cand: [0]
+core: [1, 2, 3, 4, 5]
+coex: [1, 4, 5]
+  coextime: 0.27
+iter: 3
+cand: [4]
+expl: [4]
+  expltime: 0.28
+iter: 4
+cand: [5]
+expl: [5]
+  expltime: 0.29
+iter: 5
+cand: [1, 3]
+expl: [1, 3]
+  expltime: 0.30
+iter: 6
+cand: [0, 1]
+expl: [0, 1]
+  expltime: 0.33
+iter: 7
+cand: None
+  prediciton: 2.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 85.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.28
+  explanation: "IF num-half-pint-equivalents != 1.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.29
+  explanation: "IF alkaline-phosphotase != 63.0 AND aspartate-aminotransferase != 24.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.30
+  explanation: "IF mean-corpuscular-vol != 90.0 AND alkaline-phosphotase != 63.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.33
+  dual explanation: "IF mean-corpuscular-vol == 90.0 AND aspartate-aminotransferase == 24.0 AND gamma-glutamyl-transpeptidase == 85.0 AND num-half-pint-equivalents == 1.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF alkaline-phosphotase == 63.0 AND gamma-glutamyl-transpeptidase == 85.0 AND num-half-pint-equivalents == 1.0 THEN 2.0"
+  dual explanation size: 3
+  calls: 10
+  rtime: 0.33
+
+inst: 44
+lits: [3, 50, 51, 94, 113, 144]
+  explaining:  "IF mean-corpuscular-vol == 87.0 AND alkaline-phosphotase == 87.0 AND alamine-aminotransferase == 15.0 AND aspartate-aminotransferase == 23.0 AND gamma-glutamyl-transpeptidase == 11.0 AND num-half-pint-equivalents == 10.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [0, 2, 4, 5]
+  coextime: 0.18
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.19
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.20
+iter: 4
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 2, 3, 4]
+  coextime: 0.32
+iter: 5
+cand: [4]
+core: [0, 1, 2, 3, 5]
+coex: [0, 2, 3, 5]
+  coextime: 0.47
+iter: 6
+cand: [3, 4]
+core: [0, 1, 2, 5]
+coex: [0, 1, 2, 5]
+  coextime: 0.57
+iter: 7
+cand: [3, 5]
+core: [0, 1, 2, 4]
+coex: [0, 1, 2, 4]
+  coextime: 0.66
+iter: 8
+cand: [4, 5]
+expl: [4, 5]
+  expltime: 0.69
+iter: 9
+cand: [1, 3, 4]
+expl: [1, 3, 4]
+  expltime: 0.74
+iter: 10
+cand: [1, 3, 5]
+expl: [1, 3, 5]
+  expltime: 0.77
+iter: 11
+cand: None
+  prediciton: 2.0
+  explanation: "IF mean-corpuscular-vol != 87.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF alamine-aminotransferase != 15.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.20
+  explanation: "IF gamma-glutamyl-transpeptidase != 11.0 AND num-half-pint-equivalents != 10.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.69
+  explanation: "IF alkaline-phosphotase != 87.0 AND aspartate-aminotransferase != 23.0 AND gamma-glutamyl-transpeptidase != 11.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.74
+  explanation: "IF alkaline-phosphotase != 87.0 AND aspartate-aminotransferase != 23.0 AND num-half-pint-equivalents != 10.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.77
+  dual explanation: "IF mean-corpuscular-vol == 87.0 AND alamine-aminotransferase == 15.0 AND gamma-glutamyl-transpeptidase == 11.0 AND num-half-pint-equivalents == 10.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 87.0 AND alamine-aminotransferase == 15.0 AND aspartate-aminotransferase == 23.0 AND gamma-glutamyl-transpeptidase == 11.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 87.0 AND alamine-aminotransferase == 15.0 AND aspartate-aminotransferase == 23.0 AND num-half-pint-equivalents == 10.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 87.0 AND alkaline-phosphotase == 87.0 AND alamine-aminotransferase == 15.0 AND num-half-pint-equivalents == 10.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 87.0 AND alkaline-phosphotase == 87.0 AND alamine-aminotransferase == 15.0 AND gamma-glutamyl-transpeptidase == 11.0 THEN 2.0"
+  dual explanation size: 4
+  calls: 8
+  rtime: 0.77
+
+inst: 45
+lits: [7, -49, 53, 100, 107, 136]
+  explaining:  "IF mean-corpuscular-vol == 89.0 AND alkaline-phosphotase == 115.0 AND alamine-aminotransferase == 17.0 AND aspartate-aminotransferase == 27.0 AND gamma-glutamyl-transpeptidase == 7.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.07
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.09
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 3, 4]
+  coextime: 0.14
+iter: 4
+cand: [3]
+expl: [3]
+  expltime: 0.15
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.15
+iter: 6
+cand: None
+  prediciton: 1.0
+  explanation: "IF alkaline-phosphotase != 115.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF mean-corpuscular-vol != 89.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.09
+  explanation: "IF aspartate-aminotransferase != 27.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF gamma-glutamyl-transpeptidase != 7.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.15
+  dual explanation: "IF mean-corpuscular-vol == 89.0 AND alkaline-phosphotase == 115.0 AND aspartate-aminotransferase == 27.0 AND gamma-glutamyl-transpeptidase == 7.0 THEN 1.0"
+  dual explanation size: 4
+  calls: 8
+  rtime: 0.15
+
+inst: 46
+lits: [-16, 50, 63, 98, 119, 144]
+  explaining:  "IF mean-corpuscular-vol == 100.0 AND alkaline-phosphotase == 83.0 AND alamine-aminotransferase == 25.0 AND aspartate-aminotransferase == 24.0 AND gamma-glutamyl-transpeptidase == 28.0 AND num-half-pint-equivalents == 8.0 THEN 1.0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.07
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.07
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.07
+iter: 4
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [0, 1, 2, 4, 5]
+  coextime: 0.12
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.13
+iter: 6
+cand: [2]
+core: [0, 1, 3, 4, 5]
+coex: [0, 1, 3, 4, 5]
+  coextime: 0.19
+iter: 7
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.20
+iter: 8
+cand: None
+  prediciton: 1.0
+  explanation: "IF alkaline-phosphotase != 83.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF mean-corpuscular-vol != 100.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF num-half-pint-equivalents != 8.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF gamma-glutamyl-transpeptidase != 28.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF alamine-aminotransferase != 25.0 AND aspartate-aminotransferase != 24.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.20
+  dual explanation: "IF mean-corpuscular-vol == 100.0 AND alkaline-phosphotase == 83.0 AND alamine-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 28.0 AND num-half-pint-equivalents == 8.0 THEN 1.0"
+  dual explanation size: 5
+  dual explanation: "IF mean-corpuscular-vol == 100.0 AND alkaline-phosphotase == 83.0 AND aspartate-aminotransferase == 24.0 AND gamma-glutamyl-transpeptidase == 28.0 AND num-half-pint-equivalents == 8.0 THEN 1.0"
+  dual explanation size: 5
+  calls: 7
+  rtime: 0.20
+
+inst: 47
+lits: [5, -49, 65, 88, 129, 140]
+  explaining:  "IF mean-corpuscular-vol == 88.0 AND alkaline-phosphotase == 107.0 AND alamine-aminotransferase == 29.0 AND aspartate-aminotransferase == 20.0 AND gamma-glutamyl-transpeptidase == 50.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [3, 4, 5]
+  coextime: 0.19
+iter: 2
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 2, 3, 4]
+  coextime: 0.34
+iter: 3
+cand: [4]
+expl: [4]
+  expltime: 0.35
+iter: 4
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [2, 4, 5]
+  coextime: 0.47
+iter: 5
+cand: [2, 3]
+core: [0, 1, 4, 5]
+coex: [0, 4, 5]
+  coextime: 0.57
+iter: 6
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.60
+iter: 7
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.60
+iter: 8
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.62
+iter: 9
+cand: [0, 2, 3]
+expl: [0, 2, 3]
+  expltime: 0.65
+iter: 10
+cand: None
+  prediciton: 2.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 50.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.35
+  explanation: "IF aspartate-aminotransferase != 20.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.60
+  explanation: "IF alamine-aminotransferase != 29.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.60
+  explanation: "IF mean-corpuscular-vol != 88.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.62
+  explanation: "IF mean-corpuscular-vol != 88.0 AND alamine-aminotransferase != 29.0 AND aspartate-aminotransferase != 20.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 0.65
+  dual explanation: "IF aspartate-aminotransferase == 20.0 AND gamma-glutamyl-transpeptidase == 50.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF mean-corpuscular-vol == 88.0 AND alamine-aminotransferase == 29.0 AND aspartate-aminotransferase == 20.0 AND gamma-glutamyl-transpeptidase == 50.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF alamine-aminotransferase == 29.0 AND gamma-glutamyl-transpeptidase == 50.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF mean-corpuscular-vol == 88.0 AND gamma-glutamyl-transpeptidase == 50.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 3
+  calls: 9
+  rtime: 0.65
+
+inst: 48
+lits: [15, 30, 67, 86, 119, 136]
+  explaining:  "IF mean-corpuscular-vol == 94.0 AND alkaline-phosphotase == 56.0 AND alamine-aminotransferase == 30.0 AND aspartate-aminotransferase == 18.0 AND gamma-glutamyl-transpeptidase == 27.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.08
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.10
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.10
+iter: 4
+cand: [3]
+expl: [3]
+  expltime: 0.12
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.13
+iter: 6
+cand: [2]
+expl: [2]
+  expltime: 0.14
+iter: 7
+cand: None
+  prediciton: 2.0
+  explanation: "IF alkaline-phosphotase != 56.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF mean-corpuscular-vol != 94.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF num-half-pint-equivalents != 0.5 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF aspartate-aminotransferase != 18.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF gamma-glutamyl-transpeptidase != 27.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF alamine-aminotransferase != 30.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.14
+  calls: 21
+  rtime: 0.14
+
+inst: 49
+lits: [13, 44, 61, 90, 129, 140]
+  explaining:  "IF mean-corpuscular-vol == 92.0 AND alkaline-phosphotase == 73.0 AND alamine-aminotransferase == 24.0 AND aspartate-aminotransferase == 21.0 AND gamma-glutamyl-transpeptidase == 48.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [3, 4, 5]
+  coextime: 0.20
+iter: 2
+cand: [5]
+expl: [5]
+  expltime: 0.22
+iter: 3
+cand: [4]
+expl: [4]
+  expltime: 0.23
+iter: 4
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [2, 4, 5]
+  coextime: 0.35
+iter: 5
+cand: [2, 3]
+core: [0, 1, 4, 5]
+coex: [1, 4, 5]
+  coextime: 0.45
+iter: 6
+cand: [1, 2, 3]
+core: [0, 4, 5]
+coex: [0, 4, 5]
+  coextime: 0.54
+iter: 7
+cand: [0, 1, 2, 3]
+expl: [0, 1, 2, 3]
+  expltime: 0.58
+iter: 8
+cand: None
+  prediciton: 2.0
+  explanation: "IF num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.22
+  explanation: "IF gamma-glutamyl-transpeptidase != 48.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.23
+  explanation: "IF mean-corpuscular-vol != 92.0 AND alkaline-phosphotase != 73.0 AND alamine-aminotransferase != 24.0 AND aspartate-aminotransferase != 21.0 THEN NOT 2.0"
+  explanation size: 4
+  expl time: 0.58
+  dual explanation: "IF aspartate-aminotransferase == 21.0 AND gamma-glutamyl-transpeptidase == 48.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF alamine-aminotransferase == 24.0 AND gamma-glutamyl-transpeptidase == 48.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF alkaline-phosphotase == 73.0 AND gamma-glutamyl-transpeptidase == 48.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 3
+  dual explanation: "IF mean-corpuscular-vol == 92.0 AND gamma-glutamyl-transpeptidase == 48.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 3
+  calls: 5
+  rtime: 0.58
+
+inst: 50
+lits: [1, 50, 75, 88, 121, 136]
+  explaining:  "IF mean-corpuscular-vol == 84.0 AND alkaline-phosphotase == 97.0 AND alamine-aminotransferase == 41.0 AND aspartate-aminotransferase == 20.0 AND gamma-glutamyl-transpeptidase == 32.0 AND num-half-pint-equivalents == 0.0 THEN 1.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [0, 2, 3, 4, 5]
+  coextime: 0.10
+iter: 2
+cand: [0]
+core: [1, 2, 3, 4, 5]
+coex: [1, 2, 3, 4, 5]
+  coextime: 0.16
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 4
+cand: [5]
+expl: [5]
+  expltime: 0.18
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.19
+iter: 6
+cand: [3]
+expl: [3]
+  expltime: 0.20
+iter: 7
+cand: [0, 1]
+expl: [0, 1]
+  expltime: 0.21
+iter: 8
+cand: None
+  prediciton: 1.0
+  explanation: "IF alamine-aminotransferase != 41.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF num-half-pint-equivalents != 0.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF gamma-glutamyl-transpeptidase != 32.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF aspartate-aminotransferase != 20.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.20
+  explanation: "IF mean-corpuscular-vol != 84.0 AND alkaline-phosphotase != 97.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.21
+  dual explanation: "IF mean-corpuscular-vol == 84.0 AND alamine-aminotransferase == 41.0 AND aspartate-aminotransferase == 20.0 AND gamma-glutamyl-transpeptidase == 32.0 AND num-half-pint-equivalents == 0.0 THEN 1.0"
+  dual explanation size: 5
+  dual explanation: "IF alkaline-phosphotase == 97.0 AND alamine-aminotransferase == 41.0 AND aspartate-aminotransferase == 20.0 AND gamma-glutamyl-transpeptidase == 32.0 AND num-half-pint-equivalents == 0.0 THEN 1.0"
+  dual explanation size: 5
+  calls: 11
+  rtime: 0.21
+
+inst: 51
+lits: [9, 50, 53, 94, 115, 140]
+  explaining:  "IF mean-corpuscular-vol == 90.0 AND alkaline-phosphotase == 84.0 AND alamine-aminotransferase == 18.0 AND aspartate-aminotransferase == 23.0 AND gamma-glutamyl-transpeptidase == 13.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 3, 4, 5]
+  coextime: 0.12
+iter: 2
+cand: [4]
+core: [0, 1, 2, 3, 5]
+coex: [0, 1, 2, 3, 5]
+  coextime: 0.25
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 2, 3, 4]
+  coextime: 0.33
+iter: 4
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [0, 2, 4, 5]
+  coextime: 0.43
+iter: 5
+cand: [2]
+expl: [2]
+  expltime: 0.44
+iter: 6
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.44
+iter: 7
+cand: [0, 3]
+expl: [0, 3]
+  expltime: 0.45
+iter: 8
+cand: [3, 4]
+expl: [3, 4]
+  expltime: 0.47
+iter: 9
+cand: [1, 4]
+expl: [1, 4]
+  expltime: 0.52
+iter: 10
+cand: [0, 4]
+expl: [0, 4]
+  expltime: 0.53
+iter: 11
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.54
+iter: 12
+cand: [4, 5]
+expl: [4, 5]
+  expltime: 0.56
+iter: 13
+cand: None
+  prediciton: 2.0
+  explanation: "IF alamine-aminotransferase != 18.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.44
+  explanation: "IF aspartate-aminotransferase != 23.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.44
+  explanation: "IF mean-corpuscular-vol != 90.0 AND aspartate-aminotransferase != 23.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.45
+  explanation: "IF aspartate-aminotransferase != 23.0 AND gamma-glutamyl-transpeptidase != 13.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.47
+  explanation: "IF alkaline-phosphotase != 84.0 AND gamma-glutamyl-transpeptidase != 13.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.52
+  explanation: "IF mean-corpuscular-vol != 90.0 AND gamma-glutamyl-transpeptidase != 13.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.53
+  explanation: "IF mean-corpuscular-vol != 90.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.54
+  explanation: "IF gamma-glutamyl-transpeptidase != 13.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.56
+  dual explanation: "IF alamine-aminotransferase == 18.0 AND aspartate-aminotransferase == 23.0 AND gamma-glutamyl-transpeptidase == 13.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 90.0 AND alkaline-phosphotase == 84.0 AND alamine-aminotransferase == 18.0 AND aspartate-aminotransferase == 23.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 5
+  dual explanation: "IF mean-corpuscular-vol == 90.0 AND alamine-aminotransferase == 18.0 AND aspartate-aminotransferase == 23.0 AND gamma-glutamyl-transpeptidase == 13.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 90.0 AND alamine-aminotransferase == 18.0 AND gamma-glutamyl-transpeptidase == 13.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 4
+  calls: 14
+  rtime: 0.56
+
+inst: 52
+lits: [3, -49, 57, 98, 119, 144]
+  explaining:  "IF mean-corpuscular-vol == 86.0 AND alkaline-phosphotase == 123.0 AND alamine-aminotransferase == 20.0 AND aspartate-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 23.0 AND num-half-pint-equivalents == 10.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [0, 2, 4, 5]
+  coextime: 0.18
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.19
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.20
+iter: 4
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 2, 3, 4]
+  coextime: 0.31
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.33
+iter: 6
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.35
+iter: 7
+cand: None
+  prediciton: 2.0
+  explanation: "IF mean-corpuscular-vol != 86.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF alamine-aminotransferase != 20.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.20
+  explanation: "IF gamma-glutamyl-transpeptidase != 23.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.33
+  explanation: "IF aspartate-aminotransferase != 25.0 AND num-half-pint-equivalents != 10.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.35
+  dual explanation: "IF mean-corpuscular-vol == 86.0 AND alamine-aminotransferase == 20.0 AND gamma-glutamyl-transpeptidase == 23.0 AND num-half-pint-equivalents == 10.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 86.0 AND alamine-aminotransferase == 20.0 AND aspartate-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 23.0 THEN 2.0"
+  dual explanation size: 4
+  calls: 8
+  rtime: 0.35
+
+inst: 53
+lits: [15, 48, 67, 82, 117, 136]
+  explaining:  "IF mean-corpuscular-vol == 95.0 AND alkaline-phosphotase == 77.0 AND alamine-aminotransferase == 30.0 AND aspartate-aminotransferase == 14.0 AND gamma-glutamyl-transpeptidase == 21.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 3, 4, 5]
+  coextime: 0.11
+iter: 2
+cand: [4]
+expl: [4]
+  expltime: 0.12
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 2, 3, 4]
+  coextime: 0.16
+iter: 4
+cand: [2]
+core: [0, 1, 3, 4, 5]
+coex: [0, 1, 3, 4, 5]
+  coextime: 0.21
+iter: 5
+cand: [3]
+expl: [3]
+  expltime: 0.21
+iter: 6
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.22
+iter: 7
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.23
+iter: 8
+cand: [0, 2]
+expl: [0, 2]
+  expltime: 0.23
+iter: 9
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.24
+iter: 10
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.25
+iter: 11
+cand: None
+  prediciton: 1.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 21.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF aspartate-aminotransferase != 14.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.21
+  explanation: "IF alamine-aminotransferase != 30.0 AND num-half-pint-equivalents != 0.5 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.22
+  explanation: "IF mean-corpuscular-vol != 95.0 AND num-half-pint-equivalents != 0.5 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.23
+  explanation: "IF mean-corpuscular-vol != 95.0 AND alamine-aminotransferase != 30.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.23
+  explanation: "IF alkaline-phosphotase != 77.0 AND alamine-aminotransferase != 30.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.24
+  explanation: "IF alkaline-phosphotase != 77.0 AND num-half-pint-equivalents != 0.5 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.25
+  dual explanation: "IF alamine-aminotransferase == 30.0 AND aspartate-aminotransferase == 14.0 AND gamma-glutamyl-transpeptidase == 21.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 95.0 AND alkaline-phosphotase == 77.0 AND alamine-aminotransferase == 30.0 AND aspartate-aminotransferase == 14.0 AND gamma-glutamyl-transpeptidase == 21.0 THEN 1.0"
+  dual explanation size: 5
+  dual explanation: "IF mean-corpuscular-vol == 95.0 AND alkaline-phosphotase == 77.0 AND aspartate-aminotransferase == 14.0 AND gamma-glutamyl-transpeptidase == 21.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+  dual explanation size: 5
+  calls: 12
+  rtime: 0.25
+
+inst: 54
+lits: [5, 30, 61, 86, 113, 136]
+  explaining:  "IF mean-corpuscular-vol == 88.0 AND alkaline-phosphotase == 56.0 AND alamine-aminotransferase == 23.0 AND aspartate-aminotransferase == 18.0 AND gamma-glutamyl-transpeptidase == 12.0 AND num-half-pint-equivalents == 0.0 THEN 1.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [0, 2, 3, 4, 5]
+  coextime: 0.11
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.12
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.13
+iter: 4
+cand: [3]
+expl: [3]
+  expltime: 0.13
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.14
+iter: 6
+cand: [5]
+expl: [5]
+  expltime: 0.15
+iter: 7
+cand: None
+  prediciton: 1.0
+  explanation: "IF mean-corpuscular-vol != 88.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF alamine-aminotransferase != 23.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF aspartate-aminotransferase != 18.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF gamma-glutamyl-transpeptidase != 12.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF num-half-pint-equivalents != 0.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.15
+  dual explanation: "IF mean-corpuscular-vol == 88.0 AND alamine-aminotransferase == 23.0 AND aspartate-aminotransferase == 18.0 AND gamma-glutamyl-transpeptidase == 12.0 AND num-half-pint-equivalents == 0.0 THEN 1.0"
+  dual explanation size: 5
+  calls: 11
+  rtime: 0.15
+
+inst: 55
+lits: [11, -49, 71, 84, 115, 140]
+  explaining:  "IF mean-corpuscular-vol == 91.0 AND alkaline-phosphotase == 109.0 AND alamine-aminotransferase == 33.0 AND aspartate-aminotransferase == 15.0 AND gamma-glutamyl-transpeptidase == 18.0 AND num-half-pint-equivalents == 4.0 THEN 1.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 3, 4]
+  coextime: 0.10
+iter: 2
+cand: [4]
+expl: [4]
+  expltime: 0.11
+iter: 3
+cand: [3]
+expl: [3]
+  expltime: 0.12
+iter: 4
+cand: [2]
+expl: [2]
+  expltime: 0.14
+iter: 5
+cand: None
+  prediciton: 1.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 18.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF aspartate-aminotransferase != 15.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF alamine-aminotransferase != 33.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.14
+  dual explanation: "IF alamine-aminotransferase == 33.0 AND aspartate-aminotransferase == 15.0 AND gamma-glutamyl-transpeptidase == 18.0 THEN 1.0"
+  dual explanation size: 3
+  calls: 9
+  rtime: 0.14
+
+inst: 56
+lits: [7, 50, 53, 86, 115, 136]
+  explaining:  "IF mean-corpuscular-vol == 89.0 AND alkaline-phosphotase == 79.0 AND alamine-aminotransferase == 17.0 AND aspartate-aminotransferase == 17.0 AND gamma-glutamyl-transpeptidase == 16.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [0, 2, 3, 4]
+  coextime: 0.15
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.16
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.16
+iter: 4
+cand: [3]
+expl: [3]
+  expltime: 0.18
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.20
+iter: 6
+cand: None
+  prediciton: 2.0
+  explanation: "IF mean-corpuscular-vol != 89.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.16
+  explanation: "IF alamine-aminotransferase != 17.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.16
+  explanation: "IF aspartate-aminotransferase != 17.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF gamma-glutamyl-transpeptidase != 16.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.20
+  dual explanation: "IF mean-corpuscular-vol == 89.0 AND alamine-aminotransferase == 17.0 AND aspartate-aminotransferase == 17.0 AND gamma-glutamyl-transpeptidase == 16.0 THEN 2.0"
+  dual explanation size: 4
+  calls: 10
+  rtime: 0.20
+
+inst: 57
+lits: [1, 48, 69, 86, 135, 136]
+  explaining:  "IF mean-corpuscular-vol == 83.0 AND alkaline-phosphotase == 78.0 AND alamine-aminotransferase == 31.0 AND aspartate-aminotransferase == 19.0 AND gamma-glutamyl-transpeptidase == 115.0 AND num-half-pint-equivalents == 1.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [0, 2, 4, 5]
+  coextime: 0.21
+iter: 2
+cand: [0]
+core: [1, 2, 3, 4, 5]
+coex: [1, 2, 4, 5]
+  coextime: 0.32
+iter: 3
+cand: [2]
+core: [0, 1, 3, 4, 5]
+coex: [0, 1, 4, 5]
+  coextime: 0.44
+iter: 4
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 2, 4]
+  coextime: 0.55
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.56
+iter: 6
+cand: [0, 1]
+expl: [0, 1]
+  expltime: 0.59
+iter: 7
+cand: [0, 2]
+expl: [0, 2]
+  expltime: 0.61
+iter: 8
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.62
+iter: 9
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.65
+iter: 10
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.66
+iter: 11
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.69
+iter: 12
+cand: None
+  prediciton: 2.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 115.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.56
+  explanation: "IF mean-corpuscular-vol != 83.0 AND alkaline-phosphotase != 78.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.59
+  explanation: "IF mean-corpuscular-vol != 83.0 AND alamine-aminotransferase != 31.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.61
+  explanation: "IF mean-corpuscular-vol != 83.0 AND num-half-pint-equivalents != 1.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.62
+  explanation: "IF alkaline-phosphotase != 78.0 AND num-half-pint-equivalents != 1.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.65
+  explanation: "IF alamine-aminotransferase != 31.0 AND num-half-pint-equivalents != 1.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.66
+  explanation: "IF alkaline-phosphotase != 78.0 AND alamine-aminotransferase != 31.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.69
+  dual explanation: "IF mean-corpuscular-vol == 83.0 AND alamine-aminotransferase == 31.0 AND gamma-glutamyl-transpeptidase == 115.0 AND num-half-pint-equivalents == 1.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF alkaline-phosphotase == 78.0 AND alamine-aminotransferase == 31.0 AND gamma-glutamyl-transpeptidase == 115.0 AND num-half-pint-equivalents == 1.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 83.0 AND alkaline-phosphotase == 78.0 AND gamma-glutamyl-transpeptidase == 115.0 AND num-half-pint-equivalents == 1.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 83.0 AND alkaline-phosphotase == 78.0 AND alamine-aminotransferase == 31.0 AND gamma-glutamyl-transpeptidase == 115.0 THEN 2.0"
+  dual explanation size: 4
+  calls: 13
+  rtime: 0.69
+
+inst: 58
+lits: [13, 50, 51, 98, 115, 142]
+  explaining:  "IF mean-corpuscular-vol == 92.0 AND alkaline-phosphotase == 80.0 AND alamine-aminotransferase == 10.0 AND aspartate-aminotransferase == 26.0 AND gamma-glutamyl-transpeptidase == 20.0 AND num-half-pint-equivalents == 6.0 THEN 1.0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.07
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.08
+iter: 4
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [0, 1, 4, 5]
+  coextime: 0.13
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.14
+iter: 6
+cand: None
+  prediciton: 1.0
+  explanation: "IF alkaline-phosphotase != 80.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF mean-corpuscular-vol != 92.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF num-half-pint-equivalents != 6.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF gamma-glutamyl-transpeptidase != 20.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.14
+  dual explanation: "IF mean-corpuscular-vol == 92.0 AND alkaline-phosphotase == 80.0 AND gamma-glutamyl-transpeptidase == 20.0 AND num-half-pint-equivalents == 6.0 THEN 1.0"
+  dual explanation size: 4
+  calls: 7
+  rtime: 0.14
+
+inst: 59
+lits: [7, 50, 61, 86, 135, 138]
+  explaining:  "IF mean-corpuscular-vol == 89.0 AND alkaline-phosphotase == 89.0 AND alamine-aminotransferase == 23.0 AND aspartate-aminotransferase == 18.0 AND gamma-glutamyl-transpeptidase == 104.0 AND num-half-pint-equivalents == 3.0 THEN 2.0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.12
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.13
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.14
+iter: 4
+cand: [3]
+expl: [3]
+  expltime: 0.16
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.17
+iter: 6
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 7
+cand: None
+  prediciton: 2.0
+  explanation: "IF alkaline-phosphotase != 89.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF mean-corpuscular-vol != 89.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF num-half-pint-equivalents != 3.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF aspartate-aminotransferase != 18.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.16
+  explanation: "IF gamma-glutamyl-transpeptidase != 104.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF alamine-aminotransferase != 23.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.17
+  calls: 19
+  rtime: 0.17
+
+inst: 60
+lits: [11, 44, 51, 88, 115, 140]
+  explaining:  "IF mean-corpuscular-vol == 91.0 AND alkaline-phosphotase == 68.0 AND alamine-aminotransferase == 14.0 AND aspartate-aminotransferase == 20.0 AND gamma-glutamyl-transpeptidase == 19.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 3, 4, 5]
+  coextime: 0.15
+iter: 2
+cand: [4]
+expl: [4]
+  expltime: 0.17
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.18
+iter: 4
+cand: [2]
+expl: [2]
+  expltime: 0.19
+iter: 5
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [1, 2, 4, 5]
+  coextime: 0.27
+iter: 6
+cand: [1, 3]
+expl: [1, 3]
+  expltime: 0.29
+iter: 7
+cand: None
+  prediciton: 2.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 19.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF alamine-aminotransferase != 14.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF alkaline-phosphotase != 68.0 AND aspartate-aminotransferase != 20.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.29
+  dual explanation: "IF alamine-aminotransferase == 14.0 AND aspartate-aminotransferase == 20.0 AND gamma-glutamyl-transpeptidase == 19.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF alkaline-phosphotase == 68.0 AND alamine-aminotransferase == 14.0 AND gamma-glutamyl-transpeptidase == 19.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 4
+  calls: 7
+  rtime: 0.29
+
+inst: 61
+lits: [-16, 44, -80, -105, -134, 136]
+  explaining:  "IF mean-corpuscular-vol == 98.0 AND alkaline-phosphotase == 74.0 AND alamine-aminotransferase == 148.0 AND aspartate-aminotransferase == 75.0 AND gamma-glutamyl-transpeptidase == 159.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [3, 4, 5]
+  coextime: 0.19
+iter: 2
+cand: [5]
+expl: [5]
+  expltime: 0.21
+iter: 3
+cand: [4]
+expl: [4]
+  expltime: 0.22
+iter: 4
+cand: [3]
+expl: [3]
+  expltime: 0.23
+iter: 5
+cand: None
+  prediciton: 2.0
+  explanation: "IF num-half-pint-equivalents != 0.5 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.21
+  explanation: "IF gamma-glutamyl-transpeptidase != 159.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.22
+  explanation: "IF aspartate-aminotransferase != 75.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.23
+  dual explanation: "IF aspartate-aminotransferase == 75.0 AND gamma-glutamyl-transpeptidase == 159.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 3
+  calls: 9
+  rtime: 0.23
+
+inst: 62
+lits: [17, 50, 61, 100, 129, 146]
+  explaining:  "IF mean-corpuscular-vol == 97.0 AND alkaline-phosphotase == 92.0 AND alamine-aminotransferase == 22.0 AND aspartate-aminotransferase == 28.0 AND gamma-glutamyl-transpeptidase == 49.0 AND num-half-pint-equivalents == 12.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 3, 4, 5]
+  coextime: 0.21
+iter: 2
+cand: [4]
+expl: [4]
+  expltime: 0.21
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 2, 3, 4]
+  coextime: 0.32
+iter: 4
+cand: [2]
+expl: [2]
+  expltime: 0.34
+iter: 5
+cand: [3]
+expl: [3]
+  expltime: 0.35
+iter: 6
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.38
+iter: 7
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.42
+iter: 8
+cand: None
+  prediciton: 2.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 49.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.21
+  explanation: "IF alamine-aminotransferase != 22.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.34
+  explanation: "IF aspartate-aminotransferase != 28.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.35
+  explanation: "IF alkaline-phosphotase != 92.0 AND num-half-pint-equivalents != 12.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.38
+  explanation: "IF mean-corpuscular-vol != 97.0 AND num-half-pint-equivalents != 12.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.42
+  dual explanation: "IF alamine-aminotransferase == 22.0 AND aspartate-aminotransferase == 28.0 AND gamma-glutamyl-transpeptidase == 49.0 AND num-half-pint-equivalents == 12.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 97.0 AND alkaline-phosphotase == 92.0 AND alamine-aminotransferase == 22.0 AND aspartate-aminotransferase == 28.0 AND gamma-glutamyl-transpeptidase == 49.0 THEN 2.0"
+  dual explanation size: 5
+  calls: 10
+  rtime: 0.42
+
+inst: 63
+lits: [1, 22, 55, 90, 115, 140]
+  explaining:  "IF mean-corpuscular-vol == 83.0 AND alkaline-phosphotase == 45.0 AND alamine-aminotransferase == 19.0 AND aspartate-aminotransferase == 21.0 AND gamma-glutamyl-transpeptidase == 13.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 3, 4, 5]
+  coextime: 0.15
+iter: 2
+cand: [4]
+core: [0, 1, 2, 3, 5]
+coex: [1, 2, 3, 5]
+  coextime: 0.26
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [1, 2, 3, 4]
+  coextime: 0.34
+iter: 4
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [1, 2, 4, 5]
+  coextime: 0.43
+iter: 5
+cand: [2]
+core: [0, 1, 3, 4, 5]
+coex: [0, 1, 3, 4, 5]
+  coextime: 0.53
+iter: 6
+cand: [1, 5]
+core: [0, 2, 3, 4]
+coex: [0, 2, 3, 4]
+  coextime: 0.63
+iter: 7
+cand: [1, 4]
+core: [0, 2, 3, 5]
+coex: [0, 2, 3, 5]
+  coextime: 0.74
+iter: 8
+cand: [4, 5]
+core: [0, 1, 2, 3]
+coex: [0, 1, 2, 3]
+  coextime: 0.87
+iter: 9
+cand: [3, 4]
+core: [0, 1, 2, 5]
+coex: [0, 1, 2, 5]
+  coextime: 0.98
+iter: 10
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 1.00
+iter: 11
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 1.02
+iter: 12
+cand: [0, 2]
+expl: [0, 2]
+  expltime: 1.03
+iter: 13
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 1.05
+iter: 14
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 1.06
+iter: 15
+cand: [3, 5]
+core: [0, 1, 2, 4]
+coex: [0, 1, 2, 4]
+  coextime: 1.16
+iter: 16
+cand: [1, 3]
+core: [0, 2, 4, 5]
+coex: [0, 2, 4, 5]
+  coextime: 1.27
+iter: 17
+cand: [1, 3, 5]
+expl: [1, 3, 5]
+  expltime: 1.29
+iter: 18
+cand: [0, 1, 5]
+expl: [0, 1, 5]
+  expltime: 1.31
+iter: 19
+cand: [0, 1, 3]
+expl: [0, 1, 3]
+  expltime: 1.33
+iter: 20
+cand: [0, 3, 5]
+expl: [0, 3, 5]
+  expltime: 1.34
+iter: 21
+cand: [0, 4, 5]
+expl: [0, 4, 5]
+  expltime: 1.37
+iter: 22
+cand: [0, 3, 4]
+expl: [0, 3, 4]
+  expltime: 1.39
+iter: 23
+cand: [3, 4, 5]
+expl: [3, 4, 5]
+  expltime: 1.42
+iter: 24
+cand: [1, 4, 5]
+expl: [1, 4, 5]
+  expltime: 1.45
+iter: 25
+cand: [1, 3, 4]
+expl: [1, 3, 4]
+  expltime: 1.47
+iter: 26
+cand: [0, 1, 4]
+expl: [0, 1, 4]
+  expltime: 1.48
+iter: 27
+cand: None
+  prediciton: 2.0
+  explanation: "IF alamine-aminotransferase != 19.0 AND gamma-glutamyl-transpeptidase != 13.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 1.00
+  explanation: "IF alamine-aminotransferase != 19.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 1.02
+  explanation: "IF mean-corpuscular-vol != 83.0 AND alamine-aminotransferase != 19.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 1.03
+  explanation: "IF alkaline-phosphotase != 45.0 AND alamine-aminotransferase != 19.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 1.05
+  explanation: "IF alamine-aminotransferase != 19.0 AND aspartate-aminotransferase != 21.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 1.06
+  explanation: "IF alkaline-phosphotase != 45.0 AND aspartate-aminotransferase != 21.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 1.29
+  explanation: "IF mean-corpuscular-vol != 83.0 AND alkaline-phosphotase != 45.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 1.31
+  explanation: "IF mean-corpuscular-vol != 83.0 AND alkaline-phosphotase != 45.0 AND aspartate-aminotransferase != 21.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 1.33
+  explanation: "IF mean-corpuscular-vol != 83.0 AND aspartate-aminotransferase != 21.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 1.34
+  explanation: "IF mean-corpuscular-vol != 83.0 AND gamma-glutamyl-transpeptidase != 13.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 1.37
+  explanation: "IF mean-corpuscular-vol != 83.0 AND aspartate-aminotransferase != 21.0 AND gamma-glutamyl-transpeptidase != 13.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 1.39
+  explanation: "IF aspartate-aminotransferase != 21.0 AND gamma-glutamyl-transpeptidase != 13.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 1.42
+  explanation: "IF alkaline-phosphotase != 45.0 AND gamma-glutamyl-transpeptidase != 13.0 AND num-half-pint-equivalents != 4.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 1.45
+  explanation: "IF alkaline-phosphotase != 45.0 AND aspartate-aminotransferase != 21.0 AND gamma-glutamyl-transpeptidase != 13.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 1.47
+  explanation: "IF mean-corpuscular-vol != 83.0 AND alkaline-phosphotase != 45.0 AND gamma-glutamyl-transpeptidase != 13.0 THEN NOT 2.0"
+  explanation size: 3
+  expl time: 1.48
+  dual explanation: "IF alamine-aminotransferase == 19.0 AND aspartate-aminotransferase == 21.0 AND gamma-glutamyl-transpeptidase == 13.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF alkaline-phosphotase == 45.0 AND alamine-aminotransferase == 19.0 AND aspartate-aminotransferase == 21.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF alkaline-phosphotase == 45.0 AND alamine-aminotransferase == 19.0 AND aspartate-aminotransferase == 21.0 AND gamma-glutamyl-transpeptidase == 13.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF alkaline-phosphotase == 45.0 AND alamine-aminotransferase == 19.0 AND gamma-glutamyl-transpeptidase == 13.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 83.0 AND alkaline-phosphotase == 45.0 AND aspartate-aminotransferase == 21.0 AND gamma-glutamyl-transpeptidase == 13.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 5
+  dual explanation: "IF mean-corpuscular-vol == 83.0 AND alamine-aminotransferase == 19.0 AND aspartate-aminotransferase == 21.0 AND gamma-glutamyl-transpeptidase == 13.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 83.0 AND alamine-aminotransferase == 19.0 AND aspartate-aminotransferase == 21.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 83.0 AND alkaline-phosphotase == 45.0 AND alamine-aminotransferase == 19.0 AND aspartate-aminotransferase == 21.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 83.0 AND alkaline-phosphotase == 45.0 AND alamine-aminotransferase == 19.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 83.0 AND alkaline-phosphotase == 45.0 AND alamine-aminotransferase == 19.0 AND gamma-glutamyl-transpeptidase == 13.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 83.0 AND alamine-aminotransferase == 19.0 AND gamma-glutamyl-transpeptidase == 13.0 AND num-half-pint-equivalents == 4.0 THEN 2.0"
+  dual explanation size: 4
+  calls: 15
+  rtime: 1.48
+
+inst: 64
+lits: [11, 26, 51, 92, 113, 136]
+  explaining:  "IF mean-corpuscular-vol == 91.0 AND alkaline-phosphotase == 52.0 AND alamine-aminotransferase == 15.0 AND aspartate-aminotransferase == 22.0 AND gamma-glutamyl-transpeptidase == 11.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.09
+iter: 2
+cand: [0]
+core: [1, 2, 3, 4, 5]
+coex: [1, 2, 3, 4, 5]
+  coextime: 0.17
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.18
+iter: 4
+cand: [4]
+expl: [4]
+  expltime: 0.19
+iter: 5
+cand: [2]
+expl: [2]
+  expltime: 0.20
+iter: 6
+cand: [3]
+expl: [3]
+  expltime: 0.21
+iter: 7
+cand: None
+  prediciton: 2.0
+  explanation: "IF alkaline-phosphotase != 52.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.09
+  explanation: "IF num-half-pint-equivalents != 0.5 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF gamma-glutamyl-transpeptidase != 11.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF alamine-aminotransferase != 15.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.20
+  explanation: "IF aspartate-aminotransferase != 22.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.21
+  dual explanation: "IF alkaline-phosphotase == 52.0 AND alamine-aminotransferase == 15.0 AND aspartate-aminotransferase == 22.0 AND gamma-glutamyl-transpeptidase == 11.0 AND num-half-pint-equivalents == 0.5 THEN 2.0"
+  dual explanation size: 5
+  calls: 10
+  rtime: 0.21
+
+inst: 65
+lits: [1, 30, 63, 88, 119, 138]
+  explaining:  "IF mean-corpuscular-vol == 85.0 AND alkaline-phosphotase == 59.0 AND alamine-aminotransferase == 25.0 AND aspartate-aminotransferase == 20.0 AND gamma-glutamyl-transpeptidase == 25.0 AND num-half-pint-equivalents == 3.0 THEN 2.0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.11
+iter: 2
+cand: [0]
+core: [1, 2, 3, 4, 5]
+coex: [1, 2, 4, 5]
+  coextime: 0.18
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 2, 4]
+  coextime: 0.31
+iter: 4
+cand: [4]
+expl: [4]
+  expltime: 0.32
+iter: 5
+cand: [2]
+expl: [2]
+  expltime: 0.34
+iter: 6
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.35
+iter: 7
+cand: None
+  prediciton: 2.0
+  explanation: "IF alkaline-phosphotase != 59.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF gamma-glutamyl-transpeptidase != 25.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.32
+  explanation: "IF alamine-aminotransferase != 25.0 THEN NOT 2.0"
+  explanation size: 1
+  expl time: 0.34
+  explanation: "IF mean-corpuscular-vol != 85.0 AND num-half-pint-equivalents != 3.0 THEN NOT 2.0"
+  explanation size: 2
+  expl time: 0.35
+  dual explanation: "IF alkaline-phosphotase == 59.0 AND alamine-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 25.0 AND num-half-pint-equivalents == 3.0 THEN 2.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 85.0 AND alkaline-phosphotase == 59.0 AND alamine-aminotransferase == 25.0 AND gamma-glutamyl-transpeptidase == 25.0 THEN 2.0"
+  dual explanation size: 4
+  calls: 9
+  rtime: 0.35
+
+inst: 66
+lits: [5, 30, 69, 86, 115, 138]
+  explaining:  "IF mean-corpuscular-vol == 88.0 AND alkaline-phosphotase == 58.0 AND alamine-aminotransferase == 31.0 AND aspartate-aminotransferase == 17.0 AND gamma-glutamyl-transpeptidase == 17.0 AND num-half-pint-equivalents == 2.0 THEN 1.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [2, 3, 4, 5]
+  coextime: 0.10
+iter: 2
+cand: [4]
+expl: [4]
+  expltime: 0.10
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 2, 3, 4]
+  coextime: 0.16
+iter: 4
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 5
+cand: [3]
+expl: [3]
+  expltime: 0.17
+iter: 6
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.19
+iter: 7
+cand: None
+  prediciton: 1.0
+  explanation: "IF gamma-glutamyl-transpeptidase != 17.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF alamine-aminotransferase != 31.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF aspartate-aminotransferase != 17.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF mean-corpuscular-vol != 88.0 AND num-half-pint-equivalents != 2.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.19
+  dual explanation: "IF alamine-aminotransferase == 31.0 AND aspartate-aminotransferase == 17.0 AND gamma-glutamyl-transpeptidase == 17.0 AND num-half-pint-equivalents == 2.0 THEN 1.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 88.0 AND alamine-aminotransferase == 31.0 AND aspartate-aminotransferase == 17.0 AND gamma-glutamyl-transpeptidase == 17.0 THEN 1.0"
+  dual explanation size: 4
+  calls: 9
+  rtime: 0.19
+
+inst: 67
+lits: [11, 50, 53, 82, 115, 136]
+  explaining:  "IF mean-corpuscular-vol == 91.0 AND alkaline-phosphotase == 102.0 AND alamine-aminotransferase == 17.0 AND aspartate-aminotransferase == 13.0 AND gamma-glutamyl-transpeptidase == 19.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.08
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 3, 4]
+  coextime: 0.13
+iter: 4
+cand: [3]
+core: [0, 1, 2, 4, 5]
+coex: [0, 1, 2, 4, 5]
+  coextime: 0.16
+iter: 5
+cand: [4]
+core: [0, 1, 2, 3, 5]
+coex: [0, 1, 2, 3, 5]
+  coextime: 0.21
+iter: 6
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.22
+iter: 7
+cand: [4, 5]
+expl: [4, 5]
+  expltime: 0.23
+iter: 8
+cand: [3, 4]
+expl: [3, 4]
+  expltime: 0.24
+iter: 9
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.25
+iter: 10
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.26
+iter: 11
+cand: None
+  prediciton: 1.0
+  explanation: "IF alkaline-phosphotase != 102.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF mean-corpuscular-vol != 91.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF aspartate-aminotransferase != 13.0 AND num-half-pint-equivalents != 0.5 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.22
+  explanation: "IF gamma-glutamyl-transpeptidase != 19.0 AND num-half-pint-equivalents != 0.5 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.23
+  explanation: "IF aspartate-aminotransferase != 13.0 AND gamma-glutamyl-transpeptidase != 19.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.24
+  explanation: "IF alamine-aminotransferase != 17.0 AND gamma-glutamyl-transpeptidase != 19.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.25
+  explanation: "IF alamine-aminotransferase != 17.0 AND aspartate-aminotransferase != 13.0 THEN NOT 1.0"
+  explanation size: 2
+  expl time: 0.26
+  dual explanation: "IF mean-corpuscular-vol == 91.0 AND alkaline-phosphotase == 102.0 AND aspartate-aminotransferase == 13.0 AND gamma-glutamyl-transpeptidase == 19.0 THEN 1.0"
+  dual explanation size: 4
+  dual explanation: "IF mean-corpuscular-vol == 91.0 AND alkaline-phosphotase == 102.0 AND alamine-aminotransferase == 17.0 AND gamma-glutamyl-transpeptidase == 19.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+  dual explanation size: 5
+  dual explanation: "IF mean-corpuscular-vol == 91.0 AND alkaline-phosphotase == 102.0 AND alamine-aminotransferase == 17.0 AND aspartate-aminotransferase == 13.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+  dual explanation size: 5
+  calls: 11
+  rtime: 0.26
+
+inst: 68
+lits: [5, 22, 65, 92, 115, 136]
+  explaining:  "IF mean-corpuscular-vol == 88.0 AND alkaline-phosphotase == 46.0 AND alamine-aminotransferase == 29.0 AND aspartate-aminotransferase == 22.0 AND gamma-glutamyl-transpeptidase == 18.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5]
+coex: [0, 2, 3, 4, 5]
+  coextime: 0.10
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.11
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.11
+iter: 4
+cand: [3]
+expl: [3]
+  expltime: 0.12
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.12
+iter: 6
+cand: [5]
+expl: [5]
+  expltime: 0.13
+iter: 7
+cand: None
+  prediciton: 1.0
+  explanation: "IF mean-corpuscular-vol != 88.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF alamine-aminotransferase != 29.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF aspartate-aminotransferase != 22.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF gamma-glutamyl-transpeptidase != 18.0 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF num-half-pint-equivalents != 0.5 THEN NOT 1.0"
+  explanation size: 1
+  expl time: 0.13
+  dual explanation: "IF mean-corpuscular-vol == 88.0 AND alamine-aminotransferase == 29.0 AND aspartate-aminotransferase == 22.0 AND gamma-glutamyl-transpeptidase == 18.0 AND num-half-pint-equivalents == 0.5 THEN 1.0"
+  dual explanation size: 5
+  calls: 11
+  rtime: 0.13

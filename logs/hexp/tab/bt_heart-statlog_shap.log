@@ -1,0 +1,326 @@
+loading model from  ./temp/heart-statlog/heart-statlog_train1_data/heart-statlog_train1_data_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl
+loading data from  ./temp/heart-statlog/heart-statlog_train1_data/heart-statlog_train1_data_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl.splitdata.pkl
+
+inst: 0
+  explaining: age = 65.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 120.0 AND serum_cholestoral = 177.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 140.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.4 AND slope = 1.0 AND number_of_major_vessels = 0.0 AND thal = 7.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.058789603, 1: 0.29379481077194214, 2: 0.55574256, 3: -0.048418365, 4: -0.80934566, 6: -0.19222093, 7: 0.17379084, 8: -0.013623995706439018, 9: -1.2801038, 10: -0.09003968, 11: -0.5710631, 12: 0.8014178}
+  time: 0.02
+
+inst: 1
+  explaining: age = 56.0 AND sex = 1.0 AND chest = 3.0 AND resting_blood_pressure = 130.0 AND serum_cholestoral = 256.0 AND fasting_blood_sugar = 1.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 142.0 AND exercise_induced_angina = 1.0 AND oldpeak = 0.6 AND slope = 2.0 AND number_of_major_vessels = 1.0 AND thal = 6.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.32435894, 1: 0.3333198130130768, 2: -0.84969264, 3: -0.15964943, 4: -0.006964132, 6: 0.26696962, 7: -0.1752027, 8: 0.033966224640607834, 9: -0.13213228, 10: 0.1776833, 11: 0.8906548, 12: -0.1018307}
+  time: 0.01
+
+inst: 2
+  explaining: age = 59.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 110.0 AND serum_cholestoral = 239.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 142.0 AND exercise_induced_angina = 1.0 AND oldpeak = 1.2 AND slope = 2.0 AND number_of_major_vessels = 1.0 AND thal = 7.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.0034266226, 1: 0.13656064867973328, 2: 1.1829288, 3: -0.1065415, 4: -0.14778344, 6: 0.34260142, 7: -0.040882528, 8: 0.033966224640607834, 9: 0.5357834, 10: 0.153739, 11: 1.0713041, 12: 1.1110562}
+  time: 0.01
+
+inst: 3
+  explaining: age = 63.0 AND sex = 0.0 AND chest = 4.0 AND resting_blood_pressure = 150.0 AND serum_cholestoral = 407.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 154.0 AND exercise_induced_angina = 0.0 AND oldpeak = 4.0 AND slope = 2.0 AND number_of_major_vessels = 3.0 AND thal = 7.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: 0.41613683, 1: -0.6726087927818298, 2: 1.0796518, 3: 0.2645046, 4: 0.3365122, 6: 0.3053632, 7: -0.10405488, 8: -0.025669582188129425, 9: 1.0744962, 10: 0.17008284, 11: 0.7866881, 12: 0.8272665}
+  time: 0.01
+
+inst: 4
+  explaining: age = 71.0 AND sex = 0.0 AND chest = 3.0 AND resting_blood_pressure = 110.0 AND serum_cholestoral = 265.0 AND fasting_blood_sugar = 1.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 130.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.0 AND slope = 1.0 AND number_of_major_vessels = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.16212071, 1: -1.3912556171417236, 2: -0.70949054, 3: 0.06880222, 4: -0.025117405, 6: 0.38444585, 7: 0.15768205, 8: -0.04283769428730011, 9: -0.65389436, 10: -0.20657995, 11: 0.6313179, 12: -0.64147675}
+  time: 0.01
+
+inst: 5
+  explaining: age = 66.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 160.0 AND serum_cholestoral = 228.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 138.0 AND exercise_induced_angina = 0.0 AND oldpeak = 2.3 AND slope = 1.0 AND number_of_major_vessels = 0.0 AND thal = 6.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: 0.10879846, 1: 0.26610642671585083, 2: 1.0224369, 3: 0.1493124, 4: -0.34159133, 6: 0.1057245, 7: 0.051233366, 8: -0.011859269812703133, 9: 0.96676904, 10: -0.15964532, 11: -0.6641112, 12: -0.07679621}
+  time: 0.01
+
+inst: 6
+  explaining: age = 59.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 170.0 AND serum_cholestoral = 326.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 140.0 AND exercise_induced_angina = 1.0 AND oldpeak = 3.4 AND slope = 3.0 AND number_of_major_vessels = 0.0 AND thal = 7.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: 0.026793163, 1: 0.19187337160110474, 2: 0.7857271, 3: 0.43343174, 4: 0.6541524, 6: 0.04850225, 7: 0.12958395, 8: 0.02832905389368534, 9: 0.88588023, 10: -0.01609401, 11: -0.65390843, 12: 1.001182}
+  time: 0.01
+
+inst: 7
+  explaining: age = 40.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 152.0 AND serum_cholestoral = 223.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 181.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.0 AND slope = 1.0 AND number_of_major_vessels = 0.0 AND thal = 7.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.14147031, 1: 0.18612456321716309, 2: 0.7267012, 3: 0.035180584, 4: -0.79174477, 6: -0.16293982, 7: -0.4704074, 8: -0.048904065042734146, 9: -1.3430576, 10: -0.09003968, 11: -0.7779878, 12: 0.9559165}
+  time: 0.01
+
+inst: 8
+  explaining: age = 66.0 AND sex = 1.0 AND chest = 2.0 AND resting_blood_pressure = 160.0 AND serum_cholestoral = 246.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 120.0 AND exercise_induced_angina = 1.0 AND oldpeak = 0.0 AND slope = 2.0 AND number_of_major_vessels = 3.0 AND thal = 6.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.23531558, 1: 0.38989970088005066, 2: -0.6932883, 3: 0.18248942, 4: 0.0033898056, 6: -0.24992508, 7: 0.48159164, 8: 0.02832905389368534, 9: -0.6760239, 10: 0.12536798, 11: 0.37575588, 12: -0.11001899}
+  time: 0.01
+
+inst: 9
+  explaining: age = 52.0 AND sex = 1.0 AND chest = 2.0 AND resting_blood_pressure = 128.0 AND serum_cholestoral = 205.0 AND fasting_blood_sugar = 1.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 184.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.0 AND slope = 1.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.37972456, 1: 0.33133670687675476, 2: -0.55684584, 3: -0.05278817, 4: -0.751426, 6: -0.047689117, 7: -0.54979366, 8: -0.013623995706439018, 9: -0.8164571, 10: -0.10668742, 11: -0.5901417, 12: -0.50844824}
+  time: 0.01
+
+inst: 10
+  explaining: age = 65.0 AND sex = 0.0 AND chest = 3.0 AND resting_blood_pressure = 140.0 AND serum_cholestoral = 417.0 AND fasting_blood_sugar = 1.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 157.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.8 AND slope = 1.0 AND number_of_major_vessels = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: 0.09256857, 1: -1.5476387739181519, 2: -1.0459685, 3: 0.028781604, 4: 0.544376, 6: 0.3229913, 7: 0.1063935, 8: -0.025669582188129425, 9: 0.0028537735, 10: -0.35400862, 11: 0.58916974, 12: -0.5880676}
+  time: 0.01
+
+inst: 11
+  explaining: age = 59.0 AND sex = 0.0 AND chest = 4.0 AND resting_blood_pressure = 174.0 AND serum_cholestoral = 249.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 143.0 AND exercise_induced_angina = 1.0 AND oldpeak = 0.0 AND slope = 2.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: 0.3470527, 1: -0.43879377841949463, 2: 0.8387191, 3: 0.47926423, 4: 0.06983323, 6: -0.12738064, 7: -0.10597399, 8: 0.07620292901992798, 9: -1.1094013, 10: 0.03825126, 11: -0.43861824, 12: -0.71753305}
+  time: 0.01
+
+inst: 12
+  explaining: age = 60.0 AND sex = 0.0 AND chest = 1.0 AND resting_blood_pressure = 150.0 AND serum_cholestoral = 240.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 171.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.9 AND slope = 1.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: 0.663602, 1: -0.47595882415771484, 2: -1.0709243, 3: 0.109279186, 4: -0.2551558, 6: 0.004874151, 7: -0.40362728, 8: -0.025669582188129425, 9: 0.17744847, 10: -0.26562998, 11: -0.45192355, 12: -0.5038671}
+  time: 0.01
+
+inst: 13
+  explaining: age = 57.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 150.0 AND serum_cholestoral = 276.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 112.0 AND exercise_induced_angina = 1.0 AND oldpeak = 0.6 AND slope = 2.0 AND number_of_major_vessels = 1.0 AND thal = 6.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.19699405, 1: 0.36834800243377686, 2: 1.1098236, 3: 0.16701964, 4: 1.0265224, 6: 0.38992625, 7: 0.7306903, 8: 0.02832905389368534, 9: 0.033513725, 10: 0.094542235, 11: 0.64616174, 12: -0.0074539483}
+  time: 0.01
+
+inst: 14
+  explaining: age = 51.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 140.0 AND serum_cholestoral = 261.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 186.0 AND exercise_induced_angina = 1.0 AND oldpeak = 0.0 AND slope = 1.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.41280586, 1: 0.24482129514217377, 2: 0.83533007, 3: -0.0341731, 4: -0.051286783, 6: 0.12395887, 7: -0.62646884, 8: 0.02832905389368534, 9: -0.8353718, 10: -0.07699067, 11: -0.8843016, 12: -0.73084974}
+  time: 0.01
+
+inst: 15
+  explaining: age = 58.0 AND sex = 0.0 AND chest = 2.0 AND resting_blood_pressure = 136.0 AND serum_cholestoral = 319.0 AND fasting_blood_sugar = 1.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 152.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.0 AND slope = 1.0 AND number_of_major_vessels = 2.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.055312105, 1: -1.6143887042999268, 2: -1.1692444, 3: -0.18800338, 4: 0.62209994, 6: 0.12828815, 7: -0.27692103, 8: -0.04283769428730011, 9: -0.7288372, 10: -0.20657995, 11: 0.40348327, 12: -0.70942575}
+  time: 0.01
+
+inst: 16
+  explaining: age = 57.0 AND sex = 0.0 AND chest = 4.0 AND resting_blood_pressure = 120.0 AND serum_cholestoral = 354.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 163.0 AND exercise_induced_angina = 1.0 AND oldpeak = 0.6 AND slope = 1.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.3681841, 1: -0.8194332122802734, 2: 1.0140237, 3: -0.18391117, 4: 0.6568649, 6: -0.119513065, 7: 0.14290369, 8: 0.13104405999183655, 9: -0.16559376, 10: -0.08998589, 11: -0.39953357, 12: -0.81869644}
+  time: 0.01
+
+inst: 17
+  explaining: age = 76.0 AND sex = 0.0 AND chest = 3.0 AND resting_blood_pressure = 140.0 AND serum_cholestoral = 197.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 1.0 AND maximum_heart_rate_achieved = 116.0 AND exercise_induced_angina = 0.0 AND oldpeak = 1.1 AND slope = 2.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.16097492, 1: -1.02415931224823, 2: -0.89427423, 3: -0.0020483024, 4: -0.5154897, 6: 0.093126714, 7: 0.5541797, 8: -0.025669582188129425, 9: 0.4036285, 10: 0.101174995, 11: -0.6761945, 12: -0.55865866}
+  time: 0.01
+
+inst: 18
+  explaining: age = 39.0 AND sex = 0.0 AND chest = 3.0 AND resting_blood_pressure = 94.0 AND serum_cholestoral = 199.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 179.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.0 AND slope = 1.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.29933375, 1: -0.9650775194168091, 2: -0.5254423, 3: 0.07286312, 4: -0.5722744, 6: -0.07158856, 7: -0.44874653, 8: -0.0531436912715435, 9: -0.73524415, 10: -0.10668742, 11: -0.6196892, 12: -0.42706004}
+  time: 0.01
+
+inst: 19
+  explaining: age = 61.0 AND sex = 0.0 AND chest = 4.0 AND resting_blood_pressure = 130.0 AND serum_cholestoral = 330.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 169.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.0 AND slope = 1.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: 0.6750376, 1: -0.8930706977844238, 2: 0.90211874, 3: -0.17136107, 4: 0.7559081, 6: 0.12395887, 7: 0.000105460174, 8: -0.04283769428730011, 9: -1.03702, 10: -0.07699067, 11: -0.7363095, 12: -0.5730401}
+  time: 0.01
+
+inst: 20
+  explaining: age = 54.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 124.0 AND serum_cholestoral = 266.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 109.0 AND exercise_induced_angina = 1.0 AND oldpeak = 2.2 AND slope = 2.0 AND number_of_major_vessels = 1.0 AND thal = 7.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.16424446, 1: 0.2530038356781006, 2: 1.0729625, 3: 0.071786486, 4: 0.0019098585, 6: 0.34260142, 7: 0.51954156, 8: 0.033966224640607834, 9: 0.88976955, 10: 0.13862419, 11: 0.9750286, 12: 0.8630814}
+  time: 0.01
+
+inst: 21
+  explaining: age = 50.0 AND sex = 0.0 AND chest = 2.0 AND resting_blood_pressure = 120.0 AND serum_cholestoral = 244.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 162.0 AND exercise_induced_angina = 0.0 AND oldpeak = 1.1 AND slope = 1.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: 0.095796965, 1: -1.028892993927002, 2: -1.0171547, 3: -0.13149217, 4: -0.007447405, 6: 0.004874151, 7: -0.040158976, 8: -0.04283769428730011, 9: 0.22254834, 10: -0.26562998, 11: -0.35892427, 12: -0.71231884}
+  time: 0.01
+
+inst: 22
+  explaining: age = 44.0 AND sex = 0.0 AND chest = 3.0 AND resting_blood_pressure = 108.0 AND serum_cholestoral = 141.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 175.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.6 AND slope = 2.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.3474898, 1: -0.9650775194168091, 2: -0.5880592, 3: -0.045926772, 4: -0.55567014, 6: -0.07158856, 7: -0.5042519, 8: -0.0531436912715435, 9: -0.51577765, 10: 0.07051461, 11: -0.7300447, 12: -0.5503437}
+  time: 0.01
+
+inst: 23
+  explaining: age = 49.0 AND sex = 0.0 AND chest = 4.0 AND resting_blood_pressure = 130.0 AND serum_cholestoral = 269.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 163.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.0 AND slope = 1.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: 0.034982957, 1: -1.034469485282898, 2: 0.8401522, 3: -0.25783813, 4: 0.071843095, 6: -0.119513065, 7: 0.06638136, 8: -0.04283769428730011, 9: -1.1931701, 10: -0.07699067, 11: -0.55274844, 12: -0.74785185}
+  time: 0.01
+
+inst: 24
+  explaining: age = 63.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 130.0 AND serum_cholestoral = 254.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 147.0 AND exercise_induced_angina = 0.0 AND oldpeak = 1.4 AND slope = 2.0 AND number_of_major_vessels = 1.0 AND thal = 7.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: 0.114719644, 1: 0.1618928164243698, 2: 1.2808743, 3: -0.08312509, 4: -0.017001307, 6: 0.34260142, 7: -0.20197466, 8: -0.013623995706439018, 9: 0.56896365, 10: 0.153739, 11: 0.9750286, 12: 1.0284594}
+  time: 0.01
+
+inst: 25
+  explaining: age = 51.0 AND sex = 1.0 AND chest = 3.0 AND resting_blood_pressure = 100.0 AND serum_cholestoral = 222.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 143.0 AND exercise_induced_angina = 1.0 AND oldpeak = 1.2 AND slope = 2.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.30908212, 1: 0.2554982900619507, 2: -0.63894546, 3: 0.01110385, 4: -0.5712702, 6: -0.07031962, 7: -0.1620864, 8: 0.033966224640607834, 9: 0.12615421, 10: 0.101174995, 11: -0.5970596, 12: -0.6645608}
+  time: 0.01
+
+inst: 26
+  explaining: age = 59.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 140.0 AND serum_cholestoral = 177.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 162.0 AND exercise_induced_angina = 1.0 AND oldpeak = 0.0 AND slope = 1.0 AND number_of_major_vessels = 1.0 AND thal = 7.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: 0.11168732, 1: 0.18233101069927216, 2: 0.9458478, 3: -0.13103577, 4: -0.79642916, 6: -0.3538944, 7: 0.19570842, 8: 0.02832905389368534, 9: -1.2883292, 10: -0.10385488, 11: 0.9368585, 12: 0.657674}
+  time: 0.01
+
+inst: 27
+  explaining: age = 55.0 AND sex = 0.0 AND chest = 4.0 AND resting_blood_pressure = 180.0 AND serum_cholestoral = 327.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 1.0 AND maximum_heart_rate_achieved = 117.0 AND exercise_induced_angina = 1.0 AND oldpeak = 3.4 AND slope = 2.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.22868317, 1: -0.9680290818214417, 2: 0.90302575, 3: 0.35307154, 4: 0.3243296, 6: 0.04850225, 7: 0.5578373, 8: 0.07620292901992798, 9: 1.1249568, 10: 0.09430237, 11: -0.618633, 12: -0.69327605}
+  time: 0.01
+
+inst: 28
+  explaining: age = 52.0 AND sex = 0.0 AND chest = 3.0 AND resting_blood_pressure = 136.0 AND serum_cholestoral = 196.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 169.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.1 AND slope = 2.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.3782239, 1: -0.9094732403755188, 2: -0.6881393, 3: -0.36440098, 4: -0.6207147, 6: 0.07230222, 7: -0.16597581, 8: -0.04283769428730011, 9: -0.978845, 10: 0.061467715, 11: -0.75809205, 12: -0.5788139}
+  time: 0.01
+
+inst: 29
+  explaining: age = 60.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 117.0 AND serum_cholestoral = 230.0 AND fasting_blood_sugar = 1.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 160.0 AND exercise_induced_angina = 1.0 AND oldpeak = 1.4 AND slope = 1.0 AND number_of_major_vessels = 2.0 AND thal = 7.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: 0.17881833, 1: 0.13656064867973328, 2: 1.304003, 3: 0.08794162, 4: -0.16612665, 6: -0.29173398, 7: 0.16151063, 8: 0.033966224640607834, 9: 0.5462369, 10: -0.38437927, 11: 0.6937371, 12: 0.85923856}
+  time: 0.01
+
+inst: 30
+  explaining: age = 42.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 140.0 AND serum_cholestoral = 226.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 178.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.0 AND slope = 1.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.34734377, 1: 0.23870864510536194, 2: 0.71481484, 3: -0.04400012, 4: -0.67692965, 6: -0.16293982, 7: -0.5363554, 8: -0.048904065042734146, 9: -1.0307431, 10: -0.07699067, 11: -0.79406637, 12: -0.6282771}
+  time: 0.01
+
+inst: 31
+  explaining: age = 56.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 125.0 AND serum_cholestoral = 249.0 AND fasting_blood_sugar = 1.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 144.0 AND exercise_induced_angina = 1.0 AND oldpeak = 1.2 AND slope = 2.0 AND number_of_major_vessels = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.362934, 1: 0.22754770517349243, 2: 1.337239, 3: 0.025404494, 4: -0.08893914, 6: 0.34260142, 7: -0.20920765, 8: 0.033966224640607834, 9: 0.48580867, 10: 0.14504227, 11: 1.0126914, 12: -0.907015}
+  time: 0.01
+
+inst: 32
+  explaining: age = 53.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 123.0 AND serum_cholestoral = 282.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 95.0 AND exercise_induced_angina = 1.0 AND oldpeak = 2.0 AND slope = 2.0 AND number_of_major_vessels = 2.0 AND thal = 7.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.06782646, 1: 0.3175084590911865, 2: 0.74410063, 3: 0.07008108, 4: 0.8075334, 6: -0.33768672, 7: 0.46797502, 8: 0.033966224640607834, 9: 0.7856398, 10: 0.13862419, 11: 0.4040203, 12: 0.89699614}
+  time: 0.01
+
+inst: 33
+  explaining: age = 52.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 112.0 AND serum_cholestoral = 230.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 160.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.0 AND slope = 1.0 AND number_of_major_vessels = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.2609441, 1: 0.3056698441505432, 2: 0.98193914, 3: 0.21726528, 4: -0.19153549, 6: -0.34404278, 7: 0.11571381, 8: -0.013623995706439018, 9: -0.8280299, 10: -0.09080587, 11: 0.9502768, 12: -0.55676025}
+  time: 0.01
+
+inst: 34
+  explaining: age = 40.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 110.0 AND serum_cholestoral = 167.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 114.0 AND exercise_induced_angina = 1.0 AND oldpeak = 2.0 AND slope = 2.0 AND number_of_major_vessels = 0.0 AND thal = 7.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.05546942, 1: 0.24087730050086975, 2: 0.792301, 3: -0.28118247, 4: -0.5488604, 6: 0.12597771, 7: 0.48198423, 8: 0.10219745337963104, 9: 0.76626915, 10: 0.071540475, 11: -0.9264751, 12: 0.7842493}
+  time: 0.01
+
+inst: 35
+  explaining: age = 41.0 AND sex = 0.0 AND chest = 3.0 AND resting_blood_pressure = 112.0 AND serum_cholestoral = 268.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 172.0 AND exercise_induced_angina = 1.0 AND oldpeak = 0.0 AND slope = 1.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.2873312, 1: -0.9943869113922119, 2: -0.5918353, 3: 0.15013748, 4: -0.022486454, 6: 0.03206497, 7: -0.5427253, 8: 0.15002623200416565, 9: -0.6246854, 10: -0.10668742, 11: -0.6524062, 12: -0.6249172}
+  time: 0.01
+
+inst: 36
+  explaining: age = 46.0 AND sex = 0.0 AND chest = 2.0 AND resting_blood_pressure = 105.0 AND serum_cholestoral = 204.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 172.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.0 AND slope = 1.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: 0.016293969, 1: -1.1299054622650146, 2: -0.569578, 3: 0.07286312, 4: -0.5722744, 6: -0.047689117, 7: -0.55453664, 8: -0.04283769428730011, 9: -0.79422307, 10: -0.10668742, 11: -0.5957898, 12: -0.42706004}
+  time: 0.01
+
+inst: 37
+  explaining: age = 56.0 AND sex = 0.0 AND chest = 4.0 AND resting_blood_pressure = 134.0 AND serum_cholestoral = 409.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 150.0 AND exercise_induced_angina = 1.0 AND oldpeak = 1.9 AND slope = 2.0 AND number_of_major_vessels = 2.0 AND thal = 7.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.21259418, 1: -0.9368023872375488, 2: 1.3235637, 3: -0.03492107, 4: 0.5213558, 6: 0.34260142, 7: -0.20060337, 8: 0.13104405999183655, 9: 0.68570554, 10: 0.13862419, 11: 0.84817725, 12: 1.1501209}
+  time: 0.01
+
+inst: 38
+  explaining: age = 41.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 110.0 AND serum_cholestoral = 172.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 158.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.0 AND slope = 1.0 AND number_of_major_vessels = 0.0 AND thal = 7.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.19568495, 1: 0.27069273591041565, 2: 0.7027538, 3: -0.040327907, 4: -0.84947836, 6: 0.16419612, 7: 0.04642144, 8: -0.05066879093647003, 9: -1.2049401, 10: -0.09003968, 11: -1.01432, 12: 0.82692707}
+  time: 0.01
+
+inst: 39
+  explaining: age = 42.0 AND sex = 0.0 AND chest = 4.0 AND resting_blood_pressure = 102.0 AND serum_cholestoral = 265.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 122.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.6 AND slope = 2.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.1778487, 1: -1.0748072862625122, 2: 0.8833086, 3: -0.27464816, 4: 0.042041954, 6: 0.1330653, 7: 0.77891827, 8: -0.0531436912715435, 9: -0.21504411, 10: 0.047298167, 11: -0.7654868, 12: -0.5867715}
+  time: 0.01
+
+inst: 40
+  explaining: age = 43.0 AND sex = 1.0 AND chest = 3.0 AND resting_blood_pressure = 130.0 AND serum_cholestoral = 315.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 162.0 AND exercise_induced_angina = 0.0 AND oldpeak = 1.9 AND slope = 1.0 AND number_of_major_vessels = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.4438831, 1: 0.44796836376190186, 2: -0.82828027, 3: 0.036320917, 4: 1.055867, 6: -0.20922092, 7: -0.019267233, 8: -0.05066879093647003, 9: 0.337538, 10: -0.41081637, 11: 0.41675067, 12: -0.6528602}
+  time: 0.01
+
+inst: 41
+  explaining: age = 62.0 AND sex = 0.0 AND chest = 4.0 AND resting_blood_pressure = 140.0 AND serum_cholestoral = 394.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 157.0 AND exercise_induced_angina = 0.0 AND oldpeak = 1.2 AND slope = 2.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: 0.67156845, 1: -0.7084728479385376, 2: 1.2860314, 3: 0.2094944, 4: 0.638546, 6: 0.076634035, 7: 0.23872113, 8: -0.025669582188129425, 9: 0.62269473, 10: 0.07795855, 11: -0.65746635, 12: -0.71944547}
+  time: 0.01
+
+inst: 42
+  explaining: age = 70.0 AND sex = 1.0 AND chest = 3.0 AND resting_blood_pressure = 160.0 AND serum_cholestoral = 269.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 112.0 AND exercise_induced_angina = 1.0 AND oldpeak = 2.9 AND slope = 2.0 AND number_of_major_vessels = 1.0 AND thal = 7.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.292611, 1: 0.28456422686576843, 2: -0.71463114, 3: 0.077604465, 4: -0.17832002, 6: -0.37534982, 7: 0.43868673, 8: 0.02832905389368534, 9: 1.102691, 10: 0.32525375, 11: 0.4627002, 12: 0.6471506}
+  time: 0.01
+
+inst: 43
+  explaining: age = 54.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 140.0 AND serum_cholestoral = 239.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 160.0 AND exercise_induced_angina = 0.0 AND oldpeak = 1.2 AND slope = 1.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.38810906, 1: 0.19050046801567078, 2: 1.1529009, 3: -0.0014656112, 4: -0.31255355, 6: -0.06720424, 7: 0.047859132, 8: -0.011859269812703133, 9: 0.44151798, 10: -0.23593321, 11: -0.53711545, 12: -0.83068675}
+  time: 0.01
+
+inst: 44
+  explaining: age = 70.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 145.0 AND serum_cholestoral = 174.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 125.0 AND exercise_induced_angina = 1.0 AND oldpeak = 2.6 AND slope = 3.0 AND number_of_major_vessels = 0.0 AND thal = 7.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.12816225, 1: 0.21006427705287933, 2: 0.95180047, 3: 0.17353404, 4: -0.58324426, 6: -0.10737366, 7: 0.361521, 8: 0.02832905389368534, 9: 1.6673228, 10: -0.01609401, 11: -0.40238595, 12: 0.69995207}
+  time: 0.01
+
+inst: 45
+  explaining: age = 54.0 AND sex = 1.0 AND chest = 2.0 AND resting_blood_pressure = 108.0 AND serum_cholestoral = 309.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 156.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.0 AND slope = 1.0 AND number_of_major_vessels = 0.0 AND thal = 7.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.13582897, 1: 0.4268750548362732, 2: -0.44486374, 3: -0.4117216, 4: 1.1557496, 6: -0.0042623654, 7: 0.096446276, 8: -0.013623995706439018, 9: -0.4732753, 10: -0.18773533, 11: -0.40146527, 12: 0.8833351}
+  time: 0.01
+
+inst: 46
+  explaining: age = 58.0 AND sex = 0.0 AND chest = 4.0 AND resting_blood_pressure = 100.0 AND serum_cholestoral = 248.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 122.0 AND exercise_induced_angina = 0.0 AND oldpeak = 1.0 AND slope = 2.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.19251269, 1: -0.9016803503036499, 2: 0.95679796, 3: -0.46569213, 4: 0.0014346326, 6: 0.08574046, 7: 0.53561115, 8: -0.04283769428730011, 9: 0.5091409, 10: 0.07795855, 11: -0.82184696, 12: -0.67922145}
+  time: 0.01
+
+inst: 47
+  explaining: age = 58.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 125.0 AND serum_cholestoral = 300.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 171.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.0 AND slope = 1.0 AND number_of_major_vessels = 2.0 AND thal = 7.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: 0.025223155, 1: 0.39938482642173767, 2: 0.8810282, 3: -0.01934497, 4: 0.82563555, 6: 0.3367377, 7: -0.23348711, 8: -0.013623995706439018, 9: -0.79477644, 10: -0.10385488, 11: 1.131792, 12: 0.91393286}
+  time: 0.01
+
+inst: 48
+  explaining: age = 52.0 AND sex = 1.0 AND chest = 1.0 AND resting_blood_pressure = 152.0 AND serum_cholestoral = 298.0 AND fasting_blood_sugar = 1.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 178.0 AND exercise_induced_angina = 0.0 AND oldpeak = 1.2 AND slope = 2.0 AND number_of_major_vessels = 0.0 AND thal = 7.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.16240177, 1: 0.3945344090461731, 2: -0.95507276, 3: 0.18521011, 4: 1.3165414, 6: 0.004874151, 7: -0.497808, 8: -0.011859269812703133, 9: 0.27937526, 10: 0.15519086, 11: -0.5966166, 12: 1.1852131}
+  time: 0.01
+
+inst: 49
+  explaining: age = 64.0 AND sex = 1.0 AND chest = 3.0 AND resting_blood_pressure = 125.0 AND serum_cholestoral = 309.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 131.0 AND exercise_induced_angina = 1.0 AND oldpeak = 1.8 AND slope = 2.0 AND number_of_major_vessels = 0.0 AND thal = 7.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.07720234, 1: 0.44108718633651733, 2: -0.73239744, 3: 0.058958612, 4: 1.1169626, 6: -0.04830641, 7: 0.42031318, 8: 0.033966224640607834, 9: 0.28107113, 10: 0.14007603, 11: -0.379093, 12: 0.7622268}
+  time: 0.01
+
+inst: 50
+  explaining: age = 44.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 112.0 AND serum_cholestoral = 290.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 2.0 AND maximum_heart_rate_achieved = 153.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.0 AND slope = 1.0 AND number_of_major_vessels = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.33860335, 1: 0.3560939133167267, 2: 0.94385827, 3: -0.10493829, 4: 0.580045, 6: 0.38992625, 7: -0.16075298, 8: -0.05066879093647003, 9: -0.6200259, 10: -0.09080587, 11: 0.7864577, 12: -0.6876644}
+  time: 0.01
+
+inst: 51
+  explaining: age = 51.0 AND sex = 1.0 AND chest = 3.0 AND resting_blood_pressure = 110.0 AND serum_cholestoral = 175.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 123.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.6 AND slope = 1.0 AND number_of_major_vessels = 0.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.18154669, 1: 0.4287550151348114, 2: -0.49104664, 3: 0.10786607, 4: -0.72019225, 6: -0.07945614, 7: 1.100841, 8: -0.013623995706439018, 9: -0.26652446, 10: -0.11968264, 11: -0.46248055, 12: -0.3336034}
+  time: 0.01
+
+inst: 52
+  explaining: age = 55.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 132.0 AND serum_cholestoral = 353.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 132.0 AND exercise_induced_angina = 1.0 AND oldpeak = 1.2 AND slope = 2.0 AND number_of_major_vessels = 1.0 AND thal = 7.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.10237257, 1: 0.3205936551094055, 2: 0.8046316, 3: 0.10525679, 4: 0.8856753, 6: -0.33768672, 7: 0.17622566, 8: 0.033966224640607834, 9: 0.66050136, 10: 0.153739, 11: 0.6060821, 12: 1.1585526}
+  time: 0.01
+
+inst: 53
+  explaining: age = 57.0 AND sex = 1.0 AND chest = 4.0 AND resting_blood_pressure = 140.0 AND serum_cholestoral = 192.0 AND fasting_blood_sugar = 0.0 AND resting_electrocardiographic_results = 0.0 AND maximum_heart_rate_achieved = 148.0 AND exercise_induced_angina = 0.0 AND oldpeak = 0.4 AND slope = 2.0 AND number_of_major_vessels = 0.0 AND thal = 6.0
+  expl: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]
+  lit2imprt: {0: -0.30101815, 1: 0.24519778788089752, 2: 0.74857235, 3: -0.045106627, 4: -0.87936985, 6: -0.1708074, 7: -0.10062748, 8: -0.011859269812703133, 9: -1.3203629, 10: 0.03825126, 11: -0.64484036, 12: -0.10723829}
+  time: 0.01

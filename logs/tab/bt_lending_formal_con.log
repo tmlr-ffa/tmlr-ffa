@@ -1,0 +1,3679 @@
+loading model from  ./bt/temp/lending/lending_train1_data/lending_train1_data_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl
+loading data from  ./bt/temp/lending/lending_train1_data/lending_train1_data_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl.splitdata.pkl
+encoding vars: 534
+encoding clauses: 2692 (2631 path + 61 common)
+
+inst: 0
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND annual_inc > 82000.00 AND desc <= 4.00 AND inq_last_6mths <= 0.00 AND revol_util > 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.12
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.12
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.19
+iter: 4
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.20
+iter: 5
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND revol_util > 72.23 THEN NOT Bad Loan"
+  explanation size: 2
+  expl time: 0.20
+  dual explanation: "IF revol_util > 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.20
+
+inst: 1
+  explaining:  "IF loan_amnt > 15000.00 AND home_ownership == MORTGAGE AND 59000.00 < annual_inc <= 82000.00 AND desc <= 4.00 AND inq_last_6mths <= 0.00 AND revol_util <= 25.20 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 6]
+  coextime: 0.12
+iter: 2
+cand: [2]
+core: [0, 1, 3, 4, 5, 6, 7]
+coex: [0, 6]
+  coextime: 0.18
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.18
+iter: 4
+cand: [0, 2]
+expl: [0, 2]
+  expltime: 0.19
+iter: 5
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF loan_amnt > 15000.00 AND 59000.00 < annual_inc <= 82000.00 THEN NOT Bad Loan"
+  explanation size: 2
+  expl time: 0.19
+  dual explanation: "IF 59000.00 < annual_inc <= 82000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF loan_amnt > 15000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.19
+
+inst: 2
+  explaining:  "IF loan_amnt <= 5400.00 AND home_ownership == RENT AND annual_inc <= 40057.66 AND desc <= 4.00 AND inq_last_6mths > 1.00 AND revol_util > 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.12
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.12
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.20
+iter: 4
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.21
+iter: 5
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF annual_inc <= 40057.66 AND revol_util > 72.23 THEN NOT Bad Loan"
+  explanation size: 2
+  expl time: 0.21
+  dual explanation: "IF revol_util > 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF annual_inc <= 40057.66 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.21
+
+inst: 3
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == MORTGAGE AND 59000.00 < annual_inc <= 82000.00 AND 145.00 < desc <= 392.00 AND 0.00 < inq_last_6mths <= 1.00 AND 49.10 < revol_util <= 72.23 AND last_fico_range_high > 749.00 AND last_fico_range_low > 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF last_fico_range_high > 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF last_fico_range_high > 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 18
+  rtime: 0.04
+
+inst: 4
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == MORTGAGE AND 59000.00 < annual_inc <= 82000.00 AND 4.00 < desc <= 145.00 AND inq_last_6mths > 1.00 AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 3, 5, 6, 7]
+coex: [0, 5, 6, 8]
+  coextime: 0.09
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.09
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.09
+iter: 4
+cand: [7]
+expl: [8]
+  expltime: 0.10
+iter: 5
+cand: [5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [0, 1, 6, 8]
+  coextime: 0.15
+iter: 6
+cand: [1, 5]
+core: [0, 2, 3, 4, 6, 7]
+coex: [0, 2, 6, 8]
+  coextime: 0.21
+iter: 7
+cand: [1, 2, 5]
+expl: [1, 2, 5]
+  expltime: 0.22
+iter: 8
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 10000.00 < loan_amnt <= 15000.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.09
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.09
+  explanation: "IF pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF home_ownership != MORTGAGE AND 59000.00 < annual_inc <= 82000.00 AND 49.10 < revol_util <= 72.23 THEN NOT Good Loan"
+  explanation size: 3
+  expl time: 0.22
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 4
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == MORTGAGE AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 4
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND 59000.00 < annual_inc <= 82000.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 4
+  calls: 8
+  rtime: 0.22
+
+inst: 5
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND annual_inc <= 40057.66 AND desc > 392.00 AND 0.00 < inq_last_6mths <= 1.00 AND revol_util > 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.12
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.12
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [3, 6]
+  coextime: 0.21
+iter: 4
+cand: [3, 5]
+core: [0, 1, 2, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.28
+iter: 5
+cand: [2, 3, 5]
+core: [0, 1, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.34
+iter: 6
+cand: [0, 2, 3, 5]
+expl: [0, 2, 3, 5]
+  expltime: 0.35
+iter: 7
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND annual_inc <= 40057.66 AND desc > 392.00 AND revol_util > 72.23 THEN NOT Bad Loan"
+  explanation size: 4
+  expl time: 0.35
+  dual explanation: "IF revol_util > 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF desc > 392.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF annual_inc <= 40057.66 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 7
+  rtime: 0.35
+
+inst: 6
+  explaining:  "IF loan_amnt <= 5400.00 AND home_ownership == RENT AND 40057.66 < annual_inc <= 59000.00 AND 4.00 < desc <= 145.00 AND inq_last_6mths <= 0.00 AND 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 1 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.13
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.13
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.21
+iter: 4
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.22
+iter: 5
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF 40057.66 < annual_inc <= 59000.00 AND 49.10 < revol_util <= 72.23 THEN NOT Bad Loan"
+  explanation size: 2
+  expl time: 0.22
+  dual explanation: "IF 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 40057.66 < annual_inc <= 59000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.22
+
+inst: 7
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == RENT AND annual_inc <= 40057.66 AND desc <= 4.00 AND inq_last_6mths <= 0.00 AND revol_util <= 25.20 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [0, 5, 6, 8]
+  coextime: 0.10
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.10
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.11
+iter: 4
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 6]
+coex: [0, 1, 6]
+  coextime: 0.16
+iter: 5
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.18
+iter: 6
+cand: [1, 7]
+expl: [1, 8]
+  expltime: 0.18
+iter: 7
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 10000.00 < loan_amnt <= 15000.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF home_ownership != RENT AND revol_util <= 25.20 THEN NOT Good Loan"
+  explanation size: 2
+  expl time: 0.18
+  explanation: "IF home_ownership != RENT AND pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 2
+  expl time: 0.18
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND revol_util <= 25.20 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 4
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == RENT AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 3
+  calls: 10
+  rtime: 0.18
+
+inst: 8
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND annual_inc > 82000.00 AND desc <= 4.00 AND inq_last_6mths <= 0.00 AND 25.20 < revol_util <= 49.10 AND last_fico_range_high > 749.00 AND last_fico_range_low > 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF last_fico_range_high > 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF last_fico_range_high > 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 19
+  rtime: 0.04
+
+inst: 9
+  explaining:  "IF loan_amnt > 15000.00 AND home_ownership == RENT AND 40057.66 < annual_inc <= 59000.00 AND 145.00 < desc <= 392.00 AND inq_last_6mths <= 0.00 AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6]
+coex: [0, 2, 6]
+  coextime: 0.10
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.10
+iter: 3
+cand: [2]
+core: [0, 1, 3, 4, 5, 6, 7]
+coex: [0, 3, 4, 5, 6]
+  coextime: 0.18
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.18
+iter: 5
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.19
+iter: 6
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.20
+iter: 7
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.21
+iter: 8
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF loan_amnt > 15000.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF 40057.66 < annual_inc <= 59000.00 AND 145.00 < desc <= 392.00 THEN NOT Bad Loan"
+  explanation size: 2
+  expl time: 0.19
+  explanation: "IF 40057.66 < annual_inc <= 59000.00 AND inq_last_6mths <= 0.00 THEN NOT Bad Loan"
+  explanation size: 2
+  expl time: 0.20
+  explanation: "IF 40057.66 < annual_inc <= 59000.00 AND 49.10 < revol_util <= 72.23 THEN NOT Bad Loan"
+  explanation size: 2
+  expl time: 0.21
+  dual explanation: "IF loan_amnt > 15000.00 AND 40057.66 < annual_inc <= 59000.00 AND 649.00 < last_fico_range_high <= 699.00 THEN Bad Loan"
+  dual explanation size: 3
+  dual explanation: "IF loan_amnt > 15000.00 AND 145.00 < desc <= 392.00 AND inq_last_6mths <= 0.00 AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 THEN Bad Loan"
+  dual explanation size: 5
+  calls: 12
+  rtime: 0.21
+
+inst: 10
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == MORTGAGE AND 40057.66 < annual_inc <= 59000.00 AND 145.00 < desc <= 392.00 AND 0.00 < inq_last_6mths <= 1.00 AND 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.13
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.13
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.21
+iter: 4
+cand: [2, 5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.27
+iter: 5
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.29
+iter: 6
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND 40057.66 < annual_inc <= 59000.00 AND 49.10 < revol_util <= 72.23 THEN NOT Bad Loan"
+  explanation size: 3
+  expl time: 0.29
+  dual explanation: "IF 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 40057.66 < annual_inc <= 59000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.29
+
+inst: 11
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == OWN AND annual_inc <= 40057.66 AND 145.00 < desc <= 392.00 AND 0.00 < inq_last_6mths <= 1.00 AND 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.13
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.13
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.22
+iter: 4
+cand: [2, 5]
+core: [0, 1, 4, 6, 7]
+coex: [1, 6]
+  coextime: 0.29
+iter: 5
+cand: [1, 2, 5]
+core: [0, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.35
+iter: 6
+cand: [0, 1, 2, 5]
+expl: [0, 1, 2, 5]
+  expltime: 0.36
+iter: 7
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership != OWN AND annual_inc <= 40057.66 AND 49.10 < revol_util <= 72.23 THEN NOT Bad Loan"
+  explanation size: 4
+  expl time: 0.36
+  dual explanation: "IF 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF annual_inc <= 40057.66 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF home_ownership == OWN AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 7
+  rtime: 0.36
+
+inst: 12
+  explaining:  "IF loan_amnt > 15000.00 AND home_ownership == MORTGAGE AND annual_inc > 82000.00 AND desc > 392.00 AND inq_last_6mths <= 0.00 AND revol_util > 72.23 AND 699.00 < last_fico_range_high <= 749.00 AND 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 16
+  rtime: 0.04
+
+inst: 13
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == MORTGAGE AND annual_inc > 82000.00 AND desc > 392.00 AND inq_last_6mths <= 0.00 AND 49.10 < revol_util <= 72.23 AND 699.00 < last_fico_range_high <= 749.00 AND 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.05
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.05
+  dual explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 25
+  rtime: 0.05
+
+inst: 14
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == RENT AND annual_inc > 82000.00 AND desc > 392.00 AND 0.00 < inq_last_6mths <= 1.00 AND revol_util <= 25.20 AND last_fico_range_high > 749.00 AND last_fico_range_low > 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF last_fico_range_high > 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF last_fico_range_high > 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 34
+  rtime: 0.04
+
+inst: 15
+  explaining:  "IF loan_amnt > 15000.00 AND home_ownership == MORTGAGE AND annual_inc > 82000.00 AND 145.00 < desc <= 392.00 AND 0.00 < inq_last_6mths <= 1.00 AND 25.20 < revol_util <= 49.10 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 1 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [0, 6, 8]
+  coextime: 0.12
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.12
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.12
+iter: 4
+cand: [7]
+expl: [8]
+  expltime: 0.13
+iter: 5
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF loan_amnt > 15000.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF pub_rec_bankruptcies != 1 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.13
+  dual explanation: "IF loan_amnt > 15000.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 1 THEN Bad Loan"
+  dual explanation size: 3
+  calls: 11
+  rtime: 0.13
+
+inst: 16
+  explaining:  "IF loan_amnt <= 5400.00 AND home_ownership == RENT AND annual_inc > 82000.00 AND desc <= 4.00 AND inq_last_6mths > 1.00 AND revol_util <= 25.20 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [0, 1, 2, 3, 5]
+  coextime: 0.11
+iter: 2
+cand: [5]
+expl: [5]
+  expltime: 0.12
+iter: 3
+cand: [1]
+expl: [1]
+  expltime: 0.12
+iter: 4
+cand: [2]
+expl: [2]
+  expltime: 0.13
+iter: 5
+cand: [0]
+expl: [0]
+  expltime: 0.13
+iter: 6
+cand: [3]
+expl: [3]
+  expltime: 0.14
+iter: 7
+cand: None
+  prediciton: Good Loan
+  explanation: "IF revol_util <= 25.20 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF home_ownership != RENT THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF annual_inc > 82000.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF loan_amnt <= 5400.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF desc <= 4.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.14
+  dual explanation: "IF loan_amnt <= 5400.00 AND home_ownership == RENT AND annual_inc > 82000.00 AND desc <= 4.00 AND revol_util <= 25.20 THEN Good Loan"
+  dual explanation size: 5
+  calls: 13
+  rtime: 0.14
+
+inst: 17
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND annual_inc <= 40057.66 AND 4.00 < desc <= 145.00 AND inq_last_6mths > 1.00 AND revol_util <= 25.20 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 6]
+  coextime: 0.13
+iter: 2
+cand: [2]
+core: [0, 1, 3, 4, 5, 6, 7]
+coex: [0, 6]
+  coextime: 0.20
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.20
+iter: 4
+cand: [0, 2]
+expl: [0, 2]
+  expltime: 0.22
+iter: 5
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.20
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND annual_inc <= 40057.66 THEN NOT Bad Loan"
+  explanation size: 2
+  expl time: 0.22
+  dual explanation: "IF annual_inc <= 40057.66 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.22
+
+inst: 18
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND 59000.00 < annual_inc <= 82000.00 AND desc > 392.00 AND inq_last_6mths <= 0.00 AND revol_util <= 25.20 AND last_fico_range_high > 749.00 AND last_fico_range_low > 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF last_fico_range_high > 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF last_fico_range_high > 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 19
+  rtime: 0.04
+
+inst: 19
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == MORTGAGE AND 59000.00 < annual_inc <= 82000.00 AND 145.00 < desc <= 392.00 AND inq_last_6mths <= 0.00 AND 25.20 < revol_util <= 49.10 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.14
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.14
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.22
+iter: 4
+cand: [2, 5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.28
+iter: 5
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.29
+iter: 6
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND 59000.00 < annual_inc <= 82000.00 AND 25.20 < revol_util <= 49.10 THEN NOT Bad Loan"
+  explanation size: 3
+  expl time: 0.29
+  dual explanation: "IF 25.20 < revol_util <= 49.10 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 59000.00 < annual_inc <= 82000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.29
+
+inst: 20
+  explaining:  "IF loan_amnt > 15000.00 AND home_ownership == RENT AND 59000.00 < annual_inc <= 82000.00 AND 145.00 < desc <= 392.00 AND inq_last_6mths > 1.00 AND 49.10 < revol_util <= 72.23 AND 699.00 < last_fico_range_high <= 749.00 AND 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 17
+  rtime: 0.04
+
+inst: 21
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND annual_inc > 82000.00 AND 145.00 < desc <= 392.00 AND inq_last_6mths <= 0.00 AND revol_util <= 25.20 AND last_fico_range_high > 749.00 AND last_fico_range_low > 745.00 AND pub_rec_bankruptcies == 1 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF last_fico_range_high > 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF last_fico_range_high > 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 26
+  rtime: 0.04
+
+inst: 22
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND 59000.00 < annual_inc <= 82000.00 AND desc <= 4.00 AND inq_last_6mths > 1.00 AND revol_util > 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.13
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.13
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.21
+iter: 4
+cand: [2, 5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.28
+iter: 5
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.30
+iter: 6
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND 59000.00 < annual_inc <= 82000.00 AND revol_util > 72.23 THEN NOT Bad Loan"
+  explanation size: 3
+  expl time: 0.30
+  dual explanation: "IF revol_util > 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 59000.00 < annual_inc <= 82000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.30
+
+inst: 23
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND 59000.00 < annual_inc <= 82000.00 AND desc <= 4.00 AND 0.00 < inq_last_6mths <= 1.00 AND 25.20 < revol_util <= 49.10 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.13
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.14
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.22
+iter: 4
+cand: [2, 5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.29
+iter: 5
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.30
+iter: 6
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND 59000.00 < annual_inc <= 82000.00 AND 25.20 < revol_util <= 49.10 THEN NOT Bad Loan"
+  explanation size: 3
+  expl time: 0.30
+  dual explanation: "IF 25.20 < revol_util <= 49.10 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 59000.00 < annual_inc <= 82000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.30
+
+inst: 24
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND annual_inc <= 40057.66 AND desc > 392.00 AND inq_last_6mths <= 0.00 AND 25.20 < revol_util <= 49.10 AND 699.00 < last_fico_range_high <= 749.00 AND 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 17
+  rtime: 0.05
+
+inst: 25
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == RENT AND 40057.66 < annual_inc <= 59000.00 AND desc > 392.00 AND inq_last_6mths <= 0.00 AND revol_util <= 25.20 AND last_fico_range_high > 749.00 AND last_fico_range_low > 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF last_fico_range_high > 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF last_fico_range_high > 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 26
+  rtime: 0.04
+
+inst: 26
+  explaining:  "IF loan_amnt <= 5400.00 AND home_ownership == RENT AND 40057.66 < annual_inc <= 59000.00 AND desc > 392.00 AND 0.00 < inq_last_6mths <= 1.00 AND 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.13
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.13
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [3, 6]
+  coextime: 0.23
+iter: 4
+cand: [3, 5]
+core: [0, 1, 2, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.30
+iter: 5
+cand: [2, 3, 5]
+expl: [2, 3, 5]
+  expltime: 0.31
+iter: 6
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF 40057.66 < annual_inc <= 59000.00 AND desc > 392.00 AND 49.10 < revol_util <= 72.23 THEN NOT Bad Loan"
+  explanation size: 3
+  expl time: 0.31
+  dual explanation: "IF 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF desc > 392.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 40057.66 < annual_inc <= 59000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.31
+
+inst: 27
+  explaining:  "IF loan_amnt > 15000.00 AND home_ownership == MORTGAGE AND annual_inc > 82000.00 AND 145.00 < desc <= 392.00 AND 0.00 < inq_last_6mths <= 1.00 AND 25.20 < revol_util <= 49.10 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 1 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [0, 6, 8]
+  coextime: 0.12
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.12
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.12
+iter: 4
+cand: [7]
+expl: [8]
+  expltime: 0.13
+iter: 5
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF loan_amnt > 15000.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF pub_rec_bankruptcies != 1 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.13
+  dual explanation: "IF loan_amnt > 15000.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 1 THEN Bad Loan"
+  dual explanation size: 3
+  calls: 11
+  rtime: 0.13
+
+inst: 28
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND 59000.00 < annual_inc <= 82000.00 AND desc <= 4.00 AND inq_last_6mths > 1.00 AND 25.20 < revol_util <= 49.10 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [0, 6, 8]
+  coextime: 0.10
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.10
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.11
+iter: 4
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 6]
+coex: [0, 1, 6]
+  coextime: 0.16
+iter: 5
+cand: [1, 7]
+expl: [1, 8]
+  expltime: 0.17
+iter: 6
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF home_ownership != RENT AND pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 2
+  expl time: 0.17
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 3
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 3
+  calls: 9
+  rtime: 0.17
+
+inst: 29
+  explaining:  "IF loan_amnt > 15000.00 AND home_ownership == OWN AND 40057.66 < annual_inc <= 59000.00 AND desc > 392.00 AND inq_last_6mths <= 0.00 AND revol_util > 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.11
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.11
+iter: 3
+cand: [5]
+core: [0, 1, 2, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.18
+iter: 4
+cand: [2, 5]
+core: [0, 1, 4, 6, 7]
+coex: [1, 6]
+  coextime: 0.24
+iter: 5
+cand: [1, 2, 5]
+core: [0, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.29
+iter: 6
+cand: [0, 1, 2, 5]
+core: [3, 4, 6, 7]
+coex: [3, 6]
+  coextime: 0.35
+iter: 7
+cand: [0, 1, 2, 3, 5]
+expl: [0, 1, 2, 3, 5]
+  expltime: 0.37
+iter: 8
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF loan_amnt > 15000.00 AND home_ownership != OWN AND 40057.66 < annual_inc <= 59000.00 AND desc > 392.00 AND revol_util > 72.23 THEN NOT Bad Loan"
+  explanation size: 5
+  expl time: 0.37
+  dual explanation: "IF revol_util > 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 40057.66 < annual_inc <= 59000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF home_ownership == OWN AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF loan_amnt > 15000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF desc > 392.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 6
+  rtime: 0.37
+
+inst: 30
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND 40057.66 < annual_inc <= 59000.00 AND desc <= 4.00 AND inq_last_6mths <= 0.00 AND revol_util > 72.23 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [0, 6, 8]
+  coextime: 0.11
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.12
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.13
+iter: 4
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 6]
+coex: [0, 1, 6]
+  coextime: 0.18
+iter: 5
+cand: [1, 7]
+expl: [1, 8]
+  expltime: 0.20
+iter: 6
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF home_ownership != RENT AND pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 2
+  expl time: 0.20
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 3
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 3
+  calls: 9
+  rtime: 0.20
+
+inst: 31
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == MORTGAGE AND 59000.00 < annual_inc <= 82000.00 AND 145.00 < desc <= 392.00 AND inq_last_6mths <= 0.00 AND revol_util > 72.23 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 3, 5, 6, 7]
+coex: [0, 5, 6, 8]
+  coextime: 0.11
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.11
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.11
+iter: 4
+cand: [7]
+expl: [8]
+  expltime: 0.12
+iter: 5
+cand: [5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [0, 3, 6, 8]
+  coextime: 0.19
+iter: 6
+cand: [3, 5]
+core: [0, 1, 4, 6, 7]
+coex: [0, 1, 6, 8]
+  coextime: 0.23
+iter: 7
+cand: [1, 3, 5]
+core: [0, 2, 4, 6, 7]
+coex: [0, 2, 6, 8]
+  coextime: 0.28
+iter: 8
+cand: [1, 2, 3, 5]
+expl: [1, 2, 3, 5]
+  expltime: 0.30
+iter: 9
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 10000.00 < loan_amnt <= 15000.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF home_ownership != MORTGAGE AND 59000.00 < annual_inc <= 82000.00 AND 145.00 < desc <= 392.00 AND revol_util > 72.23 THEN NOT Good Loan"
+  explanation size: 4
+  expl time: 0.30
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND revol_util > 72.23 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 4
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND 145.00 < desc <= 392.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 4
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == MORTGAGE AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 4
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND 59000.00 < annual_inc <= 82000.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 4
+  calls: 7
+  rtime: 0.30
+
+inst: 32
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND 40057.66 < annual_inc <= 59000.00 AND 145.00 < desc <= 392.00 AND inq_last_6mths > 1.00 AND revol_util <= 25.20 AND last_fico_range_high > 749.00 AND last_fico_range_low > 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.03
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF last_fico_range_high > 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.03
+  dual explanation: "IF last_fico_range_high > 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 16
+  rtime: 0.03
+
+inst: 33
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND 40057.66 < annual_inc <= 59000.00 AND 4.00 < desc <= 145.00 AND inq_last_6mths <= 0.00 AND 25.20 < revol_util <= 49.10 AND last_fico_range_high > 749.00 AND last_fico_range_low > 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF last_fico_range_high > 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF last_fico_range_high > 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 25
+  rtime: 0.04
+
+inst: 34
+  explaining:  "IF loan_amnt <= 5400.00 AND home_ownership == RENT AND annual_inc <= 40057.66 AND desc <= 4.00 AND inq_last_6mths <= 0.00 AND 49.10 < revol_util <= 72.23 AND 699.00 < last_fico_range_high <= 749.00 AND 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies == 1 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 34
+  rtime: 0.04
+
+inst: 35
+  explaining:  "IF loan_amnt > 15000.00 AND home_ownership == MORTGAGE AND 59000.00 < annual_inc <= 82000.00 AND 145.00 < desc <= 392.00 AND 0.00 < inq_last_6mths <= 1.00 AND 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.13
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.13
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.21
+iter: 4
+cand: [2, 5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.27
+iter: 5
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.28
+iter: 6
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF loan_amnt > 15000.00 AND 59000.00 < annual_inc <= 82000.00 AND 49.10 < revol_util <= 72.23 THEN NOT Bad Loan"
+  explanation size: 3
+  expl time: 0.28
+  dual explanation: "IF 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 59000.00 < annual_inc <= 82000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF loan_amnt > 15000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.28
+
+inst: 36
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == RENT AND annual_inc > 82000.00 AND desc <= 4.00 AND inq_last_6mths > 1.00 AND 25.20 < revol_util <= 49.10 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.14
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.14
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.21
+iter: 4
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.22
+iter: 5
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND 25.20 < revol_util <= 49.10 THEN NOT Bad Loan"
+  explanation size: 2
+  expl time: 0.22
+  dual explanation: "IF 25.20 < revol_util <= 49.10 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.22
+
+inst: 37
+  explaining:  "IF loan_amnt <= 5400.00 AND home_ownership == RENT AND 59000.00 < annual_inc <= 82000.00 AND 145.00 < desc <= 392.00 AND inq_last_6mths <= 0.00 AND 25.20 < revol_util <= 49.10 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.14
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.14
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.22
+iter: 4
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.23
+iter: 5
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF 59000.00 < annual_inc <= 82000.00 AND 25.20 < revol_util <= 49.10 THEN NOT Bad Loan"
+  explanation size: 2
+  expl time: 0.23
+  dual explanation: "IF 25.20 < revol_util <= 49.10 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 59000.00 < annual_inc <= 82000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.23
+
+inst: 38
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == OWN AND 59000.00 < annual_inc <= 82000.00 AND 4.00 < desc <= 145.00 AND 0.00 < inq_last_6mths <= 1.00 AND 25.20 < revol_util <= 49.10 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [0, 6, 8]
+  coextime: 0.10
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.10
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.10
+iter: 4
+cand: [7]
+expl: [8]
+  expltime: 0.11
+iter: 5
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.11
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 3
+  calls: 11
+  rtime: 0.11
+
+inst: 39
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND 40057.66 < annual_inc <= 59000.00 AND 145.00 < desc <= 392.00 AND inq_last_6mths <= 0.00 AND revol_util <= 25.20 AND last_fico_range_high > 749.00 AND last_fico_range_low > 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.12
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF last_fico_range_high > 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.12
+  dual explanation: "IF last_fico_range_high > 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 20
+  rtime: 0.12
+
+inst: 40
+  explaining:  "IF loan_amnt <= 5400.00 AND home_ownership == RENT AND annual_inc <= 40057.66 AND desc > 392.00 AND inq_last_6mths <= 0.00 AND revol_util > 72.23 AND last_fico_range_high > 749.00 AND last_fico_range_low > 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF last_fico_range_high > 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF last_fico_range_high > 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 29
+  rtime: 0.04
+
+inst: 41
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == RENT AND annual_inc > 82000.00 AND desc <= 4.00 AND 0.00 < inq_last_6mths <= 1.00 AND revol_util <= 25.20 AND 699.00 < last_fico_range_high <= 749.00 AND 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 38
+  rtime: 0.04
+
+inst: 42
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND annual_inc > 82000.00 AND desc <= 4.00 AND inq_last_6mths <= 0.00 AND revol_util <= 25.20 AND last_fico_range_high > 749.00 AND last_fico_range_low > 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF last_fico_range_high > 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF last_fico_range_high > 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 47
+  rtime: 0.04
+
+inst: 43
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == OWN AND annual_inc > 82000.00 AND desc <= 4.00 AND inq_last_6mths <= 0.00 AND 25.20 < revol_util <= 49.10 AND 699.00 < last_fico_range_high <= 749.00 AND 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 56
+  rtime: 0.04
+
+inst: 44
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND 40057.66 < annual_inc <= 59000.00 AND desc > 392.00 AND inq_last_6mths > 1.00 AND revol_util > 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.13
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.13
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [3, 6]
+  coextime: 0.23
+iter: 4
+cand: [3, 5]
+core: [0, 1, 2, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.30
+iter: 5
+cand: [2, 3, 5]
+core: [0, 1, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.36
+iter: 6
+cand: [0, 2, 3, 5]
+expl: [0, 2, 3, 5]
+  expltime: 0.38
+iter: 7
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND 40057.66 < annual_inc <= 59000.00 AND desc > 392.00 AND revol_util > 72.23 THEN NOT Bad Loan"
+  explanation size: 4
+  expl time: 0.38
+  dual explanation: "IF revol_util > 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF desc > 392.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 40057.66 < annual_inc <= 59000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 7
+  rtime: 0.38
+
+inst: 45
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == MORTGAGE AND 40057.66 < annual_inc <= 59000.00 AND 145.00 < desc <= 392.00 AND inq_last_6mths <= 0.00 AND revol_util > 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.13
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.14
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.22
+iter: 4
+cand: [2, 5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.28
+iter: 5
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.29
+iter: 6
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND 40057.66 < annual_inc <= 59000.00 AND revol_util > 72.23 THEN NOT Bad Loan"
+  explanation size: 3
+  expl time: 0.29
+  dual explanation: "IF revol_util > 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 40057.66 < annual_inc <= 59000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.29
+
+inst: 46
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND 59000.00 < annual_inc <= 82000.00 AND 145.00 < desc <= 392.00 AND inq_last_6mths <= 0.00 AND revol_util <= 25.20 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [0, 6, 8]
+  coextime: 0.11
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.11
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.12
+iter: 4
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 6]
+coex: [0, 1, 6]
+  coextime: 0.18
+iter: 5
+cand: [1, 7]
+expl: [1, 8]
+  expltime: 0.18
+iter: 6
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF home_ownership != MORTGAGE AND pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 2
+  expl time: 0.18
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 3
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 3
+  calls: 9
+  rtime: 0.18
+
+inst: 47
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND 40057.66 < annual_inc <= 59000.00 AND desc <= 4.00 AND 0.00 < inq_last_6mths <= 1.00 AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [0, 6, 8]
+  coextime: 0.10
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.11
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.11
+iter: 4
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 6]
+coex: [0, 3, 4, 5, 6]
+  coextime: 0.18
+iter: 5
+cand: [3, 7]
+core: [0, 1, 2, 4, 5, 6]
+coex: [0, 1, 6]
+  coextime: 0.23
+iter: 6
+cand: [1, 3, 7]
+expl: [1, 3, 8]
+  expltime: 0.24
+iter: 7
+cand: [1, 4, 7]
+expl: [1, 4, 8]
+  expltime: 0.25
+iter: 8
+cand: [1, 5, 7]
+expl: [1, 5, 8]
+  expltime: 0.26
+iter: 9
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF home_ownership != RENT AND desc <= 4.00 AND pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 3
+  expl time: 0.24
+  explanation: "IF home_ownership != RENT AND 0.00 < inq_last_6mths <= 1.00 AND pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 3
+  expl time: 0.25
+  explanation: "IF home_ownership != RENT AND 49.10 < revol_util <= 72.23 AND pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 3
+  expl time: 0.26
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 3
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND desc <= 4.00 AND 0.00 < inq_last_6mths <= 1.00 AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 5
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 3
+  calls: 10
+  rtime: 0.26
+
+inst: 48
+  explaining:  "IF loan_amnt <= 5400.00 AND home_ownership == MORTGAGE AND 40057.66 < annual_inc <= 59000.00 AND 145.00 < desc <= 392.00 AND 0.00 < inq_last_6mths <= 1.00 AND 25.20 < revol_util <= 49.10 AND 699.00 < last_fico_range_high <= 749.00 AND 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.05
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.05
+  dual explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 19
+  rtime: 0.05
+
+inst: 49
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == MORTGAGE AND 40057.66 < annual_inc <= 59000.00 AND desc > 392.00 AND inq_last_6mths > 1.00 AND revol_util > 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.13
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.13
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [3, 6]
+  coextime: 0.23
+iter: 4
+cand: [3, 5]
+core: [0, 1, 2, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.30
+iter: 5
+cand: [2, 3, 5]
+core: [0, 1, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.36
+iter: 6
+cand: [0, 2, 3, 5]
+expl: [0, 2, 3, 5]
+  expltime: 0.38
+iter: 7
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND 40057.66 < annual_inc <= 59000.00 AND desc > 392.00 AND revol_util > 72.23 THEN NOT Bad Loan"
+  explanation size: 4
+  expl time: 0.38
+  dual explanation: "IF revol_util > 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF desc > 392.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 40057.66 < annual_inc <= 59000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 7
+  rtime: 0.38
+
+inst: 50
+  explaining:  "IF loan_amnt > 15000.00 AND home_ownership == MORTGAGE AND 59000.00 < annual_inc <= 82000.00 AND 4.00 < desc <= 145.00 AND 0.00 < inq_last_6mths <= 1.00 AND 49.10 < revol_util <= 72.23 AND 699.00 < last_fico_range_high <= 749.00 AND 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 16
+  rtime: 0.05
+
+inst: 51
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND 59000.00 < annual_inc <= 82000.00 AND desc <= 4.00 AND 0.00 < inq_last_6mths <= 1.00 AND 25.20 < revol_util <= 49.10 AND 699.00 < last_fico_range_high <= 749.00 AND 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.05
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.05
+  dual explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 25
+  rtime: 0.05
+
+inst: 52
+  explaining:  "IF loan_amnt <= 5400.00 AND home_ownership == RENT AND annual_inc <= 40057.66 AND desc <= 4.00 AND inq_last_6mths <= 0.00 AND 25.20 < revol_util <= 49.10 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.15
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.15
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.23
+iter: 4
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.24
+iter: 5
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF annual_inc <= 40057.66 AND 25.20 < revol_util <= 49.10 THEN NOT Bad Loan"
+  explanation size: 2
+  expl time: 0.24
+  dual explanation: "IF 25.20 < revol_util <= 49.10 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF annual_inc <= 40057.66 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.24
+
+inst: 53
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND 40057.66 < annual_inc <= 59000.00 AND desc <= 4.00 AND inq_last_6mths <= 0.00 AND 25.20 < revol_util <= 49.10 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.14
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.14
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.23
+iter: 4
+cand: [2, 5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.30
+iter: 5
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.31
+iter: 6
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND 40057.66 < annual_inc <= 59000.00 AND 25.20 < revol_util <= 49.10 THEN NOT Bad Loan"
+  explanation size: 3
+  expl time: 0.31
+  dual explanation: "IF 25.20 < revol_util <= 49.10 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 40057.66 < annual_inc <= 59000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.31
+
+inst: 54
+  explaining:  "IF loan_amnt <= 5400.00 AND home_ownership == RENT AND annual_inc <= 40057.66 AND 4.00 < desc <= 145.00 AND 0.00 < inq_last_6mths <= 1.00 AND revol_util <= 25.20 AND 699.00 < last_fico_range_high <= 749.00 AND 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.05
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.05
+  dual explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 17
+  rtime: 0.05
+
+inst: 55
+  explaining:  "IF loan_amnt <= 5400.00 AND home_ownership == RENT AND annual_inc <= 40057.66 AND desc > 392.00 AND inq_last_6mths <= 0.00 AND revol_util <= 25.20 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [3, 6]
+  coextime: 0.14
+iter: 2
+cand: [3]
+core: [0, 1, 2, 4, 5, 6, 7]
+coex: [2, 6]
+  coextime: 0.22
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.22
+iter: 4
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.23
+iter: 5
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.22
+  explanation: "IF annual_inc <= 40057.66 AND desc > 392.00 THEN NOT Bad Loan"
+  explanation size: 2
+  expl time: 0.23
+  dual explanation: "IF desc > 392.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF annual_inc <= 40057.66 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.23
+
+inst: 56
+  explaining:  "IF loan_amnt > 15000.00 AND home_ownership == MORTGAGE AND 59000.00 < annual_inc <= 82000.00 AND desc <= 4.00 AND inq_last_6mths > 1.00 AND 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.14
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.14
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.22
+iter: 4
+cand: [2, 5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.28
+iter: 5
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.30
+iter: 6
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF loan_amnt > 15000.00 AND 59000.00 < annual_inc <= 82000.00 AND 49.10 < revol_util <= 72.23 THEN NOT Bad Loan"
+  explanation size: 3
+  expl time: 0.30
+  dual explanation: "IF 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 59000.00 < annual_inc <= 82000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF loan_amnt > 15000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.30
+
+inst: 57
+  explaining:  "IF loan_amnt <= 5400.00 AND home_ownership == RENT AND annual_inc <= 40057.66 AND 4.00 < desc <= 145.00 AND inq_last_6mths <= 0.00 AND revol_util > 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.13
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.13
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.21
+iter: 4
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.23
+iter: 5
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF annual_inc <= 40057.66 AND revol_util > 72.23 THEN NOT Bad Loan"
+  explanation size: 2
+  expl time: 0.23
+  dual explanation: "IF revol_util > 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF annual_inc <= 40057.66 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.23
+
+inst: 58
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND annual_inc <= 40057.66 AND desc <= 4.00 AND 0.00 < inq_last_6mths <= 1.00 AND revol_util > 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.13
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.13
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.22
+iter: 4
+cand: [2, 5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.29
+iter: 5
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.30
+iter: 6
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND annual_inc <= 40057.66 AND revol_util > 72.23 THEN NOT Bad Loan"
+  explanation size: 3
+  expl time: 0.30
+  dual explanation: "IF revol_util > 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF annual_inc <= 40057.66 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.30
+
+inst: 59
+  explaining:  "IF loan_amnt <= 5400.00 AND home_ownership == RENT AND annual_inc <= 40057.66 AND 4.00 < desc <= 145.00 AND inq_last_6mths <= 0.00 AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [0, 6, 8]
+  coextime: 0.11
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.11
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.12
+iter: 4
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 6]
+coex: [0, 4, 5, 6]
+  coextime: 0.19
+iter: 5
+cand: [5, 7]
+core: [0, 1, 2, 3, 4, 6]
+coex: [0, 1, 6]
+  coextime: 0.24
+iter: 6
+cand: [1, 5, 7]
+expl: [1, 5, 8]
+  expltime: 0.25
+iter: 7
+cand: [1, 4, 7]
+core: [0, 2, 3, 5, 6]
+coex: [0, 3, 5, 6]
+  coextime: 0.30
+iter: 8
+cand: [1, 3, 4, 7]
+expl: [1, 3, 4, 8]
+  expltime: 0.31
+iter: 9
+cand: None
+  prediciton: Good Loan
+  explanation: "IF loan_amnt <= 5400.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF home_ownership != RENT AND 49.10 < revol_util <= 72.23 AND pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 3
+  expl time: 0.25
+  explanation: "IF home_ownership != RENT AND 4.00 < desc <= 145.00 AND inq_last_6mths <= 0.00 AND pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 4
+  expl time: 0.31
+  dual explanation: "IF loan_amnt <= 5400.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 3
+  dual explanation: "IF loan_amnt <= 5400.00 AND inq_last_6mths <= 0.00 AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 4
+  dual explanation: "IF loan_amnt <= 5400.00 AND home_ownership == RENT AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 3
+  dual explanation: "IF loan_amnt <= 5400.00 AND 4.00 < desc <= 145.00 AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 4
+  calls: 7
+  rtime: 0.31
+
+inst: 60
+  explaining:  "IF loan_amnt > 15000.00 AND home_ownership == MORTGAGE AND 40057.66 < annual_inc <= 59000.00 AND desc > 392.00 AND 0.00 < inq_last_6mths <= 1.00 AND revol_util > 72.23 AND last_fico_range_high > 749.00 AND last_fico_range_low > 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF last_fico_range_high > 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF last_fico_range_high > 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 16
+  rtime: 0.04
+
+inst: 61
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND annual_inc <= 40057.66 AND desc <= 4.00 AND 0.00 < inq_last_6mths <= 1.00 AND revol_util > 72.23 AND 699.00 < last_fico_range_high <= 749.00 AND 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.05
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.05
+  dual explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 25
+  rtime: 0.05
+
+inst: 62
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == OWN AND 40057.66 < annual_inc <= 59000.00 AND desc <= 4.00 AND inq_last_6mths > 1.00 AND revol_util > 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.12
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.13
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.21
+iter: 4
+cand: [2, 5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [1, 6]
+  coextime: 0.30
+iter: 5
+cand: [1, 2, 5]
+core: [0, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.36
+iter: 6
+cand: [0, 1, 2, 5]
+expl: [0, 1, 2, 5]
+  expltime: 0.38
+iter: 7
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership != OWN AND 40057.66 < annual_inc <= 59000.00 AND revol_util > 72.23 THEN NOT Bad Loan"
+  explanation size: 4
+  expl time: 0.38
+  dual explanation: "IF revol_util > 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 40057.66 < annual_inc <= 59000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF home_ownership == OWN AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 7
+  rtime: 0.38
+
+inst: 63
+  explaining:  "IF loan_amnt > 15000.00 AND home_ownership == OWN AND 40057.66 < annual_inc <= 59000.00 AND desc > 392.00 AND 0.00 < inq_last_6mths <= 1.00 AND 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.12
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.12
+iter: 3
+cand: [5]
+core: [0, 1, 2, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.19
+iter: 4
+cand: [2, 5]
+core: [0, 1, 4, 6, 7]
+coex: [1, 6]
+  coextime: 0.26
+iter: 5
+cand: [1, 2, 5]
+core: [0, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.30
+iter: 6
+cand: [0, 1, 2, 5]
+core: [3, 4, 6, 7]
+coex: [3, 6]
+  coextime: 0.38
+iter: 7
+cand: [0, 1, 2, 3, 5]
+expl: [0, 1, 2, 3, 5]
+  expltime: 0.39
+iter: 8
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF loan_amnt > 15000.00 AND home_ownership != OWN AND 40057.66 < annual_inc <= 59000.00 AND desc > 392.00 AND 49.10 < revol_util <= 72.23 THEN NOT Bad Loan"
+  explanation size: 5
+  expl time: 0.39
+  dual explanation: "IF 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 40057.66 < annual_inc <= 59000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF home_ownership == OWN AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF loan_amnt > 15000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF desc > 392.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 6
+  rtime: 0.39
+
+inst: 64
+  explaining:  "IF loan_amnt <= 5400.00 AND home_ownership == RENT AND 40057.66 < annual_inc <= 59000.00 AND 145.00 < desc <= 392.00 AND inq_last_6mths <= 0.00 AND revol_util > 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.13
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.14
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.22
+iter: 4
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.23
+iter: 5
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF 40057.66 < annual_inc <= 59000.00 AND revol_util > 72.23 THEN NOT Bad Loan"
+  explanation size: 2
+  expl time: 0.23
+  dual explanation: "IF revol_util > 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 40057.66 < annual_inc <= 59000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.23
+
+inst: 65
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == RENT AND annual_inc <= 40057.66 AND desc > 392.00 AND inq_last_6mths <= 0.00 AND 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.14
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.14
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [3, 6]
+  coextime: 0.24
+iter: 4
+cand: [3, 5]
+core: [0, 1, 2, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.31
+iter: 5
+cand: [2, 3, 5]
+core: [0, 1, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.37
+iter: 6
+cand: [0, 2, 3, 5]
+expl: [0, 2, 3, 5]
+  expltime: 0.38
+iter: 7
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND annual_inc <= 40057.66 AND desc > 392.00 AND 49.10 < revol_util <= 72.23 THEN NOT Bad Loan"
+  explanation size: 4
+  expl time: 0.38
+  dual explanation: "IF 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF desc > 392.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF annual_inc <= 40057.66 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 7
+  rtime: 0.38
+
+inst: 66
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND annual_inc > 82000.00 AND desc <= 4.00 AND inq_last_6mths > 1.00 AND 49.10 < revol_util <= 72.23 AND 699.00 < last_fico_range_high <= 749.00 AND 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.05
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.05
+  dual explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 16
+  rtime: 0.05
+
+inst: 67
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == OWN AND 59000.00 < annual_inc <= 82000.00 AND desc <= 4.00 AND 0.00 < inq_last_6mths <= 1.00 AND revol_util <= 25.20 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 6]
+  coextime: 0.12
+iter: 2
+cand: [2]
+core: [0, 1, 3, 4, 5, 6, 7]
+coex: [1, 6]
+  coextime: 0.21
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.21
+iter: 4
+cand: [1, 2]
+core: [0, 3, 4, 5, 6, 7]
+coex: [0, 6]
+  coextime: 0.27
+iter: 5
+cand: [0, 1, 2]
+expl: [0, 1, 2]
+  expltime: 0.29
+iter: 6
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.21
+  explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership != OWN AND 59000.00 < annual_inc <= 82000.00 THEN NOT Bad Loan"
+  explanation size: 3
+  expl time: 0.29
+  dual explanation: "IF 59000.00 < annual_inc <= 82000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF home_ownership == OWN AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.29
+
+inst: 68
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND 40057.66 < annual_inc <= 59000.00 AND desc > 392.00 AND inq_last_6mths <= 0.00 AND revol_util <= 25.20 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [3, 6]
+  coextime: 0.15
+iter: 2
+cand: [3]
+core: [0, 1, 2, 4, 5, 6, 7]
+coex: [2, 6]
+  coextime: 0.23
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.23
+iter: 4
+cand: [2, 3]
+core: [0, 1, 4, 5, 6, 7]
+coex: [0, 6]
+  coextime: 0.29
+iter: 5
+cand: [0, 2, 3]
+expl: [0, 2, 3]
+  expltime: 0.30
+iter: 6
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.23
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND 40057.66 < annual_inc <= 59000.00 AND desc > 392.00 THEN NOT Bad Loan"
+  explanation size: 3
+  expl time: 0.30
+  dual explanation: "IF desc > 392.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 40057.66 < annual_inc <= 59000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.30
+
+inst: 69
+  explaining:  "IF loan_amnt > 15000.00 AND home_ownership == MORTGAGE AND annual_inc > 82000.00 AND desc <= 4.00 AND inq_last_6mths <= 0.00 AND 25.20 < revol_util <= 49.10 AND last_fico_range_high > 749.00 AND last_fico_range_low > 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF last_fico_range_high > 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF last_fico_range_high > 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 17
+  rtime: 0.04
+
+inst: 70
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND annual_inc > 82000.00 AND desc <= 4.00 AND inq_last_6mths <= 0.00 AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 1 THEN Good Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [0, 6, 8]
+  coextime: 0.11
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.12
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.12
+iter: 4
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 6]
+coex: [0, 2, 3, 4, 5, 6]
+  coextime: 0.20
+iter: 5
+cand: [2, 7]
+core: [0, 1, 3, 4, 5, 6]
+coex: [0, 1, 6]
+  coextime: 0.26
+iter: 6
+cand: [1, 2, 7]
+expl: [1, 2, 8]
+  expltime: 0.27
+iter: 7
+cand: [1, 3, 7]
+expl: [1, 3, 8]
+  expltime: 0.28
+iter: 8
+cand: [1, 5, 7]
+expl: [1, 5, 8]
+  expltime: 0.30
+iter: 9
+cand: [1, 4, 7]
+expl: [1, 4, 8]
+  expltime: 0.31
+iter: 10
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF home_ownership != MORTGAGE AND annual_inc > 82000.00 AND pub_rec_bankruptcies != 1 THEN NOT Good Loan"
+  explanation size: 3
+  expl time: 0.27
+  explanation: "IF home_ownership != MORTGAGE AND desc <= 4.00 AND pub_rec_bankruptcies != 1 THEN NOT Good Loan"
+  explanation size: 3
+  expl time: 0.28
+  explanation: "IF home_ownership != MORTGAGE AND 49.10 < revol_util <= 72.23 AND pub_rec_bankruptcies != 1 THEN NOT Good Loan"
+  explanation size: 3
+  expl time: 0.30
+  explanation: "IF home_ownership != MORTGAGE AND inq_last_6mths <= 0.00 AND pub_rec_bankruptcies != 1 THEN NOT Good Loan"
+  explanation size: 3
+  expl time: 0.31
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 1 THEN Good Loan"
+  dual explanation size: 3
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND annual_inc > 82000.00 AND desc <= 4.00 AND inq_last_6mths <= 0.00 AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 6
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 3
+  calls: 11
+  rtime: 0.31
+
+inst: 71
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND 59000.00 < annual_inc <= 82000.00 AND 145.00 < desc <= 392.00 AND inq_last_6mths <= 0.00 AND revol_util <= 25.20 AND last_fico_range_high > 749.00 AND last_fico_range_low > 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF last_fico_range_high > 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF last_fico_range_high > 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 20
+  rtime: 0.04
+
+inst: 72
+  explaining:  "IF loan_amnt > 15000.00 AND home_ownership == MORTGAGE AND 40057.66 < annual_inc <= 59000.00 AND desc <= 4.00 AND inq_last_6mths <= 0.00 AND revol_util > 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.13
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.13
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.22
+iter: 4
+cand: [2, 5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.27
+iter: 5
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.29
+iter: 6
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF loan_amnt > 15000.00 AND 40057.66 < annual_inc <= 59000.00 AND revol_util > 72.23 THEN NOT Bad Loan"
+  explanation size: 3
+  expl time: 0.29
+  dual explanation: "IF revol_util > 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 40057.66 < annual_inc <= 59000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF loan_amnt > 15000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.29
+
+inst: 73
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND 59000.00 < annual_inc <= 82000.00 AND desc <= 4.00 AND inq_last_6mths > 1.00 AND revol_util <= 25.20 AND last_fico_range_high > 749.00 AND last_fico_range_low > 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF last_fico_range_high > 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF last_fico_range_high > 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 17
+  rtime: 0.04
+
+inst: 74
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND annual_inc <= 40057.66 AND 145.00 < desc <= 392.00 AND 0.00 < inq_last_6mths <= 1.00 AND 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.14
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.14
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.22
+iter: 4
+cand: [2, 5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.28
+iter: 5
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.30
+iter: 6
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND annual_inc <= 40057.66 AND 49.10 < revol_util <= 72.23 THEN NOT Bad Loan"
+  explanation size: 3
+  expl time: 0.30
+  dual explanation: "IF 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF annual_inc <= 40057.66 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.30
+
+inst: 75
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == MORTGAGE AND 59000.00 < annual_inc <= 82000.00 AND desc <= 4.00 AND inq_last_6mths > 1.00 AND revol_util > 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 1 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.13
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.13
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.21
+iter: 4
+cand: [2, 5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.27
+iter: 5
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.28
+iter: 6
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND 59000.00 < annual_inc <= 82000.00 AND revol_util > 72.23 THEN NOT Bad Loan"
+  explanation size: 3
+  expl time: 0.28
+  dual explanation: "IF revol_util > 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 59000.00 < annual_inc <= 82000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.29
+
+inst: 76
+  explaining:  "IF loan_amnt > 15000.00 AND home_ownership == RENT AND 40057.66 < annual_inc <= 59000.00 AND desc > 392.00 AND inq_last_6mths <= 0.00 AND revol_util > 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 1 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 6, 7]
+coex: [2, 6]
+  coextime: 0.10
+iter: 2
+cand: [2]
+core: [0, 1, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.15
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.15
+iter: 4
+cand: [0, 2]
+core: [1, 3, 4, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.24
+iter: 5
+cand: [0, 2, 5]
+core: [1, 3, 4, 6, 7]
+coex: [3, 6]
+  coextime: 0.32
+iter: 6
+cand: [0, 2, 3, 5]
+expl: [0, 2, 3, 5]
+  expltime: 0.33
+iter: 7
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF loan_amnt > 15000.00 AND 40057.66 < annual_inc <= 59000.00 AND desc > 392.00 AND revol_util > 72.23 THEN NOT Bad Loan"
+  explanation size: 4
+  expl time: 0.33
+  dual explanation: "IF 40057.66 < annual_inc <= 59000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF loan_amnt > 15000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF revol_util > 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF desc > 392.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 7
+  rtime: 0.33
+
+inst: 77
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND 59000.00 < annual_inc <= 82000.00 AND desc > 392.00 AND inq_last_6mths <= 0.00 AND revol_util > 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.13
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.14
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [3, 6]
+  coextime: 0.24
+iter: 4
+cand: [3, 5]
+core: [0, 1, 2, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.31
+iter: 5
+cand: [2, 3, 5]
+core: [0, 1, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.37
+iter: 6
+cand: [0, 2, 3, 5]
+expl: [0, 2, 3, 5]
+  expltime: 0.38
+iter: 7
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND 59000.00 < annual_inc <= 82000.00 AND desc > 392.00 AND revol_util > 72.23 THEN NOT Bad Loan"
+  explanation size: 4
+  expl time: 0.38
+  dual explanation: "IF revol_util > 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF desc > 392.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 59000.00 < annual_inc <= 82000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 7
+  rtime: 0.38
+
+inst: 78
+  explaining:  "IF loan_amnt <= 5400.00 AND home_ownership == RENT AND 40057.66 < annual_inc <= 59000.00 AND desc > 392.00 AND inq_last_6mths <= 0.00 AND revol_util > 72.23 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [0, 6, 8]
+  coextime: 0.12
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.13
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.13
+iter: 4
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 6]
+coex: [0, 1, 6]
+  coextime: 0.19
+iter: 5
+cand: [1, 7]
+expl: [1, 8]
+  expltime: 0.20
+iter: 6
+cand: None
+  prediciton: Good Loan
+  explanation: "IF loan_amnt <= 5400.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF home_ownership != RENT AND pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 2
+  expl time: 0.20
+  dual explanation: "IF loan_amnt <= 5400.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 3
+  dual explanation: "IF loan_amnt <= 5400.00 AND home_ownership == RENT AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 3
+  calls: 9
+  rtime: 0.20
+
+inst: 79
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == RENT AND 40057.66 < annual_inc <= 59000.00 AND 4.00 < desc <= 145.00 AND 0.00 < inq_last_6mths <= 1.00 AND 25.20 < revol_util <= 49.10 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 1 THEN Good Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 6, 7]
+coex: [0, 1, 6]
+  coextime: 0.09
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.10
+iter: 3
+cand: [1]
+core: [0, 2, 3, 4, 5, 6, 7]
+coex: [0, 2, 4, 5, 6, 8]
+  coextime: 0.17
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.18
+iter: 5
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.19
+iter: 6
+cand: [1, 5]
+core: [0, 2, 3, 4, 6, 7]
+coex: [0, 2, 3, 4, 6, 8]
+  coextime: 0.25
+iter: 7
+cand: [1, 4]
+expl: [1, 4]
+  expltime: 0.26
+iter: 8
+cand: [1, 7]
+expl: [1, 8]
+  expltime: 0.26
+iter: 9
+cand: [1, 3, 5]
+expl: [1, 3, 5]
+  expltime: 0.28
+iter: 10
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF 10000.00 < loan_amnt <= 15000.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF home_ownership != RENT AND 40057.66 < annual_inc <= 59000.00 THEN NOT Good Loan"
+  explanation size: 2
+  expl time: 0.19
+  explanation: "IF home_ownership != RENT AND 0.00 < inq_last_6mths <= 1.00 THEN NOT Good Loan"
+  explanation size: 2
+  expl time: 0.26
+  explanation: "IF home_ownership != RENT AND pub_rec_bankruptcies != 1 THEN NOT Good Loan"
+  explanation size: 2
+  expl time: 0.26
+  explanation: "IF home_ownership != RENT AND 4.00 < desc <= 145.00 AND 25.20 < revol_util <= 49.10 THEN NOT Good Loan"
+  explanation size: 3
+  expl time: 0.28
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == RENT AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 3
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND 40057.66 < annual_inc <= 59000.00 AND 0.00 < inq_last_6mths <= 1.00 AND 25.20 < revol_util <= 49.10 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 1 THEN Good Loan"
+  dual explanation size: 6
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND 40057.66 < annual_inc <= 59000.00 AND 4.00 < desc <= 145.00 AND 0.00 < inq_last_6mths <= 1.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 1 THEN Good Loan"
+  dual explanation size: 6
+  calls: 10
+  rtime: 0.28
+
+inst: 80
+  explaining:  "IF loan_amnt > 15000.00 AND home_ownership == RENT AND 40057.66 < annual_inc <= 59000.00 AND desc <= 4.00 AND 0.00 < inq_last_6mths <= 1.00 AND 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 1 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.13
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.13
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.22
+iter: 4
+cand: [2, 5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.27
+iter: 5
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.28
+iter: 6
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF loan_amnt > 15000.00 AND 40057.66 < annual_inc <= 59000.00 AND 49.10 < revol_util <= 72.23 THEN NOT Bad Loan"
+  explanation size: 3
+  expl time: 0.28
+  dual explanation: "IF 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 40057.66 < annual_inc <= 59000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF loan_amnt > 15000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.28
+
+inst: 81
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == RENT AND annual_inc > 82000.00 AND 145.00 < desc <= 392.00 AND inq_last_6mths <= 0.00 AND revol_util > 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.14
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.14
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.21
+iter: 4
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.22
+iter: 5
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND revol_util > 72.23 THEN NOT Bad Loan"
+  explanation size: 2
+  expl time: 0.22
+  dual explanation: "IF revol_util > 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.22
+
+inst: 82
+  explaining:  "IF loan_amnt <= 5400.00 AND home_ownership == MORTGAGE AND annual_inc <= 40057.66 AND 145.00 < desc <= 392.00 AND inq_last_6mths <= 0.00 AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [0, 6, 8]
+  coextime: 0.10
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.11
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.11
+iter: 4
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 6]
+coex: [0, 4, 5, 6]
+  coextime: 0.19
+iter: 5
+cand: [5, 7]
+core: [0, 1, 2, 3, 4, 6]
+coex: [0, 1, 3, 6]
+  coextime: 0.24
+iter: 6
+cand: [3, 5, 7]
+expl: [3, 5, 8]
+  expltime: 0.25
+iter: 7
+cand: [3, 4, 7]
+core: [0, 1, 2, 5, 6]
+coex: [0, 1, 5, 6]
+  coextime: 0.31
+iter: 8
+cand: [1, 5, 7]
+expl: [1, 5, 8]
+  expltime: 0.32
+iter: 9
+cand: [1, 4, 7]
+core: [0, 2, 3, 5, 6]
+coex: [0, 3, 5, 6]
+  coextime: 0.36
+iter: 10
+cand: [1, 3, 4, 7]
+expl: [1, 3, 4, 8]
+  expltime: 0.37
+iter: 11
+cand: None
+  prediciton: Good Loan
+  explanation: "IF loan_amnt <= 5400.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF 145.00 < desc <= 392.00 AND 49.10 < revol_util <= 72.23 AND pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 3
+  expl time: 0.25
+  explanation: "IF home_ownership != MORTGAGE AND 49.10 < revol_util <= 72.23 AND pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 3
+  expl time: 0.32
+  explanation: "IF home_ownership != MORTGAGE AND 145.00 < desc <= 392.00 AND inq_last_6mths <= 0.00 AND pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 4
+  expl time: 0.37
+  dual explanation: "IF loan_amnt <= 5400.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 3
+  dual explanation: "IF loan_amnt <= 5400.00 AND inq_last_6mths <= 0.00 AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 4
+  dual explanation: "IF loan_amnt <= 5400.00 AND home_ownership == MORTGAGE AND 145.00 < desc <= 392.00 AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 4
+  dual explanation: "IF loan_amnt <= 5400.00 AND home_ownership == MORTGAGE AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 4
+  dual explanation: "IF loan_amnt <= 5400.00 AND 145.00 < desc <= 392.00 AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 4
+  calls: 7
+  rtime: 0.37
+
+inst: 83
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND 40057.66 < annual_inc <= 59000.00 AND 145.00 < desc <= 392.00 AND inq_last_6mths > 1.00 AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [0, 6, 8]
+  coextime: 0.09
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.10
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.11
+iter: 4
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 6]
+coex: [0, 1, 6]
+  coextime: 0.16
+iter: 5
+cand: [1, 7]
+expl: [1, 8]
+  expltime: 0.17
+iter: 6
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF home_ownership != RENT AND pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 2
+  expl time: 0.17
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 3
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 3
+  calls: 9
+  rtime: 0.17
+
+inst: 84
+  explaining:  "IF loan_amnt > 15000.00 AND home_ownership == RENT AND 40057.66 < annual_inc <= 59000.00 AND desc <= 4.00 AND inq_last_6mths <= 0.00 AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6]
+coex: [0, 2, 6]
+  coextime: 0.11
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.11
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.12
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.12
+iter: 5
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF 40057.66 < annual_inc <= 59000.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF loan_amnt > 15000.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.12
+  dual explanation: "IF loan_amnt > 15000.00 AND 40057.66 < annual_inc <= 59000.00 AND 649.00 < last_fico_range_high <= 699.00 THEN Bad Loan"
+  dual explanation size: 3
+  calls: 10
+  rtime: 0.12
+
+inst: 85
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == OWN AND annual_inc <= 40057.66 AND 145.00 < desc <= 392.00 AND inq_last_6mths <= 0.00 AND 25.20 < revol_util <= 49.10 AND last_fico_range_high > 749.00 AND last_fico_range_low > 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF last_fico_range_high > 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF last_fico_range_high > 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 19
+  rtime: 0.04
+
+inst: 86
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == OWN AND 40057.66 < annual_inc <= 59000.00 AND desc > 392.00 AND 0.00 < inq_last_6mths <= 1.00 AND revol_util <= 25.20 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [3, 6]
+  coextime: 0.14
+iter: 2
+cand: [3]
+core: [0, 1, 2, 4, 5, 6, 7]
+coex: [2, 6]
+  coextime: 0.22
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.23
+iter: 4
+cand: [2, 3]
+core: [0, 1, 4, 5, 6, 7]
+coex: [1, 6]
+  coextime: 0.31
+iter: 5
+cand: [1, 2, 3]
+core: [0, 4, 5, 6, 7]
+coex: [0, 6]
+  coextime: 0.36
+iter: 6
+cand: [0, 1, 2, 3]
+expl: [0, 1, 2, 3]
+  expltime: 0.38
+iter: 7
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.23
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership != OWN AND 40057.66 < annual_inc <= 59000.00 AND desc > 392.00 THEN NOT Bad Loan"
+  explanation size: 4
+  expl time: 0.38
+  dual explanation: "IF desc > 392.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 40057.66 < annual_inc <= 59000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF home_ownership == OWN AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 7
+  rtime: 0.38
+
+inst: 87
+  explaining:  "IF loan_amnt > 15000.00 AND home_ownership == MORTGAGE AND annual_inc > 82000.00 AND desc <= 4.00 AND inq_last_6mths <= 0.00 AND revol_util <= 25.20 AND last_fico_range_high > 749.00 AND last_fico_range_low > 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF last_fico_range_high > 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF last_fico_range_high > 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 16
+  rtime: 0.04
+
+inst: 88
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == MORTGAGE AND 59000.00 < annual_inc <= 82000.00 AND 4.00 < desc <= 145.00 AND inq_last_6mths <= 0.00 AND 25.20 < revol_util <= 49.10 AND 699.00 < last_fico_range_high <= 749.00 AND 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 25
+  rtime: 0.04
+
+inst: 89
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND annual_inc <= 40057.66 AND 145.00 < desc <= 392.00 AND inq_last_6mths <= 0.00 AND revol_util > 72.23 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [0, 6, 8]
+  coextime: 0.11
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.12
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.13
+iter: 4
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 6]
+coex: [0, 1, 6]
+  coextime: 0.19
+iter: 5
+cand: [1, 7]
+expl: [1, 8]
+  expltime: 0.20
+iter: 6
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF home_ownership != RENT AND pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 2
+  expl time: 0.20
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 3
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 3
+  calls: 9
+  rtime: 0.20
+
+inst: 90
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == OWN AND annual_inc <= 40057.66 AND 145.00 < desc <= 392.00 AND inq_last_6mths <= 0.00 AND revol_util > 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.11
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.12
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.20
+iter: 4
+cand: [2, 5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [1, 6]
+  coextime: 0.29
+iter: 5
+cand: [1, 2, 5]
+core: [0, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.35
+iter: 6
+cand: [0, 1, 2, 5]
+expl: [0, 1, 2, 5]
+  expltime: 0.36
+iter: 7
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership != OWN AND annual_inc <= 40057.66 AND revol_util > 72.23 THEN NOT Bad Loan"
+  explanation size: 4
+  expl time: 0.36
+  dual explanation: "IF revol_util > 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF annual_inc <= 40057.66 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF home_ownership == OWN AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 10000.00 < loan_amnt <= 15000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 7
+  rtime: 0.36
+
+inst: 91
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND 40057.66 < annual_inc <= 59000.00 AND desc <= 4.00 AND 0.00 < inq_last_6mths <= 1.00 AND 25.20 < revol_util <= 49.10 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.14
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.14
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.23
+iter: 4
+cand: [2, 5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.30
+iter: 5
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.31
+iter: 6
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND 40057.66 < annual_inc <= 59000.00 AND 25.20 < revol_util <= 49.10 THEN NOT Bad Loan"
+  explanation size: 3
+  expl time: 0.31
+  dual explanation: "IF 25.20 < revol_util <= 49.10 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 40057.66 < annual_inc <= 59000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.31
+
+inst: 92
+  explaining:  "IF loan_amnt <= 5400.00 AND home_ownership == RENT AND 40057.66 < annual_inc <= 59000.00 AND 145.00 < desc <= 392.00 AND inq_last_6mths > 1.00 AND revol_util <= 25.20 AND 699.00 < last_fico_range_high <= 749.00 AND 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies == 1 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.05
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.05
+  dual explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 17
+  rtime: 0.05
+
+inst: 93
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND 59000.00 < annual_inc <= 82000.00 AND 145.00 < desc <= 392.00 AND inq_last_6mths > 1.00 AND 25.20 < revol_util <= 49.10 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [0, 6, 8]
+  coextime: 0.11
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.11
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.12
+iter: 4
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 6]
+coex: [0, 1, 6]
+  coextime: 0.18
+iter: 5
+cand: [1, 7]
+expl: [1, 8]
+  expltime: 0.19
+iter: 6
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF home_ownership != MORTGAGE AND pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 2
+  expl time: 0.19
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 3
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 3
+  calls: 9
+  rtime: 0.19
+
+inst: 94
+  explaining:  "IF loan_amnt > 15000.00 AND home_ownership == MORTGAGE AND 59000.00 < annual_inc <= 82000.00 AND 145.00 < desc <= 392.00 AND 0.00 < inq_last_6mths <= 1.00 AND 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [5, 6]
+  coextime: 0.13
+iter: 2
+cand: [6]
+expl: [6]
+  expltime: 0.14
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [2, 6]
+  coextime: 0.22
+iter: 4
+cand: [2, 5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [0, 6]
+  coextime: 0.27
+iter: 5
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.29
+iter: 6
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF loan_amnt > 15000.00 AND 59000.00 < annual_inc <= 82000.00 AND 49.10 < revol_util <= 72.23 THEN NOT Bad Loan"
+  explanation size: 3
+  expl time: 0.29
+  dual explanation: "IF 49.10 < revol_util <= 72.23 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 59000.00 < annual_inc <= 82000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF loan_amnt > 15000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.29
+
+inst: 95
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == RENT AND annual_inc <= 40057.66 AND desc <= 4.00 AND 0.00 < inq_last_6mths <= 1.00 AND revol_util > 72.23 AND 699.00 < last_fico_range_high <= 749.00 AND 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 17
+  rtime: 0.04
+
+inst: 96
+  explaining:  "IF 5400.00 < loan_amnt <= 10000.00 AND home_ownership == MORTGAGE AND 40057.66 < annual_inc <= 59000.00 AND 145.00 < desc <= 392.00 AND 0.00 < inq_last_6mths <= 1.00 AND revol_util <= 25.20 AND last_fico_range_high <= 649.00 AND last_fico_range_low <= 645.00 AND pub_rec_bankruptcies == 0 THEN Bad Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 6]
+  coextime: 0.13
+iter: 2
+cand: [2]
+core: [0, 1, 3, 4, 5, 6, 7]
+coex: [0, 6]
+  coextime: 0.20
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.21
+iter: 4
+cand: [0, 2]
+expl: [0, 2]
+  expltime: 0.22
+iter: 5
+cand: None
+  prediciton: Bad Loan
+  explanation: "IF last_fico_range_high <= 649.00 THEN NOT Bad Loan"
+  explanation size: 1
+  expl time: 0.21
+  explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND 40057.66 < annual_inc <= 59000.00 THEN NOT Bad Loan"
+  explanation size: 2
+  expl time: 0.22
+  dual explanation: "IF 40057.66 < annual_inc <= 59000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  dual explanation: "IF 5400.00 < loan_amnt <= 10000.00 AND last_fico_range_high <= 649.00 THEN Bad Loan"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.22
+
+inst: 97
+  explaining:  "IF 10000.00 < loan_amnt <= 15000.00 AND home_ownership == OWN AND 40057.66 < annual_inc <= 59000.00 AND desc <= 4.00 AND inq_last_6mths <= 0.00 AND 49.10 < revol_util <= 72.23 AND 699.00 < last_fico_range_high <= 749.00 AND 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [6]
+expl: [6]
+  expltime: 0.04
+iter: 2
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.04
+  dual explanation: "IF 699.00 < last_fico_range_high <= 749.00 THEN Good Loan"
+  dual explanation size: 1
+  calls: 19
+  rtime: 0.05
+
+inst: 98
+  explaining:  "IF loan_amnt > 15000.00 AND home_ownership == MORTGAGE AND annual_inc > 82000.00 AND desc > 392.00 AND 0.00 < inq_last_6mths <= 1.00 AND revol_util <= 25.20 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [1, 2, 3, 6, 8]
+  coextime: 0.13
+iter: 2
+cand: [7]
+expl: [8]
+  expltime: 0.13
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.14
+iter: 4
+cand: [6]
+expl: [6]
+  expltime: 0.14
+iter: 5
+cand: [3]
+core: [0, 1, 2, 4, 5, 6, 7]
+coex: [1, 2, 4, 6, 8]
+  coextime: 0.22
+iter: 6
+cand: [1]
+expl: [1]
+  expltime: 0.23
+iter: 7
+cand: [3, 4]
+expl: [3, 4]
+  expltime: 0.24
+iter: 8
+cand: None
+  prediciton: Good Loan
+  explanation: "IF pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF annual_inc > 82000.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF home_ownership != MORTGAGE THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.23
+  explanation: "IF desc > 392.00 AND 0.00 < inq_last_6mths <= 1.00 THEN NOT Good Loan"
+  explanation size: 2
+  expl time: 0.24
+  dual explanation: "IF home_ownership == MORTGAGE AND annual_inc > 82000.00 AND desc > 392.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 5
+  dual explanation: "IF home_ownership == MORTGAGE AND annual_inc > 82000.00 AND 0.00 < inq_last_6mths <= 1.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 5
+  calls: 10
+  rtime: 0.24
+
+inst: 99
+  explaining:  "IF loan_amnt <= 5400.00 AND home_ownership == MORTGAGE AND annual_inc > 82000.00 AND desc > 392.00 AND inq_last_6mths <= 0.00 AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 AND 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 3, 5, 6, 8]
+  coextime: 0.11
+iter: 2
+cand: [5]
+core: [0, 1, 2, 3, 4, 6, 7]
+coex: [1, 2, 3, 6, 8]
+  coextime: 0.19
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 6]
+coex: [0, 4, 5, 6]
+  coextime: 0.27
+iter: 4
+cand: [6]
+expl: [6]
+  expltime: 0.27
+iter: 5
+cand: [0, 3]
+expl: [0, 3]
+  expltime: 0.29
+iter: 6
+cand: [0, 2]
+expl: [0, 2]
+  expltime: 0.29
+iter: 7
+cand: [3, 4]
+core: [0, 1, 2, 5, 6, 7]
+coex: [0, 6, 8]
+  coextime: 0.35
+iter: 8
+cand: [5, 7]
+core: [0, 1, 2, 3, 4, 6]
+coex: [0, 1, 2, 6]
+  coextime: 0.42
+iter: 9
+cand: [0, 7]
+expl: [0, 8]
+  expltime: 0.42
+iter: 10
+cand: [1, 4, 7]
+core: [0, 2, 3, 5, 6]
+coex: [0, 2, 5, 6]
+  coextime: 0.48
+iter: 11
+cand: [2, 4, 7]
+core: [0, 1, 3, 5, 6]
+coex: [0, 1, 5, 6]
+  coextime: 0.53
+iter: 12
+cand: [0, 1, 5]
+expl: [0, 1, 5]
+  expltime: 0.54
+iter: 13
+cand: [1, 5, 7]
+expl: [1, 5, 8]
+  expltime: 0.55
+iter: 14
+cand: [2, 5, 7]
+expl: [2, 5, 8]
+  expltime: 0.56
+iter: 15
+cand: [1, 2, 4, 7]
+expl: [1, 2, 4, 8]
+  expltime: 0.57
+iter: 16
+cand: None
+  prediciton: Good Loan
+  explanation: "IF 649.00 < last_fico_range_high <= 699.00 THEN NOT Good Loan"
+  explanation size: 1
+  expl time: 0.27
+  explanation: "IF loan_amnt <= 5400.00 AND desc > 392.00 THEN NOT Good Loan"
+  explanation size: 2
+  expl time: 0.29
+  explanation: "IF loan_amnt <= 5400.00 AND annual_inc > 82000.00 THEN NOT Good Loan"
+  explanation size: 2
+  expl time: 0.29
+  explanation: "IF loan_amnt <= 5400.00 AND pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 2
+  expl time: 0.42
+  explanation: "IF loan_amnt <= 5400.00 AND home_ownership != MORTGAGE AND 49.10 < revol_util <= 72.23 THEN NOT Good Loan"
+  explanation size: 3
+  expl time: 0.54
+  explanation: "IF home_ownership != MORTGAGE AND 49.10 < revol_util <= 72.23 AND pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 3
+  expl time: 0.55
+  explanation: "IF annual_inc > 82000.00 AND 49.10 < revol_util <= 72.23 AND pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 3
+  expl time: 0.56
+  explanation: "IF home_ownership != MORTGAGE AND annual_inc > 82000.00 AND inq_last_6mths <= 0.00 AND pub_rec_bankruptcies != 0 THEN NOT Good Loan"
+  explanation size: 4
+  expl time: 0.57
+  dual explanation: "IF annual_inc > 82000.00 AND desc > 392.00 AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 5
+  dual explanation: "IF home_ownership == MORTGAGE AND annual_inc > 82000.00 AND desc > 392.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 5
+  dual explanation: "IF loan_amnt <= 5400.00 AND inq_last_6mths <= 0.00 AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 4
+  dual explanation: "IF loan_amnt <= 5400.00 AND 649.00 < last_fico_range_high <= 699.00 AND pub_rec_bankruptcies == 0 THEN Good Loan"
+  dual explanation size: 3
+  dual explanation: "IF loan_amnt <= 5400.00 AND home_ownership == MORTGAGE AND annual_inc > 82000.00 AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 4
+  dual explanation: "IF loan_amnt <= 5400.00 AND annual_inc > 82000.00 AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 4
+  dual explanation: "IF loan_amnt <= 5400.00 AND home_ownership == MORTGAGE AND 49.10 < revol_util <= 72.23 AND 649.00 < last_fico_range_high <= 699.00 THEN Good Loan"
+  dual explanation size: 4
+  calls: 10
+  rtime: 0.57

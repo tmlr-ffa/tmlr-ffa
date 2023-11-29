@@ -1,0 +1,476 @@
+loading model from  ./temp/cars/cars_train1/cars_train1_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl
+loading data from  ./temp/cars/cars_train1/cars_train1_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl.splitdata.pkl
+
+inst: 0
+  explaining: MPG = 14.0 AND cylinders = 8.0 AND cubicInches = 440.0 AND horsepower = 215.0 AND weightLbs = 4312.0 AND time-to-sixty = 9.0 AND year = 1971.0 AND brand = 21.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.00031500123, 2: 2.70909, 3: -0.28928658, 4: -0.23641963, 5: 0.0028519435, 6: -0.036032517, 7: 0.9842657}
+  time: 0.01
+
+inst: 1
+  explaining: MPG = 11.0 AND cylinders = 8.0 AND cubicInches = 350.0 AND horsepower = 180.0 AND weightLbs = 3664.0 AND time-to-sixty = 11.0 AND year = 1974.0 AND brand = 18.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.00031500123, 2: 3.2336197, 3: -0.28928658, 4: -0.23641963, 5: 0.0028519435, 6: -0.036032517, 7: -0.120198384}
+  time: 0.01
+
+inst: 2
+  explaining: MPG = 24.0 AND cylinders = 6.0 AND cubicInches = 200.0 AND horsepower = 81.0 AND weightLbs = 3012.0 AND time-to-sixty = 18.0 AND year = 1977.0 AND brand = 11.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 2.519437, 3: -0.23566568, 4: -0.10133819, 5: 0.025030121, 6: -0.028937757, 7: 0.115944326}
+  time: 0.01
+
+inst: 3
+  explaining: MPG = 38.1 AND cylinders = 4.0 AND cubicInches = 89.0 AND horsepower = 60.0 AND weightLbs = 1968.0 AND time-to-sixty = 19.0 AND year = 1981.0 AND brand = 26.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.108184025, 1: -0.010540322, 2: 0.11737778, 3: 0.0093685, 4: 0.16301528, 5: 0.015300507, 6: 0.006808753, 7: 1.8657062}
+  time: 0.01
+
+inst: 4
+  explaining: MPG = 29.9 AND cylinders = 4.0 AND cubicInches = 98.0 AND horsepower = 65.0 AND weightLbs = 2380.0 AND time-to-sixty = 21.0 AND year = 1982.0 AND brand = 11.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.04324263, 2: -0.820617, 3: 0.070875786, 4: 0.07399726, 5: -0.0756831, 6: 0.13296463, 7: 0.10510141}
+  time: 0.01
+
+inst: 5
+  explaining: MPG = 21.0 AND cylinders = 6.0 AND cubicInches = 199.0 AND horsepower = 90.0 AND weightLbs = 2648.0 AND time-to-sixty = 15.0 AND year = 1971.0 AND brand = 0.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.009648603, 2: 2.7111714, 3: -0.13242985, 4: 0.090567425, 5: 0.0028519435, 6: -0.03330596, 7: 0.21709244}
+  time: 0.01
+
+inst: 6
+  explaining: MPG = 16.0 AND cylinders = 6.0 AND cubicInches = 250.0 AND horsepower = 105.0 AND weightLbs = 3897.0 AND time-to-sixty = 19.0 AND year = 1976.0 AND brand = 6.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 2.9555147, 3: -0.36029556, 4: -0.23960382, 5: 0.04335881, 6: -0.035392582, 7: 0.30593753}
+  time: 0.01
+
+inst: 7
+  explaining: MPG = 17.5 AND cylinders = 6.0 AND cubicInches = 250.0 AND horsepower = 110.0 AND weightLbs = 3520.0 AND time-to-sixty = 16.0 AND year = 1978.0 AND brand = 6.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 2.9555147, 3: -0.36029556, 4: -0.23960382, 5: 0.039204158, 6: -0.031237932, 7: 0.30593753}
+  time: 0.01
+
+inst: 8
+  explaining: MPG = 14.0 AND cylinders = 8.0 AND cubicInches = 455.0 AND horsepower = 225.0 AND weightLbs = 3086.0 AND time-to-sixty = 10.0 AND year = 1971.0 AND brand = 3.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.068216, 3: -0.38534573, 4: -0.15346076, 5: 0.0028519435, 6: -0.027707245, 7: 0.30593753}
+  time: 0.01
+
+inst: 9
+  explaining: MPG = 16.0 AND cylinders = 8.0 AND cubicInches = 400.0 AND horsepower = 230.0 AND weightLbs = 4278.0 AND time-to-sixty = 10.0 AND year = 1974.0 AND brand = 22.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.00031500123, 2: 2.70909, 3: -0.28928658, 4: -0.23641963, 5: 0.0028519435, 6: -0.036032517, 7: 0.9842657}
+  time: 0.00
+
+inst: 10
+  explaining: MPG = 33.5 AND cylinders = 4.0 AND cubicInches = 98.0 AND horsepower = 83.0 AND weightLbs = 2075.0 AND time-to-sixty = 16.0 AND year = 1978.0 AND brand = 9.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.04324263, 2: -0.9797052, 3: 0.1241753, 4: 0.068176545, 5: 0.014685231, 6: -0.07414578, 7: 0.49427727}
+  time: 0.00
+
+inst: 11
+  explaining: MPG = 13.0 AND cylinders = 8.0 AND cubicInches = 360.0 AND horsepower = 175.0 AND weightLbs = 3821.0 AND time-to-sixty = 11.0 AND year = 1974.0 AND brand = 0.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.1153433, 3: -0.3626151, 4: -0.21327935, 5: 0.0028519435, 6: -0.031237932, 7: 0.2189662}
+  time: 0.00
+
+inst: 12
+  explaining: MPG = 14.0 AND cylinders = 8.0 AND cubicInches = 318.0 AND horsepower = 150.0 AND weightLbs = 4237.0 AND time-to-sixty = 15.0 AND year = 1974.0 AND brand = 21.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.00031500123, 2: 2.70909, 3: -0.28928658, 4: -0.23641963, 5: 0.0028519435, 6: -0.036032517, 7: 0.9842657}
+  time: 0.00
+
+inst: 13
+  explaining: MPG = 26.0 AND cylinders = 4.0 AND cubicInches = 97.0 AND horsepower = 46.0 AND weightLbs = 1950.0 AND time-to-sixty = 21.0 AND year = 1974.0 AND brand = 29.0
+  expl: [2, 3, 4, 5, 6, 7]
+  lit2imprt: {2: 0.2598526, 3: 0.059480008, 4: -0.045003712, 5: 0.01786229, 6: 0.08338642, 7: 2.9775853}
+  time: 0.00
+
+inst: 14
+  explaining: MPG = 20.0 AND cylinders = 6.0 AND cubicInches = 198.0 AND horsepower = 95.0 AND weightLbs = 3102.0 AND time-to-sixty = 17.0 AND year = 1975.0 AND brand = 21.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.00031500123, 2: 2.7023535, 3: -0.27371314, 4: -0.16694105, 5: 0.04335881, 6: -0.03665648, 7: 0.9842657}
+  time: 0.00
+
+inst: 15
+  explaining: MPG = 27.0 AND cylinders = 4.0 AND cubicInches = 112.0 AND horsepower = 88.0 AND weightLbs = 2640.0 AND time-to-sixty = 19.0 AND year = 1983.0 AND brand = 6.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.03206808, 2: -0.8895684, 3: 0.10144353, 4: 0.07670347, 5: 0.033406395, 6: 0.33773237, 7: 0.7247796}
+  time: 0.00
+
+inst: 16
+  explaining: MPG = 24.0 AND cylinders = 4.0 AND cubicInches = 119.0 AND horsepower = 97.0 AND weightLbs = 2545.0 AND time-to-sixty = 17.0 AND year = 1976.0 AND brand = 8.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.33941096, 1: -0.042387895, 2: 0.18029547, 3: 0.24908926, 4: 0.27797595, 5: 0.01873045, 6: -0.007745941, 7: 1.8467731}
+  time: 0.00
+
+inst: 17
+  explaining: MPG = 26.0 AND cylinders = 4.0 AND cubicInches = 98.0 AND horsepower = 90.0 AND weightLbs = 2265.0 AND time-to-sixty = 16.0 AND year = 1974.0 AND brand = 10.0
+  expl: [2, 3, 4, 5, 6, 7]
+  lit2imprt: {2: 0.40259406, 3: -0.0056616617, 4: -0.08044983, 5: -0.0015925751, 6: 0.13929096, 7: 0.7455724}
+  time: 0.00
+
+inst: 18
+  explaining: MPG = 34.1 AND cylinders = 4.0 AND cubicInches = 86.0 AND horsepower = 65.0 AND weightLbs = 1975.0 AND time-to-sixty = 15.0 AND year = 1980.0 AND brand = 14.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.88868654, 1: -0.016781576, 2: 0.25452945, 3: -0.009322586, 4: 0.16399273, 5: -0.10201752, 6: -0.07678035, 7: 1.6680162}
+  time: 0.01
+
+inst: 19
+  explaining: MPG = 27.2 AND cylinders = 4.0 AND cubicInches = 119.0 AND horsepower = 97.0 AND weightLbs = 2300.0 AND time-to-sixty = 15.0 AND year = 1979.0 AND brand = 8.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.29046267, 1: -0.042387895, 2: 0.18029547, 3: 0.24908926, 4: 0.27797595, 5: -0.0220824, 6: -0.015881384, 7: 1.8467731}
+  time: 0.01
+
+inst: 20
+  explaining: MPG = 13.0 AND cylinders = 8.0 AND cubicInches = 350.0 AND horsepower = 175.0 AND weightLbs = 4100.0 AND time-to-sixty = 13.0 AND year = 1974.0 AND brand = 3.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.0283718, 3: -0.3626151, 4: -0.21327935, 5: 0.0028519435, 6: -0.031237932, 7: 0.30593753}
+  time: 0.01
+
+inst: 21
+  explaining: MPG = 18.0 AND cylinders = 6.0 AND cubicInches = 250.0 AND horsepower = 88.0 AND weightLbs = 3139.0 AND time-to-sixty = 15.0 AND year = 1972.0 AND brand = 11.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 2.7897112, 3: 0.06751653, 4: -0.11443348, 5: 0.011201048, 6: -0.030783178, 7: 0.12501524}
+  time: 0.01
+
+inst: 22
+  explaining: MPG = 16.0 AND cylinders = 6.0 AND cubicInches = 250.0 AND horsepower = 100.0 AND weightLbs = 3781.0 AND time-to-sixty = 17.0 AND year = 1975.0 AND brand = 6.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 2.9555147, 3: -0.36029556, 4: -0.23960382, 5: 0.04335881, 6: -0.035392582, 7: 0.30593753}
+  time: 0.01
+
+inst: 23
+  explaining: MPG = 11.0 AND cylinders = 8.0 AND cubicInches = 400.0 AND horsepower = 150.0 AND weightLbs = 4997.0 AND time-to-sixty = 14.0 AND year = 1974.0 AND brand = 6.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.0283718, 3: -0.3626151, 4: -0.21327935, 5: 0.0028519435, 6: -0.031237932, 7: 0.30593753}
+  time: 0.01
+
+inst: 24
+  explaining: MPG = 12.0 AND cylinders = 8.0 AND cubicInches = 400.0 AND horsepower = 167.0 AND weightLbs = 4906.0 AND time-to-sixty = 13.0 AND year = 1974.0 AND brand = 11.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.160596, 3: -0.31263462, 4: -0.21327935, 5: 0.0028519435, 6: -0.036032517, 7: 0.12852782}
+  time: 0.01
+
+inst: 25
+  explaining: MPG = 32.2 AND cylinders = 4.0 AND cubicInches = 108.0 AND horsepower = 75.0 AND weightLbs = 2265.0 AND time-to-sixty = 15.0 AND year = 1981.0 AND brand = 26.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.15795553, 1: -0.010540322, 2: -0.03360291, 3: 0.0093685, 4: 0.16301528, 5: -0.098785356, 6: 0.026871553, 7: 1.8719692}
+  time: 0.00
+
+inst: 26
+  explaining: MPG = 25.0 AND cylinders = 4.0 AND cubicInches = 121.0 AND horsepower = 115.0 AND weightLbs = 2671.0 AND time-to-sixty = 14.0 AND year = 1976.0 AND brand = 24.0
+  expl: [2, 3, 4, 5, 6, 7]
+  lit2imprt: {2: 0.42424285, 3: -0.0037238982, 4: -0.099151365, 5: -0.006002534, 6: 0.1269012, 7: 0.4370686}
+  time: 0.00
+
+inst: 27
+  explaining: MPG = 18.0 AND cylinders = 6.0 AND cubicInches = 225.0 AND horsepower = 95.0 AND weightLbs = 3785.0 AND time-to-sixty = 19.0 AND year = 1976.0 AND brand = 21.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.00031500123, 2: 2.6362329, 3: -0.286967, 4: -0.2627441, 5: 0.04335881, 6: -0.040187165, 7: 0.9842657}
+  time: 0.00
+
+inst: 28
+  explaining: MPG = 36.1 AND cylinders = 4.0 AND cubicInches = 98.0 AND horsepower = 66.0 AND weightLbs = 1800.0 AND time-to-sixty = 14.0 AND year = 1979.0 AND brand = 11.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.013372427, 2: -0.9639461, 3: 0.1363473, 4: 0.068176545, 5: -0.0011641704, 6: -0.08671525, 7: 0.041778687}
+  time: 0.00
+
+inst: 29
+  explaining: MPG = 12.0 AND cylinders = 8.0 AND cubicInches = 455.0 AND horsepower = 225.0 AND weightLbs = 4951.0 AND time-to-sixty = 11.0 AND year = 1974.0 AND brand = 3.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.0283718, 3: -0.3626151, 4: -0.21327935, 5: 0.0028519435, 6: -0.031237932, 7: 0.30593753}
+  time: 0.00
+
+inst: 30
+  explaining: MPG = 19.2 AND cylinders = 8.0 AND cubicInches = 267.0 AND horsepower = 125.0 AND weightLbs = 3605.0 AND time-to-sixty = 15.0 AND year = 1980.0 AND brand = 6.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 2.901615, 3: -0.43831187, 4: -0.22516367, 5: 0.0028519435, 6: 0.039025214, 7: 0.29827356}
+  time: 0.00
+
+inst: 31
+  explaining: MPG = 24.3 AND cylinders = 4.0 AND cubicInches = 151.0 AND horsepower = 90.0 AND weightLbs = 3003.0 AND time-to-sixty = 20.0 AND year = 1981.0 AND brand = 0.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.00036981306, 2: 0.54642665, 3: -0.016170818, 4: -0.3885563, 5: -0.2100605, 6: 0.046059117, 7: 0.2781953}
+  time: 0.00
+
+inst: 32
+  explaining: MPG = 16.0 AND cylinders = 6.0 AND cubicInches = 225.0 AND horsepower = 105.0 AND weightLbs = 3439.0 AND time-to-sixty = 16.0 AND year = 1972.0 AND brand = 21.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.00031500123, 2: 2.6362329, 3: -0.286967, 4: -0.2627441, 5: 0.039204158, 6: -0.036032517, 7: 0.9842657}
+  time: 0.01
+
+inst: 33
+  explaining: MPG = 33.8 AND cylinders = 4.0 AND cubicInches = 97.0 AND horsepower = 67.0 AND weightLbs = 2145.0 AND time-to-sixty = 18.0 AND year = 1981.0 AND brand = 25.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.30723485, 1: -0.010540322, 2: -0.04778131, 3: 0.0093685, 4: 0.16301528, 5: 0.07895025, 6: 0.006808753, 7: 1.857791}
+  time: 0.00
+
+inst: 34
+  explaining: MPG = 18.0 AND cylinders = 6.0 AND cubicInches = 250.0 AND horsepower = 105.0 AND weightLbs = 3459.0 AND time-to-sixty = 16.0 AND year = 1976.0 AND brand = 6.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 2.9555147, 3: -0.36029556, 4: -0.23960382, 5: 0.039204158, 6: -0.031237932, 7: 0.30593753}
+  time: 0.01
+
+inst: 35
+  explaining: MPG = 13.0 AND cylinders = 8.0 AND cubicInches = 400.0 AND horsepower = 190.0 AND weightLbs = 4422.0 AND time-to-sixty = 13.0 AND year = 1973.0 AND brand = 7.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.115987, 3: -0.3626151, 4: -0.21327935, 5: 0.0028519435, 6: -0.031237932, 7: 0.21832238}
+  time: 0.01
+
+inst: 36
+  explaining: MPG = 15.0 AND cylinders = 8.0 AND cubicInches = 350.0 AND horsepower = 145.0 AND weightLbs = 4082.0 AND time-to-sixty = 13.0 AND year = 1974.0 AND brand = 6.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.0283718, 3: -0.3626151, 4: -0.21327935, 5: 0.0028519435, 6: -0.031237932, 7: 0.30593753}
+  time: 0.01
+
+inst: 37
+  explaining: MPG = 14.0 AND cylinders = 8.0 AND cubicInches = 318.0 AND horsepower = 150.0 AND weightLbs = 4077.0 AND time-to-sixty = 14.0 AND year = 1973.0 AND brand = 21.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.00031500123, 2: 2.70909, 3: -0.28928658, 4: -0.23641963, 5: 0.0028519435, 6: -0.036032517, 7: 0.9842657}
+  time: 0.01
+
+inst: 38
+  explaining: MPG = 23.9 AND cylinders = 8.0 AND cubicInches = 260.0 AND horsepower = 90.0 AND weightLbs = 3420.0 AND time-to-sixty = 22.0 AND year = 1980.0 AND brand = 18.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.00031500123, 2: 2.7763615, 3: -0.055037074, 4: -0.24526116, 5: -0.2100605, 6: 0.04189223, 7: -0.13611983}
+  time: 0.01
+
+inst: 39
+  explaining: MPG = 19.0 AND cylinders = 6.0 AND cubicInches = 225.0 AND horsepower = 100.0 AND weightLbs = 3630.0 AND time-to-sixty = 18.0 AND year = 1978.0 AND brand = 21.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.00031500123, 2: 2.6362329, 3: -0.286967, 4: -0.2627441, 5: 0.04335881, 6: -0.040187165, 7: 0.9842657}
+  time: 0.00
+
+inst: 40
+  explaining: MPG = 15.0 AND cylinders = 8.0 AND cubicInches = 390.0 AND horsepower = 190.0 AND weightLbs = 3850.0 AND time-to-sixty = 9.0 AND year = 1971.0 AND brand = 0.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.1153433, 3: -0.3626151, 4: -0.21327935, 5: 0.0028519435, 6: -0.031237932, 7: 0.2189662}
+  time: 0.00
+
+inst: 41
+  explaining: MPG = 22.0 AND cylinders = 6.0 AND cubicInches = 225.0 AND horsepower = 100.0 AND weightLbs = 3233.0 AND time-to-sixty = 15.0 AND year = 1977.0 AND brand = 21.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.00031500123, 2: 2.7605462, 3: -0.29555374, 4: -0.16694105, 5: 0.0028519435, 6: -0.03250183, 7: 0.9842657}
+  time: 0.00
+
+inst: 42
+  explaining: MPG = 14.5 AND cylinders = 8.0 AND cubicInches = 351.0 AND horsepower = 152.0 AND weightLbs = 4215.0 AND time-to-sixty = 13.0 AND year = 1977.0 AND brand = 11.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.160596, 3: -0.31263462, 4: -0.21327935, 5: 0.0028519435, 6: -0.036032517, 7: 0.12852782}
+  time: 0.00
+
+inst: 43
+  explaining: MPG = 28.8 AND cylinders = 6.0 AND cubicInches = 173.0 AND horsepower = 115.0 AND weightLbs = 2595.0 AND time-to-sixty = 11.0 AND year = 1980.0 AND brand = 6.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.1419586, 2: 1.2587914, 3: -0.39339215, 4: 0.26013798, 5: 0.0028519435, 6: 0.07600762, 7: 0.27802825}
+  time: 0.00
+
+inst: 44
+  explaining: MPG = 15.0 AND cylinders = 8.0 AND cubicInches = 302.0 AND horsepower = 130.0 AND weightLbs = 4295.0 AND time-to-sixty = 15.0 AND year = 1978.0 AND brand = 16.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.00031500123, 2: 3.1727445, 3: -0.38015035, 4: -0.23641963, 5: 0.0028519435, 6: -0.036032517, 7: -0.120198384}
+  time: 0.00
+
+inst: 45
+  explaining: MPG = 17.5 AND cylinders = 6.0 AND cubicInches = 258.0 AND horsepower = 95.0 AND weightLbs = 3193.0 AND time-to-sixty = 18.0 AND year = 1977.0 AND brand = 0.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.1086066, 3: -0.3470417, 4: -0.14380077, 5: 0.04335881, 6: -0.031861898, 7: 0.2189662}
+  time: 0.00
+
+inst: 46
+  explaining: MPG = 14.0 AND cylinders = 8.0 AND cubicInches = 318.0 AND horsepower = 150.0 AND weightLbs = 4457.0 AND time-to-sixty = 14.0 AND year = 1975.0 AND brand = 9.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.115987, 3: -0.3626151, 4: -0.21327935, 5: 0.0028519435, 6: -0.031237932, 7: 0.21832238}
+  time: 0.01
+
+inst: 47
+  explaining: MPG = 14.0 AND cylinders = 8.0 AND cubicInches = 302.0 AND horsepower = 137.0 AND weightLbs = 4042.0 AND time-to-sixty = 15.0 AND year = 1974.0 AND brand = 11.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.160596, 3: -0.31263462, 4: -0.21327935, 5: 0.0028519435, 6: -0.036032517, 7: 0.12852782}
+  time: 0.01
+
+inst: 48
+  explaining: MPG = 31.0 AND cylinders = 4.0 AND cubicInches = 76.0 AND horsepower = 52.0 AND weightLbs = 1649.0 AND time-to-sixty = 17.0 AND year = 1975.0 AND brand = 26.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.18218836, 1: -0.013654266, 2: 0.0943511, 3: 0.0093685, 4: 0.16301528, 5: 0.09136115, 6: -0.019454716, 7: 2.1273336}
+  time: 0.01
+
+inst: 49
+  explaining: MPG = 23.5 AND cylinders = 6.0 AND cubicInches = 173.0 AND horsepower = 110.0 AND weightLbs = 2725.0 AND time-to-sixty = 13.0 AND year = 1982.0 AND brand = 6.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.009648603, 2: 1.2827853, 3: -0.37791228, 4: 0.2842444, 5: 0.0028519435, 6: 0.10753947, 7: 0.27802825}
+  time: 0.01
+
+inst: 50
+  explaining: MPG = 25.1 AND cylinders = 4.0 AND cubicInches = 140.0 AND horsepower = 88.0 AND weightLbs = 2720.0 AND time-to-sixty = 15.0 AND year = 1979.0 AND brand = 11.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0067299614, 2: 0.59850866, 3: 0.11749234, 4: 0.20558146, 5: 0.009268493, 6: -0.059098817, 7: 0.09660438}
+  time: 0.01
+
+inst: 51
+  explaining: MPG = 9.0 AND cylinders = 8.0 AND cubicInches = 304.0 AND horsepower = 193.0 AND weightLbs = 4732.0 AND time-to-sixty = 19.0 AND year = 1971.0 AND brand = 12.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.00031500123, 2: 3.1789508, 3: -0.26744598, 4: -0.21327935, 5: 0.04335881, 6: -0.040187165, 7: -0.14686264}
+  time: 0.01
+
+inst: 52
+  explaining: MPG = 13.0 AND cylinders = 8.0 AND cubicInches = 400.0 AND horsepower = 175.0 AND weightLbs = 5140.0 AND time-to-sixty = 12.0 AND year = 1972.0 AND brand = 22.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.00031500123, 2: 2.70909, 3: -0.28928658, 4: -0.23641963, 5: 0.0028519435, 6: -0.036032517, 7: 0.9842657}
+  time: 0.00
+
+inst: 53
+  explaining: MPG = 24.0 AND cylinders = 4.0 AND cubicInches = 90.0 AND horsepower = 75.0 AND weightLbs = 2108.0 AND time-to-sixty = 16.0 AND year = 1975.0 AND brand = 10.0
+  expl: [2, 3, 4, 5, 6, 7]
+  lit2imprt: {2: 0.30348602, 3: 0.089428715, 4: -0.08044983, 5: -0.0015925751, 6: 0.14116964, 7: 0.74771136}
+  time: 0.01
+
+inst: 54
+  explaining: MPG = 25.0 AND cylinders = 4.0 AND cubicInches = 140.0 AND horsepower = 92.0 AND weightLbs = 2572.0 AND time-to-sixty = 15.0 AND year = 1977.0 AND brand = 5.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0067299614, 2: 0.4716572, 3: -0.29419017, 4: 0.20558146, 5: -0.020382762, 6: -0.060230464, 7: 0.3478574}
+  time: 0.01
+
+inst: 55
+  explaining: MPG = 27.0 AND cylinders = 4.0 AND cubicInches = 97.0 AND horsepower = 88.0 AND weightLbs = 2130.0 AND time-to-sixty = 15.0 AND year = 1972.0 AND brand = 8.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.33551997, 1: -0.042387895, 2: 0.18029547, 3: -0.17719856, 4: 0.23415875, 5: -0.0220824, 6: -0.015881384, 7: 1.8019133}
+  time: 0.01
+
+inst: 56
+  explaining: MPG = 25.0 AND cylinders = 4.0 AND cubicInches = 140.0 AND horsepower = 75.0 AND weightLbs = 2542.0 AND time-to-sixty = 17.0 AND year = 1975.0 AND brand = 6.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0067299614, 2: 0.33145058, 3: -0.030650998, 4: 0.20558146, 5: 0.029272547, 6: -0.052458808, 7: 0.43458304}
+  time: 0.01
+
+inst: 57
+  explaining: MPG = 13.0 AND cylinders = 8.0 AND cubicInches = 350.0 AND horsepower = 155.0 AND weightLbs = 4502.0 AND time-to-sixty = 14.0 AND year = 1973.0 AND brand = 3.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.0283718, 3: -0.3626151, 4: -0.21327935, 5: 0.0028519435, 6: -0.031237932, 7: 0.30593753}
+  time: 0.01
+
+inst: 58
+  explaining: MPG = 36.0 AND cylinders = 4.0 AND cubicInches = 120.0 AND horsepower = 88.0 AND weightLbs = 2160.0 AND time-to-sixty = 15.0 AND year = 1983.0 AND brand = 17.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.03541635, 2: -1.1184883, 3: 0.09377745, 4: 0.083816394, 5: -0.021047464, 6: 0.34866464, 7: -0.28861782}
+  time: 0.00
+
+inst: 59
+  explaining: MPG = 29.8 AND cylinders = 4.0 AND cubicInches = 89.0 AND horsepower = 62.0 AND weightLbs = 1845.0 AND time-to-sixty = 15.0 AND year = 1981.0 AND brand = 29.0
+  expl: [2, 3, 4, 5, 6, 7]
+  lit2imprt: {2: 0.23820342, 3: 0.059480008, 4: -0.045003712, 5: -0.0055299923, 6: 0.122220434, 7: 2.9837928}
+  time: 0.01
+
+inst: 60
+  explaining: MPG = 15.5 AND cylinders = 8.0 AND cubicInches = 350.0 AND horsepower = 170.0 AND weightLbs = 4165.0 AND time-to-sixty = 11.0 AND year = 1978.0 AND brand = 6.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.0283718, 3: -0.3626151, 4: -0.21327935, 5: 0.0028519435, 6: -0.031237932, 7: 0.30593753}
+  time: 0.01
+
+inst: 61
+  explaining: MPG = 34.1 AND cylinders = 4.0 AND cubicInches = 91.0 AND horsepower = 68.0 AND weightLbs = 1985.0 AND time-to-sixty = 16.0 AND year = 1982.0 AND brand = 14.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.94370514, 1: -0.016781576, 2: 0.25452945, 3: -0.009322586, 4: 0.16399273, 5: -0.06147074, 6: 0.026871553, 7: 1.6680162}
+  time: 0.01
+
+inst: 62
+  explaining: MPG = 20.5 AND cylinders = 6.0 AND cubicInches = 200.0 AND horsepower = 95.0 AND weightLbs = 3155.0 AND time-to-sixty = 18.0 AND year = 1979.0 AND brand = 6.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.021635, 3: -0.3470417, 4: -0.14380077, 5: 0.04335881, 6: -0.031861898, 7: 0.30593753}
+  time: 0.01
+
+inst: 63
+  explaining: MPG = 12.0 AND cylinders = 8.0 AND cubicInches = 383.0 AND horsepower = 180.0 AND weightLbs = 4955.0 AND time-to-sixty = 12.0 AND year = 1972.0 AND brand = 9.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.115987, 3: -0.3626151, 4: -0.21327935, 5: 0.0028519435, 6: -0.031237932, 7: 0.21832238}
+  time: 0.01
+
+inst: 64
+  explaining: MPG = 20.0 AND cylinders = 8.0 AND cubicInches = 262.0 AND horsepower = 110.0 AND weightLbs = 3221.0 AND time-to-sixty = 14.0 AND year = 1976.0 AND brand = 6.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.079828, 3: -0.3688823, 4: -0.14380077, 5: 0.0028519435, 6: -0.027707245, 7: 0.30593753}
+  time: 0.01
+
+inst: 65
+  explaining: MPG = 28.0 AND cylinders = 4.0 AND cubicInches = 140.0 AND horsepower = 90.0 AND weightLbs = 2264.0 AND time-to-sixty = 16.0 AND year = 1972.0 AND brand = 6.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.020451982, 2: 0.5148874, 3: -0.21663344, 4: 0.20558146, 5: 0.09021054, 6: -0.060230464, 7: 0.3478574}
+  time: 0.01
+
+inst: 66
+  explaining: MPG = 24.0 AND cylinders = 4.0 AND cubicInches = 134.0 AND horsepower = 96.0 AND weightLbs = 2702.0 AND time-to-sixty = 14.0 AND year = 1976.0 AND brand = 26.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.010353537, 1: -0.018137699, 2: -0.043936044, 3: 0.18932518, 4: 0.17191759, 5: -0.0220824, 6: -0.015881384, 7: 2.8740714}
+  time: 0.01
+
+inst: 67
+  explaining: MPG = 13.0 AND cylinders = 8.0 AND cubicInches = 302.0 AND horsepower = 130.0 AND weightLbs = 3870.0 AND time-to-sixty = 15.0 AND year = 1977.0 AND brand = 11.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.0997207, 3: -0.40349838, 4: -0.21327935, 5: 0.0028519435, 6: -0.036032517, 7: 0.12852782}
+  time: 0.01
+
+inst: 68
+  explaining: MPG = 14.0 AND cylinders = 8.0 AND cubicInches = 351.0 AND horsepower = 153.0 AND weightLbs = 4154.0 AND time-to-sixty = 14.0 AND year = 1972.0 AND brand = 11.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.160596, 3: -0.31263462, 4: -0.21327935, 5: 0.0028519435, 6: -0.036032517, 7: 0.12852782}
+  time: 0.01
+
+inst: 69
+  explaining: MPG = 19.0 AND cylinders = 4.0 AND cubicInches = 122.0 AND horsepower = 85.0 AND weightLbs = 2310.0 AND time-to-sixty = 19.0 AND year = 1974.0 AND brand = 11.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0067299614, 2: 0.10050548, 3: 0.12262285, 4: 0.20558146, 5: 0.029272547, 6: -0.06091939, 7: 0.10417628}
+  time: 0.01
+
+inst: 70
+  explaining: MPG = 22.0 AND cylinders = 4.0 AND cubicInches = 140.0 AND horsepower = 72.0 AND weightLbs = 2408.0 AND time-to-sixty = 19.0 AND year = 1972.0 AND brand = 6.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0067299614, 2: 0.33145058, 3: -0.030650998, 4: 0.20558146, 5: 0.029272547, 6: -0.052458808, 7: 0.43458304}
+  time: 0.01
+
+inst: 71
+  explaining: MPG = 14.0 AND cylinders = 8.0 AND cubicInches = 304.0 AND horsepower = 150.0 AND weightLbs = 4257.0 AND time-to-sixty = 16.0 AND year = 1975.0 AND brand = 0.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.0571506, 3: -0.34077454, 4: -0.21327935, 5: 0.039204158, 6: -0.031237932, 7: 0.2189662}
+  time: 0.01
+
+inst: 72
+  explaining: MPG = 26.0 AND cylinders = 4.0 AND cubicInches = 97.0 AND horsepower = 75.0 AND weightLbs = 2265.0 AND time-to-sixty = 18.0 AND year = 1978.0 AND brand = 26.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.10369179, 1: -0.018137699, 2: 0.012356415, 3: -0.006982079, 4: 0.15310311, 5: 0.01873045, 6: -0.007745941, 7: 2.693093}
+  time: 0.01
+
+inst: 73
+  explaining: MPG = 18.0 AND cylinders = 6.0 AND cubicInches = 232.0 AND horsepower = 100.0 AND weightLbs = 2789.0 AND time-to-sixty = 15.0 AND year = 1974.0 AND brand = 0.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.009648603, 2: 2.9059148, 3: -0.3306352, 4: 0.108028546, 5: 0.0028519435, 6: -0.03330596, 7: 0.20309334}
+  time: 0.01
+
+inst: 74
+  explaining: MPG = 18.5 AND cylinders = 8.0 AND cubicInches = 360.0 AND horsepower = 150.0 AND weightLbs = 3940.0 AND time-to-sixty = 13.0 AND year = 1980.0 AND brand = 7.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.0501053, 3: -0.34744808, 4: -0.22516367, 5: 0.0028519435, 6: 0.039025214, 7: 0.21065839}
+  time: 0.00
+
+inst: 75
+  explaining: MPG = 26.0 AND cylinders = 4.0 AND cubicInches = 108.0 AND horsepower = 93.0 AND weightLbs = 2391.0 AND time-to-sixty = 16.0 AND year = 1975.0 AND brand = 25.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.009686194, 1: -0.018137699, 2: 0.012356415, 3: 0.18932518, 4: 0.17191759, 5: -0.0220824, 6: -0.015881384, 7: 2.659498}
+  time: 0.00
+
+inst: 76
+  explaining: MPG = 27.0 AND cylinders = 4.0 AND cubicInches = 97.0 AND horsepower = 88.0 AND weightLbs = 2100.0 AND time-to-sixty = 17.0 AND year = 1973.0 AND brand = 26.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: -0.10369179, 1: -0.018137699, 2: 0.012356415, 3: -0.15850747, 4: 0.13630605, 5: 0.01873045, 6: -0.007745941, 7: 2.693093}
+  time: 0.00
+
+inst: 77
+  explaining: MPG = 13.0 AND cylinders = 8.0 AND cubicInches = 400.0 AND horsepower = 170.0 AND weightLbs = 4746.0 AND time-to-sixty = 12.0 AND year = 1972.0 AND brand = 11.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.160596, 3: -0.31263462, 4: -0.21327935, 5: 0.0028519435, 6: -0.036032517, 7: 0.12852782}
+  time: 0.00
+
+inst: 78
+  explaining: MPG = 17.6 AND cylinders = 8.0 AND cubicInches = 302.0 AND horsepower = 129.0 AND weightLbs = 3725.0 AND time-to-sixty = 13.0 AND year = 1980.0 AND brand = 11.0
+  expl: [0, 2, 3, 4, 5, 6, 7]
+  lit2imprt: {0: 0.0025488294, 2: 3.0102062, 3: -0.38833135, 4: -0.22516367, 5: 0.0028519435, 6: 0.046046883, 7: 0.13268009}
+  time: 0.00

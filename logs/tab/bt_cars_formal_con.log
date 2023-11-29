@@ -1,0 +1,3078 @@
+loading model from  ./bt/temp/cars/cars_train1/cars_train1_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl
+loading data from  ./bt/temp/cars/cars_train1/cars_train1_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl.splitdata.pkl
+encoding vars: 727
+encoding clauses: 3414 (3119 path + 295 common)
+
+inst: 0
+lits: [1, -18, -38, -63, -88, 90, 97, 138]
+  explaining:  "IF MPG == 14.0 AND cylinders == 8.0 AND cubicInches == 440.0 AND horsepower == 215.0 AND weightLbs == 4312.0 AND time-to-sixty == 9.0 AND year == 1971.0 AND brand == 21.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.18
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.20
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.21
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 440.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.20
+  explanation: "IF brand != 21.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.21
+  dual explanation: "IF cubicInches == 440.0 AND brand == 21.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.21
+
+inst: 1
+lits: [1, -18, -38, -63, -88, 90, 97, 132]
+  explaining:  "IF MPG == 11.0 AND cylinders == 8.0 AND cubicInches == 350.0 AND horsepower == 180.0 AND weightLbs == 3664.0 AND time-to-sixty == 11.0 AND year == 1974.0 AND brand == 18.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.18
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 350.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF brand != 18.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  dual explanation: "IF cubicInches == 350.0 AND brand == 18.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.18
+
+inst: 2
+lits: [1, -18, -38, 46, 81, 94, 99, 122]
+  explaining:  "IF MPG == 24.0 AND cylinders == 6.0 AND cubicInches == 200.0 AND horsepower == 81.0 AND weightLbs == 3012.0 AND time-to-sixty == 18.0 AND year == 1977.0 AND brand == 11.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.18
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 200.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF brand != 11.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  dual explanation: "IF cubicInches == 200.0 AND brand == 11.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.18
+
+inst: 3
+lits: [-16, -18, 21, 40, 65, 96, 105, 148]
+  explaining:  "IF MPG == 38.1 AND cylinders == 4.0 AND cubicInches == 89.0 AND horsepower == 60.0 AND weightLbs == 1968.0 AND time-to-sixty == 19.0 AND year == 1981.0 AND brand == 26.0 THEN 1"
+iter: 1
+cand: [4]
+core: [0, 2, 3, 5, 6, 7]
+coex: [6, 7]
+  coextime: 0.17
+iter: 2
+cand: [7]
+expl: [7]
+  expltime: 0.17
+iter: 3
+cand: [6]
+core: [0, 2, 3, 4, 5, 7]
+coex: [5, 7]
+  coextime: 0.27
+iter: 4
+cand: [5, 6]
+core: [0, 2, 3, 4, 7]
+coex: [4, 7]
+  coextime: 0.35
+iter: 5
+cand: [4, 5, 6]
+core: [0, 2, 3, 7]
+coex: [2, 7]
+  coextime: 0.41
+iter: 6
+cand: [2, 4, 5, 6]
+expl: [2, 4, 5, 6]
+  expltime: 0.42
+iter: 7
+cand: None
+  prediciton: 1
+  explanation: "IF brand != 26.0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF cubicInches != 89.0 AND weightLbs != 1968.0 AND time-to-sixty != 19.0 AND year != 1981.0 THEN NOT 1"
+  explanation size: 4
+  expl time: 0.42
+  dual explanation: "IF year == 1981.0 AND brand == 26.0 THEN 1"
+  dual explanation size: 2
+  dual explanation: "IF time-to-sixty == 19.0 AND brand == 26.0 THEN 1"
+  dual explanation size: 2
+  dual explanation: "IF weightLbs == 1968.0 AND brand == 26.0 THEN 1"
+  dual explanation size: 2
+  dual explanation: "IF cubicInches == 89.0 AND brand == 26.0 THEN 1"
+  dual explanation size: 2
+  calls: 6
+  rtime: 0.42
+
+inst: 4
+lits: [7, -18, 25, 40, 65, -95, 107, 122]
+  explaining:  "IF MPG == 29.9 AND cylinders == 4.0 AND cubicInches == 98.0 AND horsepower == 65.0 AND weightLbs == 2380.0 AND time-to-sixty == 21.0 AND year == 1982.0 AND brand == 11.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 3, 6, 7]
+  coextime: 0.16
+iter: 2
+cand: [7]
+expl: [7]
+  expltime: 0.16
+iter: 3
+cand: [3]
+core: [0, 1, 2, 4, 5, 6, 7]
+coex: [1, 2, 4, 6, 7]
+  coextime: 0.38
+iter: 4
+cand: [6]
+core: [0, 1, 2, 3, 4, 7]
+coex: [2, 3, 4, 7]
+  coextime: 0.47
+iter: 5
+cand: [2]
+core: [0, 1, 3, 4, 6, 7]
+coex: [0, 1, 4, 6, 7]
+  coextime: 0.57
+iter: 6
+cand: [4, 6]
+expl: [4, 6]
+  expltime: 0.58
+iter: 7
+cand: [3, 6]
+expl: [3, 6]
+  expltime: 0.59
+iter: 8
+cand: [2, 6]
+expl: [2, 6]
+  expltime: 0.61
+iter: 9
+cand: [0, 2]
+expl: [0, 2]
+  expltime: 0.63
+iter: 10
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.65
+iter: 11
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.66
+iter: 12
+cand: [1, 3]
+expl: [1, 3]
+  expltime: 0.68
+iter: 13
+cand: [3, 4]
+expl: [3, 4]
+  expltime: 0.69
+iter: 14
+cand: None
+  prediciton: 2
+  explanation: "IF brand != 11.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.16
+  explanation: "IF weightLbs != 2380.0 AND year != 1982.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.58
+  explanation: "IF horsepower != 65.0 AND year != 1982.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.59
+  explanation: "IF cubicInches != 98.0 AND year != 1982.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.61
+  explanation: "IF MPG != 29.9 AND cubicInches != 98.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.63
+  explanation: "IF cylinders != 4.0 AND cubicInches != 98.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.65
+  explanation: "IF cubicInches != 98.0 AND weightLbs != 2380.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.66
+  explanation: "IF cylinders != 4.0 AND horsepower != 65.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.68
+  explanation: "IF horsepower != 65.0 AND weightLbs != 2380.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.69
+  dual explanation: "IF cubicInches == 98.0 AND horsepower == 65.0 AND year == 1982.0 AND brand == 11.0 THEN 2"
+  dual explanation size: 4
+  dual explanation: "IF cylinders == 4.0 AND cubicInches == 98.0 AND weightLbs == 2380.0 AND year == 1982.0 AND brand == 11.0 THEN 2"
+  dual explanation size: 5
+  dual explanation: "IF cubicInches == 98.0 AND horsepower == 65.0 AND weightLbs == 2380.0 AND brand == 11.0 THEN 2"
+  dual explanation size: 4
+  dual explanation: "IF MPG == 29.9 AND cylinders == 4.0 AND weightLbs == 2380.0 AND year == 1982.0 AND brand == 11.0 THEN 2"
+  dual explanation size: 5
+  calls: 15
+  rtime: 0.69
+
+inst: 5
+lits: [1, -18, -38, 58, 67, 90, 97, 108]
+  explaining:  "IF MPG == 21.0 AND cylinders == 6.0 AND cubicInches == 199.0 AND horsepower == 90.0 AND weightLbs == 2648.0 AND time-to-sixty == 15.0 AND year == 1971.0 AND brand == 0.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.20
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 199.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF brand != 0.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.20
+  dual explanation: "IF cubicInches == 199.0 AND brand == 0.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.20
+
+inst: 6
+lits: [1, -18, -38, 62, -88, 96, 97, 112]
+  explaining:  "IF MPG == 16.0 AND cylinders == 6.0 AND cubicInches == 250.0 AND horsepower == 105.0 AND weightLbs == 3897.0 AND time-to-sixty == 19.0 AND year == 1976.0 AND brand == 6.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.16
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.18
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 250.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF brand != 6.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  dual explanation: "IF cubicInches == 250.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.18
+
+inst: 7
+lits: [1, -18, -38, 62, -88, 92, 99, 112]
+  explaining:  "IF MPG == 17.5 AND cylinders == 6.0 AND cubicInches == 250.0 AND horsepower == 110.0 AND weightLbs == 3520.0 AND time-to-sixty == 16.0 AND year == 1978.0 AND brand == 6.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.19
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 250.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF brand != 6.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  dual explanation: "IF cubicInches == 250.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.19
+
+inst: 8
+lits: [1, -18, -38, -63, 83, 90, 97, 112]
+  explaining:  "IF MPG == 14.0 AND cylinders == 8.0 AND cubicInches == 455.0 AND horsepower == 225.0 AND weightLbs == 3086.0 AND time-to-sixty == 10.0 AND year == 1971.0 AND brand == 3.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.18
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.19
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.20
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 455.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF brand != 3.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.20
+  dual explanation: "IF cubicInches == 455.0 AND brand == 3.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.20
+
+inst: 9
+lits: [1, -18, -38, -63, -88, 90, 97, 138]
+  explaining:  "IF MPG == 16.0 AND cylinders == 8.0 AND cubicInches == 400.0 AND horsepower == 230.0 AND weightLbs == 4278.0 AND time-to-sixty == 10.0 AND year == 1974.0 AND brand == 22.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.16
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.18
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 400.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF brand != 22.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  dual explanation: "IF cubicInches == 400.0 AND brand == 22.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.18
+
+inst: 10
+lits: [13, -18, 25, 50, 65, 92, 99, 118]
+  explaining:  "IF MPG == 33.5 AND cylinders == 4.0 AND cubicInches == 98.0 AND horsepower == 83.0 AND weightLbs == 2075.0 AND time-to-sixty == 16.0 AND year == 1978.0 AND brand == 9.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 2, 3, 5, 6, 7]
+coex: [2, 3, 7]
+  coextime: 0.16
+iter: 2
+cand: [7]
+expl: [7]
+  expltime: 0.16
+iter: 3
+cand: [3]
+expl: [3]
+  expltime: 0.19
+iter: 4
+cand: [2]
+core: [0, 3, 4, 5, 6, 7]
+coex: [3, 4, 7]
+  coextime: 0.34
+iter: 5
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.35
+iter: 6
+cand: None
+  prediciton: 2
+  explanation: "IF brand != 9.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.16
+  explanation: "IF horsepower != 83.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF cubicInches != 98.0 AND weightLbs != 2075.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.35
+  dual explanation: "IF cubicInches == 98.0 AND horsepower == 83.0 AND brand == 9.0 THEN 2"
+  dual explanation size: 3
+  dual explanation: "IF horsepower == 83.0 AND weightLbs == 2075.0 AND brand == 9.0 THEN 2"
+  dual explanation size: 3
+  calls: 8
+  rtime: 0.35
+
+inst: 11
+lits: [1, -18, -38, -63, -88, 90, 97, 108]
+  explaining:  "IF MPG == 13.0 AND cylinders == 8.0 AND cubicInches == 360.0 AND horsepower == 175.0 AND weightLbs == 3821.0 AND time-to-sixty == 11.0 AND year == 1974.0 AND brand == 0.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.18
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 360.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF brand != 0.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  dual explanation: "IF cubicInches == 360.0 AND brand == 0.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.18
+
+inst: 12
+lits: [1, -18, -38, -63, -88, 90, 97, 138]
+  explaining:  "IF MPG == 14.0 AND cylinders == 8.0 AND cubicInches == 318.0 AND horsepower == 150.0 AND weightLbs == 4237.0 AND time-to-sixty == 15.0 AND year == 1974.0 AND brand == 21.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.16
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.18
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 318.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF brand != 21.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  dual explanation: "IF cubicInches == 318.0 AND brand == 21.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.18
+
+inst: 13
+lits: [3, -18, 23, 40, 65, -95, 97, -151]
+  explaining:  "IF MPG == 26.0 AND cylinders == 4.0 AND cubicInches == 97.0 AND horsepower == 46.0 AND weightLbs == 1950.0 AND time-to-sixty == 21.0 AND year == 1974.0 AND brand == 29.0 THEN 0"
+iter: 1
+cand: [7]
+expl: [7]
+  expltime: 0.06
+iter: 2
+cand: None
+  prediciton: 0
+  explanation: "IF brand != 29.0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF brand == 29.0 THEN 0"
+  dual explanation size: 1
+  calls: 19
+  rtime: 0.06
+
+inst: 14
+lits: [1, -18, -38, 62, 83, 94, 97, 138]
+  explaining:  "IF MPG == 20.0 AND cylinders == 6.0 AND cubicInches == 198.0 AND horsepower == 95.0 AND weightLbs == 3102.0 AND time-to-sixty == 17.0 AND year == 1975.0 AND brand == 21.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.19
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 198.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF brand != 21.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  dual explanation: "IF cubicInches == 198.0 AND brand == 21.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.19
+
+inst: 15
+lits: [3, -18, 25, 54, 67, 96, -106, 112]
+  explaining:  "IF MPG == 27.0 AND cylinders == 4.0 AND cubicInches == 112.0 AND horsepower == 88.0 AND weightLbs == 2640.0 AND time-to-sixty == 19.0 AND year == 1983.0 AND brand == 6.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [3, 7]
+  coextime: 0.25
+iter: 2
+cand: [3]
+core: [0, 1, 2, 4, 5, 6, 7]
+coex: [4, 5, 6, 7]
+  coextime: 0.42
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.43
+iter: 4
+cand: [3, 6]
+core: [0, 1, 2, 4, 5, 7]
+coex: [1, 2, 4, 7]
+  coextime: 0.56
+iter: 5
+cand: [3, 4]
+core: [0, 1, 2, 5, 6, 7]
+coex: [1, 2, 6, 7]
+  coextime: 0.70
+iter: 6
+cand: [2, 3, 6]
+core: [0, 1, 4, 5, 7]
+coex: [0, 1, 4, 7]
+  coextime: 0.82
+iter: 7
+cand: [1, 3, 5]
+core: [0, 2, 4, 6, 7]
+coex: [2, 4, 6, 7]
+  coextime: 0.93
+iter: 8
+cand: [1, 3, 6]
+expl: [1, 3, 6]
+  expltime: 0.96
+iter: 9
+cand: [3, 4, 6]
+expl: [3, 4, 6]
+  expltime: 0.97
+iter: 10
+cand: [2, 3, 4]
+core: [0, 1, 5, 6, 7]
+coex: [0, 1, 6, 7]
+  coextime: 1.10
+iter: 11
+cand: [1, 3, 4]
+expl: [1, 3, 4]
+  expltime: 1.13
+iter: 12
+cand: [0, 2, 3, 4]
+expl: [0, 2, 3, 4]
+  expltime: 1.16
+iter: 13
+cand: [0, 2, 3, 5]
+core: [1, 4, 6, 7]
+coex: [1, 4, 6, 7]
+  coextime: 1.29
+iter: 14
+cand: [1, 2, 3, 5]
+expl: [1, 2, 3, 5]
+  expltime: 1.32
+iter: 15
+cand: [0, 2, 3, 6]
+expl: [0, 2, 3, 6]
+  expltime: 1.35
+iter: 16
+cand: None
+  prediciton: 2
+  explanation: "IF brand != 6.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.43
+  explanation: "IF cylinders != 4.0 AND horsepower != 88.0 AND year != 1983.0 THEN NOT 2"
+  explanation size: 3
+  expl time: 0.96
+  explanation: "IF horsepower != 88.0 AND weightLbs != 2640.0 AND year != 1983.0 THEN NOT 2"
+  explanation size: 3
+  expl time: 0.97
+  explanation: "IF cylinders != 4.0 AND horsepower != 88.0 AND weightLbs != 2640.0 THEN NOT 2"
+  explanation size: 3
+  expl time: 1.13
+  explanation: "IF MPG != 27.0 AND cubicInches != 112.0 AND horsepower != 88.0 AND weightLbs != 2640.0 THEN NOT 2"
+  explanation size: 4
+  expl time: 1.16
+  explanation: "IF cylinders != 4.0 AND cubicInches != 112.0 AND horsepower != 88.0 AND time-to-sixty != 19.0 THEN NOT 2"
+  explanation size: 4
+  expl time: 1.32
+  explanation: "IF MPG != 27.0 AND cubicInches != 112.0 AND horsepower != 88.0 AND year != 1983.0 THEN NOT 2"
+  explanation size: 4
+  expl time: 1.35
+  dual explanation: "IF horsepower == 88.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 2
+  dual explanation: "IF weightLbs == 2640.0 AND time-to-sixty == 19.0 AND year == 1983.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 4
+  dual explanation: "IF cylinders == 4.0 AND cubicInches == 112.0 AND weightLbs == 2640.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 4
+  dual explanation: "IF cylinders == 4.0 AND cubicInches == 112.0 AND year == 1983.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 4
+  dual explanation: "IF MPG == 27.0 AND cylinders == 4.0 AND weightLbs == 2640.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 4
+  dual explanation: "IF cubicInches == 112.0 AND weightLbs == 2640.0 AND year == 1983.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 4
+  dual explanation: "IF MPG == 27.0 AND cylinders == 4.0 AND year == 1983.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 4
+  dual explanation: "IF cylinders == 4.0 AND weightLbs == 2640.0 AND year == 1983.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 4
+  calls: 7
+  rtime: 1.35
+
+inst: 16
+lits: [1, -18, 25, 62, 65, 94, 97, 116]
+  explaining:  "IF MPG == 24.0 AND cylinders == 4.0 AND cubicInches == 119.0 AND horsepower == 97.0 AND weightLbs == 2545.0 AND time-to-sixty == 17.0 AND year == 1976.0 AND brand == 8.0 THEN 1"
+iter: 1
+cand: [4]
+core: [0, 2, 3, 5, 6, 7]
+coex: [2, 3, 7]
+  coextime: 0.15
+iter: 2
+cand: [7]
+expl: [7]
+  expltime: 0.15
+iter: 3
+cand: [3]
+core: [0, 2, 4, 6, 7]
+coex: [2, 4, 7]
+  coextime: 0.23
+iter: 4
+cand: [2]
+expl: [2]
+  expltime: 0.24
+iter: 5
+cand: [3, 4]
+expl: [3, 4]
+  expltime: 0.25
+iter: 6
+cand: None
+  prediciton: 1
+  explanation: "IF brand != 8.0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF cubicInches != 119.0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.24
+  explanation: "IF horsepower != 97.0 AND weightLbs != 2545.0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.25
+  dual explanation: "IF cubicInches == 119.0 AND horsepower == 97.0 AND brand == 8.0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF cubicInches == 119.0 AND weightLbs == 2545.0 AND brand == 8.0 THEN 1"
+  dual explanation size: 3
+  calls: 8
+  rtime: 0.25
+
+inst: 17
+lits: [3, -18, 25, 58, 65, 92, 97, 120]
+  explaining:  "IF MPG == 26.0 AND cylinders == 4.0 AND cubicInches == 98.0 AND horsepower == 90.0 AND weightLbs == 2265.0 AND time-to-sixty == 16.0 AND year == 1974.0 AND brand == 10.0 THEN 0"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 6, 7]
+  coextime: 0.18
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.19
+iter: 3
+cand: [6]
+expl: [6]
+  expltime: 0.20
+iter: 4
+cand: [7]
+expl: [7]
+  expltime: 0.21
+iter: 5
+cand: None
+  prediciton: 0
+  explanation: "IF cubicInches != 98.0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF year != 1974.0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.20
+  explanation: "IF brand != 10.0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.21
+  dual explanation: "IF cubicInches == 98.0 AND year == 1974.0 AND brand == 10.0 THEN 0"
+  dual explanation size: 3
+  calls: 11
+  rtime: 0.21
+
+inst: 18
+lits: [17, -18, 21, 40, 65, 90, 103, 126]
+  explaining:  "IF MPG == 34.1 AND cylinders == 4.0 AND cubicInches == 86.0 AND horsepower == 65.0 AND weightLbs == 1975.0 AND time-to-sixty == 15.0 AND year == 1980.0 AND brand == 14.0 THEN 1"
+iter: 1
+cand: [4]
+core: [0, 2, 3, 7]
+coex: [0, 2, 7]
+  coextime: 0.11
+iter: 2
+cand: [7]
+expl: [7]
+  expltime: 0.11
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.13
+iter: 4
+cand: [0]
+core: [2, 3, 4, 7]
+coex: [2, 4, 7]
+  coextime: 0.19
+iter: 5
+cand: [0, 4]
+expl: [0, 4]
+  expltime: 0.20
+iter: 6
+cand: None
+  prediciton: 1
+  explanation: "IF brand != 14.0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF cubicInches != 86.0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF MPG != 34.1 AND weightLbs != 1975.0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.20
+  dual explanation: "IF MPG == 34.1 AND cubicInches == 86.0 AND brand == 14.0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF cubicInches == 86.0 AND weightLbs == 1975.0 AND brand == 14.0 THEN 1"
+  dual explanation size: 3
+  calls: 6
+  rtime: 0.20
+
+inst: 19
+lits: [3, -18, 25, 62, 65, 90, 99, 116]
+  explaining:  "IF MPG == 27.2 AND cylinders == 4.0 AND cubicInches == 119.0 AND horsepower == 97.0 AND weightLbs == 2300.0 AND time-to-sixty == 15.0 AND year == 1979.0 AND brand == 8.0 THEN 1"
+iter: 1
+cand: [4]
+core: [0, 2, 3, 5, 6, 7]
+coex: [2, 3, 7]
+  coextime: 0.15
+iter: 2
+cand: [7]
+expl: [7]
+  expltime: 0.15
+iter: 3
+cand: [3]
+core: [0, 2, 4, 5, 6, 7]
+coex: [2, 4, 7]
+  coextime: 0.25
+iter: 4
+cand: [2]
+expl: [2]
+  expltime: 0.26
+iter: 5
+cand: [3, 4]
+expl: [3, 4]
+  expltime: 0.27
+iter: 6
+cand: None
+  prediciton: 1
+  explanation: "IF brand != 8.0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF cubicInches != 119.0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.26
+  explanation: "IF horsepower != 97.0 AND weightLbs != 2300.0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.27
+  dual explanation: "IF cubicInches == 119.0 AND horsepower == 97.0 AND brand == 8.0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF cubicInches == 119.0 AND weightLbs == 2300.0 AND brand == 8.0 THEN 1"
+  dual explanation size: 3
+  calls: 9
+  rtime: 0.27
+
+inst: 20
+lits: [1, -18, -38, -63, -88, 90, 97, 112]
+  explaining:  "IF MPG == 13.0 AND cylinders == 8.0 AND cubicInches == 350.0 AND horsepower == 175.0 AND weightLbs == 4100.0 AND time-to-sixty == 13.0 AND year == 1974.0 AND brand == 3.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.20
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 350.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF brand != 3.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.20
+  dual explanation: "IF cubicInches == 350.0 AND brand == 3.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.20
+
+inst: 21
+lits: [1, -18, -38, 54, 85, 90, 97, 122]
+  explaining:  "IF MPG == 18.0 AND cylinders == 6.0 AND cubicInches == 250.0 AND horsepower == 88.0 AND weightLbs == 3139.0 AND time-to-sixty == 15.0 AND year == 1972.0 AND brand == 11.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.16
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.18
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 250.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF brand != 11.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  dual explanation: "IF cubicInches == 250.0 AND brand == 11.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.18
+
+inst: 22
+lits: [1, -18, -38, 62, -88, 94, 97, 112]
+  explaining:  "IF MPG == 16.0 AND cylinders == 6.0 AND cubicInches == 250.0 AND horsepower == 100.0 AND weightLbs == 3781.0 AND time-to-sixty == 17.0 AND year == 1975.0 AND brand == 6.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.19
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 250.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF brand != 6.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  dual explanation: "IF cubicInches == 250.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.19
+
+inst: 23
+lits: [1, -18, -38, -63, -88, 90, 97, 112]
+  explaining:  "IF MPG == 11.0 AND cylinders == 8.0 AND cubicInches == 400.0 AND horsepower == 150.0 AND weightLbs == 4997.0 AND time-to-sixty == 14.0 AND year == 1974.0 AND brand == 6.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.19
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 400.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF brand != 6.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  dual explanation: "IF cubicInches == 400.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.19
+
+inst: 24
+lits: [1, -18, -38, -63, -88, 90, 97, 122]
+  explaining:  "IF MPG == 12.0 AND cylinders == 8.0 AND cubicInches == 400.0 AND horsepower == 167.0 AND weightLbs == 4906.0 AND time-to-sixty == 13.0 AND year == 1974.0 AND brand == 11.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.18
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 400.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF brand != 11.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  dual explanation: "IF cubicInches == 400.0 AND brand == 11.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.18
+
+inst: 25
+lits: [11, -18, 25, 42, 65, 90, 105, 148]
+  explaining:  "IF MPG == 32.2 AND cylinders == 4.0 AND cubicInches == 108.0 AND horsepower == 75.0 AND weightLbs == 2265.0 AND time-to-sixty == 15.0 AND year == 1981.0 AND brand == 26.0 THEN 1"
+iter: 1
+cand: [4]
+core: [0, 2, 3, 5, 6, 7]
+coex: [6, 7]
+  coextime: 0.18
+iter: 2
+cand: [7]
+expl: [7]
+  expltime: 0.18
+iter: 3
+cand: [6]
+core: [0, 2, 3, 4, 7]
+coex: [4, 7]
+  coextime: 0.26
+iter: 4
+cand: [4, 6]
+core: [0, 2, 3, 5, 7]
+coex: [0, 7]
+  coextime: 0.36
+iter: 5
+cand: [0, 4, 6]
+expl: [0, 4, 6]
+  expltime: 0.37
+iter: 6
+cand: None
+  prediciton: 1
+  explanation: "IF brand != 26.0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF MPG != 32.2 AND weightLbs != 2265.0 AND year != 1981.0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.37
+  dual explanation: "IF year == 1981.0 AND brand == 26.0 THEN 1"
+  dual explanation size: 2
+  dual explanation: "IF weightLbs == 2265.0 AND brand == 26.0 THEN 1"
+  dual explanation size: 2
+  dual explanation: "IF MPG == 32.2 AND brand == 26.0 THEN 1"
+  dual explanation size: 2
+  calls: 7
+  rtime: 0.37
+
+inst: 26
+lits: [1, -18, 27, 62, 67, 90, 97, 142]
+  explaining:  "IF MPG == 25.0 AND cylinders == 4.0 AND cubicInches == 121.0 AND horsepower == 115.0 AND weightLbs == 2671.0 AND time-to-sixty == 14.0 AND year == 1976.0 AND brand == 24.0 THEN 0"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 6, 7]
+  coextime: 0.16
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 3
+cand: [6]
+core: [0, 1, 2, 3, 4, 5, 7]
+coex: [1, 2, 5, 7]
+  coextime: 0.28
+iter: 4
+cand: [7]
+expl: [7]
+  expltime: 0.29
+iter: 5
+cand: [5, 6]
+core: [0, 1, 2, 3, 4, 7]
+coex: [0, 1, 2, 7]
+  coextime: 0.37
+iter: 6
+cand: [1, 6]
+expl: [1, 6]
+  expltime: 0.39
+iter: 7
+cand: [0, 5, 6]
+expl: [0, 5, 6]
+  expltime: 0.39
+iter: 8
+cand: None
+  prediciton: 0
+  explanation: "IF cubicInches != 121.0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF brand != 24.0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.29
+  explanation: "IF cylinders != 4.0 AND year != 1976.0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.39
+  explanation: "IF MPG != 25.0 AND time-to-sixty != 14.0 AND year != 1976.0 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.39
+  dual explanation: "IF cubicInches == 121.0 AND year == 1976.0 AND brand == 24.0 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF cylinders == 4.0 AND cubicInches == 121.0 AND time-to-sixty == 14.0 AND brand == 24.0 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF MPG == 25.0 AND cylinders == 4.0 AND cubicInches == 121.0 AND brand == 24.0 THEN 0"
+  dual explanation size: 4
+  calls: 9
+  rtime: 0.39
+
+inst: 27
+lits: [1, -18, -38, 62, -88, 96, 97, 138]
+  explaining:  "IF MPG == 18.0 AND cylinders == 6.0 AND cubicInches == 225.0 AND horsepower == 95.0 AND weightLbs == 3785.0 AND time-to-sixty == 19.0 AND year == 1976.0 AND brand == 21.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.16
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.19
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 225.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF brand != 21.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  dual explanation: "IF cubicInches == 225.0 AND brand == 21.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.19
+
+inst: 28
+lits: [-16, -18, 25, 40, 65, 90, 99, 122]
+  explaining:  "IF MPG == 36.1 AND cylinders == 4.0 AND cubicInches == 98.0 AND horsepower == 66.0 AND weightLbs == 1800.0 AND time-to-sixty == 14.0 AND year == 1979.0 AND brand == 11.0 THEN 2"
+iter: 1
+cand: [4]
+expl: [4]
+  expltime: 0.07
+iter: 2
+cand: [7]
+expl: [7]
+  expltime: 0.07
+iter: 3
+cand: [3]
+expl: [3]
+  expltime: 0.08
+iter: 4
+cand: [6]
+core: [0, 2, 3, 4, 5, 7]
+coex: [2, 3, 4, 7]
+  coextime: 0.17
+iter: 5
+cand: [2]
+expl: [2]
+  expltime: 0.19
+iter: 6
+cand: None
+  prediciton: 2
+  explanation: "IF weightLbs != 1800.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF brand != 11.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF horsepower != 66.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF cubicInches != 98.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  dual explanation: "IF cubicInches == 98.0 AND horsepower == 66.0 AND weightLbs == 1800.0 AND brand == 11.0 THEN 2"
+  dual explanation size: 4
+  calls: 8
+  rtime: 0.19
+
+inst: 29
+lits: [1, -18, -38, -63, -88, 90, 97, 112]
+  explaining:  "IF MPG == 12.0 AND cylinders == 8.0 AND cubicInches == 455.0 AND horsepower == 225.0 AND weightLbs == 4951.0 AND time-to-sixty == 11.0 AND year == 1974.0 AND brand == 3.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.18
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.19
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.21
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 455.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF brand != 3.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.21
+  dual explanation: "IF cubicInches == 455.0 AND brand == 3.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.21
+
+inst: 30
+lits: [1, -18, -38, 64, -88, 90, 103, 112]
+  explaining:  "IF MPG == 19.2 AND cylinders == 8.0 AND cubicInches == 267.0 AND horsepower == 125.0 AND weightLbs == 3605.0 AND time-to-sixty == 15.0 AND year == 1980.0 AND brand == 6.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.16
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.19
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 267.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF brand != 6.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  dual explanation: "IF cubicInches == 267.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.19
+
+inst: 31
+lits: [1, -18, 37, 58, 81, -95, 105, 108]
+  explaining:  "IF MPG == 24.3 AND cylinders == 4.0 AND cubicInches == 151.0 AND horsepower == 90.0 AND weightLbs == 3003.0 AND time-to-sixty == 20.0 AND year == 1981.0 AND brand == 0.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 3, 7]
+  coextime: 0.19
+iter: 2
+cand: [7]
+expl: [7]
+  expltime: 0.20
+iter: 3
+cand: [3]
+expl: [3]
+  expltime: 0.21
+iter: 4
+cand: [2]
+expl: [2]
+  expltime: 0.21
+iter: 5
+cand: None
+  prediciton: 2
+  explanation: "IF brand != 0.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.20
+  explanation: "IF horsepower != 90.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.21
+  explanation: "IF cubicInches != 151.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.21
+  dual explanation: "IF cubicInches == 151.0 AND horsepower == 90.0 AND brand == 0.0 THEN 2"
+  dual explanation size: 3
+  calls: 11
+  rtime: 0.21
+
+inst: 32
+lits: [1, -18, -38, 62, -88, 92, 97, 138]
+  explaining:  "IF MPG == 16.0 AND cylinders == 6.0 AND cubicInches == 225.0 AND horsepower == 105.0 AND weightLbs == 3439.0 AND time-to-sixty == 16.0 AND year == 1972.0 AND brand == 21.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.16
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.19
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 225.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF brand != 21.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  dual explanation: "IF cubicInches == 225.0 AND brand == 21.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.19
+
+inst: 33
+lits: [13, -18, 23, 40, 65, 94, 105, 146]
+  explaining:  "IF MPG == 33.8 AND cylinders == 4.0 AND cubicInches == 97.0 AND horsepower == 67.0 AND weightLbs == 2145.0 AND time-to-sixty == 18.0 AND year == 1981.0 AND brand == 25.0 THEN 1"
+iter: 1
+cand: [4]
+core: [0, 2, 3, 5, 6, 7]
+coex: [6, 7]
+  coextime: 0.17
+iter: 2
+cand: [7]
+expl: [7]
+  expltime: 0.17
+iter: 3
+cand: [6]
+core: [0, 2, 3, 4, 5, 7]
+coex: [5, 7]
+  coextime: 0.28
+iter: 4
+cand: [5, 6]
+core: [0, 2, 3, 4, 7]
+coex: [4, 7]
+  coextime: 0.35
+iter: 5
+cand: [4, 5, 6]
+core: [0, 2, 3, 7]
+coex: [0, 7]
+  coextime: 0.43
+iter: 6
+cand: [0, 4, 5, 6]
+expl: [0, 4, 5, 6]
+  expltime: 0.44
+iter: 7
+cand: None
+  prediciton: 1
+  explanation: "IF brand != 25.0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF MPG != 33.8 AND weightLbs != 2145.0 AND time-to-sixty != 18.0 AND year != 1981.0 THEN NOT 1"
+  explanation size: 4
+  expl time: 0.44
+  dual explanation: "IF year == 1981.0 AND brand == 25.0 THEN 1"
+  dual explanation size: 2
+  dual explanation: "IF time-to-sixty == 18.0 AND brand == 25.0 THEN 1"
+  dual explanation size: 2
+  dual explanation: "IF weightLbs == 2145.0 AND brand == 25.0 THEN 1"
+  dual explanation size: 2
+  dual explanation: "IF MPG == 33.8 AND brand == 25.0 THEN 1"
+  dual explanation size: 2
+  calls: 6
+  rtime: 0.44
+
+inst: 34
+lits: [1, -18, -38, 62, -88, 92, 97, 112]
+  explaining:  "IF MPG == 18.0 AND cylinders == 6.0 AND cubicInches == 250.0 AND horsepower == 105.0 AND weightLbs == 3459.0 AND time-to-sixty == 16.0 AND year == 1976.0 AND brand == 6.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.19
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 250.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF brand != 6.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  dual explanation: "IF cubicInches == 250.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.19
+
+inst: 35
+lits: [1, -18, -38, -63, -88, 90, 97, 114]
+  explaining:  "IF MPG == 13.0 AND cylinders == 8.0 AND cubicInches == 400.0 AND horsepower == 190.0 AND weightLbs == 4422.0 AND time-to-sixty == 13.0 AND year == 1973.0 AND brand == 7.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.20
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 400.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF brand != 7.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.20
+  dual explanation: "IF cubicInches == 400.0 AND brand == 7.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.20
+
+inst: 36
+lits: [1, -18, -38, -63, -88, 90, 97, 112]
+  explaining:  "IF MPG == 15.0 AND cylinders == 8.0 AND cubicInches == 350.0 AND horsepower == 145.0 AND weightLbs == 4082.0 AND time-to-sixty == 13.0 AND year == 1974.0 AND brand == 6.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.18
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.19
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.20
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 350.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF brand != 6.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.20
+  dual explanation: "IF cubicInches == 350.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.20
+
+inst: 37
+lits: [1, -18, -38, -63, -88, 90, 97, 138]
+  explaining:  "IF MPG == 14.0 AND cylinders == 8.0 AND cubicInches == 318.0 AND horsepower == 150.0 AND weightLbs == 4077.0 AND time-to-sixty == 14.0 AND year == 1973.0 AND brand == 21.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.20
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 318.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF brand != 21.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.20
+  dual explanation: "IF cubicInches == 318.0 AND brand == 21.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.20
+
+inst: 38
+lits: [1, -18, -38, 58, -88, -95, 103, 132]
+  explaining:  "IF MPG == 23.9 AND cylinders == 8.0 AND cubicInches == 260.0 AND horsepower == 90.0 AND weightLbs == 3420.0 AND time-to-sixty == 22.0 AND year == 1980.0 AND brand == 18.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.19
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 260.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF brand != 18.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  dual explanation: "IF cubicInches == 260.0 AND brand == 18.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.19
+
+inst: 39
+lits: [1, -18, -38, 62, -88, 94, 99, 138]
+  explaining:  "IF MPG == 19.0 AND cylinders == 6.0 AND cubicInches == 225.0 AND horsepower == 100.0 AND weightLbs == 3630.0 AND time-to-sixty == 18.0 AND year == 1978.0 AND brand == 21.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.16
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.18
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 225.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF brand != 21.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  dual explanation: "IF cubicInches == 225.0 AND brand == 21.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.18
+
+inst: 40
+lits: [1, -18, -38, -63, -88, 90, 97, 108]
+  explaining:  "IF MPG == 15.0 AND cylinders == 8.0 AND cubicInches == 390.0 AND horsepower == 190.0 AND weightLbs == 3850.0 AND time-to-sixty == 9.0 AND year == 1971.0 AND brand == 0.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.18
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.19
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.20
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 390.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF brand != 0.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.20
+  dual explanation: "IF cubicInches == 390.0 AND brand == 0.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.20
+
+inst: 41
+lits: [1, -18, -38, 62, 87, 90, 99, 138]
+  explaining:  "IF MPG == 22.0 AND cylinders == 6.0 AND cubicInches == 225.0 AND horsepower == 100.0 AND weightLbs == 3233.0 AND time-to-sixty == 15.0 AND year == 1977.0 AND brand == 21.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.19
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 225.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF brand != 21.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  dual explanation: "IF cubicInches == 225.0 AND brand == 21.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.19
+
+inst: 42
+lits: [1, -18, -38, -63, -88, 90, 99, 122]
+  explaining:  "IF MPG == 14.5 AND cylinders == 8.0 AND cubicInches == 351.0 AND horsepower == 152.0 AND weightLbs == 4215.0 AND time-to-sixty == 13.0 AND year == 1977.0 AND brand == 11.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.16
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.16
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.17
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 351.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.16
+  explanation: "IF brand != 11.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.17
+  dual explanation: "IF cubicInches == 351.0 AND brand == 11.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.17
+
+inst: 43
+lits: [5, -18, 39, 62, 65, 90, 103, 112]
+  explaining:  "IF MPG == 28.8 AND cylinders == 6.0 AND cubicInches == 173.0 AND horsepower == 115.0 AND weightLbs == 2595.0 AND time-to-sixty == 11.0 AND year == 1980.0 AND brand == 6.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.20
+iter: 2
+cand: [2]
+core: [0, 1, 3, 4, 5, 6, 7]
+coex: [1, 4, 6, 7]
+  coextime: 0.39
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.39
+iter: 4
+cand: [2, 6]
+core: [0, 1, 3, 4, 5, 7]
+coex: [1, 4, 5, 7]
+  coextime: 0.53
+iter: 5
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.54
+iter: 6
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.56
+iter: 7
+cand: [2, 5, 6]
+core: [0, 1, 3, 4, 7]
+coex: [0, 1, 4, 7]
+  coextime: 0.67
+iter: 8
+cand: [0, 2, 5, 6]
+expl: [0, 2, 5, 6]
+  expltime: 0.70
+iter: 9
+cand: None
+  prediciton: 2
+  explanation: "IF brand != 6.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.39
+  explanation: "IF cubicInches != 173.0 AND weightLbs != 2595.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.54
+  explanation: "IF cylinders != 6.0 AND cubicInches != 173.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.56
+  explanation: "IF MPG != 28.8 AND cubicInches != 173.0 AND time-to-sixty != 11.0 AND year != 1980.0 THEN NOT 2"
+  explanation size: 4
+  expl time: 0.70
+  dual explanation: "IF cubicInches == 173.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 2
+  dual explanation: "IF cylinders == 6.0 AND weightLbs == 2595.0 AND year == 1980.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 4
+  dual explanation: "IF cylinders == 6.0 AND weightLbs == 2595.0 AND time-to-sixty == 11.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 4
+  dual explanation: "IF MPG == 28.8 AND cylinders == 6.0 AND weightLbs == 2595.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 4
+  calls: 7
+  rtime: 0.70
+
+inst: 44
+lits: [1, -18, -38, 64, -88, 90, 99, 132]
+  explaining:  "IF MPG == 15.0 AND cylinders == 8.0 AND cubicInches == 302.0 AND horsepower == 130.0 AND weightLbs == 4295.0 AND time-to-sixty == 15.0 AND year == 1978.0 AND brand == 16.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.18
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 302.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF brand != 16.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  dual explanation: "IF cubicInches == 302.0 AND brand == 16.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.18
+
+inst: 45
+lits: [1, -18, -38, 62, 85, 94, 99, 108]
+  explaining:  "IF MPG == 17.5 AND cylinders == 6.0 AND cubicInches == 258.0 AND horsepower == 95.0 AND weightLbs == 3193.0 AND time-to-sixty == 18.0 AND year == 1977.0 AND brand == 0.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.18
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.19
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 258.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF brand != 0.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  dual explanation: "IF cubicInches == 258.0 AND brand == 0.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.19
+
+inst: 46
+lits: [1, -18, -38, -63, -88, 90, 97, 118]
+  explaining:  "IF MPG == 14.0 AND cylinders == 8.0 AND cubicInches == 318.0 AND horsepower == 150.0 AND weightLbs == 4457.0 AND time-to-sixty == 14.0 AND year == 1975.0 AND brand == 9.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.16
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.18
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 318.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF brand != 9.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  dual explanation: "IF cubicInches == 318.0 AND brand == 9.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.18
+
+inst: 47
+lits: [1, -18, -38, -63, -88, 90, 97, 122]
+  explaining:  "IF MPG == 14.0 AND cylinders == 8.0 AND cubicInches == 302.0 AND horsepower == 137.0 AND weightLbs == 4042.0 AND time-to-sixty == 15.0 AND year == 1974.0 AND brand == 11.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.19
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 302.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF brand != 11.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  dual explanation: "IF cubicInches == 302.0 AND brand == 11.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.19
+
+inst: 48
+lits: [9, -18, 19, 40, 65, 94, 97, 148]
+  explaining:  "IF MPG == 31.0 AND cylinders == 4.0 AND cubicInches == 76.0 AND horsepower == 52.0 AND weightLbs == 1649.0 AND time-to-sixty == 17.0 AND year == 1975.0 AND brand == 26.0 THEN 1"
+iter: 1
+cand: [4]
+core: [0, 2, 3, 5, 6, 7]
+coex: [5, 7]
+  coextime: 0.17
+iter: 2
+cand: [7]
+expl: [7]
+  expltime: 0.17
+iter: 3
+cand: [5]
+core: [0, 2, 3, 4, 6, 7]
+coex: [4, 7]
+  coextime: 0.27
+iter: 4
+cand: [4, 5]
+core: [0, 2, 3, 6, 7]
+coex: [2, 7]
+  coextime: 0.35
+iter: 5
+cand: [2, 4, 5]
+core: [0, 3, 6, 7]
+coex: [0, 7]
+  coextime: 0.42
+iter: 6
+cand: [0, 2, 4, 5]
+expl: [0, 2, 4, 5]
+  expltime: 0.44
+iter: 7
+cand: None
+  prediciton: 1
+  explanation: "IF brand != 26.0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF MPG != 31.0 AND cubicInches != 76.0 AND weightLbs != 1649.0 AND time-to-sixty != 17.0 THEN NOT 1"
+  explanation size: 4
+  expl time: 0.44
+  dual explanation: "IF time-to-sixty == 17.0 AND brand == 26.0 THEN 1"
+  dual explanation size: 2
+  dual explanation: "IF weightLbs == 1649.0 AND brand == 26.0 THEN 1"
+  dual explanation size: 2
+  dual explanation: "IF cubicInches == 76.0 AND brand == 26.0 THEN 1"
+  dual explanation size: 2
+  dual explanation: "IF MPG == 31.0 AND brand == 26.0 THEN 1"
+  dual explanation size: 2
+  calls: 6
+  rtime: 0.44
+
+inst: 49
+lits: [1, -18, 39, 62, 67, 90, 107, 112]
+  explaining:  "IF MPG == 23.5 AND cylinders == 6.0 AND cubicInches == 173.0 AND horsepower == 110.0 AND weightLbs == 2725.0 AND time-to-sixty == 13.0 AND year == 1982.0 AND brand == 6.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.21
+iter: 2
+cand: [2]
+core: [0, 1, 3, 4, 5, 6, 7]
+coex: [1, 4, 6, 7]
+  coextime: 0.40
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.41
+iter: 4
+cand: [2, 6]
+core: [0, 1, 3, 4, 5, 7]
+coex: [1, 4, 5, 7]
+  coextime: 0.55
+iter: 5
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.57
+iter: 6
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.60
+iter: 7
+cand: [2, 5, 6]
+core: [0, 1, 3, 4, 7]
+coex: [0, 1, 4, 7]
+  coextime: 0.70
+iter: 8
+cand: [0, 2, 5, 6]
+expl: [0, 2, 5, 6]
+  expltime: 0.73
+iter: 9
+cand: None
+  prediciton: 2
+  explanation: "IF brand != 6.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.41
+  explanation: "IF cubicInches != 173.0 AND weightLbs != 2725.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.57
+  explanation: "IF cylinders != 6.0 AND cubicInches != 173.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.60
+  explanation: "IF MPG != 23.5 AND cubicInches != 173.0 AND time-to-sixty != 13.0 AND year != 1982.0 THEN NOT 2"
+  explanation size: 4
+  expl time: 0.73
+  dual explanation: "IF cubicInches == 173.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 2
+  dual explanation: "IF cylinders == 6.0 AND weightLbs == 2725.0 AND year == 1982.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 4
+  dual explanation: "IF cylinders == 6.0 AND weightLbs == 2725.0 AND time-to-sixty == 13.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 4
+  dual explanation: "IF MPG == 23.5 AND cylinders == 6.0 AND weightLbs == 2725.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 4
+  calls: 7
+  rtime: 0.73
+
+inst: 50
+lits: [1, -18, 35, 54, 67, 90, 99, 122]
+  explaining:  "IF MPG == 25.1 AND cylinders == 4.0 AND cubicInches == 140.0 AND horsepower == 88.0 AND weightLbs == 2720.0 AND time-to-sixty == 15.0 AND year == 1979.0 AND brand == 11.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 3, 7]
+  coextime: 0.17
+iter: 2
+cand: [7]
+expl: [7]
+  expltime: 0.17
+iter: 3
+cand: [3]
+core: [0, 1, 2, 4, 5, 6, 7]
+coex: [2, 4, 7]
+  coextime: 0.31
+iter: 4
+cand: [2]
+expl: [2]
+  expltime: 0.32
+iter: 5
+cand: [3, 4]
+expl: [3, 4]
+  expltime: 0.33
+iter: 6
+cand: None
+  prediciton: 2
+  explanation: "IF brand != 11.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF cubicInches != 140.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.32
+  explanation: "IF horsepower != 88.0 AND weightLbs != 2720.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.33
+  dual explanation: "IF cubicInches == 140.0 AND horsepower == 88.0 AND brand == 11.0 THEN 2"
+  dual explanation size: 3
+  dual explanation: "IF cubicInches == 140.0 AND weightLbs == 2720.0 AND brand == 11.0 THEN 2"
+  dual explanation size: 3
+  calls: 10
+  rtime: 0.33
+
+inst: 51
+lits: [1, -18, -38, -63, -88, 96, 97, 124]
+  explaining:  "IF MPG == 9.0 AND cylinders == 8.0 AND cubicInches == 304.0 AND horsepower == 193.0 AND weightLbs == 4732.0 AND time-to-sixty == 19.0 AND year == 1971.0 AND brand == 12.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.21
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.21
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.23
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 304.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.21
+  explanation: "IF brand != 12.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.23
+  dual explanation: "IF cubicInches == 304.0 AND brand == 12.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.23
+
+inst: 52
+lits: [1, -18, -38, -63, -88, 90, 97, 138]
+  explaining:  "IF MPG == 13.0 AND cylinders == 8.0 AND cubicInches == 400.0 AND horsepower == 175.0 AND weightLbs == 5140.0 AND time-to-sixty == 12.0 AND year == 1972.0 AND brand == 22.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.19
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 400.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF brand != 22.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  dual explanation: "IF cubicInches == 400.0 AND brand == 22.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.19
+
+inst: 53
+lits: [1, -18, 21, 42, 65, 92, 97, 120]
+  explaining:  "IF MPG == 24.0 AND cylinders == 4.0 AND cubicInches == 90.0 AND horsepower == 75.0 AND weightLbs == 2108.0 AND time-to-sixty == 16.0 AND year == 1975.0 AND brand == 10.0 THEN 0"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 6, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 3
+cand: [6]
+core: [0, 1, 2, 3, 4, 5, 7]
+coex: [2, 5, 7]
+  coextime: 0.31
+iter: 4
+cand: [7]
+expl: [7]
+  expltime: 0.31
+iter: 5
+cand: [5, 6]
+core: [0, 1, 2, 3, 4, 7]
+coex: [2, 3, 7]
+  coextime: 0.41
+iter: 6
+cand: [3, 5, 6]
+core: [0, 1, 2, 4, 7]
+coex: [1, 2, 7]
+  coextime: 0.50
+iter: 7
+cand: [1, 3, 5, 6]
+core: [0, 2, 4, 7]
+coex: [0, 2, 7]
+  coextime: 0.58
+iter: 8
+cand: [0, 1, 3, 5, 6]
+expl: [0, 1, 3, 5, 6]
+  expltime: 0.59
+iter: 9
+cand: None
+  prediciton: 0
+  explanation: "IF cubicInches != 90.0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF brand != 10.0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.31
+  explanation: "IF MPG != 24.0 AND cylinders != 4.0 AND horsepower != 75.0 AND time-to-sixty != 16.0 AND year != 1975.0 THEN NOT 0"
+  explanation size: 5
+  expl time: 0.59
+  dual explanation: "IF cubicInches == 90.0 AND year == 1975.0 AND brand == 10.0 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF cubicInches == 90.0 AND time-to-sixty == 16.0 AND brand == 10.0 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF cubicInches == 90.0 AND horsepower == 75.0 AND brand == 10.0 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF cylinders == 4.0 AND cubicInches == 90.0 AND brand == 10.0 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF MPG == 24.0 AND cubicInches == 90.0 AND brand == 10.0 THEN 0"
+  dual explanation size: 3
+  calls: 6
+  rtime: 0.59
+
+inst: 54
+lits: [1, -18, 35, 60, 65, 90, 99, 112]
+  explaining:  "IF MPG == 25.0 AND cylinders == 4.0 AND cubicInches == 140.0 AND horsepower == 92.0 AND weightLbs == 2572.0 AND time-to-sixty == 15.0 AND year == 1977.0 AND brand == 5.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.22
+iter: 2
+cand: [2]
+core: [0, 1, 3, 4, 5, 6, 7]
+coex: [1, 4, 5, 7]
+  coextime: 0.39
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.40
+iter: 4
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.42
+iter: 5
+cand: [2, 5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [0, 1, 4, 7]
+  coextime: 0.56
+iter: 6
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.57
+iter: 7
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.60
+iter: 8
+cand: None
+  prediciton: 2
+  explanation: "IF brand != 5.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.40
+  explanation: "IF cylinders != 4.0 AND cubicInches != 140.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.42
+  explanation: "IF cubicInches != 140.0 AND weightLbs != 2572.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.57
+  explanation: "IF MPG != 25.0 AND cubicInches != 140.0 AND time-to-sixty != 15.0 THEN NOT 2"
+  explanation size: 3
+  expl time: 0.60
+  dual explanation: "IF cubicInches == 140.0 AND brand == 5.0 THEN 2"
+  dual explanation size: 2
+  dual explanation: "IF cylinders == 4.0 AND weightLbs == 2572.0 AND time-to-sixty == 15.0 AND brand == 5.0 THEN 2"
+  dual explanation size: 4
+  dual explanation: "IF MPG == 25.0 AND cylinders == 4.0 AND weightLbs == 2572.0 AND brand == 5.0 THEN 2"
+  dual explanation size: 4
+  calls: 9
+  rtime: 0.60
+
+inst: 55
+lits: [3, -18, 23, 54, 65, 90, 97, 116]
+  explaining:  "IF MPG == 27.0 AND cylinders == 4.0 AND cubicInches == 97.0 AND horsepower == 88.0 AND weightLbs == 2130.0 AND time-to-sixty == 15.0 AND year == 1972.0 AND brand == 8.0 THEN 1"
+iter: 1
+cand: [4]
+core: [0, 2, 3, 6, 7]
+coex: [2, 7]
+  coextime: 0.14
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.15
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.15
+iter: 4
+cand: None
+  prediciton: 1
+  explanation: "IF cubicInches != 97.0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF brand != 8.0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.15
+  dual explanation: "IF cubicInches == 97.0 AND brand == 8.0 THEN 1"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.15
+
+inst: 56
+lits: [1, -18, 35, 42, 65, 94, 97, 112]
+  explaining:  "IF MPG == 25.0 AND cylinders == 4.0 AND cubicInches == 140.0 AND horsepower == 75.0 AND weightLbs == 2542.0 AND time-to-sixty == 17.0 AND year == 1975.0 AND brand == 6.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [3, 7]
+  coextime: 0.23
+iter: 2
+cand: [3]
+core: [0, 1, 2, 4, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.41
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.42
+iter: 4
+cand: [2, 3]
+core: [0, 1, 4, 5, 6, 7]
+coex: [0, 1, 4, 7]
+  coextime: 0.56
+iter: 5
+cand: [1, 2, 3]
+expl: [1, 2, 3]
+  expltime: 0.59
+iter: 6
+cand: [0, 2, 3]
+expl: [0, 2, 3]
+  expltime: 0.62
+iter: 7
+cand: [2, 3, 4]
+expl: [2, 3, 4]
+  expltime: 0.63
+iter: 8
+cand: None
+  prediciton: 2
+  explanation: "IF brand != 6.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.42
+  explanation: "IF cylinders != 4.0 AND cubicInches != 140.0 AND horsepower != 75.0 THEN NOT 2"
+  explanation size: 3
+  expl time: 0.59
+  explanation: "IF MPG != 25.0 AND cubicInches != 140.0 AND horsepower != 75.0 THEN NOT 2"
+  explanation size: 3
+  expl time: 0.62
+  explanation: "IF cubicInches != 140.0 AND horsepower != 75.0 AND weightLbs != 2542.0 THEN NOT 2"
+  explanation size: 3
+  expl time: 0.63
+  dual explanation: "IF horsepower == 75.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 2
+  dual explanation: "IF cubicInches == 140.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 2
+  dual explanation: "IF MPG == 25.0 AND cylinders == 4.0 AND weightLbs == 2542.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 4
+  calls: 10
+  rtime: 0.63
+
+inst: 57
+lits: [1, -18, -38, -63, -88, 90, 97, 112]
+  explaining:  "IF MPG == 13.0 AND cylinders == 8.0 AND cubicInches == 350.0 AND horsepower == 155.0 AND weightLbs == 4502.0 AND time-to-sixty == 14.0 AND year == 1973.0 AND brand == 3.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.20
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 350.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF brand != 3.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.20
+  dual explanation: "IF cubicInches == 350.0 AND brand == 3.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.20
+
+inst: 58
+lits: [-16, -18, 25, 54, 65, 90, -106, 132]
+  explaining:  "IF MPG == 36.0 AND cylinders == 4.0 AND cubicInches == 120.0 AND horsepower == 88.0 AND weightLbs == 2160.0 AND time-to-sixty == 15.0 AND year == 1983.0 AND brand == 17.0 THEN 2"
+iter: 1
+cand: [4]
+expl: [4]
+  expltime: 0.07
+iter: 2
+cand: [7]
+expl: [7]
+  expltime: 0.07
+iter: 3
+cand: [3]
+core: [0, 2, 4, 5, 6, 7]
+coex: [0, 2, 4, 6, 7]
+  coextime: 0.18
+iter: 4
+cand: [6]
+expl: [6]
+  expltime: 0.19
+iter: 5
+cand: [0]
+core: [1, 2, 3, 4, 5, 6, 7]
+coex: [1, 3, 4, 5, 6, 7]
+  coextime: 0.33
+iter: 6
+cand: [2, 5]
+core: [0, 3, 4, 6, 7]
+coex: [0, 3, 4, 6, 7]
+  coextime: 0.43
+iter: 7
+cand: [0, 5]
+core: [1, 2, 3, 4, 6, 7]
+coex: [1, 2, 4, 6, 7]
+  coextime: 0.55
+iter: 8
+cand: [0, 1]
+expl: [0, 1]
+  expltime: 0.57
+iter: 9
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.60
+iter: 10
+cand: [0, 2, 5]
+expl: [0, 2, 5]
+  expltime: 0.63
+iter: 11
+cand: None
+  prediciton: 2
+  explanation: "IF weightLbs != 2160.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF brand != 17.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF year != 1983.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF MPG != 36.0 AND cylinders != 4.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.57
+  explanation: "IF cubicInches != 120.0 AND horsepower != 88.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.60
+  explanation: "IF MPG != 36.0 AND cubicInches != 120.0 AND time-to-sixty != 15.0 THEN NOT 2"
+  explanation size: 3
+  expl time: 0.63
+  dual explanation: "IF MPG == 36.0 AND cubicInches == 120.0 AND weightLbs == 2160.0 AND year == 1983.0 AND brand == 17.0 THEN 2"
+  dual explanation size: 5
+  dual explanation: "IF cylinders == 4.0 AND horsepower == 88.0 AND weightLbs == 2160.0 AND time-to-sixty == 15.0 AND year == 1983.0 AND brand == 17.0 THEN 2"
+  dual explanation size: 6
+  dual explanation: "IF MPG == 36.0 AND horsepower == 88.0 AND weightLbs == 2160.0 AND year == 1983.0 AND brand == 17.0 THEN 2"
+  dual explanation size: 5
+  dual explanation: "IF cylinders == 4.0 AND cubicInches == 120.0 AND weightLbs == 2160.0 AND year == 1983.0 AND brand == 17.0 THEN 2"
+  dual explanation size: 5
+  calls: 10
+  rtime: 0.63
+
+inst: 59
+lits: [7, -18, 21, 40, 65, 90, 105, -151]
+  explaining:  "IF MPG == 29.8 AND cylinders == 4.0 AND cubicInches == 89.0 AND horsepower == 62.0 AND weightLbs == 1845.0 AND time-to-sixty == 15.0 AND year == 1981.0 AND brand == 29.0 THEN 0"
+iter: 1
+cand: [7]
+expl: [7]
+  expltime: 0.06
+iter: 2
+cand: None
+  prediciton: 0
+  explanation: "IF brand != 29.0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF brand == 29.0 THEN 0"
+  dual explanation size: 1
+  calls: 19
+  rtime: 0.06
+
+inst: 60
+lits: [1, -18, -38, -63, -88, 90, 99, 112]
+  explaining:  "IF MPG == 15.5 AND cylinders == 8.0 AND cubicInches == 350.0 AND horsepower == 170.0 AND weightLbs == 4165.0 AND time-to-sixty == 11.0 AND year == 1978.0 AND brand == 6.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.18
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.19
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.20
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 350.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF brand != 6.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.20
+  dual explanation: "IF cubicInches == 350.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.20
+
+inst: 61
+lits: [17, -18, 21, 40, 65, 92, 107, 126]
+  explaining:  "IF MPG == 34.1 AND cylinders == 4.0 AND cubicInches == 91.0 AND horsepower == 68.0 AND weightLbs == 1985.0 AND time-to-sixty == 16.0 AND year == 1982.0 AND brand == 14.0 THEN 1"
+iter: 1
+cand: [4]
+core: [0, 2, 3, 5, 6, 7]
+coex: [2, 6, 7]
+  coextime: 0.13
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.15
+iter: 3
+cand: [6]
+core: [0, 2, 3, 4, 7]
+coex: [2, 4, 7]
+  coextime: 0.22
+iter: 4
+cand: [7]
+expl: [7]
+  expltime: 0.23
+iter: 5
+cand: [4, 6]
+core: [0, 2, 3, 7]
+coex: [0, 2, 7]
+  coextime: 0.28
+iter: 6
+cand: [0, 4, 6]
+expl: [0, 4, 6]
+  expltime: 0.29
+iter: 7
+cand: None
+  prediciton: 1
+  explanation: "IF cubicInches != 91.0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF brand != 14.0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.23
+  explanation: "IF MPG != 34.1 AND weightLbs != 1985.0 AND year != 1982.0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.29
+  dual explanation: "IF cubicInches == 91.0 AND year == 1982.0 AND brand == 14.0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF cubicInches == 91.0 AND weightLbs == 1985.0 AND brand == 14.0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF MPG == 34.1 AND cubicInches == 91.0 AND brand == 14.0 THEN 1"
+  dual explanation size: 3
+  calls: 6
+  rtime: 0.29
+
+inst: 62
+lits: [1, -18, -38, 62, 85, 94, 99, 112]
+  explaining:  "IF MPG == 20.5 AND cylinders == 6.0 AND cubicInches == 200.0 AND horsepower == 95.0 AND weightLbs == 3155.0 AND time-to-sixty == 18.0 AND year == 1979.0 AND brand == 6.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.19
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.20
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 200.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF brand != 6.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.20
+  dual explanation: "IF cubicInches == 200.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.20
+
+inst: 63
+lits: [1, -18, -38, -63, -88, 90, 97, 118]
+  explaining:  "IF MPG == 12.0 AND cylinders == 8.0 AND cubicInches == 383.0 AND horsepower == 180.0 AND weightLbs == 4955.0 AND time-to-sixty == 12.0 AND year == 1972.0 AND brand == 9.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.19
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 383.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF brand != 9.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  dual explanation: "IF cubicInches == 383.0 AND brand == 9.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.19
+
+inst: 64
+lits: [1, -18, -38, 62, 85, 90, 97, 112]
+  explaining:  "IF MPG == 20.0 AND cylinders == 8.0 AND cubicInches == 262.0 AND horsepower == 110.0 AND weightLbs == 3221.0 AND time-to-sixty == 14.0 AND year == 1976.0 AND brand == 6.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.20
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 262.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF brand != 6.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.20
+  dual explanation: "IF cubicInches == 262.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.20
+
+inst: 65
+lits: [3, -18, 35, 58, 65, 92, 97, 112]
+  explaining:  "IF MPG == 28.0 AND cylinders == 4.0 AND cubicInches == 140.0 AND horsepower == 90.0 AND weightLbs == 2264.0 AND time-to-sixty == 16.0 AND year == 1972.0 AND brand == 6.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.23
+iter: 2
+cand: [2]
+core: [0, 1, 3, 4, 5, 6, 7]
+coex: [1, 4, 5, 7]
+  coextime: 0.43
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.43
+iter: 4
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.46
+iter: 5
+cand: [2, 5]
+core: [0, 1, 3, 4, 6, 7]
+coex: [1, 3, 4, 7]
+  coextime: 0.61
+iter: 6
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.63
+iter: 7
+cand: [2, 3, 5]
+core: [0, 1, 4, 6, 7]
+coex: [0, 1, 4, 7]
+  coextime: 0.74
+iter: 8
+cand: [0, 2, 3, 5]
+expl: [0, 2, 3, 5]
+  expltime: 0.78
+iter: 9
+cand: None
+  prediciton: 2
+  explanation: "IF brand != 6.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.43
+  explanation: "IF cylinders != 4.0 AND cubicInches != 140.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.46
+  explanation: "IF cubicInches != 140.0 AND weightLbs != 2264.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.63
+  explanation: "IF MPG != 28.0 AND cubicInches != 140.0 AND horsepower != 90.0 AND time-to-sixty != 16.0 THEN NOT 2"
+  explanation size: 4
+  expl time: 0.78
+  dual explanation: "IF cubicInches == 140.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 2
+  dual explanation: "IF cylinders == 4.0 AND weightLbs == 2264.0 AND time-to-sixty == 16.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 4
+  dual explanation: "IF cylinders == 4.0 AND horsepower == 90.0 AND weightLbs == 2264.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 4
+  dual explanation: "IF MPG == 28.0 AND cylinders == 4.0 AND weightLbs == 2264.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 4
+  calls: 7
+  rtime: 0.78
+
+inst: 66
+lits: [1, -18, 31, 62, 67, 90, 97, 148]
+  explaining:  "IF MPG == 24.0 AND cylinders == 4.0 AND cubicInches == 134.0 AND horsepower == 96.0 AND weightLbs == 2702.0 AND time-to-sixty == 14.0 AND year == 1976.0 AND brand == 26.0 THEN 1"
+iter: 1
+cand: [4]
+core: [0, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.15
+iter: 2
+cand: [2]
+core: [0, 3, 4, 6, 7]
+coex: [4, 7]
+  coextime: 0.24
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.24
+iter: 4
+cand: [2, 4]
+core: [0, 3, 6, 7]
+coex: [0, 7]
+  coextime: 0.30
+iter: 5
+cand: [0, 2, 4]
+expl: [0, 2, 4]
+  expltime: 0.31
+iter: 6
+cand: None
+  prediciton: 1
+  explanation: "IF brand != 26.0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.24
+  explanation: "IF MPG != 24.0 AND cubicInches != 134.0 AND weightLbs != 2702.0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.31
+  dual explanation: "IF cubicInches == 134.0 AND brand == 26.0 THEN 1"
+  dual explanation size: 2
+  dual explanation: "IF weightLbs == 2702.0 AND brand == 26.0 THEN 1"
+  dual explanation size: 2
+  dual explanation: "IF MPG == 24.0 AND brand == 26.0 THEN 1"
+  dual explanation size: 2
+  calls: 6
+  rtime: 0.31
+
+inst: 67
+lits: [1, -18, -38, 64, -88, 90, 99, 122]
+  explaining:  "IF MPG == 13.0 AND cylinders == 8.0 AND cubicInches == 302.0 AND horsepower == 130.0 AND weightLbs == 3870.0 AND time-to-sixty == 15.0 AND year == 1977.0 AND brand == 11.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.16
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.18
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 302.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF brand != 11.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  dual explanation: "IF cubicInches == 302.0 AND brand == 11.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.18
+
+inst: 68
+lits: [1, -18, -38, -63, -88, 90, 97, 122]
+  explaining:  "IF MPG == 14.0 AND cylinders == 8.0 AND cubicInches == 351.0 AND horsepower == 153.0 AND weightLbs == 4154.0 AND time-to-sixty == 14.0 AND year == 1972.0 AND brand == 11.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.15
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.16
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.17
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 351.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.16
+  explanation: "IF brand != 11.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.17
+  dual explanation: "IF cubicInches == 351.0 AND brand == 11.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.17
+
+inst: 69
+lits: [1, -18, 29, 50, 65, 96, 97, 122]
+  explaining:  "IF MPG == 19.0 AND cylinders == 4.0 AND cubicInches == 122.0 AND horsepower == 85.0 AND weightLbs == 2310.0 AND time-to-sixty == 19.0 AND year == 1974.0 AND brand == 11.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 3, 6, 7]
+  coextime: 0.17
+iter: 2
+cand: [7]
+expl: [7]
+  expltime: 0.18
+iter: 3
+cand: [3]
+core: [0, 1, 2, 4, 5, 6, 7]
+coex: [2, 4, 7]
+  coextime: 0.31
+iter: 4
+cand: [2]
+expl: [2]
+  expltime: 0.32
+iter: 5
+cand: [3, 4]
+expl: [3, 4]
+  expltime: 0.33
+iter: 6
+cand: [4, 6]
+core: [0, 1, 2, 3, 5, 7]
+coex: [2, 3, 5, 7]
+  coextime: 0.43
+iter: 7
+cand: [4, 5, 6]
+expl: [4, 5, 6]
+  expltime: 0.43
+iter: 8
+cand: None
+  prediciton: 2
+  explanation: "IF brand != 11.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF cubicInches != 122.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.32
+  explanation: "IF horsepower != 85.0 AND weightLbs != 2310.0 THEN NOT 2"
+  explanation size: 2
+  expl time: 0.33
+  explanation: "IF weightLbs != 2310.0 AND time-to-sixty != 19.0 AND year != 1974.0 THEN NOT 2"
+  explanation size: 3
+  expl time: 0.43
+  dual explanation: "IF cubicInches == 122.0 AND horsepower == 85.0 AND year == 1974.0 AND brand == 11.0 THEN 2"
+  dual explanation size: 4
+  dual explanation: "IF cubicInches == 122.0 AND weightLbs == 2310.0 AND brand == 11.0 THEN 2"
+  dual explanation size: 3
+  dual explanation: "IF cubicInches == 122.0 AND horsepower == 85.0 AND time-to-sixty == 19.0 AND brand == 11.0 THEN 2"
+  dual explanation size: 4
+  calls: 8
+  rtime: 0.43
+
+inst: 70
+lits: [1, -18, 35, 42, 65, 96, 97, 112]
+  explaining:  "IF MPG == 22.0 AND cylinders == 4.0 AND cubicInches == 140.0 AND horsepower == 72.0 AND weightLbs == 2408.0 AND time-to-sixty == 19.0 AND year == 1972.0 AND brand == 6.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [3, 7]
+  coextime: 0.23
+iter: 2
+cand: [3]
+core: [0, 1, 2, 4, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.41
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.42
+iter: 4
+cand: [2, 3]
+core: [0, 1, 4, 5, 6, 7]
+coex: [0, 1, 4, 7]
+  coextime: 0.56
+iter: 5
+cand: [1, 2, 3]
+expl: [1, 2, 3]
+  expltime: 0.59
+iter: 6
+cand: [0, 2, 3]
+expl: [0, 2, 3]
+  expltime: 0.62
+iter: 7
+cand: [2, 3, 4]
+expl: [2, 3, 4]
+  expltime: 0.64
+iter: 8
+cand: None
+  prediciton: 2
+  explanation: "IF brand != 6.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.42
+  explanation: "IF cylinders != 4.0 AND cubicInches != 140.0 AND horsepower != 72.0 THEN NOT 2"
+  explanation size: 3
+  expl time: 0.59
+  explanation: "IF MPG != 22.0 AND cubicInches != 140.0 AND horsepower != 72.0 THEN NOT 2"
+  explanation size: 3
+  expl time: 0.62
+  explanation: "IF cubicInches != 140.0 AND horsepower != 72.0 AND weightLbs != 2408.0 THEN NOT 2"
+  explanation size: 3
+  expl time: 0.64
+  dual explanation: "IF horsepower == 72.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 2
+  dual explanation: "IF cubicInches == 140.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 2
+  dual explanation: "IF MPG == 22.0 AND cylinders == 4.0 AND weightLbs == 2408.0 AND brand == 6.0 THEN 2"
+  dual explanation size: 4
+  calls: 10
+  rtime: 0.64
+
+inst: 71
+lits: [1, -18, -38, -63, -88, 92, 97, 108]
+  explaining:  "IF MPG == 14.0 AND cylinders == 8.0 AND cubicInches == 304.0 AND horsepower == 150.0 AND weightLbs == 4257.0 AND time-to-sixty == 16.0 AND year == 1975.0 AND brand == 0.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.18
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.19
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 304.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF brand != 0.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  dual explanation: "IF cubicInches == 304.0 AND brand == 0.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.19
+
+inst: 72
+lits: [3, -18, 23, 42, 65, 94, 99, 148]
+  explaining:  "IF MPG == 26.0 AND cylinders == 4.0 AND cubicInches == 97.0 AND horsepower == 75.0 AND weightLbs == 2265.0 AND time-to-sixty == 18.0 AND year == 1978.0 AND brand == 26.0 THEN 1"
+iter: 1
+cand: [4]
+core: [0, 2, 3, 6, 7]
+coex: [0, 7]
+  coextime: 0.12
+iter: 2
+cand: [0]
+core: [2, 3, 4, 5, 6, 7]
+coex: [5, 7]
+  coextime: 0.24
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.24
+iter: 4
+cand: [0, 5]
+core: [2, 3, 4, 6, 7]
+coex: [4, 7]
+  coextime: 0.33
+iter: 5
+cand: [0, 4, 5]
+expl: [0, 4, 5]
+  expltime: 0.34
+iter: 6
+cand: None
+  prediciton: 1
+  explanation: "IF brand != 26.0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.24
+  explanation: "IF MPG != 26.0 AND weightLbs != 2265.0 AND time-to-sixty != 18.0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.34
+  dual explanation: "IF MPG == 26.0 AND brand == 26.0 THEN 1"
+  dual explanation size: 2
+  dual explanation: "IF time-to-sixty == 18.0 AND brand == 26.0 THEN 1"
+  dual explanation size: 2
+  dual explanation: "IF weightLbs == 2265.0 AND brand == 26.0 THEN 1"
+  dual explanation size: 2
+  calls: 7
+  rtime: 0.34
+
+inst: 73
+lits: [1, -18, -38, 62, 67, 90, 97, 108]
+  explaining:  "IF MPG == 18.0 AND cylinders == 6.0 AND cubicInches == 232.0 AND horsepower == 100.0 AND weightLbs == 2789.0 AND time-to-sixty == 15.0 AND year == 1974.0 AND brand == 0.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.18
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.19
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.21
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 232.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF brand != 0.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.21
+  dual explanation: "IF cubicInches == 232.0 AND brand == 0.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.21
+
+inst: 74
+lits: [1, -18, -38, -63, -88, 90, 103, 114]
+  explaining:  "IF MPG == 18.5 AND cylinders == 8.0 AND cubicInches == 360.0 AND horsepower == 150.0 AND weightLbs == 3940.0 AND time-to-sixty == 13.0 AND year == 1980.0 AND brand == 7.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.18
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.19
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.20
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 360.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF brand != 7.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.20
+  dual explanation: "IF cubicInches == 360.0 AND brand == 7.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.20
+
+inst: 75
+lits: [3, -18, 25, 62, 65, 92, 97, 146]
+  explaining:  "IF MPG == 26.0 AND cylinders == 4.0 AND cubicInches == 108.0 AND horsepower == 93.0 AND weightLbs == 2391.0 AND time-to-sixty == 16.0 AND year == 1975.0 AND brand == 25.0 THEN 1"
+iter: 1
+cand: [4]
+core: [0, 2, 3, 6, 7]
+coex: [0, 7]
+  coextime: 0.12
+iter: 2
+cand: [0]
+core: [2, 3, 4, 6, 7]
+coex: [4, 7]
+  coextime: 0.21
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.21
+iter: 4
+cand: [0, 4]
+expl: [0, 4]
+  expltime: 0.22
+iter: 5
+cand: None
+  prediciton: 1
+  explanation: "IF brand != 25.0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.21
+  explanation: "IF MPG != 26.0 AND weightLbs != 2391.0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.22
+  dual explanation: "IF MPG == 26.0 AND brand == 25.0 THEN 1"
+  dual explanation size: 2
+  dual explanation: "IF weightLbs == 2391.0 AND brand == 25.0 THEN 1"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.22
+
+inst: 76
+lits: [3, -18, 23, 54, 65, 94, 97, 148]
+  explaining:  "IF MPG == 27.0 AND cylinders == 4.0 AND cubicInches == 97.0 AND horsepower == 88.0 AND weightLbs == 2100.0 AND time-to-sixty == 17.0 AND year == 1973.0 AND brand == 26.0 THEN 1"
+iter: 1
+cand: [4]
+core: [0, 2, 3, 6, 7]
+coex: [0, 7]
+  coextime: 0.12
+iter: 2
+cand: [0]
+core: [2, 3, 4, 6, 7]
+coex: [4, 7]
+  coextime: 0.21
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.21
+iter: 4
+cand: [0, 4]
+core: [1, 2, 3, 5, 6, 7]
+coex: [5, 7]
+  coextime: 0.34
+iter: 5
+cand: [0, 4, 5]
+expl: [0, 4, 5]
+  expltime: 0.35
+iter: 6
+cand: None
+  prediciton: 1
+  explanation: "IF brand != 26.0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.21
+  explanation: "IF MPG != 27.0 AND weightLbs != 2100.0 AND time-to-sixty != 17.0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.35
+  dual explanation: "IF MPG == 27.0 AND brand == 26.0 THEN 1"
+  dual explanation size: 2
+  dual explanation: "IF weightLbs == 2100.0 AND brand == 26.0 THEN 1"
+  dual explanation size: 2
+  dual explanation: "IF time-to-sixty == 17.0 AND brand == 26.0 THEN 1"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.35
+
+inst: 77
+lits: [1, -18, -38, -63, -88, 90, 97, 122]
+  explaining:  "IF MPG == 13.0 AND cylinders == 8.0 AND cubicInches == 400.0 AND horsepower == 170.0 AND weightLbs == 4746.0 AND time-to-sixty == 12.0 AND year == 1972.0 AND brand == 11.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.17
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.18
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.19
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 400.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF brand != 11.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.19
+  dual explanation: "IF cubicInches == 400.0 AND brand == 11.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.19
+
+inst: 78
+lits: [1, -18, -38, 64, -88, 90, 103, 122]
+  explaining:  "IF MPG == 17.6 AND cylinders == 8.0 AND cubicInches == 302.0 AND horsepower == 129.0 AND weightLbs == 3725.0 AND time-to-sixty == 13.0 AND year == 1980.0 AND brand == 11.0 THEN 2"
+iter: 1
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [2, 7]
+  coextime: 0.16
+iter: 2
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 3
+cand: [7]
+expl: [7]
+  expltime: 0.18
+iter: 4
+cand: None
+  prediciton: 2
+  explanation: "IF cubicInches != 302.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF brand != 11.0 THEN NOT 2"
+  explanation size: 1
+  expl time: 0.18
+  dual explanation: "IF cubicInches == 302.0 AND brand == 11.0 THEN 2"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.18

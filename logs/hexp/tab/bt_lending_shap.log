@@ -1,0 +1,602 @@
+loading model from  ./temp/lending/lending_train1_data/lending_train1_data_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl
+loading data from  ./temp/lending/lending_train1_data/lending_train1_data_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl.splitdata.pkl
+
+inst: 0
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = MORTGAGE AND annual_inc = annual_inc > 82000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.13235986791551113, 1: 0.04012713837437332, 2: 0.13687830336857587, 3: 0.023113204864785075, 4: 0.050080069340765476, 5: -0.021841298788785934, 6: -1.3715363051742315, 8: 0.06672179}
+  time: 0.02
+
+inst: 1
+  explaining: loan_amnt = loan_amnt > 15000.00 AND home_ownership = MORTGAGE AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.3794349851086736, 1: 0.0008622881723567843, 2: -0.026174932718276978, 3: 0.0317414331366308, 4: 0.07371099758893251, 5: 0.007369572762399912, 6: -1.3782880790531635, 8: 0.05021603}
+  time: 0.02
+
+inst: 2
+  explaining: loan_amnt = loan_amnt <= 5400.00 AND home_ownership = RENT AND annual_inc = annual_inc <= 40057.66 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths > 1.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.273841071408242, 1: 0.08867489823023789, 2: -0.07593278936110437, 3: 0.024742161855101585, 4: -0.0474495580419898, 5: 0.016283612232655287, 6: -1.3754533994942904, 8: 0.033387955}
+  time: 0.02
+
+inst: 3
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = MORTGAGE AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = last_fico_range_high > 749.00 AND last_fico_range_low = last_fico_range_low > 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.06187392584979534, 1: -0.027985783061012626, 2: 0.06905065290629864, 3: -0.11818959069205448, 4: 0.14222299866378307, 5: -0.08877938473597169, 6: 3.769811786711216, 8: 0.026171992}
+  time: 0.01
+
+inst: 4
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = MORTGAGE AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = 4.00 < desc <= 145.00 AND inq_last_6mths = inq_last_6mths > 1.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.0046292319893836975, 1: -0.016339403809979558, 2: -0.040914156939834356, 3: -0.015394319489132613, 4: -0.0927915726788342, 5: -0.018874803092330694, 6: -0.06483141519129276, 8: 0.029462619}
+  time: 0.01
+
+inst: 5
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = RENT AND annual_inc = annual_inc <= 40057.66 AND desc = desc > 392.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.21112572774291039, 1: 0.08289280437747948, 2: -0.04225239506922662, 3: 0.027239021379500628, 4: 0.01059444434940815, 5: -0.012061040382832289, 6: -1.4560162499547005, 8: 0.05842134}
+  time: 0.01
+
+inst: 6
+  explaining: loan_amnt = loan_amnt <= 5400.00 AND home_ownership = RENT AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = 4.00 < desc <= 145.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.3880146499723196, 1: 0.046964663051767275, 2: -0.06449521600734442, 3: -0.034343233332037926, 4: 0.09086941974237561, 5: 0.0859666841570288, 6: -1.3535344824194908, 8: -0.24382648}
+  time: 0.02
+
+inst: 7
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = RENT AND annual_inc = annual_inc <= 40057.66 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.06485358625650406, 1: 0.06994552069227211, 2: -0.13120255374815315, 3: 0.028612066351342946, 4: -0.005146745592355728, 5: -0.010511090513318777, 6: -0.08097583800554276, 8: 0.019469326}
+  time: 0.02
+
+inst: 8
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = MORTGAGE AND annual_inc = annual_inc > 82000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = last_fico_range_high > 749.00 AND last_fico_range_low = last_fico_range_low > 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.013882093131542206, 1: 0.007476820377632976, 2: 0.16146361082792282, 3: 0.12930259015411139, 4: -0.23014983907341957, 5: -0.015812030294910073, 6: 3.172334246337414, 8: 0.021510474}
+  time: 0.02
+
+inst: 9
+  explaining: loan_amnt = loan_amnt > 15000.00 AND home_ownership = RENT AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.526594853028655, 1: 0.04268962683272548, 2: -0.03915147378575057, 3: -0.0665929761598818, 4: 0.01434956956654787, 5: 0.023455476853996515, 6: -0.2660044003278017, 8: 0.02895461}
+  time: 0.01
+
+inst: 10
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = MORTGAGE AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.06697335746139288, 1: -0.02978876535780728, 2: -0.018915195483714342, 3: -0.04954352759523317, 4: -0.0054641542956233025, 5: 0.02729283319786191, 6: -1.4440806731581688, 8: 0.061606824}
+  time: 0.02
+
+inst: 11
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = OWN AND annual_inc = annual_inc <= 40057.66 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.19313941895961761, 1: -0.19333997092326172, 2: -0.04368385090492666, 3: -0.0719278656761162, 4: 0.05631036125123501, 5: 0.16841075930278748, 6: -1.442658506333828, 8: 0.06159681}
+  time: 0.01
+
+inst: 12
+  explaining: loan_amnt = loan_amnt > 15000.00 AND home_ownership = MORTGAGE AND annual_inc = annual_inc > 82000.00 AND desc = desc > 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = 699.00 < last_fico_range_high <= 749.00 AND last_fico_range_low = 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.4637550199404359, 1: 0.011463963310234249, 2: 0.10091890778858215, 3: 0.03066020179539919, 4: 0.008482633158564568, 5: -0.0147963494528085, 6: 2.019807141274214, 8: 0.04340842}
+  time: 0.02
+
+inst: 13
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = MORTGAGE AND annual_inc = annual_inc > 82000.00 AND desc = desc > 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = 699.00 < last_fico_range_high <= 749.00 AND last_fico_range_low = 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.016507388092577457, 1: -0.004622766049578786, 2: 0.14159711508546025, 3: 0.027226158417761326, 4: 0.027537906542420387, 5: 0.029830320505425334, 6: 2.053051382303238, 8: 0.03365276}
+  time: 0.02
+
+inst: 14
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = RENT AND annual_inc = annual_inc > 82000.00 AND desc = desc > 392.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = last_fico_range_high > 749.00 AND last_fico_range_low = last_fico_range_low > 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.004962329752743244, 1: 0.02625931237707846, 2: 0.14559064991772175, 3: 0.05384297389537096, 4: 0.3545216559432447, 5: -0.023557062726467848, 6: 3.8253760263323784, 8: 0.026270567}
+  time: 0.02
+
+inst: 15
+  explaining: loan_amnt = loan_amnt > 15000.00 AND home_ownership = MORTGAGE AND annual_inc = annual_inc > 82000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.5667590387165546, 1: -0.006829623249359429, 2: 0.2587716148700565, 3: -0.04757970687933266, 4: 0.044584508053958416, 5: 0.11106042331084609, 6: -0.013185051269829273, 8: -0.02617658}
+  time: 0.02
+
+inst: 16
+  explaining: loan_amnt = loan_amnt <= 5400.00 AND home_ownership = RENT AND annual_inc = annual_inc > 82000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths > 1.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.35660978872328997, 1: 0.05309740357915871, 2: 0.23087144433520734, 3: 0.013968086335808039, 4: -0.034138723742216825, 5: 0.03714168746955693, 6: -1.3536433707922697, 8: 0.03551477}
+  time: 0.02
+
+inst: 17
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = RENT AND annual_inc = annual_inc <= 40057.66 AND desc = 4.00 < desc <= 145.00 AND inq_last_6mths = inq_last_6mths > 1.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.16783037269487977, 1: 0.05123362407903187, 2: -0.06727460003457963, 3: -0.03249007713748142, 4: -0.06451182952150702, 5: 0.049214807571843266, 6: -1.3719866685569286, 8: 0.055116624}
+  time: 0.02
+
+inst: 18
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = MORTGAGE AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = desc > 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = last_fico_range_high > 749.00 AND last_fico_range_low = last_fico_range_low > 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.05071968212723732, 1: 0.0005338757764548063, 2: 0.2923164702951908, 3: 0.13679922046139836, 4: -0.15049230121076107, 5: -0.012871050741523504, 6: 3.4536113515496254, 8: 0.018362995}
+  time: 0.02
+
+inst: 19
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = MORTGAGE AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.09216278977692127, 1: -0.008578242035582662, 2: -0.01704956917092204, 3: 0.009238073427695781, 4: 0.04937571892514825, 5: -0.057854393031448126, 6: -1.3862488269805908, 8: 0.058139913}
+  time: 0.01
+
+inst: 20
+  explaining: loan_amnt = loan_amnt > 15000.00 AND home_ownership = RENT AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = inq_last_6mths > 1.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = 699.00 < last_fico_range_high <= 749.00 AND last_fico_range_low = 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.46758258738555014, 1: 0.038527816330315545, 2: -0.004842727445065975, 3: -0.010453768714796752, 4: -0.11791651602834463, 5: 0.008663340704515576, 6: 2.067649208009243, 8: 0.033546258}
+  time: 0.02
+
+inst: 21
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = MORTGAGE AND annual_inc = annual_inc > 82000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = last_fico_range_high > 749.00 AND last_fico_range_low = last_fico_range_low > 745.00 AND pub_rec_bankruptcies = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.17840224876999855, 1: 0.012172817951068282, 2: 0.05613091681152582, 3: -0.28829725179821253, 4: -0.23344531375914812, 5: -0.053720555268228054, 6: 2.9688479229807854, 8: -0.18744397}
+  time: 0.02
+
+inst: 22
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = RENT AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths > 1.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.1496439492329955, 1: 0.08447551258723252, 2: -0.025086368434131145, 3: 0.03100636909948662, 4: -0.07657416444271803, 5: 0.007699988316744566, 6: -1.4186136964708567, 8: 0.058299217}
+  time: 0.02
+
+inst: 23
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = RENT AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = desc <= 4.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.21021322160959244, 1: 0.06090545930783264, 2: -0.02361785899847746, 3: 0.022919541981536895, 4: 0.010350072756409645, 5: -0.06792286946438253, 6: -1.4507166668772697, 8: 0.055244267}
+  time: 0.02
+
+inst: 24
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = RENT AND annual_inc = annual_inc <= 40057.66 AND desc = desc > 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = 699.00 < last_fico_range_high <= 749.00 AND last_fico_range_low = 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.2509469613432884, 1: 0.05795133576611988, 2: -0.03423192852642387, 3: 0.036579386331140995, 4: 0.014006158336997032, 5: -0.05919623782392591, 6: 2.1373808160424232, 8: 0.019570254}
+  time: 0.01
+
+inst: 25
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = RENT AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = desc > 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = last_fico_range_high > 749.00 AND last_fico_range_low = last_fico_range_low > 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.001712217926979065, 1: 0.05291380823473446, 2: -0.1721569523215294, 3: 0.06763474131003022, 4: -0.29516753228381276, 5: -0.049354550428688526, 6: 3.1592299714684486, 8: 0.015634986}
+  time: 0.02
+
+inst: 26
+  explaining: loan_amnt = loan_amnt <= 5400.00 AND home_ownership = RENT AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = desc > 392.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.2432597642764449, 1: 0.051820007123751566, 2: -0.030846943147480488, 3: 0.013499332591891289, 4: 0.00927259586751461, 5: 0.06029065349139273, 6: -1.3909181505441666, 8: 0.032558538}
+  time: 0.02
+
+inst: 27
+  explaining: loan_amnt = loan_amnt > 15000.00 AND home_ownership = MORTGAGE AND annual_inc = annual_inc > 82000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.5667590387165546, 1: -0.006829623249359429, 2: 0.2587716148700565, 3: -0.04757970687933266, 4: 0.044584508053958416, 5: 0.11106042331084609, 6: -0.013185051269829273, 8: -0.02617658}
+  time: 0.01
+
+inst: 28
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = RENT AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths > 1.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.23697074502706528, 1: 0.05729172282735817, 2: -0.041170685552060604, 3: 0.0221016391296871, 4: -0.06671092286705971, 5: -0.047289593145251274, 6: -0.04230104386806488, 8: 0.024161903}
+  time: 0.02
+
+inst: 29
+  explaining: loan_amnt = loan_amnt > 15000.00 AND home_ownership = OWN AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = desc > 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.3576100254431367, 1: -0.4440473636786919, 2: -0.040382112259976566, 3: 0.016912860330194235, 4: 0.06496280711144209, 5: -0.17652235785499215, 6: -1.4755459008738399, 8: 0.05811086}
+  time: 0.02
+
+inst: 30
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = RENT AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.2412986196577549, 1: 0.06938405983964913, 2: -0.040974192204885185, 3: 0.029657781415153295, 4: 0.007405586540699005, 5: 0.029074470628984272, 6: -0.02044619247317314, 8: 0.022747321}
+  time: 0.02
+
+inst: 31
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = MORTGAGE AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.008687501773238182, 1: -0.017626407789066434, 2: -0.01754688424989581, 3: -0.0384957708301954, 4: -0.0007272306829690933, 5: 0.044916516402736306, 6: -0.06442556902766228, 8: 0.030356733}
+  time: 0.02
+
+inst: 32
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = MORTGAGE AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = inq_last_6mths > 1.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = last_fico_range_high > 749.00 AND last_fico_range_low = last_fico_range_low > 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.09147339500486851, 1: 0.004162329016253352, 2: -0.054803735576570034, 3: -0.2597629452939145, 4: 0.3437748569995165, 5: 0.023632530588656664, 6: 3.386044420301914, 8: 0.019482257}
+  time: 0.02
+
+inst: 33
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = MORTGAGE AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = 4.00 < desc <= 145.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = last_fico_range_high > 749.00 AND last_fico_range_low = last_fico_range_low > 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.036029152572155, 1: 0.013042640639469028, 2: -0.2102094665169716, 3: 0.019920549646485597, 4: -0.30415534041821957, 5: -0.058513455325737596, 6: 2.983705021440983, 8: 0.023440734}
+  time: 0.02
+
+inst: 34
+  explaining: loan_amnt = loan_amnt <= 5400.00 AND home_ownership = RENT AND annual_inc = annual_inc <= 40057.66 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = 699.00 < last_fico_range_high <= 749.00 AND last_fico_range_low = 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.26058558747172356, 1: 0.05149721630732529, 2: -0.04899591708090156, 3: 0.045930211432278156, 4: 0.029839161783456802, 5: 0.04394285660237074, 6: 2.1733374781906605, 8: -0.095953815}
+  time: 0.01
+
+inst: 35
+  explaining: loan_amnt = loan_amnt > 15000.00 AND home_ownership = MORTGAGE AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.4820720972493291, 1: -0.022880496573634446, 2: -0.02343430556356907, 3: -0.07138161890907213, 4: -0.06246593873947859, 5: 0.040840630419552326, 6: -1.4901164583861828, 8: 0.05866527}
+  time: 0.01
+
+inst: 36
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = RENT AND annual_inc = annual_inc > 82000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths > 1.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.0617931610904634, 1: 0.051143533521099016, 2: 0.19281880767084658, 3: 0.011751774698495865, 4: -0.04498904896900058, 5: -0.043798538856208324, 6: -1.4255013968795538, 8: 0.053287297}
+  time: 0.01
+
+inst: 37
+  explaining: loan_amnt = loan_amnt <= 5400.00 AND home_ownership = RENT AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.22928842715919018, 1: 0.07788929247180931, 2: -0.06242901459336281, 3: 0.01959393755532801, 4: 0.050462613347917795, 5: -0.07242516591213644, 6: -1.3307716324925423, 8: 0.025619239}
+  time: 0.02
+
+inst: 38
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = OWN AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = 4.00 < desc <= 145.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.2524900082498789, 1: -0.18996218687971123, 2: -0.05833225231617689, 3: -0.03765726991696283, 4: 0.1074055900098756, 5: -0.073184366337955, 6: 0.01633049175143242, 8: 0.029023442}
+  time: 0.01
+
+inst: 39
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = RENT AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = last_fico_range_high > 749.00 AND last_fico_range_low = last_fico_range_low > 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.10739226453006268, 1: 0.043745611765189096, 2: -0.19487195275723934, 3: -0.2531409940565936, 4: -0.30636391043663025, 5: -0.019525905139744282, 6: 2.661468245089054, 8: 0.015634986}
+  time: 0.02
+
+inst: 40
+  explaining: loan_amnt = loan_amnt <= 5400.00 AND home_ownership = RENT AND annual_inc = annual_inc <= 40057.66 AND desc = desc > 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = last_fico_range_high > 749.00 AND last_fico_range_low = last_fico_range_low > 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.14962501265108585, 1: 0.05307959110359661, 2: -0.15495913662016392, 3: 0.030666206032037735, 4: -0.2077101361937821, 5: 0.04525542166084051, 6: 3.163248397409916, 8: 0.014194692}
+  time: 0.02
+
+inst: 41
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = RENT AND annual_inc = annual_inc > 82000.00 AND desc = desc <= 4.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = 699.00 < last_fico_range_high <= 749.00 AND last_fico_range_low = 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.008901537396013737, 1: 0.0346665074757766, 2: 0.10374350310303271, 3: 0.035728286020457745, 4: 0.10254362307023257, 5: -0.006858416832983494, 6: 2.158957064151764, 8: 0.030104907}
+  time: 0.02
+
+inst: 42
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = MORTGAGE AND annual_inc = annual_inc > 82000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = last_fico_range_high > 749.00 AND last_fico_range_low = last_fico_range_low > 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.014922956004738808, 1: 0.009050249820575118, 2: 0.14137257635593414, 3: 0.13835287000983953, 4: -0.2337498553097248, 5: -0.01881291251629591, 6: 3.1339766308665276, 8: 0.023767805}
+  time: 0.01
+
+inst: 43
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = OWN AND annual_inc = annual_inc > 82000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = 699.00 < last_fico_range_high <= 749.00 AND last_fico_range_low = 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.15427307225763798, 1: -0.23899996376712807, 2: 0.10906308062840253, 3: 0.029959652572870255, 4: -0.014717412181198597, 5: -0.03410118306055665, 6: 2.107647281140089, 8: 0.025334803}
+  time: 0.02
+
+inst: 44
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = MORTGAGE AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = desc > 392.00 AND inq_last_6mths = inq_last_6mths > 1.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.1573860077187419, 1: 0.021624213783070445, 2: -0.03873579390347004, 3: 0.021824903320521116, 4: -0.07179293315857649, 5: 0.006797188427299261, 6: -1.4150833804160357, 8: 0.06243624}
+  time: 0.01
+
+inst: 45
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = MORTGAGE AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.06379290670156479, 1: 0.0014142680447548628, 2: -0.022725718445144594, 3: -0.03741252579493448, 4: 0.046458213590085506, 5: 0.000845407135784626, 6: -1.3766521252691746, 8: 0.06131698}
+  time: 0.01
+
+inst: 46
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = MORTGAGE AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.2440033834427595, 1: -0.0013694663066416979, 2: -0.02562436554580927, 3: -0.04030269681243226, 4: 0.0059407297521829605, 5: -0.017964788828976452, 6: -0.05875689163804054, 8: 0.022197336}
+  time: 0.02
+
+inst: 47
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = RENT AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = desc <= 4.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.24417655915021896, 1: 0.04439770054887049, 2: -0.03716366924345493, 3: 0.03394932328956202, 4: 0.08542216056957841, 5: 0.026025804691016674, 6: -0.03599676862359047, 8: 0.025869312}
+  time: 0.01
+
+inst: 48
+  explaining: loan_amnt = loan_amnt <= 5400.00 AND home_ownership = MORTGAGE AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = 699.00 < last_fico_range_high <= 749.00 AND last_fico_range_low = 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.218694057315588, 1: -0.007993116276338696, 2: -0.06907288078218699, 3: 0.030883901054039598, 4: 0.1048435935517773, 5: -0.057887760922312737, 6: 2.2181947231292725, 8: 0.02421976}
+  time: 0.02
+
+inst: 49
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = MORTGAGE AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = desc > 392.00 AND inq_last_6mths = inq_last_6mths > 1.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.04158195399213582, 1: -0.003921327413991094, 2: -0.02468532742932439, 3: 0.02097161440178752, 4: -0.04442900512367487, 5: 0.03184475004673004, 6: -1.4325817245990038, 8: 0.06243624}
+  time: 0.01
+
+inst: 50
+  explaining: loan_amnt = loan_amnt > 15000.00 AND home_ownership = MORTGAGE AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = 4.00 < desc <= 145.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = 699.00 < last_fico_range_high <= 749.00 AND last_fico_range_low = 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.45030513778328896, 1: -0.009796437923796475, 2: -0.03528298996388912, 3: -0.06768063706113026, 4: 0.10913706012070179, 5: 0.05611660610884428, 6: 2.120801843702793, 8: 0.036415372}
+  time: 0.02
+
+inst: 51
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = MORTGAGE AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = desc <= 4.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = 699.00 < last_fico_range_high <= 749.00 AND last_fico_range_low = 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.2399185486137867, 1: -0.011842929990962148, 2: -0.018210276030004025, 3: 0.03420950548024848, 4: 0.11225619446486235, 5: -0.0583860375918448, 6: 2.2212718427181244, 8: 0.028938048}
+  time: 0.02
+
+inst: 52
+  explaining: loan_amnt = loan_amnt <= 5400.00 AND home_ownership = RENT AND annual_inc = annual_inc <= 40057.66 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.23818464577198029, 1: 0.07476672806660645, 2: -0.08424817898776382, 3: 0.02333514444762841, 4: 0.04910488007590175, 5: -0.09909111424349248, 6: -1.3219318576157093, 8: 0.025619239}
+  time: 0.02
+
+inst: 53
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = MORTGAGE AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.19300666078925133, 1: 0.00597984972409904, 2: -0.04273259628098458, 3: 0.01704765373142436, 4: 0.05642164358869195, 5: -0.07382624107412994, 6: -1.3499285019934177, 8: 0.058139913}
+  time: 0.02
+
+inst: 54
+  explaining: loan_amnt = loan_amnt <= 5400.00 AND home_ownership = RENT AND annual_inc = annual_inc <= 40057.66 AND desc = 4.00 < desc <= 145.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = 699.00 < last_fico_range_high <= 749.00 AND last_fico_range_low = 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.23327946662902832, 1: 0.03635111727635376, 2: -0.0846995038446039, 3: -0.10783621482551098, 4: 0.10375798575114459, 5: 0.02064309874549508, 6: 2.1023571603000164, 8: 0.020077216}
+  time: 0.02
+
+inst: 55
+  explaining: loan_amnt = loan_amnt <= 5400.00 AND home_ownership = RENT AND annual_inc = annual_inc <= 40057.66 AND desc = desc > 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.23946404084563255, 1: 0.07389945813338272, 2: -0.04810382553841919, 3: 0.009015364572405815, 4: 0.03166281385347247, 5: -0.002445097779855132, 6: -1.3168704770505428, 8: 0.025518311}
+  time: 0.02
+
+inst: 56
+  explaining: loan_amnt = loan_amnt > 15000.00 AND home_ownership = MORTGAGE AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths > 1.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.402220034156926, 1: -0.012011549551971257, 2: -0.03085922636091709, 3: 0.022627313912380487, 4: -0.11498335748910904, 5: 0.011624692473560572, 6: -1.4247396877035499, 8: 0.058543153}
+  time: 0.02
+
+inst: 57
+  explaining: loan_amnt = loan_amnt <= 5400.00 AND home_ownership = RENT AND annual_inc = annual_inc <= 40057.66 AND desc = 4.00 < desc <= 145.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.2522466750815511, 1: 0.07810689412872307, 2: -0.09056008735205978, 3: -0.0388272013515234, 4: 0.0496535487473011, 5: 0.002316512633115053, 6: -1.3132153637707233, 8: 0.028891712}
+  time: 0.02
+
+inst: 58
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = RENT AND annual_inc = annual_inc <= 40057.66 AND desc = desc <= 4.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.2094709388911724, 1: 0.08289280437747948, 2: -0.0439071839209646, 3: 0.03054859983967617, 4: 0.01059444434940815, 5: -0.012061040382832289, 6: -1.4560162499547005, 8: 0.05842134}
+  time: 0.01
+
+inst: 59
+  explaining: loan_amnt = loan_amnt <= 5400.00 AND home_ownership = RENT AND annual_inc = annual_inc <= 40057.66 AND desc = 4.00 < desc <= 145.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.22426528483629227, 1: 0.03755068496684544, 2: -0.10124322155024856, 3: -0.03012711089104414, 4: 0.02510290965437889, 5: 0.05073222750797868, 6: -0.1312373001128435, 8: 0.016015656}
+  time: 0.01
+
+inst: 60
+  explaining: loan_amnt = loan_amnt > 15000.00 AND home_ownership = MORTGAGE AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = desc > 392.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = last_fico_range_high > 749.00 AND last_fico_range_low = last_fico_range_low > 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.21677900850772858, 1: 0.0035351895494386554, 2: -0.030004527419805527, 3: 0.06948843644931912, 4: 0.42664057901129127, 5: 0.052195449359714985, 6: 4.1741324588656425, 8: 0.029637177}
+  time: 0.02
+
+inst: 61
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = RENT AND annual_inc = annual_inc <= 40057.66 AND desc = desc <= 4.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = 699.00 < last_fico_range_high <= 749.00 AND last_fico_range_low = 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.23308900743722916, 1: 0.06600034885923378, 2: -0.03145924746058881, 3: 0.04771045158850029, 4: 0.11185126018244773, 5: 0.0100255087018013, 6: 2.211922377347946, 8: 0.027978092}
+  time: 0.02
+
+inst: 62
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = OWN AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths > 1.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.13359159138053656, 1: -0.47876929960330017, 2: -0.040390582755208015, 3: 0.032606188498903066, 4: -0.0645121717825532, 5: -0.15231357887387276, 6: -1.5020574033260345, 8: 0.06071785}
+  time: 0.02
+
+inst: 63
+  explaining: loan_amnt = loan_amnt > 15000.00 AND home_ownership = OWN AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = desc > 392.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.4253660114482045, 1: -0.14129399342346005, 2: -0.036571589298546314, 3: 0.021204402204602957, 4: 0.00934874452650547, 5: 0.1785708125680685, 6: -1.509662508033216, 8: 0.060657695}
+  time: 0.02
+
+inst: 64
+  explaining: loan_amnt = loan_amnt <= 5400.00 AND home_ownership = RENT AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.26269545778632164, 1: 0.09574668758432381, 2: -0.06810517504345626, 3: -0.00820554792881012, 4: 0.04754510801285505, 5: -0.008688225876539946, 6: -1.3211749158799648, 8: 0.028796306}
+  time: 0.02
+
+inst: 65
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = RENT AND annual_inc = annual_inc <= 40057.66 AND desc = desc > 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.1350018149241805, 1: 0.06957326919655316, 2: -0.11886463069822639, 3: 0.030677274335175753, 4: 0.09328240202739835, 5: 0.08545817248523235, 6: -1.3495810627937317, 8: 0.05275603}
+  time: 0.02
+
+inst: 66
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = MORTGAGE AND annual_inc = annual_inc > 82000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths > 1.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = 699.00 < last_fico_range_high <= 749.00 AND last_fico_range_low = 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.16784624382853508, 1: 0.002978254808112979, 2: 0.11348516563884914, 3: 0.025807381607592106, 4: -0.1555441073141992, 5: -0.0272576492279768, 6: 1.993419125676155, 8: 0.03477202}
+  time: 0.02
+
+inst: 67
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = OWN AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = desc <= 4.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.05225648917257786, 1: -0.26703038162668236, 2: -0.017179542686790228, 3: 0.03148755646543577, 4: 0.06229732185602188, 5: 0.025286581367254257, 6: -1.5036630555987358, 8: 0.054388948}
+  time: 0.02
+
+inst: 68
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = MORTGAGE AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = desc > 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.17221161723136902, 1: 0.007553278235718608, 2: -0.03567662078421563, 3: 0.02155956020578742, 4: 0.038979573640972376, 5: -0.00896583660505712, 6: -1.3459170870482922, 8: 0.053157583}
+  time: 0.01
+
+inst: 69
+  explaining: loan_amnt = loan_amnt > 15000.00 AND home_ownership = MORTGAGE AND annual_inc = annual_inc > 82000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = last_fico_range_high > 749.00 AND last_fico_range_low = last_fico_range_low > 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.17611212469637394, 1: 0.0022663584677502513, 2: 0.20758291706442833, 3: 0.06199179869145155, 4: -0.20351436967030168, 5: 0.005975323263555765, 6: 3.6073441728949547, 8: 0.025297344}
+  time: 0.01
+
+inst: 70
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = MORTGAGE AND annual_inc = annual_inc > 82000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.18450339883565903, 1: 0.003043063683435321, 2: 0.12606269784737378, 3: 0.02632149960845709, 4: 0.02552943117916584, 5: -0.006815737579017878, 6: 0.1365029141306877, 8: -0.18922411}
+  time: 0.01
+
+inst: 71
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = MORTGAGE AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = last_fico_range_high > 749.00 AND last_fico_range_low = last_fico_range_low > 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.10130498744547367, 1: 0.0036564439069479704, 2: 0.27993351873010397, 3: -0.259012880444061, 4: -0.15018776059150696, 5: -0.01798800379037857, 6: 3.1262134090065956, 8: 0.018362995}
+  time: 0.02
+
+inst: 72
+  explaining: loan_amnt = loan_amnt > 15000.00 AND home_ownership = MORTGAGE AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.40687864646315575, 1: 0.01714625849854201, 2: -0.04203690111171454, 3: 0.0317414331366308, 4: 0.08823555801063776, 5: -0.0287682400085032, 6: -1.3734962828457355, 8: 0.057826817}
+  time: 0.01
+
+inst: 73
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = RENT AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths > 1.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = last_fico_range_high > 749.00 AND last_fico_range_low = last_fico_range_low > 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.052809201180934906, 1: 0.03939273484866135, 2: 0.07080193981528282, 3: 0.14624603028642014, 4: 0.13382434286177158, 5: 0.04048682330176234, 6: 3.7907945290207863, 8: 0.020226635}
+  time: 0.02
+
+inst: 74
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = RENT AND annual_inc = annual_inc <= 40057.66 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.20624082162976265, 1: 0.05074319147388451, 2: -0.036643499275669456, 3: -0.04493551951600239, 4: 0.0033643655478954315, 5: 0.026981763658113778, 6: -1.4220877811312675, 8: 0.0574698}
+  time: 0.02
+
+inst: 75
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = MORTGAGE AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths > 1.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.15710526995826513, 1: -0.003921327413991094, 2: -0.005457741674035788, 3: 0.024281192861963063, 4: -0.04856093693524599, 5: 0.03364908881485462, 6: -1.6325268018990755, 8: -0.46232304}
+  time: 0.02
+
+inst: 76
+  explaining: loan_amnt = loan_amnt > 15000.00 AND home_ownership = RENT AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = desc > 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.4156929533928633, 1: 0.08073253350448795, 2: -0.020723248715512455, 3: 0.03430374199524522, 4: 0.0893224561586976, 5: -0.02606110367923975, 6: -1.5161400772631168, 8: -0.36205155}
+  time: 0.02
+
+inst: 77
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = MORTGAGE AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = desc > 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.17397217825055122, 1: 0.023837248561903834, 2: -0.019814652390778065, 3: 0.02155956020578742, 4: 0.0604364862665534, 5: -0.01589943701401353, 6: -1.3787316232919693, 8: 0.06131698}
+  time: 0.02
+
+inst: 78
+  explaining: loan_amnt = loan_amnt <= 5400.00 AND home_ownership = RENT AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = desc > 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.19623332284390926, 1: 0.07011130356113426, 2: -0.04534060030709952, 3: 0.008124547079205513, 4: -0.003411051817238331, 5: 0.037658093962818384, 6: -0.08437175303697586, 8: 0.018029034}
+  time: 0.02
+
+inst: 79
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = RENT AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = 4.00 < desc <= 145.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.020885581150650978, 1: 0.0493526020727586, 2: -0.06994995521381497, 3: -0.06870980694657192, 4: 0.05602971382904798, 5: -0.10704007907770574, 6: 0.13306751288473606, 8: -0.121520475}
+  time: 0.01
+
+inst: 80
+  explaining: loan_amnt = loan_amnt > 15000.00 AND home_ownership = RENT AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = desc <= 4.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.464015849865973, 1: 0.04412587339174934, 2: -0.01856751460582018, 3: 0.041904862329829484, 4: -0.043597256764769554, 5: 0.05087791895493865, 6: -1.6375398077070713, 8: -0.3751358}
+  time: 0.02
+
+inst: 81
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = RENT AND annual_inc = annual_inc > 82000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.06775141414254904, 1: 0.06820782923023216, 2: 0.1316232798853889, 3: -0.06503682071343064, 4: 0.04874372761696577, 5: -0.009654026478528976, 6: -1.3886150103062391, 8: 0.059112377}
+  time: 0.02
+
+inst: 82
+  explaining: loan_amnt = loan_amnt <= 5400.00 AND home_ownership = MORTGAGE AND annual_inc = annual_inc <= 40057.66 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.25994439981877804, 1: -0.00939701427705586, 2: -0.0985395380994305, 3: -0.026748639065772295, 4: 0.008629963733255863, 5: 0.022402141941711307, 6: -0.1436949260532856, 8: 0.023529662}
+  time: 0.02
+
+inst: 83
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = RENT AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = inq_last_6mths > 1.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.2130513470619917, 1: 0.053232927777571604, 2: -0.03750515542924404, 3: -0.008667694113682956, 4: -0.08075914857909083, 5: -0.01360073417890817, 6: -0.040863052010536194, 8: 0.02523019}
+  time: 0.02
+
+inst: 84
+  explaining: loan_amnt = loan_amnt > 15000.00 AND home_ownership = RENT AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.49806945212185383, 1: 0.04784591661882587, 2: -0.04567968368064612, 3: 0.040821617760229856, 4: 0.0297356229275465, 5: 0.048180741257965565, 6: -0.2683190796524286, 8: 0.02895461}
+  time: 0.02
+
+inst: 85
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = OWN AND annual_inc = annual_inc <= 40057.66 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = last_fico_range_high > 749.00 AND last_fico_range_low = last_fico_range_low > 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.09498555958271027, 1: -0.22423862203140743, 2: -0.05493319779634476, 3: -0.18772269663168117, 4: -0.2388755213469267, 5: 0.007508978480473161, 6: 2.9626766592264175, 8: 0.023335313}
+  time: 0.01
+
+inst: 86
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = OWN AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = desc > 392.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.18342924863100052, 1: -0.2778584333427716, 2: -0.03186609782278538, 3: 0.029031266923993826, 4: 0.07827832736074924, 5: 0.04181258752942085, 6: -1.4830826297402382, 8: 0.054388948}
+  time: 0.02
+
+inst: 87
+  explaining: loan_amnt = loan_amnt > 15000.00 AND home_ownership = MORTGAGE AND annual_inc = annual_inc > 82000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = last_fico_range_high > 749.00 AND last_fico_range_low = last_fico_range_low > 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.19385387003421783, 1: 0.0038397879106923938, 2: 0.1697407104074955, 3: 0.0710420785471797, 4: -0.2071143859066069, 5: -0.04357235413044691, 6: 3.5151392444968224, 8: 0.027554674}
+  time: 0.02
+
+inst: 88
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = MORTGAGE AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = 4.00 < desc <= 145.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = 699.00 < last_fico_range_high <= 749.00 AND last_fico_range_low = 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.020668666809797287, 1: -0.010234615998342633, 2: -0.03373439935967326, 3: -0.11939983948832378, 4: 0.0031558144837617874, 5: -0.11344762262888253, 6: 2.0507116578519344, 8: 0.027275072}
+  time: 0.02
+
+inst: 89
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = RENT AND annual_inc = annual_inc <= 40057.66 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.25962366349995136, 1: 0.07250662797014229, 2: -0.046352918609045446, 3: -0.033887762285303324, 4: 0.010123113170266151, 5: 0.0207717539742589, 6: -0.02380717173218727, 8: 0.022747321}
+  time: 0.01
+
+inst: 90
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = OWN AND annual_inc = annual_inc <= 40057.66 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.0676253903657198, 1: -0.4529053988226224, 2: -0.12484738358762115, 3: -0.057989937893580645, 4: 0.02559844683855772, 5: -0.09876942727714777, 6: -1.4879779145121574, 8: 0.059598587}
+  time: 0.02
+
+inst: 91
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = RENT AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = desc <= 4.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.21021322160959244, 1: 0.06090545930783264, 2: -0.03188172169029713, 3: 0.022919541981536895, 4: 0.014482004567980766, 5: -0.06792286946438253, 6: -1.4465847238898277, 8: 0.055244267}
+  time: 0.01
+
+inst: 92
+  explaining: loan_amnt = loan_amnt <= 5400.00 AND home_ownership = RENT AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = inq_last_6mths > 1.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = 699.00 < last_fico_range_high <= 749.00 AND last_fico_range_low = 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.28352041682228446, 1: 0.059703568898839876, 2: -0.04012491274625063, 3: 0.008206252008676529, 4: -0.09388902387581766, 5: 0.012096382211893797, 6: 2.131741128861904, 8: -0.08893192}
+  time: 0.02
+
+inst: 93
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = MORTGAGE AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = inq_last_6mths > 1.00 AND revol_util = 25.20 < revol_util <= 49.10 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.24762198142707348, 1: -0.0024370078463107347, 2: -0.04168283101171255, 3: 0.005597851530183107, 4: -0.06677247490733862, 5: -0.01529826084151864, 6: -0.035011112689971924, 8: 0.028298927}
+  time: 0.02
+
+inst: 94
+  explaining: loan_amnt = loan_amnt > 15000.00 AND home_ownership = MORTGAGE AND annual_inc = 59000.00 < annual_inc <= 82000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.4820720972493291, 1: -0.022880496573634446, 2: -0.02343430556356907, 3: -0.07138161890907213, 4: -0.06246593873947859, 5: 0.040840630419552326, 6: -1.4901164583861828, 8: 0.05866527}
+  time: 0.01
+
+inst: 95
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = RENT AND annual_inc = annual_inc <= 40057.66 AND desc = desc <= 4.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = revol_util > 72.23 AND last_fico_range_high = 699.00 < last_fico_range_high <= 749.00 AND last_fico_range_low = 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.23308900743722916, 1: 0.06600034885923378, 2: -0.03145924746058881, 3: 0.04771045158850029, 4: 0.11185126018244773, 5: 0.0100255087018013, 6: 2.211922377347946, 8: 0.027978092}
+  time: 0.01
+
+inst: 96
+  explaining: loan_amnt = 5400.00 < loan_amnt <= 10000.00 AND home_ownership = MORTGAGE AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = 145.00 < desc <= 392.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = last_fico_range_high <= 649.00 AND last_fico_range_low = last_fico_range_low <= 645.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.19222870469093323, 1: 0.002750157145783305, 2: -0.0269926767796278, 3: -0.039219451777171344, 4: 0.0262861717492342, 5: 0.016024412703700364, 6: -1.4247656986117363, 8: 0.05439896}
+  time: 0.02
+
+inst: 97
+  explaining: loan_amnt = 10000.00 < loan_amnt <= 15000.00 AND home_ownership = OWN AND annual_inc = 40057.66 < annual_inc <= 59000.00 AND desc = desc <= 4.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = 699.00 < last_fico_range_high <= 749.00 AND last_fico_range_low = 695.00 < last_fico_range_low <= 745.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.0010536536574363708, 1: -0.18275917790015228, 2: -0.01680599374230951, 3: 0.05294094915734604, 4: 0.008005832321941853, 5: 0.09934917162172496, 6: 2.169999923557043, 8: 0.02823794}
+  time: 0.02
+
+inst: 98
+  explaining: loan_amnt = loan_amnt > 15000.00 AND home_ownership = MORTGAGE AND annual_inc = annual_inc > 82000.00 AND desc = desc > 392.00 AND inq_last_6mths = 0.00 < inq_last_6mths <= 1.00 AND revol_util = revol_util <= 25.20 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: -0.5017981044948101, 1: -9.990495163947344e-05, 2: 0.18402091204188764, 3: 0.017768658697605133, 4: 0.04651945363730192, 5: 0.0028236019425094128, 6: -0.1610160293057561, 8: 0.037556015}
+  time: 0.02
+
+inst: 99
+  explaining: loan_amnt = loan_amnt <= 5400.00 AND home_ownership = MORTGAGE AND annual_inc = annual_inc > 82000.00 AND desc = desc > 392.00 AND inq_last_6mths = inq_last_6mths <= 0.00 AND revol_util = 49.10 < revol_util <= 72.23 AND last_fico_range_high = 649.00 < last_fico_range_high <= 699.00 AND last_fico_range_low = 645.00 < last_fico_range_low <= 695.00 AND pub_rec_bankruptcies = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8]
+  lit2imprt: {0: 0.2095596008002758, 1: 0.003770307404920459, 2: 0.19401400175411254, 3: -0.12294519226998091, 4: 0.022801654413342476, 5: 0.029697668505832553, 6: -0.10380930453538895, 8: 0.028934471}
+  time: 0.02

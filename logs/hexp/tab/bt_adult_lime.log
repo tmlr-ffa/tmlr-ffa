@@ -1,0 +1,602 @@
+loading model from  ./temp/adult/adult_train1_data/adult_train1_data_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl
+loading data from  ./temp/adult/adult_train1_data/adult_train1_data_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl.splitdata.pkl
+
+inst: 0
+  explaining: Age = Age > 48.00 AND Workclass = Self-emp-not-inc AND Education = High School grad AND Marital Status = Married AND Occupation = Sales AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = High AND Capital Loss = None AND Hours per week = 40.00 < Hours per week <= 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.042412952492988445, 1: -0.024759366379713876, 2: -0.060561911648807545, 3: 0.30528956377647687, 4: -0.005856602600889893, 5: 0.03545223652980485, 6: -0.004629871535156564, 7: 0.036312030297201196, 8: 0.5557755821567006, 9: -0.18109915616447658, 10: 0.05455105284815804, 11: 0.03136718492547087}
+  time: 0.30
+
+inst: 1
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = Dropout AND Marital Status = Married AND Occupation = Blue-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = Latin-America
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.009926838686894288, 1: 4.052493433533725e-05, 2: 0.15916565086842277, 3: -0.3079264724589087, 4: 0.05196688616569426, 5: -0.0364904534741742, 6: 0.004290474585083068, 7: -0.024920231317281345, 8: 0.33494554133372484, 9: 0.17341669132691795, 10: 0.10104833528213218, 11: 0.05574874988719821}
+  time: 0.27
+
+inst: 2
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Local-gov AND Education = Bachelors AND Marital Status = Separated AND Occupation = Other AND Relationship = Unmarried AND Race = White AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.050484562898663675, 1: 0.011997624327042907, 2: -0.08569183939310107, 3: 0.19503189323019873, 4: -0.09313327266610451, 5: -0.004605769074988678, 6: 0.004926767858307272, 7: 0.030636631135834657, 8: 0.344202218528074, 9: 0.18696070175346471, 10: 0.1064268697167528, 11: -0.01380785312112175}
+  time: 0.25
+
+inst: 3
+  explaining: Age = Age > 48.00 AND Workclass = ? AND Education = Dropout AND Marital Status = Separated AND Occupation = ? AND Relationship = Not-in-family AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.046356834269522175, 1: 0.016335490903532333, 2: 0.15699831198434436, 3: 0.20317401773720006, 4: 0.015862897387273676, 5: -0.022290024850285396, 6: -0.023796054287964313, 7: -0.04039234290693775, 8: 0.3373890347024328, 9: 0.17747343950206082, 10: 0.10558073765658664, 11: -0.03605863886422584}
+  time: 0.26
+
+inst: 4
+  explaining: Age = Age > 48.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Married AND Occupation = Sales AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.04265544454698743, 1: 0.00807867972299105, 2: -0.06350045955499956, 3: 0.31072931446373575, 4: -0.005655009601333612, 5: 0.04473516236664936, 6: 0.00863859087869683, 7: 0.03362761557423095, 8: -0.36282738070549975, 9: -0.18425571372633257, 10: 0.09038794015029439, 11: 0.013900179215783506}
+  time: 0.25
+
+inst: 5
+  explaining: Age = Age <= 28.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Never-Married AND Occupation = Service AND Relationship = Own-child AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.1414389162683299, 1: -0.005015544512207866, 2: 0.0675150510944405, 3: 0.2450287930780356, 4: 0.1298411952035504, 5: 0.13490037878591873, 6: 0.005127959927701647, 7: -0.02854385506099163, 8: 0.3359921782869411, 9: 0.18772393318054528, 10: 0.0958423004679994, 11: -0.01739050699998352}
+  time: 0.25
+
+inst: 6
+  explaining: Age = Age <= 28.00 AND Workclass = Federal-gov AND Education = High School grad AND Marital Status = Never-Married AND Occupation = Admin AND Relationship = Own-child AND Race = Black AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.14860891654777728, 1: -0.023594879247826543, 2: 0.06233446167880747, 3: 0.2475835485607582, 4: 0.011773434451060733, 5: 0.11600269491564807, 6: 0.008434540055809304, 7: 0.040762025366102475, 8: 0.360378145932683, 9: 0.16807076574005925, 10: 0.09634239904070399, 11: -0.018388618790445968}
+  time: 0.25
+
+inst: 7
+  explaining: Age = Age > 48.00 AND Workclass = Self-emp-not-inc AND Education = Masters AND Marital Status = Married AND Occupation = Professional AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = ?
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.04433905293501785, 1: -0.010270905583845046, 2: 0.08340906303825514, 3: 0.31438972700257506, 4: 0.0414996387951923, 5: 0.04272432235871394, 6: -0.013993408535094407, 7: 0.03558788406993451, 8: -0.35354923130696625, 9: -0.17420424091840864, 10: -0.10185605776534706, 11: -0.015727889814738886}
+  time: 0.24
+
+inst: 8
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = Associates AND Marital Status = Married AND Occupation = Blue-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.011905520188227055, 1: 0.008397156637789581, 2: 0.029043175801238753, 3: 0.30836854815965786, 4: -0.05182313995175721, 5: 0.03191192708243613, 6: 0.006713707631333994, 7: 0.038380250518378706, 8: -0.3563166893189261, 9: -0.16810576901831265, 10: -0.09491085330989249, 11: 0.027074069670229687}
+  time: 0.23
+
+inst: 9
+  explaining: Age = Age <= 28.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Separated AND Occupation = Blue-Collar AND Relationship = Own-child AND Race = White AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = Latin-America
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.1405425555623681, 1: -0.005182439637707658, 2: 0.062470942179143306, 3: 0.20011612973250673, 4: 0.051524545508985685, 5: 0.1360908830397971, 6: 0.006972348589327272, 7: 0.034431196426402216, 8: 0.34225056802994985, 9: 0.17079224493326292, 10: 0.09765702997209215, 11: 0.050372799310887915}
+  time: 0.24
+
+inst: 10
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = State-gov AND Education = High School grad AND Marital Status = Never-Married AND Occupation = Other AND Relationship = Not-in-family AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.05778907892167063, 1: -0.008321682346189877, 2: 0.06145626054651993, 3: 0.25102307542469116, 4: -0.05492609183962967, 5: -0.0048763962661190745, 6: 0.012176815476984109, 7: -0.03885531801338449, 8: 0.33388425084976614, 9: 0.17525582234077886, 10: 0.10170262183678774, 11: -0.028897923890809852}
+  time: 0.25
+
+inst: 11
+  explaining: Age = Age > 48.00 AND Workclass = Federal-gov AND Education = High School grad AND Marital Status = Married AND Occupation = Admin AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = Low AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.053709153058042365, 1: 0.05108679685165245, 2: -0.05392085664035505, 3: 0.30562466511339614, 4: -0.017588974606637886, 5: 0.0451081280237429, 6: 0.004402204998744595, 7: 0.04038186200255886, 8: 0.001907939652688709, 9: -0.16784225196300553, 10: -0.09163013962128508, 11: 0.024098386426381756}
+  time: 0.23
+
+inst: 12
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Private AND Education = Bachelors AND Marital Status = Married AND Occupation = Other AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = High AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.04950509514465071, 1: 0.0033524492767861673, 2: 0.08373485036659226, 3: 0.3101345968912526, 4: 0.06921891622752081, 5: 0.034864518579206576, 6: 0.007772288146664758, 7: 0.030421601113236135, 8: 0.5418868348250555, 9: -0.18389153991742674, 10: -0.09898524738683503, 11: 0.020619884700875772}
+  time: 0.26
+
+inst: 13
+  explaining: Age = Age > 48.00 AND Workclass = Self-emp-inc AND Education = High School grad AND Marital Status = Married AND Occupation = Sales AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = High AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.04995313558903978, 1: 0.011281825562189273, 2: -0.05866668426878421, 3: 0.3093680147847729, 4: -0.00030258430168743686, 5: 0.039508359508520545, 6: 0.0069787037452618, 7: 0.024892115075514813, 8: -0.35086925222509985, 9: 0.23036778558866128, 10: -0.09769038294173699, 11: 0.033338573393687274}
+  time: 0.24
+
+inst: 14
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = Associates AND Marital Status = Married AND Occupation = Professional AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.005621491844039015, 1: 0.00596371602087161, 2: 0.0291088832261071, 3: 0.3100521614779328, 4: 0.05711919270443637, 5: 0.031700880565929956, 6: -0.0009357767277990082, 7: 0.034818600306842085, 8: -0.33573567464738846, 9: -0.18753520895255504, 10: 0.09293812105551616, 11: 0.028067562103705253}
+  time: 0.24
+
+inst: 15
+  explaining: Age = Age <= 28.00 AND Workclass = Local-gov AND Education = Bachelors AND Marital Status = Married AND Occupation = Professional AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.13346121831789698, 1: -0.0016762563434713318, 2: -0.08313092326027946, 3: -0.3067798982629912, 4: -0.04235624871951903, 5: -0.03516681944492807, 6: -0.007436054825756095, 7: -0.034456602196644585, 8: 0.33640039564112556, 9: 0.17867648752761922, 10: 0.1112598326830059, 11: -0.02554103939676656}
+  time: 0.23
+
+inst: 16
+  explaining: Age = Age > 48.00 AND Workclass = Federal-gov AND Education = Bachelors AND Marital Status = Separated AND Occupation = Professional AND Relationship = Unmarried AND Race = Black AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.04429268829183944, 1: -0.006668858092492964, 2: -0.08370101540676272, 3: 0.20341459685322708, 4: -0.04404118367248977, 5: 0.011519691478660351, 6: 0.005979892656987374, 7: 0.033720595195574965, 8: 0.35891157221804293, 9: 0.1676770812213949, 10: 0.1015926824555793, 11: -0.02688222355311055}
+  time: 0.24
+
+inst: 17
+  explaining: Age = Age > 48.00 AND Workclass = Local-gov AND Education = Bachelors AND Marital Status = Separated AND Occupation = Professional AND Relationship = Unmarried AND Race = Black AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.03821927648520941, 1: 0.021910461545449282, 2: -0.06997929182950954, 3: 0.22339874803406803, 4: -0.05093343160265413, 5: -0.0020799615707698003, 6: 0.001990216821507104, 7: 0.023826264482333034, 8: 0.34442969601707446, 9: 0.1659912301006583, 10: 0.10946685683694957, 11: -0.006239288000002718}
+  time: 0.23
+
+inst: 18
+  explaining: Age = Age > 48.00 AND Workclass = Private AND Education = Masters AND Marital Status = Married AND Occupation = White-Collar AND Relationship = Husband AND Race = Asian-Pac-Islander AND Sex = Male AND Capital Gain = Low AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = SE-Asia
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.049196581386518425, 1: 0.006073791437950957, 2: 0.08186407544241102, 3: 0.3054727403415033, 4: 0.0961717571729059, 5: 0.04080841769406853, 6: 0.027085650283929053, 7: 0.032339681327578036, 8: 0.023231317295298495, 9: -0.17242929758923906, 10: -0.10601179807794284, 11: -0.009681960237165273}
+  time: 0.25
+
+inst: 19
+  explaining: Age = Age > 48.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Married AND Occupation = Blue-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.055608224267672986, 1: -0.003003666157325383, 2: 0.05832768403980218, 3: -0.30278766254213524, 4: 0.05502886806450754, 5: -0.03582224334748516, 6: -0.006966373746397602, 7: -0.029333943305861518, 8: 0.3458202329660986, 9: 0.19348553644128222, 10: 0.10213761563395425, 11: -0.013515992987675}
+  time: 0.25
+
+inst: 20
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Married AND Occupation = Blue-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.008743290899293427, 1: -0.005821170677705858, 2: 0.06084244357222585, 3: -0.3065437283216215, 4: 0.05208550707262004, 5: -0.03871728631344309, 6: 0.009279436389451862, 7: -0.03380995077772234, 8: 0.34028229118007214, 9: 0.17745641428952633, 10: 0.10187165153839225, 11: -0.018408626017819923}
+  time: 0.24
+
+inst: 21
+  explaining: Age = Age <= 28.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Never-Married AND Occupation = Admin AND Relationship = Not-in-family AND Race = White AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.14645948636465184, 1: -0.011145299521497795, 2: 0.05366094591770615, 3: 0.24578197609806765, 4: 0.01751407039057202, 5: -0.003105262736838496, 6: 0.005148724938929594, 7: 0.0334237591862994, 8: 0.3391087477692141, 9: 0.18557389730131854, 10: 0.09865252172866655, 11: -0.02719578095378061}
+  time: 0.22
+
+inst: 22
+  explaining: Age = Age <= 28.00 AND Workclass = Self-emp-not-inc AND Education = High School grad AND Marital Status = Married AND Occupation = White-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.1397380589635446, 1: 0.020031661263099115, 2: 0.05787762939268732, 3: -0.3093483136323593, 4: -0.08045404714926414, 5: -0.03484095453165184, 6: 0.0058663202812336, 7: -0.04275674560069833, 8: 0.36110371869882596, 9: 0.17955447713125375, 10: 0.10953476714336684, 11: -0.03589028958075433}
+  time: 0.23
+
+inst: 23
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Married AND Occupation = Blue-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.0028052763299071803, 1: 0.0023032293298205415, 2: 0.07079141672186182, 3: -0.3070373291347102, 4: 0.045415352269207565, 5: -0.040927732112054666, 6: -0.007880671935205112, 7: -0.03095216303176786, 8: 0.33629244137658526, 9: 0.17961570160336818, 10: 0.10367014699941708, 11: -0.01771440945915632}
+  time: 0.23
+
+inst: 24
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = State-gov AND Education = Bachelors AND Marital Status = Married AND Occupation = White-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.0004611784064572687, 1: -0.0011478128305783914, 2: 0.08589428139308658, 3: 0.31005900383047297, 4: 0.0916106271271005, 5: 0.04195980576389792, 6: -0.011610807580646108, 7: 0.034008214418344423, 8: -0.3230404839593613, 9: -0.19145364103870008, 10: -0.10805091215573419, 11: 0.02097787300630129}
+  time: 0.22
+
+inst: 25
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Self-emp-not-inc AND Education = Bachelors AND Marital Status = Married AND Occupation = Sales AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.055975082098100946, 1: -0.01971393460742285, 2: 0.08017753585276076, 3: 0.3032993517071229, 4: 0.009371999387955793, 5: 0.04487856827182063, 6: -0.01564275823508081, 7: 0.03341680620139463, 8: -0.34556327644284457, 9: -0.17907129784722364, 10: -0.10563956632091161, 11: 0.025772542808447815}
+  time: 0.24
+
+inst: 26
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = Bachelors AND Marital Status = Married AND Occupation = Professional AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = High AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.011552951155148832, 1: 0.0031900008379749326, 2: 0.07722749986715226, 3: 0.3007216137566859, 4: 0.046446783160484194, 5: 0.03999180471230495, 6: -0.008845102420775245, 7: 0.0374788923215024, 8: 0.5435840088013157, 9: -0.17188595465361214, 10: 0.09903109715381814, 11: 0.02143343472824738}
+  time: 0.23
+
+inst: 27
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = Doctorate AND Marital Status = Never-Married AND Occupation = Professional AND Relationship = Not-in-family AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.020134093732576647, 1: 0.000556233039981272, 2: 0.2301767257010379, 3: -0.25562973394415534, 4: 0.04350951350735211, 5: 0.02880184770863293, 6: 0.0005638060882367362, 7: 0.033916627567458384, 8: -0.32692828432567117, 9: -0.18371605801212013, 10: 0.09285480302086828, 11: 0.023369028885482195}
+  time: 0.23
+
+inst: 28
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Private AND Education = Bachelors AND Marital Status = Separated AND Occupation = Sales AND Relationship = Not-in-family AND Race = White AND Sex = Male AND Capital Gain = High AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.052665599189215165, 1: -0.006354175061527098, 2: 0.07592156146441607, 3: -0.204380732690788, 4: -0.010765214181421278, 5: 0.010222837809981634, 6: -0.0005357167393290418, 7: 0.030242421946967923, 8: 0.5692190327806708, 9: -0.18613342485712336, 10: -0.10512017431260236, 11: 0.02870723807065669}
+  time: 0.22
+
+inst: 29
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Private AND Education = Masters AND Marital Status = Married AND Occupation = White-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.045412860560281286, 1: 0.0019361819447346331, 2: 0.082939420495127, 3: 0.30622196771182164, 4: 0.09227569187433109, 5: 0.032007423593448124, 6: 0.01050713462665871, 7: 0.02893219713099322, 8: -0.3308161386528264, 9: -0.1798288677913607, 10: 0.09315782316638381, 11: 0.023850376732379143}
+  time: 0.25
+
+inst: 30
+  explaining: Age = Age <= 28.00 AND Workclass = ? AND Education = High School grad AND Marital Status = Never-Married AND Occupation = ? AND Relationship = Own-child AND Race = White AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.15548149649894236, 1: -0.00984955699102086, 2: 0.06271671903068582, 3: 0.24768740114426827, 4: 0.054515462857691564, 5: 0.1334492620019544, 6: -0.002252862489860934, 7: 0.03392739313184206, 8: 0.3275947562704331, 9: 0.1798850663970728, 10: 0.10778873433030685, 11: -0.03486528820635195}
+  time: 0.24
+
+inst: 31
+  explaining: Age = Age <= 28.00 AND Workclass = Private AND Education = Bachelors AND Marital Status = Married AND Occupation = Professional AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = 40.00 < Hours per week <= 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.13864317757020814, 1: 0.0014399529263153983, 2: 0.07666847483499532, 3: 0.31105984845390144, 4: 0.04512988520685945, 5: 0.04071337939022321, 6: 0.006978981078974667, 7: 0.040052854044433255, 8: -0.34661009028443523, 9: -0.18226753182548128, 10: 0.0530934451055471, 11: 0.02820154504516284}
+  time: 0.20
+
+inst: 32
+  explaining: Age = Age > 48.00 AND Workclass = State-gov AND Education = High School grad AND Marital Status = Separated AND Occupation = Admin AND Relationship = Not-in-family AND Race = White AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = British-Commonwealth
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.05987139735781069, 1: 0.0006718219340625079, 2: 0.05872844917495542, 3: 0.22006846597042065, 4: 0.002788806083125463, 5: -0.020404639791223984, 6: 0.0011589729960362128, 7: 0.0249982358502862, 8: 0.3504986083852303, 9: 0.15070215538623943, 10: 0.10293895040759737, 11: -0.001174313382575027}
+  time: 0.24
+
+inst: 33
+  explaining: Age = Age > 48.00 AND Workclass = State-gov AND Education = Bachelors AND Marital Status = Married AND Occupation = White-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = High AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.04331491273281622, 1: -0.014598120658333087, 2: 0.08202402569961885, 3: 0.30551464083967544, 4: 0.08842474576786573, 5: 0.036820975218778876, 6: -0.008130267701525997, 7: 0.03593073025579975, 8: 0.5543954694879667, 9: -0.1668937035018247, 10: 0.10189450582387133, 11: 0.016276319457942393}
+  time: 0.24
+
+inst: 34
+  explaining: Age = Age > 48.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Married AND Occupation = Sales AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.051701479557748044, 1: 0.00335135612173491, 2: -0.06001468138189281, 3: 0.3042239888749826, 4: -0.00958578244868698, 5: 0.04345245870852386, 6: 0.01518402402396947, 7: 0.036952328506887025, 8: -0.3523341889895973, 9: -0.1780726985486744, 10: -0.0915140503938046, 11: 0.015669917709986225}
+  time: 0.24
+
+inst: 35
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Private AND Education = Masters AND Marital Status = Married AND Occupation = White-Collar AND Relationship = Wife AND Race = White AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.054766558067697056, 1: 0.005353973363439685, 2: 0.0606725685916656, 3: 0.30180484480169467, 4: 0.09099018080034631, 5: 0.04129944522466776, 6: 0.0020622182571593123, 7: -0.029064944866109253, 8: -0.3737241505078543, 9: -0.1659722611071931, 10: -0.10161001237427482, 11: 0.03047678784403225}
+  time: 0.23
+
+inst: 36
+  explaining: Age = Age > 48.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Widowed AND Occupation = Blue-Collar AND Relationship = Unmarried AND Race = White AND Sex = Male AND Capital Gain = Low AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.03442480721171494, 1: -0.016315177887442942, 2: 0.06380072708329641, 3: 0.18541706188149976, 4: 0.03873097388493187, 5: -0.01805873427771326, 6: 0.0008276470621653918, 7: -0.040976462438127, 8: 0.006628359223697022, 9: 0.18154846941861708, 10: 0.0976252273585078, 11: -0.026948307963867952}
+  time: 0.23
+
+inst: 37
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Local-gov AND Education = High School grad AND Marital Status = Married AND Occupation = Service AND Relationship = Wife AND Race = White AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.011538288730895888, 1: 0.0034957300751459006, 2: 0.05982838543409078, 3: -0.31601583567405095, 4: 0.14247236874699395, 5: -0.03933818735455342, 6: 0.0031889242747827674, 7: 0.031559512879355496, 8: 0.3414221445978342, 9: 0.176992138845877, 10: 0.09923112025618604, 11: -0.02865491750369751}
+  time: 0.25
+
+inst: 38
+  explaining: Age = Age > 48.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Married AND Occupation = Blue-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = High AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.04860672601241278, 1: 0.0012604438510194838, 2: -0.057907390381061116, 3: 0.296459071976729, 4: -0.05014314305581221, 5: 0.03872519471267062, 6: -0.0062819713670561024, 7: 0.032680699140837016, 8: 0.5616226875526805, 9: -0.19651412013641317, 10: 0.0918192765977803, 11: 0.028180157956370255}
+  time: 0.26
+
+inst: 39
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Private AND Education = Associates AND Marital Status = Married AND Occupation = White-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = 40.00 < Hours per week <= 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.050786218133271374, 1: 0.0033197181662189836, 2: 0.03371371446878665, 3: 0.3106644651912199, 4: 0.09252848242803872, 5: 0.031180531207492024, 6: -0.006911298204231921, 7: 0.03748874518819067, 8: -0.32131417770986914, 9: -0.16697489492547893, 10: 0.06071490330836822, 11: 0.02253351199902958}
+  time: 0.23
+
+inst: 40
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Private AND Education = Masters AND Marital Status = Separated AND Occupation = Professional AND Relationship = Unmarried AND Race = White AND Sex = Female AND Capital Gain = None AND Capital Loss = High AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.05687874381253888, 1: -0.011607175633871142, 2: 0.0973158915310919, 3: -0.205544366527837, 4: 0.0370367543426643, 5: -0.010845864969284483, 6: 0.011399481718284962, 7: -0.03341041180931422, 8: -0.3211930201496473, 9: 0.2266930413913414, 10: -0.10458776685950613, 11: 0.01918889788439163}
+  time: 0.23
+
+inst: 41
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Private AND Education = Bachelors AND Marital Status = Never-Married AND Occupation = Professional AND Relationship = Not-in-family AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.05500978559428986, 1: -0.0030177990575152957, 2: -0.08330969443965182, 3: 0.24761949702780567, 4: -0.04138176921547851, 5: -0.021907253980996286, 6: -0.0008563910708986685, 7: -0.03195008779929342, 8: 0.35344711947453744, 9: 0.19180789248449484, 10: 0.10560663492140028, 11: -0.0433355083394995}
+  time: 0.26
+
+inst: 42
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Married AND Occupation = Blue-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.0015002672791552534, 1: 0.00928232295374308, 2: -0.06273739033584572, 3: 0.31556485990764066, 4: -0.04622938429053687, 5: 0.030767641714877576, 6: -0.00363117789317986, 7: 0.02576257576986309, 8: -0.31972490678097326, 9: -0.1712409990278795, 10: 0.08956704182246532, 11: 0.01307760895843015}
+  time: 0.24
+
+inst: 43
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Local-gov AND Education = Associates AND Marital Status = Married AND Occupation = White-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.006467537601037886, 1: -0.014145018060614844, 2: 0.03363969784152004, 3: 0.313659106249858, 4: 0.09000146129826915, 5: 0.04839681293653401, 6: 0.0028313733040512194, 7: 0.03657479821311742, 8: -0.3498802870026442, 9: -0.1742679319639645, 10: -0.10610928242244586, 11: 0.021547320842639}
+  time: 0.23
+
+inst: 44
+  explaining: Age = Age > 48.00 AND Workclass = Self-emp-inc AND Education = Doctorate AND Marital Status = Married AND Occupation = Professional AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = ?
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.051432582300529536, 1: 0.0035499984442309345, 2: 0.2252340525525696, 3: 0.30872447503528677, 4: 0.037643925570500426, 5: 0.03594519213935794, 6: -0.013606178326416264, 7: 0.04131254492039665, 8: -0.3351581580777596, 9: -0.17395319558009925, 10: 0.08522776235945499, 11: -0.01954051025377891}
+  time: 0.26
+
+inst: 45
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Separated AND Occupation = Blue-Collar AND Relationship = Not-in-family AND Race = White AND Sex = Male AND Capital Gain = High AND Capital Loss = None AND Hours per week = 40.00 < Hours per week <= 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.049633884690649624, 1: 0.008862665258245616, 2: -0.05948242307409367, 3: -0.1991403939220928, 4: -0.050970233587311814, 5: 0.008740319538821883, 6: 0.00034717800983346316, 7: 0.03230497714005486, 8: 0.5638677746240467, 9: -0.17026308633282328, 10: 0.0473275045917892, 11: 0.021165774948552905}
+  time: 0.24
+
+inst: 46
+  explaining: Age = Age > 48.00 AND Workclass = Private AND Education = Masters AND Marital Status = Married AND Occupation = Professional AND Relationship = Husband AND Race = Asian-Pac-Islander AND Sex = Male AND Capital Gain = Low AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = British-Commonwealth
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.05695749914982367, 1: 0.008847794798571413, 2: 0.07098364131734053, 3: 0.3170377868568986, 4: 0.04862529973608946, 5: 0.03341884134058071, 6: -0.003958246567290375, 7: 0.01785998403079047, 8: 0.0061232488426194295, 9: -0.164636013306132, 10: -0.10123284446367203, 11: 0.031037549710186563}
+  time: 0.24
+
+inst: 47
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = Associates AND Marital Status = Married AND Occupation = White-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = High AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.01338660845992065, 1: -0.004132066223630866, 2: 0.022253789393843378, 3: 0.2969501502985586, 4: 0.08432363202386316, 5: 0.038325990973756704, 6: -0.004754824305025409, 7: 0.034571550100189766, 8: 0.563561121438474, 9: -0.181100976097936, 10: 0.08418764160701947, 11: 0.021751066006430744}
+  time: 0.23
+
+inst: 48
+  explaining: Age = Age <= 28.00 AND Workclass = Private AND Education = Bachelors AND Marital Status = Never-Married AND Occupation = White-Collar AND Relationship = Own-child AND Race = White AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.1375498558306628, 1: -0.0008699038512483263, 2: -0.08660319342490796, 3: 0.23604092941038332, 4: -0.0941580763920757, 5: 0.13828666747618323, 6: -0.006233031185626535, 7: 0.048833994439303266, 8: 0.36615443461884745, 9: 0.18463541942312406, 10: 0.10066707746133362, 11: -0.016203005301021235}
+  time: 0.23
+
+inst: 49
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Separated AND Occupation = Admin AND Relationship = Not-in-family AND Race = White AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.05170055218167103, 1: 0.002492434665252705, 2: 0.06423706271671147, 3: 0.20356424573345352, 4: 0.010435136364456846, 5: -0.012930312478591359, 6: 0.0022478440185295743, 7: 0.028802074763060494, 8: 0.34999391422526094, 9: 0.18272118441755278, 10: 0.11276053046929184, 11: -0.023141683785742915}
+  time: 0.27
+
+inst: 50
+  explaining: Age = Age > 48.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Married AND Occupation = Blue-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = Low AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.04475698119405391, 1: 0.010190729751695474, 2: -0.06767685336000062, 3: 0.3012828371823037, 4: -0.04281169764102554, 5: 0.04192062985944356, 6: -0.015505751697179241, 7: 0.04086693374046272, 8: 0.00959444782240335, 9: -0.18500446007041235, 10: -0.09976568962044284, 11: 0.03478503365744038}
+  time: 0.24
+
+inst: 51
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Widowed AND Occupation = Blue-Collar AND Relationship = Unmarried AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.050531537535299445, 1: 0.008687707134960199, 2: 0.049809117672243566, 3: 0.1901704684738755, 4: 0.05297023449133694, 5: 0.005114506679960832, 6: 0.007248685523508047, 7: -0.03426462307592348, 8: 0.3529452704470264, 9: 0.1526744097364061, 10: 0.1046723125774168, 11: -0.0361627013802624}
+  time: 0.25
+
+inst: 52
+  explaining: Age = Age > 48.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Married AND Occupation = Blue-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = 40.00 < Hours per week <= 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.046265897929816065, 1: -0.0024889474130416873, 2: -0.06090545921423885, 3: 0.302862532200854, 4: -0.04427695350623827, 5: 0.03947035877654897, 6: -0.0063052919324240704, 7: 0.03840635875372397, 8: -0.34924056060935504, 9: -0.18149496117893257, 10: 0.03646129577707056, 11: 0.02437009366402958}
+  time: 0.22
+
+inst: 53
+  explaining: Age = Age > 48.00 AND Workclass = Private AND Education = Bachelors AND Marital Status = Married AND Occupation = White-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.04222958394130607, 1: 0.00022506434297427908, 2: 0.07721579349549698, 3: 0.3011839019803038, 4: 0.0885497283807786, 5: 0.034011777264165925, 6: -0.005257942796497545, 7: 0.03166260890405162, 8: -0.33958361962902683, 9: -0.1592973842899355, 10: 0.09926784479829101, 11: 0.0274965839980348}
+  time: 0.25
+
+inst: 54
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Never-Married AND Occupation = Professional AND Relationship = Not-in-family AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = 40.00 < Hours per week <= 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.02421996527901638, 1: -0.006293102260453803, 2: 0.058268033365571896, 3: 0.23706215183020657, 4: -0.05759646686465917, 5: -0.018460597497847633, 6: 0.006438018591702999, 7: -0.03620476086760727, 8: 0.34179435889191984, 9: 0.1739821443128535, 10: -0.05970347809032363, 11: -0.030850042698910174}
+  time: 0.23
+
+inst: 55
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Self-emp-inc AND Education = High School grad AND Marital Status = Married AND Occupation = Sales AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.012872053047788337, 1: -0.008340616854048473, 2: -0.06833559195209857, 3: 0.30500841480854046, 4: -0.009543159151613708, 5: 0.03887939157132462, 6: 0.01397696636435909, 7: 0.023034699281016282, 8: -0.33170146545996615, 9: -0.17320431177055517, 10: 0.10026622422139925, 11: 0.02696699931488597}
+  time: 0.25
+
+inst: 56
+  explaining: Age = Age <= 28.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Never-Married AND Occupation = Blue-Collar AND Relationship = Not-in-family AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.14597136407697497, 1: -0.002795711314052514, 2: 0.05863077063788489, 3: 0.25034265185657373, 4: 0.0576228186246783, 5: -0.02223054924614127, 6: 0.00043260988245513574, 7: -0.02977219715183428, 8: 0.3333937817460463, 9: 0.17973737741491713, 10: -0.0945605167722517, 11: -0.026587522899987802}
+  time: 0.24
+
+inst: 57
+  explaining: Age = Age > 48.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Married AND Occupation = Service AND Relationship = Wife AND Race = Black AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.04769114241032892, 1: 0.0010185892454276358, 2: 0.06367980048399706, 3: -0.30286450032551526, 4: 0.13205149667777968, 5: -0.028306441347971462, 6: 0.013182677215456311, 7: 0.02971277429514068, 8: 0.3631383227484302, 9: 0.17607827298922105, 10: 0.10447526201404919, 11: -0.007903151184312953}
+  time: 0.25
+
+inst: 58
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Self-emp-inc AND Education = Prof-School AND Marital Status = Married AND Occupation = Professional AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = High AND Hours per week = 40.00 < Hours per week <= 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.05595272634551412, 1: 0.01680964675799722, 2: 0.1410336021007762, 3: 0.3088095892674971, 4: 0.042000740268613966, 5: 0.03567300433356298, 6: 0.011934058518515514, 7: 0.03249662740963047, 8: -0.3400454945958283, 9: 0.22226552596106502, 10: 0.05418059482177898, 11: 0.030235446737699512}
+  time: 0.23
+
+inst: 59
+  explaining: Age = Age <= 28.00 AND Workclass = Private AND Education = Bachelors AND Marital Status = Married AND Occupation = White-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.13499319963906448, 1: 0.002252108896470087, 2: 0.09534696715986804, 3: 0.30193623860841223, 4: 0.09078524975690909, 5: 0.044195832770475896, 6: 0.0014493038162616306, 7: 0.02632453474401326, 8: -0.35624953611148685, 9: -0.1776412919095913, 10: 0.09340449945847315, 11: 0.020025262400464715}
+  time: 0.24
+
+inst: 60
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Self-emp-inc AND Education = High School grad AND Marital Status = Never-Married AND Occupation = Blue-Collar AND Relationship = Not-in-family AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.005146165990610049, 1: -0.019704990373984117, 2: 0.06126558666834415, 3: 0.250671056614699, 4: 0.04257049711589636, 5: -0.020109562185159018, 6: -0.006659695301776429, 7: -0.02526202006092069, 8: 0.3489128899733183, 9: 0.16313289693165522, 10: -0.09116652977510595, 11: -0.013403280787889514}
+  time: 0.23
+
+inst: 61
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = Bachelors AND Marital Status = Married AND Occupation = White-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.01230409316105829, 1: -0.0006100986488407693, 2: 0.08383920168571313, 3: 0.30856744074694076, 4: 0.08445077114380953, 5: 0.031014881690290402, 6: -0.00028177973977288364, 7: 0.021799501205315035, 8: -0.35161062961345446, 9: -0.1756952306115799, 10: 0.09990551580603248, 11: 0.028172218543335306}
+  time: 0.23
+
+inst: 62
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Self-emp-not-inc AND Education = Bachelors AND Marital Status = Separated AND Occupation = Professional AND Relationship = Own-child AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.01030452966124448, 1: 0.00872612197300514, 2: -0.09258125706406374, 3: 0.20327963076184372, 4: -0.05146940685719935, 5: 0.13768466271763902, 6: 0.006741663355016244, 7: -0.025041043936581468, 8: 0.34440108198553143, 9: 0.20033901093015807, 10: 0.10149420687299678, 11: -0.02869642442739512}
+  time: 0.23
+
+inst: 63
+  explaining: Age = Age <= 28.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Never-Married AND Occupation = Sales AND Relationship = Own-child AND Race = Asian-Pac-Islander AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.13812972029117057, 1: -0.007771261481483779, 2: 0.05717633193519328, 3: 0.23897661647120144, 4: 0.02122734762719447, 5: 0.11267268870517293, 6: 0.0023619603198318843, 7: -0.034507241092478776, 8: 0.3473504329545745, 9: 0.17142629573091175, 10: 0.10852872551680424, 11: -0.02560629453207237}
+  time: 0.24
+
+inst: 64
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = Dropout AND Marital Status = Never-Married AND Occupation = Blue-Collar AND Relationship = Not-in-family AND Race = Black AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = ?
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.00021262028587874552, 1: -0.008850179228568426, 2: 0.15995298400801192, 3: 0.23709377475440832, 4: 0.04958658203827872, 5: -0.009828256072114745, 6: 0.010433304699881359, 7: -0.033671828636856055, 8: 0.33762189643100105, 9: 0.19131751120140125, 10: 0.09884368576510229, 11: -0.006490667703838329}
+  time: 0.22
+
+inst: 65
+  explaining: Age = Age > 48.00 AND Workclass = Self-emp-not-inc AND Education = High School grad AND Marital Status = Married AND Occupation = White-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.05003942010899522, 1: -0.019106608560397403, 2: -0.05880236465075245, 3: 0.3074385881195125, 4: 0.08917524103679185, 5: 0.031744787724446444, 6: 0.0020734134486732926, 7: 0.038598937880123925, 8: -0.34834922280099634, 9: -0.191658708620874, 10: -0.10188565898839085, 11: 0.03182351189659745}
+  time: 0.24
+
+inst: 66
+  explaining: Age = Age <= 28.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Never-Married AND Occupation = Admin AND Relationship = Own-child AND Race = White AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.13856913595268125, 1: -0.0028883895874401433, 2: 0.05837272378579824, 3: 0.24368905155065504, 4: 0.013131010654025515, 5: 0.12574863399341193, 6: 3.778707422239692e-05, 7: 0.030859388568755225, 8: 0.3577541160543449, 9: 0.15518389410145603, 10: 0.11051041798823989, 11: -0.02816555329743542}
+  time: 0.25
+
+inst: 67
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = Masters AND Marital Status = Never-Married AND Occupation = Sales AND Relationship = Not-in-family AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = ?
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.0012837546394323005, 1: -0.009912290284626764, 2: -0.08282822325521678, 3: 0.25109012018882004, 4: 0.004463120300075371, 5: -0.031895145061951256, 6: -0.003965934398788076, 7: -0.03393482042836516, 8: 0.3203611717799244, 9: 0.20533304219443552, 10: -0.09685612921140276, 11: -0.012825994410046457}
+  time: 0.21
+
+inst: 68
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Separated AND Occupation = Blue-Collar AND Relationship = Not-in-family AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.05521196768388681, 1: 0.0021316180111818897, 2: 0.061477421703336935, 3: 0.21692071194053114, 4: 0.05278638146532931, 5: -0.02306164170229867, 6: 0.002938814106080705, 7: -0.027603178358142823, 8: 0.339667158796696, 9: 0.17377596870703083, 10: -0.08711568218440799, 11: -0.020256686622832257}
+  time: 0.26
+
+inst: 69
+  explaining: Age = Age > 48.00 AND Workclass = Private AND Education = Associates AND Marital Status = Separated AND Occupation = Admin AND Relationship = Unmarried AND Race = White AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.04824502849852504, 1: 0.004254847495074466, 2: -0.03611375023446167, 3: 0.18653392154181084, 4: 0.0066944943470087295, 5: 0.004265360771506471, 6: -0.003257681612900465, 7: 0.02933612234167777, 8: 0.3640923121090576, 9: 0.17311208127278463, 10: -0.10432236497669879, 11: -0.025180989583661023}
+  time: 0.27
+
+inst: 70
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Local-gov AND Education = High School grad AND Marital Status = Separated AND Occupation = Service AND Relationship = Unmarried AND Race = White AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = 40.00 < Hours per week <= 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.06209111721752847, 1: 0.026837339003763686, 2: 0.05887654858952393, 3: 0.19709577239541687, 4: 0.1198549169759825, 5: 0.019595318997509076, 6: 0.006000518774603563, 7: 0.03333075178062912, 8: 0.34207460007316737, 9: 0.17495975683844187, 10: -0.04144297525239317, 11: -0.0245265420821494}
+  time: 0.24
+
+inst: 71
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Self-emp-inc AND Education = Dropout AND Marital Status = Separated AND Occupation = Blue-Collar AND Relationship = Not-in-family AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.061821996796376906, 1: -0.0026446389537746976, 2: 0.1649079760496813, 3: 0.20409698005559945, 4: 0.04994627843301866, 5: -0.01871676232372921, 6: 0.005637965240775678, 7: -0.03345120084237256, 8: 0.3503125211188286, 9: 0.18923471737282693, 10: 0.10162085322790781, 11: -0.007691505328236848}
+  time: 0.26
+
+inst: 72
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = Associates AND Marital Status = Never-Married AND Occupation = Blue-Collar AND Relationship = Own-child AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = High AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.00823969587425406, 1: -0.0016215832727409882, 2: 0.04168498437667198, 3: -0.2387411184052443, 4: -0.04459789789283156, 5: -0.1243546201847301, 6: 0.0030549275735251053, 7: 0.0320215836561064, 8: -0.33565732669797776, 9: 0.2049373952170072, 10: 0.0897102193117241, 11: 0.012385796174634018}
+  time: 0.22
+
+inst: 73
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Self-emp-not-inc AND Education = Doctorate AND Marital Status = Married AND Occupation = Professional AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = British-Commonwealth
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.0004951867831602706, 1: -0.009304723612551824, 2: 0.22245121507024584, 3: 0.3121745680906409, 4: 0.034783429038890666, 5: 0.04472036782005768, 6: -0.005738038530749775, 7: 0.03277979998982978, 8: -0.33123884292140404, 9: -0.1805433163269488, 10: -0.10542815772505824, 11: -0.019713744946166477}
+  time: 0.25
+
+inst: 74
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = Bachelors AND Marital Status = Married AND Occupation = Admin AND Relationship = Wife AND Race = Asian-Pac-Islander AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = SE-Asia
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.012345248530021639, 1: 0.0008179348960205563, 2: 0.0814967357139132, 3: 0.30651733209027704, 4: -0.011312086760552276, 5: 0.040457555993643146, 6: 0.005017302164820156, 7: -0.0342432317703367, 8: -0.3511352232950852, 9: -0.18071361475837525, 10: -0.09415754066460529, 11: 0.023050954548401222}
+  time: 0.25
+
+inst: 75
+  explaining: Age = Age > 48.00 AND Workclass = Private AND Education = Dropout AND Marital Status = Married AND Occupation = Blue-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.05100668484760234, 1: -0.002502502304936515, 2: 0.16048623955280303, 3: -0.3082342430790222, 4: 0.052830851843487674, 5: -0.04041920889135353, 6: -0.005028490165448777, 7: -0.03352779861099977, 8: 0.3379677316367879, 9: 0.16978526337557226, 10: 0.10077457198910048, 11: -0.018470649188222915}
+  time: 0.24
+
+inst: 76
+  explaining: Age = Age > 48.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Married AND Occupation = Blue-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.04841524916975365, 1: -0.001271958866087619, 2: 0.0606371011690312, 3: -0.31032873707708303, 4: 0.037422017669666255, 5: -0.04784579357720855, 6: 0.00015266132239076717, 7: -0.040784824863459045, 8: 0.36197442600789453, 9: 0.17855972340230128, 10: 0.09453413908844938, 11: -0.024586622747464888}
+  time: 0.24
+
+inst: 77
+  explaining: Age = Age > 48.00 AND Workclass = Private AND Education = Dropout AND Marital Status = Married AND Occupation = Blue-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = Other
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.052534808245786865, 1: -0.002987069646212288, 2: 0.16625690346826266, 3: -0.3102348695650246, 4: 0.05371785492999483, 5: -0.03133604306734806, 6: 0.0007952387800154435, 7: -0.029900454516828438, 8: 0.34340470312182175, 9: 0.1710915426777552, 10: 0.10377502061830422, 11: -0.006187769161046589}
+  time: 0.24
+
+inst: 78
+  explaining: Age = Age <= 28.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Married AND Occupation = Blue-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.14183559306994784, 1: -0.00016717542838449512, 2: 0.06501756475918256, 3: -0.3042056936812061, 4: 0.04432150192331185, 5: -0.04382667874622078, 6: -0.0049967946597157305, 7: -0.03755756294244063, 8: 0.3326071987451479, 9: 0.16764521978195168, 10: -0.09415310828149215, 11: -0.02787070154227728}
+  time: 0.23
+
+inst: 79
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = Associates AND Marital Status = Never-Married AND Occupation = Other AND Relationship = Not-in-family AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.004786871922414567, 1: -0.008457223031375402, 2: -0.04855141787974204, 3: 0.24495028186319484, 4: -0.0757965523622947, 5: -0.019583171552249364, 6: -0.0012439948705083512, 7: -0.0367989338746445, 8: 0.36440139625473167, 9: 0.18027409630720828, 10: 0.10342744380689109, 11: -0.008730594613388308}
+  time: 0.23
+
+inst: 80
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Married AND Occupation = Blue-Collar AND Relationship = Husband AND Race = Black AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = Latin-America
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.002221900252189143, 1: -0.00015185037239019483, 2: 0.06204239768139491, 3: -0.31090138348506685, 4: 0.04517498384865184, 5: -0.03673881081757491, 6: -0.008491389563447483, 7: -0.03651785941881163, 8: 0.3300166951914286, 9: 0.1819349699131389, 10: 0.10657973196393304, 11: 0.07841272866756659}
+  time: 0.24
+
+inst: 81
+  explaining: Age = Age <= 28.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Never-Married AND Occupation = Service AND Relationship = Unmarried AND Race = White AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.1425409337152318, 1: -0.003484209516319828, 2: 0.05867467925532788, 3: 0.24817340960520312, 4: 0.14351730687298705, 5: -0.0030722605409473345, 6: -0.004409276232382524, 7: 0.03206084861776956, 8: 0.34721179742303127, 9: 0.1852881824580234, 10: 0.09253111663773311, 11: -0.0038079659695424745}
+  time: 0.23
+
+inst: 82
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = Bachelors AND Marital Status = Married AND Occupation = White-Collar AND Relationship = Husband AND Race = Asian-Pac-Islander AND Sex = Male AND Capital Gain = None AND Capital Loss = Low AND Hours per week = Hours per week > 45.00 AND Country = ?
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.0058458710893865016, 1: 0.004004701005402155, 2: 0.08914711293376745, 3: 0.31248816128163465, 4: 0.08774238856130828, 5: 0.04248225055595247, 6: -0.0026346623746345325, 7: 0.034281604473373466, 8: -0.33247758948994205, 9: 0.08269111094244246, 10: 0.09164466736300507, 11: -0.002837808633511788}
+  time: 0.24
+
+inst: 83
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Married AND Occupation = Service AND Relationship = Wife AND Race = White AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.05833921327882786, 1: -0.004484286091272374, 2: 0.06030148734585084, 3: -0.3142905836094464, 4: 0.1260273803160996, 5: -0.04207294025377685, 6: -0.003558988608053578, 7: 0.03260466452808435, 8: 0.3430574337371884, 9: 0.1809582469635171, 10: 0.09864832922793568, 11: -0.02253336414405609}
+  time: 0.23
+
+inst: 84
+  explaining: Age = Age > 48.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Married AND Occupation = White-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.05396126450904113, 1: -0.0013297962802972182, 2: -0.06217885838534557, 3: 0.3092728969366852, 4: 0.09195693614553298, 5: 0.03305579940644916, 6: 0.004031508724694382, 7: 0.04857254760543989, 8: -0.34245219823513084, 9: -0.16964524324554922, 10: 0.09204919355131241, 11: 0.030125398590630494}
+  time: 0.24
+
+inst: 85
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Self-emp-not-inc AND Education = High School grad AND Marital Status = Never-Married AND Occupation = Blue-Collar AND Relationship = Own-child AND Race = White AND Sex = Male AND Capital Gain = High AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.0029523253375107164, 1: 0.003730082729558328, 2: -0.06290794448282039, 3: -0.24677059719013958, 4: -0.045092194622169755, 5: -0.11872458957844201, 6: -0.009515930832109956, 7: 0.024062519750773947, 8: 0.5795280680591217, 9: -0.17606860565386923, 10: -0.10022198637800094, 11: 0.030265343187877162}
+  time: 0.25
+
+inst: 86
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = State-gov AND Education = Masters AND Marital Status = Married AND Occupation = White-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = High AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.04729179877940412, 1: 0.00980521819590713, 2: 0.07878290150819948, 3: 0.3189136629416707, 4: 0.08919820338452782, 5: 0.03756954983994707, 6: -0.003454868282511985, 7: 0.03898802293603114, 8: -0.34431676986275844, 9: 0.22373325175454298, 10: -0.09626481164560664, 11: 0.019494754733114572}
+  time: 0.25
+
+inst: 87
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Married AND Occupation = Blue-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = Low AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.010915823312699325, 1: 0.0007890475734580242, 2: -0.061130729769190234, 3: 0.3061976197017666, 4: -0.040938883712391703, 5: 0.03827033603678956, 6: 0.005246304542123211, 7: 0.025863356880335545, 8: -0.35732902365299385, 9: 0.08410701246773439, 10: 0.0898804030355097, 11: 0.014268015337103956}
+  time: 0.24
+
+inst: 88
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Married AND Occupation = Sales AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.04867012705895519, 1: -0.005296871384839684, 2: -0.05792135492348964, 3: 0.3087738670044417, 4: 0.004729642892980673, 5: 0.03691506497326182, 6: -0.002694002886155328, 7: 0.03449118906088349, 8: -0.34054169703431286, 9: -0.1700709704319164, 10: 0.08612682702495014, 11: 0.01630360562091692}
+  time: 0.23
+
+inst: 89
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Separated AND Occupation = Blue-Collar AND Relationship = Unmarried AND Race = Black AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.049664261208398355, 1: -0.0006851625289821102, 2: 0.061082559585082595, 3: 0.19051566659292138, 4: 0.050742472513365576, 5: 0.006919406966482824, 6: -0.004349155466117668, 7: -0.0394983500087281, 8: 0.34881097422262897, 9: 0.19246987206644878, 10: 0.0972832041369576, 11: -0.012321873124964433}
+  time: 0.23
+
+inst: 90
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Local-gov AND Education = Doctorate AND Marital Status = Married AND Occupation = Professional AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = Low AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.01144886431442511, 1: -0.006533407174893077, 2: 0.23543707247973442, 3: 0.3125326014794969, 4: 0.04113566224389449, 5: 0.027857091831989107, 6: -0.00533158727507718, 7: 0.04209303053799117, 8: -0.3478940283014984, 9: 0.09167318864908658, 10: 0.08701754645499206, 11: 0.03539973108186724}
+  time: 0.23
+
+inst: 91
+  explaining: Age = Age <= 28.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Never-Married AND Occupation = Blue-Collar AND Relationship = Other-relative AND Race = White AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.13859866431017584, 1: 0.00026628435263697955, 2: 0.05965330017038316, 3: 0.2371226127041505, 4: 0.05039805831650093, 5: 0.09483752473492128, 6: 6.768104713331136e-05, 7: 0.042538842857830064, 8: 0.3483276006503099, 9: 0.16404234438281817, 10: 0.10441219532585455, 11: 0.0002507278537084466}
+  time: 0.25
+
+inst: 92
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = Bachelors AND Marital Status = Never-Married AND Occupation = Professional AND Relationship = Not-in-family AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.014472364083154216, 1: -0.020098282147091157, 2: -0.07657413859398479, 3: 0.24477436363202706, 4: -0.0443582016732333, 5: -0.016983150913312796, 6: 0.007154172457617468, 7: -0.03338643105253359, 8: 0.352901591768532, 9: 0.18169732340979594, 10: 0.10822771635097966, 11: -0.02121081166638855}
+  time: 0.23
+
+inst: 93
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Self-emp-not-inc AND Education = High School grad AND Marital Status = Separated AND Occupation = Service AND Relationship = Unmarried AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = 40.00 < Hours per week <= 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.042761483369232224, 1: -0.016618880282639005, 2: 0.052517608240835005, 3: 0.20375252119697698, 4: 0.13594803180677983, 5: 0.017136683530021977, 6: 0.00773359164519394, 7: -0.029965907365044005, 8: 0.3523418022528045, 9: 0.18800961888119735, 10: -0.05586459245151024, 11: -0.0167319598229542}
+  time: 0.22
+
+inst: 94
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Married AND Occupation = Blue-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.00019170100140947292, 1: -0.002857608532090621, 2: 0.06783686225271457, 3: -0.30761509208154647, 4: 0.04332024305693756, 5: -0.04190429966327431, 6: 0.004601255217424977, 7: -0.03825938725410967, 8: 0.3678585754594746, 9: 0.17154986557661897, 10: 0.1044112352353431, 11: -0.013626236934126163}
+  time: 0.23
+
+inst: 95
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Private AND Education = Bachelors AND Marital Status = Married AND Occupation = White-Collar AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = Low AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.045862734687929646, 1: 0.00983566287457374, 2: 0.09520404283644791, 3: 0.3053472380043559, 4: 0.09777891680919548, 5: 0.04239976011118693, 6: -0.009407043832744055, 7: 0.03536207995944844, 8: -0.0018980667431086277, 9: -0.19224693031950152, 10: 0.09504418522003588, 11: 0.02933414468351961}
+  time: 0.22
+
+inst: 96
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = ? AND Education = High School grad AND Marital Status = Widowed AND Occupation = ? AND Relationship = Unmarried AND Race = White AND Sex = Female AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: -0.0575533084430701, 1: 0.007828847759393694, 2: 0.07372209918776197, 3: 0.18108741921487984, 4: 0.019656057870756943, 5: -0.0024669433722765304, 6: 0.009008344598505436, 7: 0.028399871674755967, 8: 0.32490607843168895, 9: 0.17694602304537238, 10: 0.10317451123062402, 11: -0.024566849687049877}
+  time: 0.22
+
+inst: 97
+  explaining: Age = Age > 48.00 AND Workclass = Federal-gov AND Education = High School grad AND Marital Status = Married AND Occupation = Other AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.05077289198357007, 1: 0.03571383888841807, 2: -0.05324464840373975, 3: 0.307187902592207, 4: 0.0705928577206629, 5: 0.04267227584622656, 6: 0.005902717974360277, 7: 0.03808742082579247, 8: -0.3380274299277668, 9: -0.19064565928927654, 10: -0.10642240620729637, 11: 0.03369090757530246}
+  time: 0.26
+
+inst: 98
+  explaining: Age = 28.00 < Age <= 37.00 AND Workclass = Self-emp-not-inc AND Education = Prof-School AND Marital Status = Married AND Occupation = Professional AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = High AND Capital Loss = None AND Hours per week = Hours per week > 45.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.009001617266739662, 1: -0.0063200787888493684, 2: 0.15387379875572413, 3: 0.3028425492015094, 4: 0.05388626267530552, 5: 0.04069077976437446, 6: 0.0014096822995674884, 7: 0.034224039774907705, 8: 0.5502602586655124, 9: -0.18229667263657642, 10: 0.09892170184749374, 11: 0.02481364094685107}
+  time: 0.25
+
+inst: 99
+  explaining: Age = 37.00 < Age <= 48.00 AND Workclass = Private AND Education = High School grad AND Marital Status = Married AND Occupation = Sales AND Relationship = Husband AND Race = White AND Sex = Male AND Capital Gain = None AND Capital Loss = None AND Hours per week = Hours per week <= 40.00 AND Country = United-States
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  lit2imprt: {0: 0.049041455796302556, 1: 0.002105669804850948, 2: -0.057225841451978975, 3: 0.3157324848390492, 4: -0.009658418163892962, 5: 0.037120142548054354, 6: 0.006231411471888386, 7: 0.03135291670358012, 8: -0.3397542971770115, 9: -0.17479468741842288, 10: -0.09723648385768399, 11: 0.010973791303437182}
+  time: 0.20

@@ -1,0 +1,416 @@
+loading model from  ./temp/liver-disorder/liver-disorder_train1_data/liver-disorder_train1_data_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl
+loading data from  ./temp/liver-disorder/liver-disorder_train1_data/liver-disorder_train1_data_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl.splitdata.pkl
+
+inst: 0
+  explaining: mean-corpuscular-vol = 98.0 AND alkaline-phosphotase = 123.0 AND alamine-aminotransferase = 28.0 AND aspartate-aminotransferase = 24.0 AND gamma-glutamyl-transpeptidase = 31.0 AND num-half-pint-equivalents = 8.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.04753322621840759, 1: 0.049095195680051516, 2: 0.10061734642755375, 3: -0.08263218345335917, 4: -0.23248324825881447, 5: 0.0285413438243621}
+  time: 0.09
+
+inst: 1
+  explaining: mean-corpuscular-vol = 91.0 AND alkaline-phosphotase = 105.0 AND alamine-aminotransferase = 40.0 AND aspartate-aminotransferase = 26.0 AND gamma-glutamyl-transpeptidase = 56.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.04531446853824083, 1: -0.05461507804476688, 2: -0.09468266048448482, 3: 0.08485947092671517, 4: 0.22961286158948196, 5: -0.00633246016288134}
+  time: 0.09
+
+inst: 2
+  explaining: mean-corpuscular-vol = 88.0 AND alkaline-phosphotase = 69.0 AND alamine-aminotransferase = 70.0 AND aspartate-aminotransferase = 24.0 AND gamma-glutamyl-transpeptidase = 64.0 AND num-half-pint-equivalents = 2.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.03961515323085177, 1: -0.04563554348254034, 2: -0.08625651323253386, 3: 0.08961207534565227, 4: 0.23476929576325498, 5: -0.023702860613741217}
+  time: 0.08
+
+inst: 3
+  explaining: mean-corpuscular-vol = 88.0 AND alkaline-phosphotase = 85.0 AND alamine-aminotransferase = 14.0 AND aspartate-aminotransferase = 15.0 AND gamma-glutamyl-transpeptidase = 10.0 AND num-half-pint-equivalents = 2.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.05749562680375565, 1: -0.055683383840364635, 2: -0.1321720673167404, 3: 0.07594231372817681, 4: 0.2384184098027623, 5: 0.001311510676148504}
+  time: 0.07
+
+inst: 4
+  explaining: mean-corpuscular-vol = 90.0 AND alkaline-phosphotase = 64.0 AND alamine-aminotransferase = 61.0 AND aspartate-aminotransferase = 32.0 AND gamma-glutamyl-transpeptidase = 13.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.04126645878817889, 1: 0.05236579522105612, 2: 0.09600436439281337, 3: -0.07995000870199608, 4: -0.265076058108884, 5: 0.016076607543721453}
+  time: 0.08
+
+inst: 5
+  explaining: mean-corpuscular-vol = 93.0 AND alkaline-phosphotase = 77.0 AND alamine-aminotransferase = 32.0 AND aspartate-aminotransferase = 18.0 AND gamma-glutamyl-transpeptidase = 29.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.04392921310383012, 1: 0.05322696087055881, 2: 0.10775236569226342, 3: -0.07699304251851849, 4: -0.24403523527652737, 5: 0.007949222687160893}
+  time: 0.08
+
+inst: 6
+  explaining: mean-corpuscular-vol = 92.0 AND alkaline-phosphotase = 57.0 AND alamine-aminotransferase = 64.0 AND aspartate-aminotransferase = 36.0 AND gamma-glutamyl-transpeptidase = 90.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.02856363225372996, 1: -0.043938122661731104, 2: -0.0756163261210099, 3: 0.08333159080559492, 4: 0.20661086656658034, 5: -0.025672980040626726}
+  time: 0.09
+
+inst: 7
+  explaining: mean-corpuscular-vol = 94.0 AND alkaline-phosphotase = 91.0 AND alamine-aminotransferase = 27.0 AND aspartate-aminotransferase = 20.0 AND gamma-glutamyl-transpeptidase = 15.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.04533043652508528, 1: 0.05823370613766649, 2: 0.11034275014550245, 3: -0.0802843836764121, 4: -0.24951004806990665, 5: -0.0004213996502913674}
+  time: 0.07
+
+inst: 8
+  explaining: mean-corpuscular-vol = 82.0 AND alkaline-phosphotase = 74.0 AND alamine-aminotransferase = 38.0 AND aspartate-aminotransferase = 28.0 AND gamma-glutamyl-transpeptidase = 48.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.04724462342427948, 1: -0.042138489042082894, 2: -0.11029449415050255, 3: 0.08599251973111097, 4: 0.22536616579676405, 5: 0.0015671215204490102}
+  time: 0.09
+
+inst: 9
+  explaining: mean-corpuscular-vol = 94.0 AND alkaline-phosphotase = 117.0 AND alamine-aminotransferase = 77.0 AND aspartate-aminotransferase = 56.0 AND gamma-glutamyl-transpeptidase = 52.0 AND num-half-pint-equivalents = 4.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.04629301896185548, 1: -0.01918014324369552, 2: -0.06408372002458236, 3: 0.08899735919588742, 4: 0.24530812257073112, 5: -0.01833811591677195}
+  time: 0.07
+
+inst: 10
+  explaining: mean-corpuscular-vol = 88.0 AND alkaline-phosphotase = 61.0 AND alamine-aminotransferase = 19.0 AND aspartate-aminotransferase = 21.0 AND gamma-glutamyl-transpeptidase = 13.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.049702915789297496, 1: -0.04884760083428645, 2: -0.12204701521019817, 3: 0.07252753991634957, 4: 0.24067386775846303, 5: -0.00010273138390827898}
+  time: 0.07
+
+inst: 11
+  explaining: mean-corpuscular-vol = 92.0 AND alkaline-phosphotase = 73.0 AND alamine-aminotransferase = 33.0 AND aspartate-aminotransferase = 34.0 AND gamma-glutamyl-transpeptidase = 115.0 AND num-half-pint-equivalents = 5.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.046041007252723094, 1: -0.04744924940500604, 2: -0.08365984118734346, 3: 0.07558144249821279, 4: 0.16495881100095341, 5: -0.03196429988139961}
+  time: 0.07
+
+inst: 12
+  explaining: mean-corpuscular-vol = 96.0 AND alkaline-phosphotase = 55.0 AND alamine-aminotransferase = 48.0 AND aspartate-aminotransferase = 39.0 AND gamma-glutamyl-transpeptidase = 42.0 AND num-half-pint-equivalents = 4.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.040008129107471924, 1: -0.040478986574905965, 2: -0.1047294612817175, 3: 0.07193317022140742, 4: 0.2345125004520131, 5: -0.03330367551408892}
+  time: 0.07
+
+inst: 13
+  explaining: mean-corpuscular-vol = 79.0 AND alkaline-phosphotase = 101.0 AND alamine-aminotransferase = 17.0 AND aspartate-aminotransferase = 27.0 AND gamma-glutamyl-transpeptidase = 23.0 AND num-half-pint-equivalents = 4.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.0659652728165609, 1: -0.040853082063355264, 2: -0.1290827425196142, 3: 0.07193620396153877, 4: 0.22315408349403726, 5: 0.012364901012080319}
+  time: 0.07
+
+inst: 14
+  explaining: mean-corpuscular-vol = 90.0 AND alkaline-phosphotase = 73.0 AND alamine-aminotransferase = 34.0 AND aspartate-aminotransferase = 21.0 AND gamma-glutamyl-transpeptidase = 22.0 AND num-half-pint-equivalents = 2.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.0460590371998848, 1: 0.05403949316967932, 2: 0.11514233984859737, 3: -0.07828311376193323, 4: -0.24043271328818597, 5: 0.00842544303530528}
+  time: 0.09
+
+inst: 15
+  explaining: mean-corpuscular-vol = 89.0 AND alkaline-phosphotase = 74.0 AND alamine-aminotransferase = 19.0 AND aspartate-aminotransferase = 23.0 AND gamma-glutamyl-transpeptidase = 16.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.05036773763705381, 1: -0.056824422573614954, 2: -0.11924526470286245, 3: 0.07655255223167268, 4: 0.23283878162049187, 5: 0.0032760244252856897}
+  time: 0.09
+
+inst: 16
+  explaining: mean-corpuscular-vol = 99.0 AND alkaline-phosphotase = 42.0 AND alamine-aminotransferase = 14.0 AND aspartate-aminotransferase = 21.0 AND gamma-glutamyl-transpeptidase = 49.0 AND num-half-pint-equivalents = 5.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.04173745876735252, 1: -0.0421462484481255, 2: -0.11841578729027638, 3: 0.07411236089869008, 4: 0.21201920511935443, 5: -0.03714028342247817}
+  time: 0.07
+
+inst: 17
+  explaining: mean-corpuscular-vol = 91.0 AND alkaline-phosphotase = 96.0 AND alamine-aminotransferase = 35.0 AND aspartate-aminotransferase = 22.0 AND gamma-glutamyl-transpeptidase = 135.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.039551033910703755, 1: -0.05778746267480678, 2: -0.07529240596427787, 3: 0.07851703204557967, 4: 0.15153218416420924, 5: -0.005355650802545339}
+  time: 0.08
+
+inst: 18
+  explaining: mean-corpuscular-vol = 98.0 AND alkaline-phosphotase = 58.0 AND alamine-aminotransferase = 33.0 AND aspartate-aminotransferase = 21.0 AND gamma-glutamyl-transpeptidase = 28.0 AND num-half-pint-equivalents = 2.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.038965690141600146, 1: -0.057740517143125156, 2: -0.10920480390372428, 3: 0.0830128181419894, 4: 0.23509700551624088, 5: -0.02084024221625843}
+  time: 0.08
+
+inst: 19
+  explaining: mean-corpuscular-vol = 85.0 AND alkaline-phosphotase = 64.0 AND alamine-aminotransferase = 24.0 AND aspartate-aminotransferase = 22.0 AND gamma-glutamyl-transpeptidase = 11.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.045976873539136584, 1: -0.05151770471758012, 2: -0.11946032179591573, 3: 0.08217757063096034, 4: 0.24024840238619, 5: 0.008032173817656927}
+  time: 0.07
+
+inst: 20
+  explaining: mean-corpuscular-vol = 92.0 AND alkaline-phosphotase = 93.0 AND alamine-aminotransferase = 58.0 AND aspartate-aminotransferase = 35.0 AND gamma-glutamyl-transpeptidase = 120.0 AND num-half-pint-equivalents = 7.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.05337096172926933, 1: 0.03658110671612691, 2: 0.09341712053346216, 3: -0.08313927859286402, 4: -0.15600236864889022, 5: 0.05849489547579106}
+  time: 0.06
+
+inst: 21
+  explaining: mean-corpuscular-vol = 91.0 AND alkaline-phosphotase = 64.0 AND alamine-aminotransferase = 21.0 AND aspartate-aminotransferase = 17.0 AND gamma-glutamyl-transpeptidase = 26.0 AND num-half-pint-equivalents = 3.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.04849186377764679, 1: -0.049021110721744, 2: -0.12367380084809808, 3: 0.0764020824922212, 4: 0.23241163035101864, 5: -0.011766314325530979}
+  time: 0.07
+
+inst: 22
+  explaining: mean-corpuscular-vol = 87.0 AND alkaline-phosphotase = 76.0 AND alamine-aminotransferase = 22.0 AND aspartate-aminotransferase = 55.0 AND gamma-glutamyl-transpeptidase = 9.0 AND num-half-pint-equivalents = 4.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.05441061177807067, 1: -0.04921516690605188, 2: -0.10503122711786574, 3: 0.06131946588555856, 4: 0.23807744537532774, 5: 0.0034100985116639056}
+  time: 0.08
+
+inst: 23
+  explaining: mean-corpuscular-vol = 95.0 AND alkaline-phosphotase = 78.0 AND alamine-aminotransferase = 27.0 AND aspartate-aminotransferase = 25.0 AND gamma-glutamyl-transpeptidase = 30.0 AND num-half-pint-equivalents = 2.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.04229932560389677, 1: -0.062011715478942166, 2: -0.1097330636838322, 3: 0.07424784403389048, 4: 0.24072094219496706, 5: -0.009253170507847014}
+  time: 0.09
+
+inst: 24
+  explaining: mean-corpuscular-vol = 94.0 AND alkaline-phosphotase = 58.0 AND alamine-aminotransferase = 21.0 AND aspartate-aminotransferase = 18.0 AND gamma-glutamyl-transpeptidase = 26.0 AND num-half-pint-equivalents = 2.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.04581113241592518, 1: -0.05195073695878088, 2: -0.12030753546738307, 3: 0.07845047314251472, 4: 0.2308477398909986, 5: -0.01438316175882827}
+  time: 0.07
+
+inst: 25
+  explaining: mean-corpuscular-vol = 90.0 AND alkaline-phosphotase = 60.0 AND alamine-aminotransferase = 25.0 AND aspartate-aminotransferase = 19.0 AND gamma-glutamyl-transpeptidase = 5.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.04220760916244687, 1: 0.047924447495546925, 2: 0.12434689424757253, 3: -0.0779093767233426, 4: -0.2443331466660293, 5: -0.004243697280520263}
+  time: 0.09
+
+inst: 26
+  explaining: mean-corpuscular-vol = 92.0 AND alkaline-phosphotase = 77.0 AND alamine-aminotransferase = 86.0 AND aspartate-aminotransferase = 41.0 AND gamma-glutamyl-transpeptidase = 31.0 AND num-half-pint-equivalents = 10.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.04932551802957872, 1: 0.026424539960507847, 2: 0.09450536063529615, 3: -0.08685666599271354, 4: -0.23278792589366043, 5: 0.05488900935647419}
+  time: 0.08
+
+inst: 27
+  explaining: mean-corpuscular-vol = 86.0 AND alkaline-phosphotase = 109.0 AND alamine-aminotransferase = 16.0 AND aspartate-aminotransferase = 22.0 AND gamma-glutamyl-transpeptidase = 28.0 AND num-half-pint-equivalents = 6.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.06808798157902962, 1: -0.04049363390026515, 2: -0.11978903979292022, 3: 0.075253298364771, 4: 0.20998905070430046, 5: -0.0024210847248385997}
+  time: 0.08
+
+inst: 28
+  explaining: mean-corpuscular-vol = 91.0 AND alkaline-phosphotase = 63.0 AND alamine-aminotransferase = 25.0 AND aspartate-aminotransferase = 26.0 AND gamma-glutamyl-transpeptidase = 15.0 AND num-half-pint-equivalents = 6.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.05268328889922158, 1: 0.04209918641172672, 2: 0.1270669121404801, 3: -0.0760887177875937, 4: -0.23519484610514885, 5: 0.016335891503970325}
+  time: 0.06
+
+inst: 29
+  explaining: mean-corpuscular-vol = 85.0 AND alkaline-phosphotase = 50.0 AND alamine-aminotransferase = 12.0 AND aspartate-aminotransferase = 18.0 AND gamma-glutamyl-transpeptidase = 14.0 AND num-half-pint-equivalents = 7.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.061916510725095304, 1: -0.040291695158847805, 2: -0.14322980220125986, 3: 0.07073572680899108, 4: 0.21902468516137866, 5: -0.013085288864873612}
+  time: 0.08
+
+inst: 30
+  explaining: mean-corpuscular-vol = 84.0 AND alkaline-phosphotase = 99.0 AND alamine-aminotransferase = 33.0 AND aspartate-aminotransferase = 19.0 AND gamma-glutamyl-transpeptidase = 26.0 AND num-half-pint-equivalents = 8.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.06471306198997548, 1: 0.03957845966027896, 2: 0.13314100287729796, 3: -0.08438821586636941, 4: -0.22772490908843612, 5: 0.018442636548075486}
+  time: 0.08
+
+inst: 31
+  explaining: mean-corpuscular-vol = 92.0 AND alkaline-phosphotase = 94.0 AND alamine-aminotransferase = 18.0 AND aspartate-aminotransferase = 17.0 AND gamma-glutamyl-transpeptidase = 6.0 AND num-half-pint-equivalents = 8.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.06662666575172571, 1: 0.051551785046493256, 2: 0.1279786535158519, 3: -0.07339022733985724, 4: -0.23160836278961872, 5: 0.01922995493501446}
+  time: 0.08
+
+inst: 32
+  explaining: mean-corpuscular-vol = 92.0 AND alkaline-phosphotase = 108.0 AND alamine-aminotransferase = 53.0 AND aspartate-aminotransferase = 33.0 AND gamma-glutamyl-transpeptidase = 94.0 AND num-half-pint-equivalents = 12.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.0640709965138862, 1: 0.03231330879088642, 2: 0.10845724355895296, 3: -0.09276788253672531, 4: -0.17622598801440909, 5: 0.06204359087507978}
+  time: 0.07
+
+inst: 33
+  explaining: mean-corpuscular-vol = 92.0 AND alkaline-phosphotase = 66.0 AND alamine-aminotransferase = 21.0 AND aspartate-aminotransferase = 16.0 AND gamma-glutamyl-transpeptidase = 33.0 AND num-half-pint-equivalents = 5.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.05058647633154128, 1: -0.05073553893178803, 2: -0.11649416870549326, 3: 0.0763970986871483, 4: 0.23126291468168697, 5: -0.0243806354755353}
+  time: 0.08
+
+inst: 34
+  explaining: mean-corpuscular-vol = 94.0 AND alkaline-phosphotase = 71.0 AND alamine-aminotransferase = 25.0 AND aspartate-aminotransferase = 26.0 AND gamma-glutamyl-transpeptidase = 31.0 AND num-half-pint-equivalents = 5.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.05065389025535763, 1: -0.04874491678793963, 2: -0.10449835754023083, 3: 0.07869831006247281, 4: 0.23738936673060101, 5: -0.0225494927410636}
+  time: 0.08
+
+inst: 35
+  explaining: mean-corpuscular-vol = 93.0 AND alkaline-phosphotase = 84.0 AND alamine-aminotransferase = 58.0 AND aspartate-aminotransferase = 47.0 AND gamma-glutamyl-transpeptidase = 62.0 AND num-half-pint-equivalents = 7.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.05293466191121998, 1: -0.03820397253065328, 2: -0.09234809145267044, 3: 0.07972966521351214, 4: 0.21597125575770762, 5: -0.04575088903068687}
+  time: 0.07
+
+inst: 36
+  explaining: mean-corpuscular-vol = 94.0 AND alkaline-phosphotase = 75.0 AND alamine-aminotransferase = 20.0 AND aspartate-aminotransferase = 25.0 AND gamma-glutamyl-transpeptidase = 38.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.04673234109573015, 1: -0.05531554188094407, 2: -0.10763662692745429, 3: 0.07727601069988778, 4: 0.22949663913950347, 5: -0.007460100351674337}
+  time: 0.09
+
+inst: 37
+  explaining: mean-corpuscular-vol = 93.0 AND alkaline-phosphotase = 65.0 AND alamine-aminotransferase = 28.0 AND aspartate-aminotransferase = 22.0 AND gamma-glutamyl-transpeptidase = 10.0 AND num-half-pint-equivalents = 1.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.0423877394780729, 1: 0.05382294557550069, 2: 0.1140305395158895, 3: -0.07756782679802687, 4: -0.25196073996541013, 5: 0.007847556395860931}
+  time: 0.08
+
+inst: 38
+  explaining: mean-corpuscular-vol = 102.0 AND alkaline-phosphotase = 82.0 AND alamine-aminotransferase = 34.0 AND aspartate-aminotransferase = 78.0 AND gamma-glutamyl-transpeptidase = 203.0 AND num-half-pint-equivalents = 7.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.04190545929964647, 1: -0.025975216795643255, 2: -0.03236110606309955, 3: 0.011849382299453556, 4: 0.03015608495938104, 5: -0.04117087897941711}
+  time: 0.07
+
+inst: 39
+  explaining: mean-corpuscular-vol = 92.0 AND alkaline-phosphotase = 53.0 AND alamine-aminotransferase = 51.0 AND aspartate-aminotransferase = 33.0 AND gamma-glutamyl-transpeptidase = 92.0 AND num-half-pint-equivalents = 6.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.04684031706050142, 1: 0.03143424954965859, 2: 0.09859088915434673, 3: -0.07466845132965422, 4: -0.18841414787106278, 5: 0.05000467369450309}
+  time: 0.08
+
+inst: 40
+  explaining: mean-corpuscular-vol = 85.0 AND alkaline-phosphotase = 58.0 AND alamine-aminotransferase = 83.0 AND aspartate-aminotransferase = 49.0 AND gamma-glutamyl-transpeptidase = 51.0 AND num-half-pint-equivalents = 3.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.05588869313372871, 1: -0.039741252321627146, 2: -0.07118691845086965, 3: 0.08205823769229056, 4: 0.24165428784080442, 5: -0.03203183669700774}
+  time: 0.07
+
+inst: 41
+  explaining: mean-corpuscular-vol = 83.0 AND alkaline-phosphotase = 40.0 AND alamine-aminotransferase = 29.0 AND aspartate-aminotransferase = 25.0 AND gamma-glutamyl-transpeptidase = 38.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.04709790468193616, 1: -0.032882267774026065, 2: -0.11394391286868297, 3: 0.07783217591338369, 4: 0.22762738791206155, 5: -0.002133583261372822}
+  time: 0.08
+
+inst: 42
+  explaining: mean-corpuscular-vol = 88.0 AND alkaline-phosphotase = 122.0 AND alamine-aminotransferase = 35.0 AND aspartate-aminotransferase = 29.0 AND gamma-glutamyl-transpeptidase = 42.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.05618153990447252, 1: -0.04984102116455457, 2: -0.10189234876912939, 3: 0.08015486913658217, 4: 0.22941251347642233, 5: 0.00829909866912456}
+  time: 0.08
+
+inst: 43
+  explaining: mean-corpuscular-vol = 90.0 AND alkaline-phosphotase = 63.0 AND alamine-aminotransferase = 45.0 AND aspartate-aminotransferase = 24.0 AND gamma-glutamyl-transpeptidase = 85.0 AND num-half-pint-equivalents = 1.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.042231523654801165, 1: -0.05224536965021436, 2: -0.09076166723186858, 3: 0.07940446160194882, 4: 0.2104273911077823, 5: -0.018919267824781726}
+  time: 0.08
+
+inst: 44
+  explaining: mean-corpuscular-vol = 87.0 AND alkaline-phosphotase = 87.0 AND alamine-aminotransferase = 15.0 AND aspartate-aminotransferase = 23.0 AND gamma-glutamyl-transpeptidase = 11.0 AND num-half-pint-equivalents = 10.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.06831421683797421, 1: -0.0432684904227442, 2: -0.13523442047759196, 3: 0.07639708143597558, 4: 0.22504488074811646, 5: -0.013815139922072318}
+  time: 0.07
+
+inst: 45
+  explaining: mean-corpuscular-vol = 89.0 AND alkaline-phosphotase = 115.0 AND alamine-aminotransferase = 17.0 AND aspartate-aminotransferase = 27.0 AND gamma-glutamyl-transpeptidase = 7.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.05516201233850372, 1: 0.0478984554630366, 2: 0.11334634076419299, 3: -0.08322596439385556, 4: -0.23631901257763527, 5: -0.013003921235708623}
+  time: 0.09
+
+inst: 46
+  explaining: mean-corpuscular-vol = 100.0 AND alkaline-phosphotase = 83.0 AND alamine-aminotransferase = 25.0 AND aspartate-aminotransferase = 24.0 AND gamma-glutamyl-transpeptidase = 28.0 AND num-half-pint-equivalents = 8.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.04664017790592549, 1: 0.048333828938792206, 2: 0.11062800538021264, 3: -0.0845015785928652, 4: -0.22562009372495434, 5: 0.04209921042294381}
+  time: 0.09
+
+inst: 47
+  explaining: mean-corpuscular-vol = 88.0 AND alkaline-phosphotase = 107.0 AND alamine-aminotransferase = 29.0 AND aspartate-aminotransferase = 20.0 AND gamma-glutamyl-transpeptidase = 50.0 AND num-half-pint-equivalents = 4.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.05896615323257925, 1: -0.04105825290600457, 2: -0.11048929294945647, 3: 0.07617984348885855, 4: 0.22575701083227329, 5: -0.0006285757582186282}
+  time: 0.08
+
+inst: 48
+  explaining: mean-corpuscular-vol = 94.0 AND alkaline-phosphotase = 56.0 AND alamine-aminotransferase = 30.0 AND aspartate-aminotransferase = 18.0 AND gamma-glutamyl-transpeptidase = 27.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.03789728944168196, 1: -0.04546713010462471, 2: -0.10846587148442959, 3: 0.08346897422909785, 4: 0.245160966196897, 5: -0.010204829684074426}
+  time: 0.07
+
+inst: 49
+  explaining: mean-corpuscular-vol = 92.0 AND alkaline-phosphotase = 73.0 AND alamine-aminotransferase = 24.0 AND aspartate-aminotransferase = 21.0 AND gamma-glutamyl-transpeptidase = 48.0 AND num-half-pint-equivalents = 4.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.046519068217596785, 1: -0.04996908341379151, 2: -0.11405141173450432, 3: 0.07884092286572596, 4: 0.22282154946057287, 5: -0.019853598152970574}
+  time: 0.07
+
+inst: 50
+  explaining: mean-corpuscular-vol = 84.0 AND alkaline-phosphotase = 97.0 AND alamine-aminotransferase = 41.0 AND aspartate-aminotransferase = 20.0 AND gamma-glutamyl-transpeptidase = 32.0 AND num-half-pint-equivalents = 0.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.04682276581903013, 1: 0.04708229403689931, 2: 0.10931210787575436, 3: -0.08467804133386682, 4: -0.24572434750303496, 5: -0.013562227131416697}
+  time: 0.08
+
+inst: 51
+  explaining: mean-corpuscular-vol = 90.0 AND alkaline-phosphotase = 84.0 AND alamine-aminotransferase = 18.0 AND aspartate-aminotransferase = 23.0 AND gamma-glutamyl-transpeptidase = 13.0 AND num-half-pint-equivalents = 4.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.05678182763903231, 1: -0.04833209846270414, 2: -0.12463672823982457, 3: 0.07759061950430504, 4: 0.23541742804541707, 5: -0.010159636722630996}
+  time: 0.07
+
+inst: 52
+  explaining: mean-corpuscular-vol = 86.0 AND alkaline-phosphotase = 123.0 AND alamine-aminotransferase = 20.0 AND aspartate-aminotransferase = 25.0 AND gamma-glutamyl-transpeptidase = 23.0 AND num-half-pint-equivalents = 10.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.08220832737813566, 1: -0.0354938902629147, 2: -0.1298166079200392, 3: 0.0855984040420832, 4: 0.22167353335063492, 5: -0.011865393673263978}
+  time: 0.08
+
+inst: 53
+  explaining: mean-corpuscular-vol = 95.0 AND alkaline-phosphotase = 77.0 AND alamine-aminotransferase = 30.0 AND aspartate-aminotransferase = 14.0 AND gamma-glutamyl-transpeptidase = 21.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.041236633889633334, 1: 0.05523690734456677, 2: 0.11402561905995164, 3: -0.08009126331060204, 4: -0.24687903946139625, 5: 0.008367097533199398}
+  time: 0.06
+
+inst: 54
+  explaining: mean-corpuscular-vol = 88.0 AND alkaline-phosphotase = 56.0 AND alamine-aminotransferase = 23.0 AND aspartate-aminotransferase = 18.0 AND gamma-glutamyl-transpeptidase = 12.0 AND num-half-pint-equivalents = 0.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.043409123493743026, 1: 0.051382985467194754, 2: 0.125871594491421, 3: -0.07503635843747557, 4: -0.2466000622947834, 5: -0.001994719401997901}
+  time: 0.07
+
+inst: 55
+  explaining: mean-corpuscular-vol = 91.0 AND alkaline-phosphotase = 109.0 AND alamine-aminotransferase = 33.0 AND aspartate-aminotransferase = 15.0 AND gamma-glutamyl-transpeptidase = 18.0 AND num-half-pint-equivalents = 4.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.05441110845831376, 1: 0.05150691989984422, 2: 0.11285999646706503, 3: -0.07584917057160655, 4: -0.24100248569142266, 5: 0.010611165631715293}
+  time: 0.09
+
+inst: 56
+  explaining: mean-corpuscular-vol = 89.0 AND alkaline-phosphotase = 79.0 AND alamine-aminotransferase = 17.0 AND aspartate-aminotransferase = 17.0 AND gamma-glutamyl-transpeptidase = 16.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.04985557014905554, 1: -0.05165407975409674, 2: -0.12158859843673997, 3: 0.07396053919345082, 4: 0.24482401454771935, 5: 0.01071670017687236}
+  time: 0.07
+
+inst: 57
+  explaining: mean-corpuscular-vol = 83.0 AND alkaline-phosphotase = 78.0 AND alamine-aminotransferase = 31.0 AND aspartate-aminotransferase = 19.0 AND gamma-glutamyl-transpeptidase = 115.0 AND num-half-pint-equivalents = 1.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.04890662887545515, 1: -0.053329542559487, 2: -0.09274373254300879, 3: 0.081822812098752, 4: 0.16711698806648512, 5: -0.0056213063673321625}
+  time: 0.07
+
+inst: 58
+  explaining: mean-corpuscular-vol = 92.0 AND alkaline-phosphotase = 80.0 AND alamine-aminotransferase = 10.0 AND aspartate-aminotransferase = 26.0 AND gamma-glutamyl-transpeptidase = 20.0 AND num-half-pint-equivalents = 6.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.059345597465361305, 1: 0.051540030293570065, 2: 0.12586739828906515, 3: -0.06864318046454682, 4: -0.22153438360524388, 5: 0.013420218626151087}
+  time: 0.07
+
+inst: 59
+  explaining: mean-corpuscular-vol = 89.0 AND alkaline-phosphotase = 89.0 AND alamine-aminotransferase = 23.0 AND aspartate-aminotransferase = 18.0 AND gamma-glutamyl-transpeptidase = 104.0 AND num-half-pint-equivalents = 3.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.05196898964475428, 1: -0.050456172434489605, 2: -0.10049120101024331, 3: 0.0825121337121067, 4: 0.16877510641664162, 5: -0.010947016433111058}
+  time: 0.07
+
+inst: 60
+  explaining: mean-corpuscular-vol = 91.0 AND alkaline-phosphotase = 68.0 AND alamine-aminotransferase = 14.0 AND aspartate-aminotransferase = 20.0 AND gamma-glutamyl-transpeptidase = 19.0 AND num-half-pint-equivalents = 4.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.052439601817061594, 1: -0.04982422711028103, 2: -0.12467223533803766, 3: 0.07199261835773044, 4: 0.22971728863263355, 5: -0.010910085656965595}
+  time: 0.08
+
+inst: 61
+  explaining: mean-corpuscular-vol = 98.0 AND alkaline-phosphotase = 74.0 AND alamine-aminotransferase = 148.0 AND aspartate-aminotransferase = 75.0 AND gamma-glutamyl-transpeptidase = 159.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.0035772698514504554, 1: -0.005183503110929507, 2: 0.0013945417863027573, 3: 0.009943826753895952, 4: 0.0188536736918954, 5: -0.009680322102628479}
+  time: 0.08
+
+inst: 62
+  explaining: mean-corpuscular-vol = 97.0 AND alkaline-phosphotase = 92.0 AND alamine-aminotransferase = 22.0 AND aspartate-aminotransferase = 28.0 AND gamma-glutamyl-transpeptidase = 49.0 AND num-half-pint-equivalents = 12.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.062328862835509945, 1: -0.03990112571579699, 2: -0.11766363752635552, 3: 0.08030575907312852, 4: 0.2096668915523367, 5: -0.05334461102976454}
+  time: 0.08
+
+inst: 63
+  explaining: mean-corpuscular-vol = 83.0 AND alkaline-phosphotase = 45.0 AND alamine-aminotransferase = 19.0 AND aspartate-aminotransferase = 21.0 AND gamma-glutamyl-transpeptidase = 13.0 AND num-half-pint-equivalents = 4.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.05488473672374059, 1: -0.03319172153500765, 2: -0.13773761743146948, 3: 0.07880525561519956, 4: 0.22417125257992865, 5: -0.006724907156401676}
+  time: 0.07
+
+inst: 64
+  explaining: mean-corpuscular-vol = 91.0 AND alkaline-phosphotase = 52.0 AND alamine-aminotransferase = 15.0 AND aspartate-aminotransferase = 22.0 AND gamma-glutamyl-transpeptidase = 11.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.04733656000006457, 1: -0.05048063987452092, 2: -0.12618859510961378, 3: 0.06680131937019856, 4: 0.2377823905933323, 5: -0.0009781869375940341}
+  time: 0.07
+
+inst: 65
+  explaining: mean-corpuscular-vol = 85.0 AND alkaline-phosphotase = 59.0 AND alamine-aminotransferase = 25.0 AND aspartate-aminotransferase = 20.0 AND gamma-glutamyl-transpeptidase = 25.0 AND num-half-pint-equivalents = 3.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: -0.05544806111574185, 1: -0.05247698992809627, 2: -0.1278174715894519, 3: 0.07496423161517238, 4: 0.23160605363032435, 5: -0.006586272070544945}
+  time: 0.08
+
+inst: 66
+  explaining: mean-corpuscular-vol = 88.0 AND alkaline-phosphotase = 58.0 AND alamine-aminotransferase = 31.0 AND aspartate-aminotransferase = 17.0 AND gamma-glutamyl-transpeptidase = 17.0 AND num-half-pint-equivalents = 2.0
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.043835807027107716, 1: 0.04663326031424984, 2: 0.1237100336399445, 3: -0.07588019681360861, 4: -0.24873461035941266, 5: 0.008817736297714568}
+  time: 0.08
+
+inst: 67
+  explaining: mean-corpuscular-vol = 91.0 AND alkaline-phosphotase = 102.0 AND alamine-aminotransferase = 17.0 AND aspartate-aminotransferase = 13.0 AND gamma-glutamyl-transpeptidase = 19.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.05926533013577749, 1: 0.05358284402413321, 2: 0.11798387974410765, 3: -0.06989110631978929, 4: -0.2368619495305102, 5: 0.0016383192663601053}
+  time: 0.09
+
+inst: 68
+  explaining: mean-corpuscular-vol = 88.0 AND alkaline-phosphotase = 46.0 AND alamine-aminotransferase = 29.0 AND aspartate-aminotransferase = 22.0 AND gamma-glutamyl-transpeptidase = 18.0 AND num-half-pint-equivalents = 0.5
+  expl: [0, 1, 2, 3, 4, 5]
+  lit2imprt: {0: 0.04027305905517012, 1: 0.04110718042887984, 2: 0.11777577872553796, 3: -0.07664948213656432, 4: -0.2447922356074929, 5: 0.0055112863321552935}
+  time: 0.09

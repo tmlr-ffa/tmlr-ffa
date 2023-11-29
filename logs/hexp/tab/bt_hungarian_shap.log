@@ -1,0 +1,356 @@
+loading model from  ./temp/hungarian/hungarian_train1_data/hungarian_train1_data_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl
+loading data from  ./temp/hungarian/hungarian_train1_data/hungarian_train1_data_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl.splitdata.pkl
+
+inst: 0
+  explaining: age = 46.0 AND sex = 1.0 AND cp = 4.0 AND trestbps = 4.0 AND chol = 65.0 AND fbs = 0.0 AND restecg = 1.0 AND thalach = 30.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 0.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.057813864, 1: 0.25428029894828796, 2: 0.9297997, 3: 0.82434124, 4: 0.040957917, 5: -0.05906579, 6: -0.096202254, 7: -0.3458057, 8: -0.53132486, 9: -0.36513233, 10: 0.04681497, 12: 0.36552984}
+  time: 0.01
+
+inst: 1
+  explaining: age = 54.0 AND sex = 1.0 AND cp = 2.0 AND trestbps = 4.0 AND chol = 37.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 31.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.009585914, 1: 0.21133963763713837, 2: -1.2380168, 3: 0.6221713, 4: -0.027748458, 5: -0.06808772, 6: -0.023874847, 7: -0.18465409, 8: -0.5322204, 9: -0.4993298, 10: 0.04311331, 12: -0.03809396}
+  time: 0.01
+
+inst: 2
+  explaining: age = 47.0 AND sex = 1.0 AND cp = 2.0 AND trestbps = 24.0 AND chol = 83.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 53.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.022779789, 1: 0.14442458748817444, 2: -1.2358962, 3: -0.33926016, 4: 0.5264084, 5: -0.07497064, 6: 0.0020629372, 7: 0.30211598, 8: -0.4827553, 9: -0.93758255, 10: 0.04576737, 12: -0.023442246}
+  time: 0.01
+
+inst: 3
+  explaining: age = 51.0 AND sex = 1.0 AND cp = 4.0 AND trestbps = 14.0 AND chol = 17.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 0.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 2.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.083750784, 1: 0.15910907089710236, 2: 1.1445957, 3: -0.0077581387, 4: -0.6702573, 5: -0.030111544, 6: 0.02771864, 7: 0.06437175, 8: -0.35899192, 9: -0.56990373, 10: 0.04681497, 12: 0.36552984}
+  time: 0.01
+
+inst: 4
+  explaining: age = 50.0 AND sex = 1.0 AND cp = 4.0 AND trestbps = 14.0 AND chol = 61.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 14.0 AND exang = 1.0 AND oldpeak = 2.0 AND slope = 1.0 AND ca = 1.0 AND thal = 2.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.02306183, 1: 0.18959085643291473, 2: 0.84761065, 3: -0.2274883, 4: -0.053700536, 5: -0.026496299, 6: 0.0820705, 7: -0.007899204, 8: 0.9426402, 9: 1.161311, 10: 0.102917105, 12: 0.24170709}
+  time: 0.01
+
+inst: 5
+  explaining: age = 62.0 AND sex = 0.0 AND cp = 1.0 AND trestbps = 24.0 AND chol = 25.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 10.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.35037437, 1: -0.4773712456226349, 2: 1.369128, 3: -0.1787771, 4: -0.026293963, 5: -0.059511233, 6: -0.0011355346, 7: -0.031432133, 8: -0.24983141, 9: -0.7650432, 10: 0.050345767, 12: -0.075043514}
+  time: 0.01
+
+inst: 6
+  explaining: age = 52.0 AND sex = 0.0 AND cp = 2.0 AND trestbps = 9.0 AND chol = 39.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 36.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.041310202, 1: -0.4665105640888214, 2: -1.001696, 3: -0.20705678, 4: -0.020625584, 5: -0.07434788, 6: 0.024802249, 7: -0.24210256, 8: -0.5457918, 9: -0.5928707, 10: 0.04311331, 12: -0.08751184}
+  time: 0.01
+
+inst: 7
+  explaining: age = 39.0 AND sex = 1.0 AND cp = 3.0 AND trestbps = 24.0 AND chol = 4.0 AND fbs = 1.0 AND restecg = 0.0 AND thalach = 44.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.34276518, 1: 0.12800872325897217, 2: -0.35161334, 3: -0.2658321, 4: -0.30876118, 5: 0.87977034, 6: -0.017695595, 7: 0.12037431, 8: -0.39127162, 9: -0.7717423, 10: 0.049469028, 12: -0.050032623}
+  time: 0.01
+
+inst: 8
+  explaining: age = 54.0 AND sex = 0.0 AND cp = 2.0 AND trestbps = 9.0 AND chol = 59.0 AND fbs = 1.0 AND restecg = 0.0 AND thalach = 30.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.09538969, 1: -0.3378046452999115, 2: -0.94439584, 3: -0.23194943, 4: -0.032915488, 5: 0.8529167, 6: -0.0013206461, 7: -0.11791167, 8: -0.49151927, 9: -0.59001195, 10: 0.04311331, 12: -0.056099284}
+  time: 0.01
+
+inst: 9
+  explaining: age = 59.0 AND sex = 1.0 AND cp = 4.0 AND trestbps = 19.0 AND chol = 84.0 AND fbs = 1.0 AND restecg = 2.0 AND thalach = 12.0 AND exang = 1.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.005455151, 1: 0.14349740743637085, 2: 0.48753604, 3: -0.10700698, 4: 0.35657907, 5: 0.2596656, 6: -0.0031715613, 7: -0.16972592, 8: 0.69289565, 9: -1.2441565, 10: 0.052968916, 12: -0.03261177}
+  time: 0.01
+
+inst: 10
+  explaining: age = 39.0 AND sex = 1.0 AND cp = 4.0 AND trestbps = 4.0 AND chol = 99.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 37.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 1.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.32237902, 1: 0.26904499530792236, 2: 0.9783504, 3: 0.85015625, 4: 0.37467483, 5: -0.032064833, 6: 0.02947449, 7: -0.011487279, 8: -0.53132486, 9: -0.41694912, 10: 0.04681497, 12: 0.27872887}
+  time: 0.02
+
+inst: 11
+  explaining: age = 29.0 AND sex = 1.0 AND cp = 2.0 AND trestbps = 9.0 AND chol = 68.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 44.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.20922735, 1: 0.1489420235157013, 2: -1.1972926, 3: -0.12840965, 4: -0.17517555, 5: -0.061177954, 6: 0.022026563, 7: 0.10964401, 8: -0.5322204, 9: -0.64274734, 10: 0.04311331, 12: -0.039478533}
+  time: 0.01
+
+inst: 12
+  explaining: age = 43.0 AND sex = 0.0 AND cp = 2.0 AND trestbps = 9.0 AND chol = 73.0 AND fbs = 0.0 AND restecg = 1.0 AND thalach = 55.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.115828514, 1: -0.5719863772392273, 2: -1.0310037, 3: -0.05655971, 4: 0.42885435, 5: -0.08161639, 6: -0.07672693, 7: 0.3626287, 8: -0.5457918, 9: -0.5511911, 10: 0.04311331, 12: -0.07147555}
+  time: 0.01
+
+inst: 13
+  explaining: age = 36.0 AND sex = 1.0 AND cp = 2.0 AND trestbps = 9.0 AND chol = 10.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 57.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.29012877, 1: 0.1489420235157013, 2: -1.2658366, 3: -0.115470454, 4: -0.4334904, 5: -0.061177954, 6: 0.020270713, 7: 0.24345699, 8: -0.49500924, 9: -0.61813664, 10: 0.04311331, 12: -0.039478533}
+  time: 0.01
+
+inst: 14
+  explaining: age = 32.0 AND sex = 0.0 AND cp = 2.0 AND trestbps = 1.0 AND chol = 29.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 47.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.24297768, 1: -0.6967501044273376, 2: -0.9797396, 3: 0.5200461, 4: -0.16723731, 5: -0.06664955, 6: 0.044765875, 7: 0.022317275, 8: -0.5085806, 9: -0.5488399, 10: 0.04311331, 12: -0.08751184}
+  time: 0.01
+
+inst: 15
+  explaining: age = 57.0 AND sex = 0.0 AND cp = 1.0 AND trestbps = 14.0 AND chol = 119.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 69.0 AND exang = 0.0 AND oldpeak = 1.0 AND slope = 1.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.19896968, 1: -0.46119022369384766, 2: 1.0101547, 3: -0.28565195, 4: -0.3980602, 5: -0.053191666, 6: -0.0011355346, 7: 0.33613172, 8: -0.3326933, 9: 0.48413107, 10: 0.10314994, 12: -0.05421944}
+  time: 0.01
+
+inst: 16
+  explaining: age = 49.0 AND sex = 0.0 AND cp = 3.0 AND trestbps = 24.0 AND chol = 18.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 42.0 AND exang = 0.0 AND oldpeak = 1.0 AND slope = 1.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.15629536, 1: -0.42320138216018677, 2: -0.4098438, 3: 0.43373778, 4: -0.6627747, 5: -0.071854964, 6: 0.0230464, 7: -0.00861555, 8: -0.504955, 9: 1.1045612, 10: 0.14337365, 12: -0.08784723}
+  time: 0.01
+
+inst: 17
+  explaining: age = 43.0 AND sex = 0.0 AND cp = 1.0 AND trestbps = 0.0 AND chol = 52.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 31.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.13152853, 1: -0.7826504111289978, 2: 1.3218805, 3: 0.41924083, 4: -0.1946357, 5: -0.07434788, 6: 0.024802249, 7: -0.17932118, 8: -0.3648258, 9: -0.3733023, 10: 0.047691707, 12: -0.08751184}
+  time: 0.01
+
+inst: 18
+  explaining: age = 53.0 AND sex = 0.0 AND cp = 2.0 AND trestbps = 19.0 AND chol = 45.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 31.0 AND exang = 1.0 AND oldpeak = 2.0 AND slope = 1.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.0530815, 1: -0.6409562230110168, 2: -0.9280582, 3: 0.58167934, 4: -0.12352118, 5: -0.062270183, 6: 0.05947279, 7: -0.15523954, 8: 1.1334175, 9: 1.6880815, 10: 0.1433384, 12: -0.08479914}
+  time: 0.01
+
+inst: 19
+  explaining: age = 54.0 AND sex = 0.0 AND cp = 2.0 AND trestbps = 19.0 AND chol = 120.0 AND fbs = 2.0 AND restecg = 1.0 AND thalach = 30.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.1467014, 1: -0.41451501846313477, 2: -0.88472575, 3: 0.14995731, 4: -0.36974096, 5: 0.6307261, 6: 0.016303768, 7: -0.17984353, 8: -0.44205415, 9: -0.7904376, 10: 0.04926726, 12: -0.040062997}
+  time: 0.01
+
+inst: 20
+  explaining: age = 55.0 AND sex = 0.0 AND cp = 2.0 AND trestbps = 14.0 AND chol = 143.0 AND fbs = 0.0 AND restecg = 2.0 AND thalach = 37.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.19223633, 1: -0.49530941247940063, 2: -1.0337536, 3: -0.0034351926, 4: 0.014883228, 5: -0.0539016, 6: 0.015644537, 7: -0.28599373, 8: -0.5457918, 9: -0.53366476, 10: 0.04311331, 12: -0.059007224}
+  time: 0.01
+
+inst: 21
+  explaining: age = 39.0 AND sex = 1.0 AND cp = 2.0 AND trestbps = 27.0 AND chol = 66.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 4.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.5918532, 1: 0.14088605344295502, 2: -1.2141094, 3: -0.3279249, 4: -0.28656596, 5: -0.054828208, 6: 0.0020629372, 7: -0.066045396, 8: -0.45688772, 9: -0.98321635, 10: 0.04576737, 12: -0.039478533}
+  time: 0.01
+
+inst: 22
+  explaining: age = 55.0 AND sex = 1.0 AND cp = 2.0 AND trestbps = 24.0 AND chol = 110.0 AND fbs = 1.0 AND restecg = 0.0 AND thalach = 32.0 AND exang = 1.0 AND oldpeak = 2.0 AND slope = 1.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.038500633, 1: 0.13095106184482574, 2: -0.9646016, 3: 0.46607032, 4: -0.13132046, 5: 0.42439014, 6: 0.028536046, 7: -0.102075696, 8: 1.1399229, 9: 1.8770833, 10: 0.14244477, 12: -0.017316442}
+  time: 0.01
+
+inst: 23
+  explaining: age = 32.0 AND sex = 1.0 AND cp = 2.0 AND trestbps = 4.0 AND chol = 54.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 58.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.21321663, 1: 0.24041497707366943, 2: -1.2939605, 3: 0.7884285, 4: -0.15197644, 5: -0.061177954, 6: 0.022026563, 7: 0.23459965, 8: -0.5322204, 9: -0.4917722, 10: 0.04311331, 12: -0.039478533}
+  time: 0.01
+
+inst: 24
+  explaining: age = 65.0 AND sex = 1.0 AND cp = 4.0 AND trestbps = 25.0 AND chol = 83.0 AND fbs = 1.0 AND restecg = 0.0 AND thalach = 7.0 AND exang = 1.0 AND oldpeak = 2.0 AND slope = 1.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.054108202, 1: 0.186703622341156, 2: 0.57009286, 3: 0.33520177, 4: 0.4077676, 5: 0.27034748, 6: 0.0559476, 7: -0.33809263, 8: 0.71594423, 9: 1.800361, 10: 0.14337365, 12: -0.020364538}
+  time: 0.01
+
+inst: 25
+  explaining: age = 32.0 AND sex = 1.0 AND cp = 4.0 AND trestbps = 8.0 AND chol = 150.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 22.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.09830677, 1: 0.3214365839958191, 2: 1.0157189, 3: 0.5934422, 4: 0.1584387, 5: -0.003586038, 6: 0.049438115, 7: 0.18147597, 8: -0.48404515, 9: -0.43026072, 10: 0.04681497, 12: -0.036024872}
+  time: 0.01
+
+inst: 26
+  explaining: age = 54.0 AND sex = 0.0 AND cp = 2.0 AND trestbps = 24.0 AND chol = 121.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 22.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.11403728, 1: -0.37626954913139343, 2: -1.0069884, 3: -0.22194289, 4: -0.15123776, 5: -0.043342147, 6: -0.0011355346, 7: 0.03709389, 8: -0.48967826, 9: -0.877135, 10: 0.04576737, 12: -0.059007224}
+  time: 0.01
+
+inst: 27
+  explaining: age = 41.0 AND sex = 1.0 AND cp = 4.0 AND trestbps = 14.0 AND chol = 14.0 AND fbs = 0.0 AND restecg = 1.0 AND thalach = 22.0 AND exang = 0.0 AND oldpeak = 2.0 AND slope = 1.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.31543255, 1: 0.21651676297187805, 2: 0.95983326, 3: -0.28886142, 4: -0.45159078, 5: -0.037650134, 6: -0.21525085, 7: 0.06275942, 8: -0.4302736, 9: 1.3587836, 10: 0.102917105, 12: -0.03981393}
+  time: 0.01
+
+inst: 28
+  explaining: age = 42.0 AND sex = 1.0 AND cp = 2.0 AND trestbps = 9.0 AND chol = 28.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 37.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.56642, 1: 0.1489420235157013, 2: -1.3131647, 3: -0.115470454, 4: -0.20656283, 5: -0.06887629, 6: 0.0020629372, 7: 0.027715463, 8: -0.49500924, 9: -0.64274734, 10: 0.04311331, 12: -0.039478533}
+  time: 0.01
+
+inst: 29
+  explaining: age = 40.0 AND sex = 1.0 AND cp = 2.0 AND trestbps = 14.0 AND chol = 95.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 37.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.5739623, 1: 0.1489420235157013, 2: -1.2294511, 3: -0.13533896, 4: 0.021799862, 5: -0.049143832, 6: 0.0020629372, 7: -0.044177834, 8: -0.5322204, 9: -0.64274734, 10: 0.04311331, 12: -0.023442246}
+  time: 0.01
+
+inst: 30
+  explaining: age = 48.0 AND sex = 1.0 AND cp = 2.0 AND trestbps = 14.0 AND chol = 69.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 44.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.0148715265, 1: 0.1489420235157013, 2: -1.3131647, 3: -0.08585788, 4: -0.15818311, 5: -0.06887629, 6: 0.0020629372, 7: -0.046204265, 8: -0.5322204, 9: -0.6175234, 10: 0.04311331, 12: -0.039478533}
+  time: 0.01
+
+inst: 31
+  explaining: age = 46.0 AND sex = 1.0 AND cp = 3.0 AND trestbps = 22.0 AND chol = 8.0 AND fbs = 2.0 AND restecg = 0.0 AND thalach = 10.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.07479037, 1: 0.12447018921375275, 2: -0.39664316, 3: -0.14711694, 4: -0.53176314, 5: 0.6517023, 6: -0.017695595, 7: -0.18728614, 8: -0.38004425, 9: -0.7521293, 10: 0.049469028, 12: -0.050032623}
+  time: 0.01
+
+inst: 32
+  explaining: age = 48.0 AND sex = 1.0 AND cp = 4.0 AND trestbps = 24.0 AND chol = 127.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 66.0 AND exang = 1.0 AND oldpeak = 1.5 AND slope = 1.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.03191245, 1: 0.2577012777328491, 2: 0.79582036, 3: 0.30159247, 4: -0.28612655, 5: -0.031060508, 6: 0.0820705, 7: 0.5009258, 8: 1.3282988, 9: 1.6107309, 10: 0.14337365, 12: -0.021702552}
+  time: 0.01
+
+inst: 33
+  explaining: age = 43.0 AND sex = 0.0 AND cp = 2.0 AND trestbps = 9.0 AND chol = 86.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 11.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.09547874, 1: -0.4665105640888214, 2: -0.998938, 3: -0.14641707, 4: 0.40397146, 5: -0.04755547, 6: 0.024802249, 7: -0.08785374, 8: -0.53456444, 9: -0.59848166, 10: 0.04311331, 12: -0.07147555}
+  time: 0.01
+
+inst: 34
+  explaining: age = 63.0 AND sex = 1.0 AND cp = 4.0 AND trestbps = 22.0 AND chol = 52.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 9.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.10326088, 1: 0.18321973085403442, 2: 0.9564651, 3: -0.31631136, 4: -0.15906593, 5: -0.037865918, 6: 0.0035367063, 7: 0.04602174, 8: -0.2720463, 9: -0.9738951, 10: 0.049469028, 12: -0.05067659}
+  time: 0.01
+
+inst: 35
+  explaining: age = 48.0 AND sex = 0.0 AND cp = 4.0 AND trestbps = 22.0 AND chol = 56.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 22.0 AND exang = 1.0 AND oldpeak = 1.0 AND slope = 1.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.007779494, 1: -0.922417402267456, 2: 0.5021894, 3: 0.44147205, 4: -0.12600388, 5: -0.03454256, 6: 0.032279305, 7: -0.077818975, 8: 1.1107427, 9: 1.0847039, 10: 0.14337365, 12: -0.08784723}
+  time: 0.01
+
+inst: 36
+  explaining: age = 47.0 AND sex = 1.0 AND cp = 1.0 AND trestbps = 4.0 AND chol = 73.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 37.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.036224056, 1: 0.27741050720214844, 2: 1.2322228, 3: 0.66931146, 4: 0.49445325, 5: -0.06887629, 6: 0.0020629372, 7: -0.03984451, 8: -0.31598455, 9: -0.33103338, 10: 0.047691707, 12: -0.023442246}
+  time: 0.01
+
+inst: 37
+  explaining: age = 38.0 AND sex = 1.0 AND cp = 4.0 AND trestbps = 4.0 AND chol = 153.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 37.0 AND exang = 1.0 AND oldpeak = 1.0 AND slope = 1.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.22723976, 1: 0.31799450516700745, 2: 0.84158295, 3: 0.1765146, 4: -0.14512038, 5: -0.021656532, 6: 0.049438115, 7: 0.0016874932, 8: 1.3355434, 9: 0.4282754, 10: 0.102917105, 12: -0.023777641}
+  time: 0.01
+
+inst: 38
+  explaining: age = 42.0 AND sex = 1.0 AND cp = 3.0 AND trestbps = 24.0 AND chol = 4.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 35.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.35985667, 1: 0.14088605344295502, 2: -0.39653295, 3: -0.30450624, 4: -0.41392696, 5: -0.076513946, 6: 0.00030708686, 7: -0.20961228, 8: -0.44554415, 9: -0.8173358, 10: 0.049469028, 12: -0.052061155}
+  time: 0.01
+
+inst: 39
+  explaining: age = 49.0 AND sex = 1.0 AND cp = 4.0 AND trestbps = 19.0 AND chol = 62.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 30.0 AND exang = 1.0 AND oldpeak = 1.0 AND slope = 1.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.020572674, 1: 0.2289295196533203, 2: 0.703898, 3: 0.41647157, 4: -0.074585095, 5: -0.04908732, 6: 0.02947449, 7: -0.22976947, 8: 1.3282988, 9: 1.0167054, 10: 0.14426728, 12: -0.03981393}
+  time: 0.01
+
+inst: 40
+  explaining: age = 58.0 AND sex = 1.0 AND cp = 2.0 AND trestbps = 17.0 AND chol = 9.0 AND fbs = 0.0 AND restecg = 1.0 AND thalach = 70.0 AND exang = 1.0 AND oldpeak = 2.0 AND slope = 1.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.21838737, 1: 0.16184762120246887, 2: -1.1622285, 3: 0.5650873, 4: -0.65452003, 5: -0.056084752, 6: -0.0059444886, 7: 0.46930254, 8: 1.1788126, 9: 1.5588057, 10: 0.1433384, 12: -0.022465546}
+  time: 0.01
+
+inst: 41
+  explaining: age = 39.0 AND sex = 1.0 AND cp = 2.0 AND trestbps = 9.0 AND chol = 33.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 34.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.5649579, 1: 0.14540348947048187, 2: -1.209893, 3: -0.21345478, 4: -0.17081378, 5: -0.06887629, 6: 0.0020629372, 7: -0.24743547, 8: -0.5322204, 9: -0.64274734, 10: 0.04311331, 12: -0.039478533}
+  time: 0.01
+
+inst: 42
+  explaining: age = 37.0 AND sex = 0.0 AND cp = 3.0 AND trestbps = 14.0 AND chol = 40.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 31.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.09355032, 1: -0.4665105640888214, 2: -0.28236467, 3: -0.065592185, 4: -0.12436539, 5: -0.06664955, 6: 0.044765875, 7: -0.1372679, 8: -0.5457918, 9: -0.47788897, 10: 0.04681497, 12: -0.10009447}
+  time: 0.02
+
+inst: 43
+  explaining: age = 48.0 AND sex = 1.0 AND cp = 2.0 AND trestbps = 0.0 AND chol = 153.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 0.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.076139525, 1: 0.23687642812728882, 2: -1.2919126, 3: 0.48894405, 4: 0.14043517, 5: -0.02745809, 6: 0.0020629372, 7: 0.09826823, 8: -0.5063529, 9: -0.44320548, 10: 0.04311331, 12: -0.023442246}
+  time: 0.01
+
+inst: 44
+  explaining: age = 46.0 AND sex = 1.0 AND cp = 4.0 AND trestbps = 9.0 AND chol = 60.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 9.0 AND exang = 1.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.040050346, 1: 0.2135409116744995, 2: 0.7572349, 3: -0.07519628, 4: -0.19381922, 5: -0.028036773, 6: 0.02947449, 7: -0.32086146, 8: 0.87027186, 9: -0.85020757, 10: 0.04681497, 12: -0.052061155}
+  time: 0.01
+
+inst: 45
+  explaining: age = 56.0 AND sex = 0.0 AND cp = 3.0 AND trestbps = 14.0 AND chol = 48.0 AND fbs = 2.0 AND restecg = 1.0 AND thalach = 46.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 2.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.11033054, 1: -0.3506879508495331, 2: -0.11001758, 3: -0.036263976, 4: 0.016816495, 5: 0.7563849, 6: 0.016303768, 7: 0.09548323, 8: -0.49151927, 9: -0.37385598, 10: 0.04681497, 12: 0.45146203}
+  time: 0.01
+
+inst: 46
+  explaining: age = 54.0 AND sex = 1.0 AND cp = 4.0 AND trestbps = 14.0 AND chol = 151.0 AND fbs = 1.0 AND restecg = 0.0 AND thalach = 17.0 AND exang = 1.0 AND oldpeak = 1.0 AND slope = 1.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.06963617, 1: 0.19760194420814514, 2: 0.75419265, 3: -0.20656928, 4: 0.15835798, 5: 0.08377099, 6: 0.0033515948, 7: -0.048093043, 8: 1.1338956, 9: 0.49993154, 10: 0.102917105, 12: -0.020364538}
+  time: 0.01
+
+inst: 47
+  explaining: age = 54.0 AND sex = 1.0 AND cp = 4.0 AND trestbps = 19.0 AND chol = 45.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 3.0 AND exang = 0.0 AND oldpeak = 1.5 AND slope = 1.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.055560265, 1: 0.18957430124282837, 2: 1.0574818, 3: 0.4537069, 4: -0.14391018, 5: -0.029593058, 6: 0.05613271, 7: 0.056673907, 8: -0.480208, 9: 1.4109571, 10: 0.14426728, 12: -0.03842936}
+  time: 0.01
+
+inst: 48
+  explaining: age = 55.0 AND sex = 1.0 AND cp = 2.0 AND trestbps = 9.0 AND chol = 79.0 AND fbs = 1.0 AND restecg = 0.0 AND thalach = 27.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 2.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.032934383, 1: 0.07319234311580658, 2: -1.1248817, 3: -0.27007812, 4: 0.39444226, 5: 0.77952445, 6: -0.024059959, 7: -0.028283134, 8: -0.4779479, 9: -0.5976105, 10: 0.04311331, 12: 0.13463025}
+  time: 0.01
+
+inst: 49
+  explaining: age = 46.0 AND sex = 1.0 AND cp = 4.0 AND trestbps = 4.0 AND chol = 64.0 AND fbs = 0.0 AND restecg = 1.0 AND thalach = 30.0 AND exang = 1.0 AND oldpeak = 1.0 AND slope = 1.0 AND ca = 1.0 AND thal = 0.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.05043915, 1: 0.23237523436546326, 2: 0.7285736, 3: 0.28168973, 4: 0.06336888, 5: -0.055450544, 6: -0.096202254, 7: -0.22633651, 8: 1.3355434, 9: 0.37710106, 10: 0.102917105, 12: 0.24170709}
+  time: 0.01
+
+inst: 50
+  explaining: age = 52.0 AND sex = 1.0 AND cp = 4.0 AND trestbps = 9.0 AND chol = 19.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 37.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.10732444, 1: 0.248426616191864, 2: 0.9491814, 3: -0.12075737, 4: -0.6394891, 5: -0.05270257, 6: 0.02771864, 7: 0.05648998, 8: -0.4941137, 9: -0.61336225, 10: 0.04681497, 12: -0.052061155}
+  time: 0.01
+
+inst: 51
+  explaining: age = 51.0 AND sex = 1.0 AND cp = 3.0 AND trestbps = 16.0 AND chol = 6.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 37.0 AND exang = 0.0 AND oldpeak = 2.0 AND slope = 1.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.1279432, 1: 0.1568324863910675, 2: -0.7343017, 3: 0.52039, 4: -0.7779161, 5: -0.06824109, 6: 0.033468466, 7: -0.06554091, 8: -0.4729543, 9: 1.5482734, 10: 0.14426728, 12: -0.03981393}
+  time: 0.01
+
+inst: 52
+  explaining: age = 58.0 AND sex = 1.0 AND cp = 2.0 AND trestbps = 14.0 AND chol = 75.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 6.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.113894016, 1: 0.11986669898033142, 2: -1.1782632, 3: -0.047141127, 4: 0.23273963, 5: -0.046401974, 6: -0.023874847, 7: -0.059685644, 8: -0.5063529, 9: -0.6231344, 10: 0.04311331, 12: -0.022057675}
+  time: 0.01
+
+inst: 53
+  explaining: age = 37.0 AND sex = 1.0 AND cp = 4.0 AND trestbps = 14.0 AND chol = 122.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 43.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.0076621547, 1: 0.248426616191864, 2: 0.9034802, 3: -0.10889519, 4: -0.2335161, 5: -0.02527178, 6: 0.049438115, 7: -0.075131476, 8: -0.53132486, 9: -0.6448546, 10: 0.04681497, 12: -0.036024872}
+  time: 0.01
+
+inst: 54
+  explaining: age = 54.0 AND sex = 1.0 AND cp = 4.0 AND trestbps = 12.0 AND chol = 45.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 30.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: 0.058647428, 1: 0.2044268548488617, 2: 0.874011, 3: -0.2187417, 4: -0.109935254, 5: -0.051914, 6: 0.0035367063, 7: -0.41202003, 8: -0.53132486, 9: -0.6334261, 10: 0.04681497, 12: -0.05067659}
+  time: 0.01
+
+inst: 55
+  explaining: age = 51.0 AND sex = 0.0 AND cp = 3.0 AND trestbps = 14.0 AND chol = 49.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 44.0 AND exang = 1.0 AND oldpeak = 2.0 AND slope = 0.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.025311094, 1: -0.6697216033935547, 2: -0.6885577, 3: -0.16370822, 4: -0.12352118, 5: -0.062270183, 6: 0.05947279, 7: -0.008058969, 8: 1.0754596, 9: 0.64347124, 10: -1.139955, 12: -0.08784723}
+  time: 0.01
+
+inst: 56
+  explaining: age = 51.0 AND sex = 0.0 AND cp = 4.0 AND trestbps = 24.0 AND chol = 115.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 37.0 AND exang = 1.0 AND oldpeak = 1.0 AND slope = 1.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.016200148, 1: -1.0017331838607788, 2: 0.49019352, 3: 0.35958952, 4: -0.25507253, 5: -0.040059216, 6: 0.032279305, 7: -0.04852528, 8: 1.2105789, 9: 1.0790269, 10: 0.14337365, 12: -0.071810946}
+  time: 0.01
+
+inst: 57
+  explaining: age = 45.0 AND sex = 0.0 AND cp = 2.0 AND trestbps = 26.0 AND chol = 153.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 57.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.001326926, 1: -0.4681478440761566, 2: -1.0976763, 3: -0.24688295, 4: -0.07941308, 5: -0.06581646, 6: 0.024802249, 7: -0.034546237, 8: -0.49632668, 9: -0.8806047, 10: 0.04576737, 12: -0.07147555}
+  time: 0.01
+
+inst: 58
+  explaining: age = 48.0 AND sex = 0.0 AND cp = 3.0 AND trestbps = 9.0 AND chol = 27.0 AND fbs = 0.0 AND restecg = 0.0 AND thalach = 17.0 AND exang = 0.0 AND oldpeak = 0.0 AND slope = 3.0 AND ca = 1.0 AND thal = 3.0
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+  lit2imprt: {0: -0.015001897, 1: -0.4665105640888214, 2: -0.3313904, 3: -0.19657734, 4: -0.15061022, 5: -0.052662138, 6: 0.024802249, 7: -0.13408874, 8: -0.4973533, 9: -0.45827606, 10: 0.04681497, 12: -0.10009447}
+  time: 0.01

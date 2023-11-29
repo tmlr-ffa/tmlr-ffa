@@ -1,0 +1,6131 @@
+loading model from  ./bt/temp/compas/compas_train1_data/compas_train1_data_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl
+loading data from  ./bt/temp/compas/compas_train1_data/compas_train1_data_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl.splitdata.pkl
+encoding vars: 433
+encoding clauses: 2014 (1973 path + 41 common)
+
+inst: 0
+  explaining:  "IF Number_of_Priors == 3 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 1 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.05
+iter: 3
+cand: [7]
+expl: [8]
+  expltime: 0.06
+iter: 4
+cand: [6]
+core: [0, 1, 2, 3, 7]
+coex: [0, 1, 3, 8]
+  coextime: 0.10
+iter: 5
+cand: [3]
+expl: [3]
+  expltime: 0.11
+iter: 6
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 3 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Other != 1 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF Age_Below_TwentyFive != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.11
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 0 AND Age_Below_TwentyFive == 0 AND Other == 1 THEN 0"
+  dual explanation size: 4
+  calls: 7
+  rtime: 0.11
+
+inst: 1
+  explaining:  "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 5, 7, 8, 9]
+coex: [0, 3, 5, 8, 9]
+  coextime: 0.11
+iter: 2
+cand: [7]
+core: [0, 1, 2, 3, 5]
+coex: [0, 1, 2, 3, 5]
+  coextime: 0.15
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.15
+iter: 4
+cand: [3]
+core: [0, 1, 2, 5, 7, 9]
+coex: [0, 1, 2, 5, 8]
+  coextime: 0.20
+iter: 5
+cand: [0]
+core: [1, 2, 3, 4, 5, 7, 8, 9]
+coex: [1, 2, 3, 4, 5, 8, 10]
+  coextime: 0.38
+iter: 6
+cand: [0, 4]
+expl: [0, 4]
+  expltime: 0.41
+iter: 7
+cand: [0, 2]
+expl: [0, 2]
+  expltime: 0.43
+iter: 8
+cand: [2, 8]
+core: [0, 1, 3, 5, 7]
+coex: [0, 1, 3, 5, 8]
+  coextime: 0.46
+iter: 9
+cand: [0, 9]
+expl: [0, 10]
+  expltime: 0.49
+iter: 10
+cand: [0, 7]
+expl: [0, 8]
+  expltime: 0.50
+iter: 11
+cand: [2, 7]
+expl: [2, 8]
+  expltime: 0.50
+iter: 12
+cand: [1, 7]
+expl: [1, 8]
+  expltime: 0.51
+iter: 13
+cand: [1, 8]
+core: [0, 2, 3, 5, 7, 9]
+coex: [0, 2, 3, 5, 8]
+  coextime: 0.55
+iter: 14
+cand: [0, 1]
+expl: [0, 1]
+  expltime: 0.58
+iter: 15
+cand: [1, 3]
+expl: [1, 3]
+  expltime: 0.59
+iter: 16
+cand: [0, 3]
+expl: [0, 3]
+  expltime: 0.61
+iter: 17
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.61
+iter: 18
+cand: [3, 7]
+expl: [3, 8]
+  expltime: 0.62
+iter: 19
+cand: [1, 2, 8]
+expl: [1, 2, 9]
+  expltime: 0.63
+iter: 20
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF Number_of_Priors != 3 AND African_American != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.41
+  explanation: "IF Number_of_Priors != 3 AND Age_Above_FourtyFive != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.43
+  explanation: "IF Number_of_Priors != 3 AND Misdemeanor != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.49
+  explanation: "IF Number_of_Priors != 3 AND Other != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.50
+  explanation: "IF Age_Above_FourtyFive != 0 AND Other != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.50
+  explanation: "IF score_factor != 1 AND Other != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.51
+  explanation: "IF Number_of_Priors != 3 AND score_factor != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.58
+  explanation: "IF score_factor != 1 AND Age_Below_TwentyFive != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.59
+  explanation: "IF Number_of_Priors != 3 AND Age_Below_TwentyFive != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.61
+  explanation: "IF Age_Above_FourtyFive != 0 AND Age_Below_TwentyFive != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.61
+  explanation: "IF Age_Below_TwentyFive != 1 AND Other != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.62
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.63
+  dual explanation: "IF Number_of_Priors == 3 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Other == 0 AND Female == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 1 AND Asian == 0 AND Other == 0 AND Misdemeanor == 1 THEN 1"
+  dual explanation size: 7
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 3 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  calls: 13
+  rtime: 0.63
+
+inst: 2
+  explaining:  "IF Number_of_Priors == 1 AND score_factor == 0 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 1 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 7, 8]
+coex: [0, 4, 5, 9]
+  coextime: 0.09
+iter: 2
+cand: [8]
+core: [0, 1, 2, 4, 5, 7]
+coex: [0, 2, 5]
+  coextime: 0.14
+iter: 3
+cand: [5]
+core: [0, 1, 2, 4, 7, 8]
+coex: [0, 1]
+  coextime: 0.19
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.19
+iter: 5
+cand: [1, 5]
+core: [0, 2, 3, 4, 7, 8]
+coex: [0, 3, 4, 9]
+  coextime: 0.24
+iter: 6
+cand: [1, 4, 5]
+expl: [1, 4, 5]
+  expltime: 0.25
+iter: 7
+cand: [1, 5, 8]
+expl: [1, 5, 9]
+  expltime: 0.25
+iter: 8
+cand: [1, 3, 5]
+expl: [1, 3, 5]
+  expltime: 0.26
+iter: 9
+cand: [1, 2, 8]
+core: [0, 3, 4, 5, 7]
+coex: [0, 3, 5]
+  coextime: 0.30
+iter: 10
+cand: [1, 2, 3, 4]
+expl: [1, 2, 3, 4]
+  expltime: 0.31
+iter: 11
+cand: [1, 2, 3, 8]
+expl: [1, 2, 3, 9]
+  expltime: 0.32
+iter: 12
+cand: None
+  prediciton: 0
+  explanation: "IF Number_of_Priors != 1 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF score_factor != 0 AND African_American != 0 AND Asian != 0 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.25
+  explanation: "IF score_factor != 0 AND Asian != 0 AND Female != 1 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.25
+  explanation: "IF score_factor != 0 AND Age_Below_TwentyFive != 0 AND Asian != 0 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.26
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 1 AND Age_Below_TwentyFive != 0 AND African_American != 0 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.31
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 1 AND Age_Below_TwentyFive != 0 AND Female != 1 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.32
+  dual explanation: "IF Number_of_Priors == 1 AND African_American == 0 AND Asian == 0 AND Female == 1 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Above_FourtyFive == 1 AND Asian == 0 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 1 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Female == 1 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Below_TwentyFive == 0 AND Asian == 0 THEN 0"
+  dual explanation size: 3
+  calls: 8
+  rtime: 0.32
+
+inst: 3
+  explaining:  "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.08
+iter: 3
+cand: [7]
+expl: [8]
+  expltime: 0.08
+iter: 4
+cand: [6]
+core: [0, 1, 2, 5, 7]
+coex: [0, 1, 2, 5, 8]
+  coextime: 0.12
+iter: 5
+cand: [5]
+expl: [5]
+  expltime: 0.13
+iter: 6
+cand: [2]
+expl: [2]
+  expltime: 0.13
+iter: 7
+cand: None
+  prediciton: 1
+  explanation: "IF score_factor != 1 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF Number_of_Priors != 3 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF Other != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF Age_Above_FourtyFive != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.13
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  calls: 8
+  rtime: 0.13
+
+inst: 4
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8, 9]
+coex: [0, 1]
+  coextime: 0.13
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.13
+
+inst: 5
+  explaining:  "IF Number_of_Priors == 5 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 5, 7, 8]
+coex: [0, 2, 5, 8, 9]
+  coextime: 0.11
+iter: 2
+cand: [7]
+core: [0, 1, 2, 5, 9]
+coex: [0, 1, 5]
+  coextime: 0.15
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.15
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.17
+iter: 5
+cand: [1, 7]
+core: [0, 2, 5, 8, 9]
+coex: [0, 2, 5, 9, 10]
+  coextime: 0.21
+iter: 6
+cand: [1, 8]
+expl: [1, 9]
+  expltime: 0.22
+iter: 7
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.23
+iter: 8
+cand: [1, 7, 9]
+expl: [1, 8, 10]
+  expltime: 0.23
+iter: 9
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF Number_of_Priors != 5 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF score_factor != 1 AND Female != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.22
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.23
+  explanation: "IF score_factor != 1 AND Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.23
+  dual explanation: "IF Number_of_Priors == 5 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 AND Female == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 5 AND score_factor == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 5 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 5
+  calls: 9
+  rtime: 0.23
+
+inst: 6
+  explaining:  "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.05
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 6, 9]
+coex: [0, 1, 4, 6]
+  coextime: 0.11
+iter: 4
+cand: [6]
+core: [0, 1, 2, 3, 4, 9]
+coex: [0, 1, 3, 4]
+  coextime: 0.16
+iter: 5
+cand: [4]
+core: [0, 1, 2, 3, 6, 9]
+coex: [0, 1, 2, 3]
+  coextime: 0.21
+iter: 6
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.22
+iter: 7
+cand: [3, 4]
+expl: [3, 4]
+  expltime: 0.23
+iter: 8
+cand: [3, 6]
+expl: [3, 6]
+  expltime: 0.23
+iter: 9
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 2 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Age_Above_FourtyFive != 0 AND African_American != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.22
+  explanation: "IF Age_Below_TwentyFive != 0 AND African_American != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.23
+  explanation: "IF Age_Below_TwentyFive != 0 AND Hispanic != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.23
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 0 AND African_American == 0 AND Hispanic == 0 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 THEN 0"
+  dual explanation size: 4
+  calls: 10
+  rtime: 0.23
+
+inst: 7
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 8, 9]
+coex: [0, 2]
+  coextime: 0.13
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.13
+iter: 3
+cand: [2]
+core: [0, 1, 3, 4, 5, 8, 9]
+coex: [0, 1]
+  coextime: 0.20
+iter: 4
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.20
+iter: 5
+cand: None
+  prediciton: 0
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 1 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.20
+  dual explanation: "IF Number_of_Priors == 0 AND Age_Above_FourtyFive == 1 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.20
+
+inst: 8
+  explaining:  "IF Number_of_Priors == 15 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 4, 5, 7, 8]
+coex: [0, 5, 9]
+  coextime: 0.12
+iter: 2
+cand: [8]
+core: [0, 1, 2, 4, 5, 7]
+coex: [0, 5, 8]
+  coextime: 0.18
+iter: 3
+cand: [5]
+core: [0, 1, 2, 4, 7]
+coex: [0, 1, 4, 8]
+  coextime: 0.22
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.24
+iter: 5
+cand: [5, 7]
+core: [0, 1, 2, 4, 9]
+coex: [0, 1, 4, 10]
+  coextime: 0.28
+iter: 6
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.29
+iter: 7
+cand: [4, 5]
+expl: [4, 5]
+  expltime: 0.29
+iter: 8
+cand: [4, 7, 8]
+core: [0, 1, 2, 5]
+coex: [0, 2, 5]
+  coextime: 0.33
+iter: 9
+cand: [5, 7, 9]
+expl: [5, 8, 10]
+  expltime: 0.33
+iter: 10
+cand: [2, 7, 8, 9]
+core: [0, 1, 4, 5]
+coex: [0, 1, 5]
+  coextime: 0.37
+iter: 11
+cand: [1, 2, 7, 8]
+core: [0, 4, 5, 9]
+coex: [0, 5, 10]
+  coextime: 0.40
+iter: 12
+cand: [1, 2, 7, 8, 9]
+expl: [1, 2, 8, 9, 10]
+  expltime: 0.42
+iter: 13
+cand: None
+  prediciton: 1
+  explanation: "IF Number_of_Priors != 15 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.24
+  explanation: "IF score_factor != 1 AND Asian != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.29
+  explanation: "IF African_American != 1 AND Asian != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.29
+  explanation: "IF Asian != 0 AND Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.33
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Other != 0 AND Female != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 5
+  expl time: 0.42
+  dual explanation: "IF Number_of_Priors == 15 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 15 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 15 AND score_factor == 1 AND African_American == 1 AND Other == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 15 AND score_factor == 1 AND African_American == 1 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 15 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 15 AND score_factor == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 15 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 3
+  calls: 6
+  rtime: 0.42
+
+inst: 9
+  explaining:  "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.05
+iter: 3
+cand: [7]
+core: [0, 1, 2, 4, 9]
+coex: [0, 1, 2, 4, 10]
+  coextime: 0.09
+iter: 4
+cand: [9]
+expl: [10]
+  expltime: 0.09
+iter: 5
+cand: [2]
+expl: [2]
+  expltime: 0.09
+iter: 6
+cand: [4]
+core: [0, 1, 2, 6, 9]
+coex: [0, 1, 2, 6, 10]
+  coextime: 0.13
+iter: 7
+cand: [4, 6]
+expl: [4, 6]
+  expltime: 0.14
+iter: 8
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 2 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Misdemeanor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.09
+  explanation: "IF Age_Above_FourtyFive != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.09
+  explanation: "IF African_American != 1 AND Hispanic != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.14
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND African_American == 1 AND Misdemeanor == 0 THEN 0"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Hispanic == 0 AND Misdemeanor == 0 THEN 0"
+  dual explanation size: 5
+  calls: 7
+  rtime: 0.14
+
+inst: 10
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 1 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 8, 9]
+coex: [0, 2]
+  coextime: 0.13
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.13
+iter: 3
+cand: [2]
+core: [0, 1, 3, 4, 5, 8, 9]
+coex: [0, 1]
+  coextime: 0.20
+iter: 4
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.20
+iter: 5
+cand: None
+  prediciton: 0
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 1 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.20
+  dual explanation: "IF Number_of_Priors == 0 AND Age_Above_FourtyFive == 1 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.20
+
+inst: 11
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 1 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 7, 8, 9]
+coex: [0, 8, 10]
+  coextime: 0.13
+iter: 2
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8, 9]
+coex: [0, 1]
+  coextime: 0.21
+iter: 3
+cand: [0]
+expl: [0]
+  expltime: 0.21
+iter: 4
+cand: [1, 7]
+expl: [1, 8]
+  expltime: 0.22
+iter: 5
+cand: [1, 9]
+expl: [1, 10]
+  expltime: 0.23
+iter: 6
+cand: None
+  prediciton: 0
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.21
+  explanation: "IF score_factor != 0 AND Other != 1 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.22
+  explanation: "IF score_factor != 0 AND Misdemeanor != 1 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.23
+  dual explanation: "IF Number_of_Priors == 0 AND Other == 1 AND Misdemeanor == 1 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 12
+  rtime: 0.23
+
+inst: 12
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 1 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 8, 9]
+coex: [0, 2]
+  coextime: 0.12
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.13
+iter: 3
+cand: [2]
+core: [0, 1, 3, 4, 5, 8, 9]
+coex: [0, 1]
+  coextime: 0.19
+iter: 4
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.20
+iter: 5
+cand: None
+  prediciton: 0
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 1 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.20
+  dual explanation: "IF Number_of_Priors == 0 AND Age_Above_FourtyFive == 1 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.20
+
+inst: 13
+  explaining:  "IF Number_of_Priors == 1 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 7, 8]
+coex: [0, 3, 5]
+  coextime: 0.10
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.11
+iter: 3
+cand: [3]
+core: [0, 1, 2, 4, 5, 7, 8]
+coex: [0, 1]
+  coextime: 0.17
+iter: 4
+cand: [1, 3]
+expl: [1, 3]
+  expltime: 0.18
+iter: 5
+cand: [1, 5]
+core: [0, 2, 3, 4, 7, 8]
+coex: [0, 2, 3]
+  coextime: 0.24
+iter: 6
+cand: [1, 2, 5]
+expl: [1, 2, 5]
+  expltime: 0.25
+iter: 7
+cand: None
+  prediciton: 0
+  explanation: "IF Number_of_Priors != 1 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF score_factor != 0 AND Age_Below_TwentyFive != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.18
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 0 AND Asian != 0 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.25
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Below_TwentyFive == 0 AND Asian == 0 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 1 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 THEN 0"
+  dual explanation size: 3
+  calls: 8
+  rtime: 0.25
+
+inst: 14
+  explaining:  "IF Number_of_Priors == 9 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 5, 7, 8]
+coex: [0, 5, 9]
+  coextime: 0.11
+iter: 2
+cand: [8]
+core: [0, 1, 2, 5, 7]
+coex: [0, 2, 5]
+  coextime: 0.15
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.16
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.18
+iter: 5
+cand: [2, 8]
+core: [0, 1, 5, 7]
+coex: [0, 1, 5]
+  coextime: 0.21
+iter: 6
+cand: [1, 2, 8]
+expl: [1, 2, 9]
+  expltime: 0.22
+iter: 7
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.16
+  explanation: "IF Number_of_Priors != 9 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.22
+  dual explanation: "IF Number_of_Priors == 9 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 9 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 9 AND score_factor == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  calls: 6
+  rtime: 0.22
+
+inst: 15
+  explaining:  "IF Number_of_Priors == 7 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 8, 9]
+coex: [0, 4, 5, 9, 10]
+  coextime: 0.11
+iter: 2
+cand: [8]
+core: [0, 1, 2, 3, 4, 5, 9]
+coex: [0, 2, 4, 5, 10]
+  coextime: 0.17
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.18
+iter: 4
+cand: [4]
+core: [0, 1, 2, 3, 5, 9]
+coex: [0, 1, 5, 10]
+  coextime: 0.23
+iter: 5
+cand: [0]
+expl: [0]
+  expltime: 0.25
+iter: 6
+cand: [9]
+core: [0, 1, 2, 3, 4, 5]
+coex: [0, 1, 3, 5]
+  coextime: 0.30
+iter: 7
+cand: [1, 9]
+expl: [1, 10]
+  expltime: 0.31
+iter: 8
+cand: [3, 9]
+core: [0, 1, 2, 4, 5]
+coex: [0, 1, 2, 5]
+  coextime: 0.35
+iter: 9
+cand: [1, 4]
+core: [0, 2, 3, 5, 8, 9]
+coex: [0, 2, 5, 9, 10]
+  coextime: 0.40
+iter: 10
+cand: [1, 2, 4]
+expl: [1, 2, 4]
+  expltime: 0.41
+iter: 11
+cand: [1, 4, 8]
+expl: [1, 4, 9]
+  expltime: 0.42
+iter: 12
+cand: [1, 2, 8]
+expl: [1, 2, 9]
+  expltime: 0.43
+iter: 13
+cand: [2, 3, 9]
+expl: [2, 3, 10]
+  expltime: 0.44
+iter: 14
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF Number_of_Priors != 7 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.25
+  explanation: "IF score_factor != 1 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.31
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND African_American != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.41
+  explanation: "IF score_factor != 1 AND African_American != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.42
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.43
+  explanation: "IF Age_Above_FourtyFive != 0 AND Age_Below_TwentyFive != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.44
+  dual explanation: "IF Number_of_Priors == 7 AND African_American == 0 AND Asian == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 7 AND Age_Above_FourtyFive == 0 AND African_American == 0 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 7 AND score_factor == 1 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 7 AND score_factor == 1 AND Age_Below_TwentyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 7 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 7 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 5
+  calls: 11
+  rtime: 0.44
+
+inst: 16
+  explaining:  "IF Number_of_Priors == 1 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 4, 5, 8]
+coex: [0, 1]
+  coextime: 0.12
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 1 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF Number_of_Priors == 1 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 7
+  rtime: 0.12
+
+inst: 17
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 1 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8]
+coex: [0, 1]
+  coextime: 0.12
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.12
+
+inst: 18
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 1"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.08
+iter: 3
+cand: [7]
+expl: [8]
+  expltime: 0.09
+iter: 4
+cand: [6]
+core: [0, 1, 2, 3, 4, 5, 7, 8]
+coex: [0, 1, 2, 5, 8, 9]
+  coextime: 0.17
+iter: 5
+cand: [8]
+core: [0, 1, 2, 3, 4, 5, 7]
+coex: [0, 1, 2, 4, 5, 8]
+  coextime: 0.24
+iter: 6
+cand: [2]
+expl: [2]
+  expltime: 0.24
+iter: 7
+cand: [5]
+expl: [5]
+  expltime: 0.25
+iter: 8
+cand: [4, 8]
+core: [0, 1, 2, 3, 5, 7, 9]
+coex: [0, 1, 2, 5, 8, 10]
+  coextime: 0.31
+iter: 9
+cand: [4, 8, 9]
+expl: [4, 9, 10]
+  expltime: 0.31
+iter: 10
+cand: None
+  prediciton: 1
+  explanation: "IF score_factor != 1 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF Number_of_Priors != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF Other != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.09
+  explanation: "IF Age_Above_FourtyFive != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.24
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.25
+  explanation: "IF African_American != 0 AND Female != 0 AND Misdemeanor != 1 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.31
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 AND Female == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND African_American == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 AND Misdemeanor == 1 THEN 1"
+  dual explanation size: 6
+  calls: 9
+  rtime: 0.31
+
+inst: 19
+  explaining:  "IF Number_of_Priors == 6 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 7, 8, 9]
+coex: [0, 5, 9]
+  coextime: 0.13
+iter: 2
+cand: [8]
+core: [0, 2, 3, 4, 5, 7, 9]
+coex: [0, 4, 5, 10]
+  coextime: 0.19
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.20
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.21
+iter: 5
+cand: [8, 9]
+core: [0, 2, 3, 4, 5, 7]
+coex: [0, 4, 5, 8]
+  coextime: 0.26
+iter: 6
+cand: [4, 8]
+core: [0, 2, 5, 7]
+coex: [0, 2, 5]
+  coextime: 0.29
+iter: 7
+cand: [2, 4, 8]
+expl: [2, 4, 9]
+  expltime: 0.30
+iter: 8
+cand: [2, 7, 8, 9]
+expl: [2, 8, 9, 10]
+  expltime: 0.31
+iter: 9
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.20
+  explanation: "IF Number_of_Priors != 6 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.21
+  explanation: "IF Age_Above_FourtyFive != 0 AND African_American != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.30
+  explanation: "IF Age_Above_FourtyFive != 0 AND Other != 0 AND Female != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 4
+  expl time: 0.31
+  dual explanation: "IF Number_of_Priors == 6 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 6 AND African_American == 0 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 6 AND African_American == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 6 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  calls: 7
+  rtime: 0.31
+
+inst: 20
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.05
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8, 9]
+coex: [0, 1]
+  coextime: 0.13
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.13
+
+inst: 21
+  explaining:  "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.07
+iter: 3
+cand: [7]
+expl: [8]
+  expltime: 0.08
+iter: 4
+cand: [6]
+core: [0, 1, 2, 5, 7, 8]
+coex: [0, 1, 2, 5, 8]
+  coextime: 0.15
+iter: 5
+cand: [5]
+expl: [5]
+  expltime: 0.15
+iter: 6
+cand: [2]
+expl: [2]
+  expltime: 0.16
+iter: 7
+cand: None
+  prediciton: 1
+  explanation: "IF score_factor != 1 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 3 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF Other != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF Age_Above_FourtyFive != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.16
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  calls: 9
+  rtime: 0.16
+
+inst: 22
+  explaining:  "IF Number_of_Priors == 8 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 5, 7, 8]
+coex: [0, 5, 9]
+  coextime: 0.11
+iter: 2
+cand: [8]
+core: [0, 1, 2, 5, 7]
+coex: [0, 2, 5]
+  coextime: 0.16
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.17
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.19
+iter: 5
+cand: [2, 8]
+core: [0, 1, 5, 7]
+coex: [0, 1, 5]
+  coextime: 0.22
+iter: 6
+cand: [1, 2, 8]
+expl: [1, 2, 9]
+  expltime: 0.23
+iter: 7
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF Number_of_Priors != 8 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.23
+  dual explanation: "IF Number_of_Priors == 8 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 8 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 8 AND score_factor == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  calls: 6
+  rtime: 0.23
+
+inst: 23
+  explaining:  "IF Number_of_Priors == 2 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.08
+iter: 3
+cand: [7]
+core: [0, 1, 2, 4, 5, 9]
+coex: [0, 1, 4, 5, 10]
+  coextime: 0.14
+iter: 4
+cand: [9]
+core: [0, 1, 2, 4, 5, 7]
+coex: [0, 1, 4, 5, 8]
+  coextime: 0.21
+iter: 5
+cand: [4]
+core: [0, 1, 2, 5, 6, 7, 9]
+coex: [0, 1, 2, 5, 10]
+  coextime: 0.27
+iter: 6
+cand: [5]
+expl: [5]
+  expltime: 0.27
+iter: 7
+cand: [7, 9]
+expl: [8, 10]
+  expltime: 0.28
+iter: 8
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.28
+iter: 9
+cand: [4, 9]
+core: [0, 1, 2, 3, 5, 6, 7]
+coex: [0, 1, 2, 5, 8]
+  coextime: 0.34
+iter: 10
+cand: None
+  prediciton: 1
+  explanation: "IF score_factor != 1 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF Number_of_Priors != 2 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.27
+  explanation: "IF Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.28
+  explanation: "IF Age_Above_FourtyFive != 0 AND African_American != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.28
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 1 AND African_American == 1 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 1 AND African_American == 1 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  calls: 8
+  rtime: 0.34
+
+inst: 24
+  explaining:  "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 1 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.05
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8, 9]
+coex: [0, 1, 2, 9]
+  coextime: 0.12
+iter: 4
+cand: [8]
+core: [0, 1, 2, 3, 4, 9]
+coex: [0, 1, 2, 3]
+  coextime: 0.18
+iter: 5
+cand: [2]
+expl: [2]
+  expltime: 0.19
+iter: 6
+cand: [3, 8]
+expl: [3, 9]
+  expltime: 0.19
+iter: 7
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 2 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Age_Above_FourtyFive != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF Age_Below_TwentyFive != 0 AND Female != 1 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.19
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Female == 1 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 THEN 0"
+  dual explanation size: 4
+  calls: 9
+  rtime: 0.19
+
+inst: 25
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.08
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8, 9]
+coex: [0, 1, 2, 5, 9, 10]
+  coextime: 0.16
+iter: 4
+cand: [9]
+core: [0, 1, 2, 3, 4, 5, 7, 8]
+coex: [0, 1, 2, 5, 8, 9]
+  coextime: 0.24
+iter: 5
+cand: [8]
+core: [0, 1, 2, 3, 4, 5, 7, 9]
+coex: [0, 1, 2, 4, 5, 10]
+  coextime: 0.31
+iter: 6
+cand: [2]
+expl: [2]
+  expltime: 0.32
+iter: 7
+cand: [5]
+expl: [5]
+  expltime: 0.33
+iter: 8
+cand: [4, 8]
+expl: [4, 9]
+  expltime: 0.34
+iter: 9
+cand: [7, 9]
+expl: [8, 10]
+  expltime: 0.34
+iter: 10
+cand: [8, 9]
+core: [0, 1, 2, 3, 4, 5, 7]
+coex: [0, 1, 2, 4, 5, 8]
+  coextime: 0.41
+iter: 11
+cand: None
+  prediciton: 1
+  explanation: "IF score_factor != 1 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF Number_of_Priors != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF Age_Above_FourtyFive != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.32
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.33
+  explanation: "IF African_American != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.34
+  explanation: "IF Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.34
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 AND Female == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND African_American == 0 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND African_American == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 6
+  calls: 8
+  rtime: 0.41
+
+inst: 26
+  explaining:  "IF Number_of_Priors == 8 AND score_factor == 0 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 5, 7, 8]
+coex: [0, 5, 9]
+  coextime: 0.09
+iter: 2
+cand: [8]
+expl: [9]
+  expltime: 0.10
+iter: 3
+cand: [5]
+core: [0, 1, 2, 7, 8]
+coex: [0, 2, 8, 9]
+  coextime: 0.15
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.15
+iter: 5
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.16
+iter: 6
+cand: [5, 7]
+core: [0, 1, 2, 8, 9]
+coex: [0, 2, 9, 10]
+  coextime: 0.21
+iter: 7
+cand: [5, 7, 9]
+expl: [5, 8, 10]
+  expltime: 0.21
+iter: 8
+cand: None
+  prediciton: 1
+  explanation: "IF Female != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF Number_of_Priors != 8 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF Age_Above_FourtyFive != 1 AND Asian != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.16
+  explanation: "IF Asian != 0 AND Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.21
+  dual explanation: "IF Number_of_Priors == 8 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 8 AND Age_Above_FourtyFive == 1 AND Other == 0 AND Female == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 8 AND Age_Above_FourtyFive == 1 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  calls: 7
+  rtime: 0.21
+
+inst: 27
+  explaining:  "IF Number_of_Priors == 8 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 1 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 4, 5, 7, 8, 9]
+coex: [0, 5, 9]
+  coextime: 0.13
+iter: 2
+cand: [8]
+core: [0, 1, 2, 4, 5, 7, 9]
+coex: [0, 4, 5, 10]
+  coextime: 0.20
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.21
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.22
+iter: 5
+cand: [8, 9]
+core: [0, 1, 2, 5, 7]
+coex: [0, 2, 5]
+  coextime: 0.27
+iter: 6
+cand: [2, 8, 9]
+core: [0, 1, 4, 5, 7]
+coex: [0, 4, 5, 8]
+  coextime: 0.31
+iter: 7
+cand: [2, 4, 8]
+core: [0, 1, 5, 7]
+coex: [0, 1, 5]
+  coextime: 0.35
+iter: 8
+cand: [1, 2, 4, 8]
+expl: [1, 2, 4, 9]
+  expltime: 0.35
+iter: 9
+cand: [1, 2, 7, 8, 9]
+expl: [1, 2, 8, 9, 10]
+  expltime: 0.36
+iter: 10
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.21
+  explanation: "IF Number_of_Priors != 8 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.22
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND African_American != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 4
+  expl time: 0.35
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Other != 0 AND Female != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 5
+  expl time: 0.36
+  dual explanation: "IF Number_of_Priors == 8 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 8 AND African_American == 0 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 8 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 8 AND African_American == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 8 AND score_factor == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  calls: 7
+  rtime: 0.36
+
+inst: 28
+  explaining:  "IF Number_of_Priors == 6 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 5, 7, 8]
+coex: [0, 5, 9]
+  coextime: 0.11
+iter: 2
+cand: [8]
+core: [0, 1, 2, 5, 7]
+coex: [0, 2, 5]
+  coextime: 0.15
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.16
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.18
+iter: 5
+cand: [2, 8]
+core: [0, 1, 5, 7]
+coex: [0, 1, 5]
+  coextime: 0.22
+iter: 6
+cand: [1, 2, 8]
+expl: [1, 2, 9]
+  expltime: 0.22
+iter: 7
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.16
+  explanation: "IF Number_of_Priors != 6 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.22
+  dual explanation: "IF Number_of_Priors == 6 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 6 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 6 AND score_factor == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  calls: 6
+  rtime: 0.22
+
+inst: 29
+  explaining:  "IF Number_of_Priors == 1 AND score_factor == 0 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 7, 9]
+coex: [0, 4, 5, 10]
+  coextime: 0.10
+iter: 2
+cand: [9]
+core: [0, 1, 2, 4, 5, 7]
+coex: [0, 2, 5]
+  coextime: 0.15
+iter: 3
+cand: [5]
+core: [0, 1, 2, 4, 7, 9]
+coex: [0, 1]
+  coextime: 0.21
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.21
+iter: 5
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.22
+iter: 6
+cand: [1, 2, 9]
+core: [0, 3, 4, 5, 7]
+coex: [0, 3, 5]
+  coextime: 0.27
+iter: 7
+cand: [1, 2, 3, 9]
+expl: [1, 2, 3, 10]
+  expltime: 0.28
+iter: 8
+cand: [1, 2, 3, 4]
+expl: [1, 2, 3, 4]
+  expltime: 0.29
+iter: 9
+cand: None
+  prediciton: 0
+  explanation: "IF Number_of_Priors != 1 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.21
+  explanation: "IF score_factor != 0 AND Asian != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.22
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 1 AND Age_Below_TwentyFive != 0 AND Misdemeanor != 1 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.28
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 1 AND Age_Below_TwentyFive != 0 AND African_American != 0 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.29
+  dual explanation: "IF Number_of_Priors == 1 AND African_American == 0 AND Asian == 0 AND Misdemeanor == 1 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Above_FourtyFive == 1 AND Asian == 0 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 1 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Below_TwentyFive == 0 AND Asian == 0 THEN 0"
+  dual explanation size: 3
+  calls: 8
+  rtime: 0.29
+
+inst: 30
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 1 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8]
+coex: [0, 1]
+  coextime: 0.13
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.13
+
+inst: 31
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8]
+coex: [0, 1]
+  coextime: 0.12
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.12
+
+inst: 32
+  explaining:  "IF Number_of_Priors == 5 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 1 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 8, 9]
+coex: [0, 4, 5, 9]
+  coextime: 0.12
+iter: 2
+cand: [8]
+core: [0, 1, 2, 3, 4, 5, 9]
+coex: [0, 3, 5]
+  coextime: 0.18
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 9]
+coex: [0, 1, 3]
+  coextime: 0.24
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.24
+iter: 5
+cand: [3, 8]
+core: [0, 1, 2, 4, 5, 9]
+coex: [0, 2, 4, 5, 10]
+  coextime: 0.29
+iter: 6
+cand: [3, 4]
+core: [0, 1, 2, 5, 9]
+coex: [0, 1, 5]
+  coextime: 0.34
+iter: 7
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.34
+iter: 8
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.35
+iter: 9
+cand: [1, 3, 4]
+core: [0, 2, 5, 8, 9]
+coex: [0, 2, 5, 9, 10]
+  coextime: 0.39
+iter: 10
+cand: [1, 2, 3, 4]
+expl: [1, 2, 3, 4]
+  expltime: 0.40
+iter: 11
+cand: [1, 3, 4, 9]
+expl: [1, 3, 4, 10]
+  expltime: 0.41
+iter: 12
+cand: [1, 3, 4, 8]
+expl: [1, 3, 4, 9]
+  expltime: 0.42
+iter: 13
+cand: [1, 2, 3, 8]
+expl: [1, 2, 3, 9]
+  expltime: 0.43
+iter: 14
+cand: [1, 3, 8, 9]
+expl: [1, 3, 9, 10]
+  expltime: 0.43
+iter: 15
+cand: None
+  prediciton: 1
+  explanation: "IF Number_of_Priors != 5 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.24
+  explanation: "IF Age_Below_TwentyFive != 1 AND Asian != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.34
+  explanation: "IF score_factor != 1 AND Asian != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.35
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Age_Below_TwentyFive != 1 AND African_American != 0 THEN NOT 1"
+  explanation size: 4
+  expl time: 0.40
+  explanation: "IF score_factor != 1 AND Age_Below_TwentyFive != 1 AND African_American != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 4
+  expl time: 0.41
+  explanation: "IF score_factor != 1 AND Age_Below_TwentyFive != 1 AND African_American != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 4
+  expl time: 0.42
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Age_Below_TwentyFive != 1 AND Female != 0 THEN NOT 1"
+  explanation size: 4
+  expl time: 0.43
+  explanation: "IF score_factor != 1 AND Age_Below_TwentyFive != 1 AND Female != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 4
+  expl time: 0.43
+  dual explanation: "IF Number_of_Priors == 5 AND African_American == 0 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 5 AND Age_Below_TwentyFive == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 5 AND score_factor == 1 AND Age_Below_TwentyFive == 1 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 5 AND Age_Above_FourtyFive == 0 AND African_American == 0 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 5 AND score_factor == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 5 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 5
+  calls: 11
+  rtime: 0.43
+
+inst: 33
+  explaining:  "IF Number_of_Priors == 7 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 1 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 9]
+coex: [0, 2, 4, 5, 10]
+  coextime: 0.10
+iter: 2
+cand: [9]
+core: [0, 1, 2, 3, 4, 5]
+coex: [0, 1, 3, 5]
+  coextime: 0.16
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.16
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.17
+iter: 5
+cand: [2, 3]
+core: [0, 1, 4, 5, 9]
+coex: [0, 1, 5, 10]
+  coextime: 0.22
+iter: 6
+cand: [3, 9]
+core: [0, 1, 2, 4, 5]
+coex: [0, 1, 2, 5]
+  coextime: 0.26
+iter: 7
+cand: [1, 9]
+expl: [1, 10]
+  expltime: 0.26
+iter: 8
+cand: [1, 4]
+expl: [1, 4]
+  expltime: 0.28
+iter: 9
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.28
+iter: 10
+cand: [2, 3, 9]
+expl: [2, 3, 10]
+  expltime: 0.29
+iter: 11
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.16
+  explanation: "IF Number_of_Priors != 7 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF score_factor != 1 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.26
+  explanation: "IF score_factor != 1 AND African_American != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.28
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.28
+  explanation: "IF Age_Above_FourtyFive != 0 AND Age_Below_TwentyFive != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.29
+  dual explanation: "IF Number_of_Priors == 7 AND Age_Above_FourtyFive == 0 AND African_American == 0 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 7 AND score_factor == 1 AND Age_Below_TwentyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 7 AND score_factor == 1 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 7 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 4
+  calls: 10
+  rtime: 0.29
+
+inst: 34
+  explaining:  "IF Number_of_Priors == 1 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 1 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 7, 8, 9]
+coex: [0, 3, 5]
+  coextime: 0.12
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.12
+iter: 3
+cand: [3]
+expl: [3]
+  expltime: 0.13
+iter: 4
+cand: [5]
+core: [0, 1, 2, 3, 4, 7, 9]
+coex: [0, 2, 3]
+  coextime: 0.19
+iter: 5
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.20
+iter: 6
+cand: None
+  prediciton: 0
+  explanation: "IF Number_of_Priors != 1 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF Age_Below_TwentyFive != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF Age_Above_FourtyFive != 0 AND Asian != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.20
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Below_TwentyFive == 0 AND Asian == 0 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 THEN 0"
+  dual explanation size: 3
+  calls: 9
+  rtime: 0.20
+
+inst: 35
+  explaining:  "IF Number_of_Priors == 15 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 4, 5, 7, 8]
+coex: [0, 5, 9]
+  coextime: 0.12
+iter: 2
+cand: [8]
+core: [0, 1, 2, 4, 5, 7]
+coex: [0, 5, 8]
+  coextime: 0.19
+iter: 3
+cand: [5]
+core: [0, 1, 2, 4, 7]
+coex: [0, 1, 4, 8]
+  coextime: 0.23
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.25
+iter: 5
+cand: [5, 7]
+core: [0, 1, 2, 4, 9]
+coex: [0, 1, 4, 10]
+  coextime: 0.30
+iter: 6
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.30
+iter: 7
+cand: [4, 5]
+expl: [4, 5]
+  expltime: 0.31
+iter: 8
+cand: [4, 7, 8]
+core: [0, 1, 2, 5, 9]
+coex: [0, 5, 10]
+  coextime: 0.35
+iter: 9
+cand: [7, 8, 9]
+core: [0, 1, 2, 4, 5]
+coex: [0, 2, 5]
+  coextime: 0.40
+iter: 10
+cand: [5, 7, 9]
+expl: [5, 8, 10]
+  expltime: 0.41
+iter: 11
+cand: [2, 7, 8, 9]
+core: [0, 1, 4, 5]
+coex: [0, 1, 5]
+  coextime: 0.45
+iter: 12
+cand: [1, 2, 7, 8, 9]
+expl: [1, 2, 8, 9, 10]
+  expltime: 0.46
+iter: 13
+cand: None
+  prediciton: 1
+  explanation: "IF Number_of_Priors != 15 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.25
+  explanation: "IF score_factor != 1 AND Asian != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.30
+  explanation: "IF African_American != 1 AND Asian != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.31
+  explanation: "IF Asian != 0 AND Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.41
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Other != 0 AND Female != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 5
+  expl time: 0.46
+  dual explanation: "IF Number_of_Priors == 15 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 15 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 15 AND score_factor == 1 AND African_American == 1 AND Other == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 15 AND score_factor == 1 AND African_American == 1 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 15 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 15 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 15 AND score_factor == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  calls: 6
+  rtime: 0.46
+
+inst: 36
+  explaining:  "IF Number_of_Priors == 11 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 5, 7, 8]
+coex: [0, 5, 9]
+  coextime: 0.11
+iter: 2
+cand: [8]
+core: [0, 1, 2, 5, 7]
+coex: [0, 2, 5]
+  coextime: 0.16
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.16
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.18
+iter: 5
+cand: [2, 8]
+core: [0, 1, 5, 7]
+coex: [0, 1, 5]
+  coextime: 0.22
+iter: 6
+cand: [1, 2, 8]
+expl: [1, 2, 9]
+  expltime: 0.23
+iter: 7
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.16
+  explanation: "IF Number_of_Priors != 11 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.23
+  dual explanation: "IF Number_of_Priors == 11 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 11 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 11 AND score_factor == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  calls: 6
+  rtime: 0.23
+
+inst: 37
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8, 9]
+coex: [0, 1]
+  coextime: 0.14
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.14
+
+inst: 38
+  explaining:  "IF Number_of_Priors == 11 AND score_factor == 1 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 5, 7, 8, 9]
+coex: [0, 5, 9]
+  coextime: 0.11
+iter: 2
+cand: [8]
+core: [0, 1, 5, 7, 9]
+coex: [0, 1, 5]
+  coextime: 0.16
+iter: 3
+cand: [5]
+core: [0, 1, 2, 7, 8, 9]
+coex: [0, 2, 9, 10]
+  coextime: 0.22
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.22
+iter: 5
+cand: [1, 8]
+expl: [1, 9]
+  expltime: 0.23
+iter: 6
+cand: [5, 8]
+core: [0, 1, 2, 7, 9]
+coex: [0, 1, 2]
+  coextime: 0.28
+iter: 7
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.29
+iter: 8
+cand: [1, 5, 9]
+core: [0, 2, 7, 8]
+coex: [0, 2, 8, 9]
+  coextime: 0.33
+iter: 9
+cand: [1, 5, 7, 9]
+expl: [1, 5, 8, 10]
+  expltime: 0.34
+iter: 10
+cand: None
+  prediciton: 1
+  explanation: "IF Number_of_Priors != 11 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.22
+  explanation: "IF score_factor != 1 AND Female != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.23
+  explanation: "IF Age_Above_FourtyFive != 1 AND Asian != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.29
+  explanation: "IF score_factor != 1 AND Asian != 0 AND Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 4
+  expl time: 0.34
+  dual explanation: "IF Number_of_Priors == 11 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 11 AND score_factor == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 11 AND Age_Above_FourtyFive == 1 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 11 AND score_factor == 1 AND Age_Above_FourtyFive == 1 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 11 AND Age_Above_FourtyFive == 1 AND Other == 0 AND Female == 0 THEN 1"
+  dual explanation size: 4
+  calls: 6
+  rtime: 0.34
+
+inst: 39
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 8]
+coex: [0, 2]
+  coextime: 0.12
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.13
+iter: 3
+cand: [2]
+core: [0, 1, 3, 4, 5, 8]
+coex: [0, 1]
+  coextime: 0.18
+iter: 4
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.19
+iter: 5
+cand: None
+  prediciton: 0
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 1 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.19
+  dual explanation: "IF Number_of_Priors == 0 AND Age_Above_FourtyFive == 1 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.19
+
+inst: 40
+  explaining:  "IF Number_of_Priors == 13 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 4, 5, 7, 8, 9]
+coex: [0, 5, 9]
+  coextime: 0.12
+iter: 2
+cand: [8]
+core: [0, 2, 4, 5, 7, 9]
+coex: [0, 4, 5, 10]
+  coextime: 0.17
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.17
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.19
+iter: 5
+cand: [8, 9]
+core: [0, 2, 4, 5, 7]
+coex: [0, 4, 5, 8]
+  coextime: 0.23
+iter: 6
+cand: [4, 8]
+core: [0, 2, 5, 7, 9]
+coex: [0, 2, 5]
+  coextime: 0.28
+iter: 7
+cand: [2, 4, 8]
+expl: [2, 4, 9]
+  expltime: 0.29
+iter: 8
+cand: [2, 7, 8, 9]
+expl: [2, 8, 9, 10]
+  expltime: 0.30
+iter: 9
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF Number_of_Priors != 13 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF Age_Above_FourtyFive != 0 AND African_American != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.29
+  explanation: "IF Age_Above_FourtyFive != 0 AND Other != 0 AND Female != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 4
+  expl time: 0.30
+  dual explanation: "IF Number_of_Priors == 13 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 13 AND African_American == 0 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 13 AND African_American == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 13 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  calls: 8
+  rtime: 0.30
+
+inst: 41
+  explaining:  "IF Number_of_Priors == 1 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 7]
+coex: [0, 3, 5]
+  coextime: 0.10
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.11
+iter: 3
+cand: [3]
+core: [0, 1, 2, 4, 5, 7]
+coex: [0, 1]
+  coextime: 0.16
+iter: 4
+cand: [1, 3]
+expl: [1, 3]
+  expltime: 0.17
+iter: 5
+cand: [1, 5]
+core: [0, 2, 3, 4, 7]
+coex: [0, 2, 3]
+  coextime: 0.22
+iter: 6
+cand: [1, 2, 5]
+expl: [1, 2, 5]
+  expltime: 0.22
+iter: 7
+cand: None
+  prediciton: 0
+  explanation: "IF Number_of_Priors != 1 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF score_factor != 0 AND Age_Below_TwentyFive != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.17
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 0 AND Asian != 0 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.22
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Below_TwentyFive == 0 AND Asian == 0 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 1 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 THEN 0"
+  dual explanation size: 3
+  calls: 7
+  rtime: 0.22
+
+inst: 42
+  explaining:  "IF Number_of_Priors == 1 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 7]
+coex: [0, 3, 5]
+  coextime: 0.10
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.10
+iter: 3
+cand: [3]
+expl: [3]
+  expltime: 0.11
+iter: 4
+cand: [5]
+core: [0, 1, 2, 3, 4, 7]
+coex: [0, 2, 3]
+  coextime: 0.17
+iter: 5
+cand: [2, 5]
+expl: [2, 5]
+  expltime: 0.17
+iter: 6
+cand: None
+  prediciton: 0
+  explanation: "IF Number_of_Priors != 1 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF Age_Below_TwentyFive != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF Age_Above_FourtyFive != 0 AND Asian != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.17
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Below_TwentyFive == 0 AND Asian == 0 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 THEN 0"
+  dual explanation size: 3
+  calls: 8
+  rtime: 0.17
+
+inst: 43
+  explaining:  "IF Number_of_Priors == 4 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 1 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 7, 8, 9]
+coex: [0, 2, 5, 10]
+  coextime: 0.15
+iter: 2
+cand: [9]
+core: [0, 1, 2, 3, 4, 5, 7, 8]
+coex: [0, 2, 5, 9]
+  coextime: 0.23
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.24
+iter: 4
+cand: [5]
+expl: [5]
+  expltime: 0.24
+iter: 5
+cand: [0]
+expl: [0]
+  expltime: 0.27
+iter: 6
+cand: [8, 9]
+expl: [9, 10]
+  expltime: 0.28
+iter: 7
+cand: None
+  prediciton: 1
+  explanation: "IF Age_Above_FourtyFive != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.24
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.24
+  explanation: "IF Number_of_Priors != 4 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.27
+  explanation: "IF Female != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.28
+  dual explanation: "IF Number_of_Priors == 4 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 4 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 4
+  calls: 13
+  rtime: 0.28
+
+inst: 44
+  explaining:  "IF Number_of_Priors == 8 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 4, 5, 7, 8]
+coex: [0, 5, 9]
+  coextime: 0.13
+iter: 2
+cand: [8]
+core: [0, 1, 2, 5, 7]
+coex: [0, 2, 5]
+  coextime: 0.17
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.18
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.20
+iter: 5
+cand: [2, 8]
+core: [0, 1, 4, 5, 7]
+coex: [0, 4, 5, 8]
+  coextime: 0.24
+iter: 6
+cand: [2, 7, 8]
+core: [0, 1, 4, 5]
+coex: [0, 1, 5]
+  coextime: 0.28
+iter: 7
+cand: [1, 2, 7, 8]
+expl: [1, 2, 8, 9]
+  expltime: 0.29
+iter: 8
+cand: [1, 2, 4, 8]
+expl: [1, 2, 4, 9]
+  expltime: 0.30
+iter: 9
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF Number_of_Priors != 8 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.20
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Other != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 4
+  expl time: 0.29
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND African_American != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 4
+  expl time: 0.30
+  dual explanation: "IF Number_of_Priors == 8 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 8 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 8 AND African_American == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 8 AND score_factor == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  calls: 7
+  rtime: 0.30
+
+inst: 45
+  explaining:  "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 1 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.05
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8]
+coex: [0, 1, 2, 9]
+  coextime: 0.11
+iter: 4
+cand: [8]
+core: [0, 1, 2, 3, 4]
+coex: [0, 1, 2, 3]
+  coextime: 0.16
+iter: 5
+cand: [2]
+expl: [2]
+  expltime: 0.17
+iter: 6
+cand: [3, 8]
+core: [0, 1, 2, 4, 9]
+coex: [0, 1, 2, 4, 10]
+  coextime: 0.21
+iter: 7
+cand: [3, 8, 9]
+expl: [3, 9, 10]
+  expltime: 0.21
+iter: 8
+cand: [3, 4, 8]
+core: [0, 1, 2, 6, 9]
+coex: [0, 1, 2, 6, 10]
+  coextime: 0.25
+iter: 9
+cand: [3, 4, 6, 8]
+expl: [3, 4, 6, 9]
+  expltime: 0.26
+iter: 10
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 2 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Age_Above_FourtyFive != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF Age_Below_TwentyFive != 0 AND Female != 1 AND Misdemeanor != 0 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.21
+  explanation: "IF Age_Below_TwentyFive != 0 AND African_American != 1 AND Hispanic != 0 AND Female != 1 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.26
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Female == 1 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND African_American == 1 AND Misdemeanor == 0 THEN 0"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Hispanic == 0 AND Misdemeanor == 0 THEN 0"
+  dual explanation size: 5
+  calls: 7
+  rtime: 0.26
+
+inst: 46
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 1 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 8, 9]
+coex: [0, 3, 4, 9, 10]
+  coextime: 0.19
+iter: 2
+cand: [8]
+core: [0, 1, 2, 3, 4, 5]
+coex: [0, 2]
+  coextime: 0.26
+iter: 3
+cand: [0]
+expl: [0]
+  expltime: 0.26
+iter: 4
+cand: [2, 3]
+core: [0, 1, 4, 5, 8]
+coex: [0, 1]
+  coextime: 0.31
+iter: 5
+cand: [1, 2, 8]
+expl: [1, 2, 9]
+  expltime: 0.31
+iter: 6
+cand: [1, 2, 9]
+expl: [1, 2, 10]
+  expltime: 0.32
+iter: 7
+cand: [1, 2, 3]
+expl: [1, 2, 3]
+  expltime: 0.33
+iter: 8
+cand: [1, 2, 4]
+expl: [1, 2, 4]
+  expltime: 0.34
+iter: 9
+cand: None
+  prediciton: 0
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.26
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 1 AND Female != 1 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.31
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 1 AND Misdemeanor != 0 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.32
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 1 AND Age_Below_TwentyFive != 0 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.33
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 1 AND African_American != 1 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.34
+  dual explanation: "IF Number_of_Priors == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Female == 1 AND Misdemeanor == 0 THEN 0"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 0 AND Age_Above_FourtyFive == 1 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 10
+  rtime: 0.34
+
+inst: 47
+  explaining:  "IF Number_of_Priors == 1 AND score_factor == 0 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 7, 9]
+coex: [0, 4, 5, 10]
+  coextime: 0.11
+iter: 2
+cand: [9]
+core: [0, 1, 2, 4, 5, 7]
+coex: [0, 2, 5]
+  coextime: 0.16
+iter: 3
+cand: [5]
+core: [0, 1, 2, 4, 7, 9]
+coex: [0, 1]
+  coextime: 0.23
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.23
+iter: 5
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.24
+iter: 6
+cand: [1, 2, 9]
+core: [0, 3, 4, 5, 7]
+coex: [0, 3, 5]
+  coextime: 0.29
+iter: 7
+cand: [1, 2, 3, 9]
+expl: [1, 2, 3, 10]
+  expltime: 0.30
+iter: 8
+cand: [1, 2, 3, 4]
+expl: [1, 2, 3, 4]
+  expltime: 0.32
+iter: 9
+cand: None
+  prediciton: 0
+  explanation: "IF Number_of_Priors != 1 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.23
+  explanation: "IF score_factor != 0 AND Asian != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.24
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 1 AND Age_Below_TwentyFive != 0 AND Misdemeanor != 1 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.30
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 1 AND Age_Below_TwentyFive != 0 AND African_American != 0 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.32
+  dual explanation: "IF Number_of_Priors == 1 AND African_American == 0 AND Asian == 0 AND Misdemeanor == 1 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Above_FourtyFive == 1 AND Asian == 0 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 1 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Below_TwentyFive == 0 AND Asian == 0 THEN 0"
+  dual explanation size: 3
+  calls: 8
+  rtime: 0.32
+
+inst: 48
+  explaining:  "IF Number_of_Priors == 3 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 1 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 6, 7, 8, 9]
+coex: [0, 4, 5, 6, 8, 9]
+  coextime: 0.15
+iter: 2
+cand: [8]
+expl: [9]
+  expltime: 0.16
+iter: 3
+cand: [7]
+expl: [8]
+  expltime: 0.17
+iter: 4
+cand: [5]
+expl: [5]
+  expltime: 0.18
+iter: 5
+cand: [4]
+core: [0, 1, 2, 5, 6, 7, 8, 9]
+coex: [0, 2, 5, 6, 8, 9]
+  coextime: 0.25
+iter: 6
+cand: [0]
+expl: [0]
+  expltime: 0.28
+iter: 7
+cand: [6]
+core: [0, 1, 2, 3, 4, 5, 7, 8, 9]
+coex: [0, 2, 4, 5, 8, 9, 10]
+  coextime: 0.37
+iter: 8
+cand: [6, 9]
+expl: [6, 10]
+  expltime: 0.37
+iter: 9
+cand: [2, 6]
+expl: [2, 6]
+  expltime: 0.38
+iter: 10
+cand: [4, 6]
+expl: [4, 6]
+  expltime: 0.38
+iter: 11
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.39
+iter: 12
+cand: None
+  prediciton: 1
+  explanation: "IF Female != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.16
+  explanation: "IF Other != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF Number_of_Priors != 3 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.28
+  explanation: "IF Hispanic != 1 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.37
+  explanation: "IF Age_Above_FourtyFive != 0 AND Hispanic != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.38
+  explanation: "IF African_American != 0 AND Hispanic != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.38
+  explanation: "IF Age_Above_FourtyFive != 0 AND African_American != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.39
+  dual explanation: "IF Number_of_Priors == 3 AND African_American == 0 AND Asian == 0 AND Hispanic == 1 AND Other == 0 AND Female == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 3 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Hispanic == 1 AND Other == 0 AND Female == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 3 AND Age_Above_FourtyFive == 0 AND African_American == 0 AND Asian == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 7
+  calls: 14
+  rtime: 0.39
+
+inst: 49
+  explaining:  "IF Number_of_Priors == 6 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 5, 7, 8, 9]
+coex: [0, 5, 9]
+  coextime: 0.13
+iter: 2
+cand: [8]
+core: [0, 2, 5, 7, 9]
+coex: [0, 2, 5]
+  coextime: 0.17
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.17
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.19
+iter: 5
+cand: [2, 8]
+expl: [2, 9]
+  expltime: 0.20
+iter: 6
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF Number_of_Priors != 6 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF Age_Above_FourtyFive != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.20
+  dual explanation: "IF Number_of_Priors == 6 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 6 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  calls: 9
+  rtime: 0.20
+
+inst: 50
+  explaining:  "IF Number_of_Priors == 4 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 5, 7, 8]
+coex: [0, 2, 5, 9]
+  coextime: 0.15
+iter: 2
+cand: [8]
+core: [0, 1, 2, 3, 5, 7]
+coex: [0, 2, 3, 5]
+  coextime: 0.22
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.22
+iter: 4
+cand: [2]
+expl: [2]
+  expltime: 0.23
+iter: 5
+cand: [0]
+core: [1, 2, 3, 4, 5, 7, 8, 9]
+coex: [1, 2, 3, 4, 5, 8, 10]
+  coextime: 0.47
+iter: 6
+cand: [0, 1]
+expl: [0, 1]
+  expltime: 0.50
+iter: 7
+cand: [0, 7]
+expl: [0, 8]
+  expltime: 0.50
+iter: 8
+cand: [0, 9]
+expl: [0, 10]
+  expltime: 0.54
+iter: 9
+cand: [0, 4]
+expl: [0, 4]
+  expltime: 0.57
+iter: 10
+cand: [0, 3]
+expl: [0, 3]
+  expltime: 0.59
+iter: 11
+cand: [3, 8]
+core: [0, 1, 2, 5, 7, 9]
+coex: [0, 1, 2, 5]
+  coextime: 0.65
+iter: 12
+cand: [1, 3, 8]
+expl: [1, 3, 9]
+  expltime: 0.65
+iter: 13
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.22
+  explanation: "IF Age_Above_FourtyFive != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.23
+  explanation: "IF Number_of_Priors != 4 AND score_factor != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.50
+  explanation: "IF Number_of_Priors != 4 AND Other != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.50
+  explanation: "IF Number_of_Priors != 4 AND Misdemeanor != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.54
+  explanation: "IF Number_of_Priors != 4 AND African_American != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.57
+  explanation: "IF Number_of_Priors != 4 AND Age_Below_TwentyFive != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.59
+  explanation: "IF score_factor != 1 AND Age_Below_TwentyFive != 1 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.65
+  dual explanation: "IF Number_of_Priors == 4 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 4 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 1 AND Asian == 0 AND Other == 0 AND Misdemeanor == 1 THEN 1"
+  dual explanation size: 7
+  dual explanation: "IF Number_of_Priors == 4 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 4
+  calls: 8
+  rtime: 0.65
+
+inst: 51
+  explaining:  "IF Number_of_Priors == 5 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 7, 8, 9]
+coex: [0, 4, 5, 9]
+  coextime: 0.14
+iter: 2
+cand: [8]
+core: [0, 2, 3, 4, 5, 7, 9]
+coex: [0, 2, 4, 5, 10]
+  coextime: 0.20
+iter: 3
+cand: [4]
+core: [0, 1, 2, 5, 7, 8, 9]
+coex: [0, 2, 5, 9, 10]
+  coextime: 0.28
+iter: 4
+cand: [5]
+expl: [5]
+  expltime: 0.28
+iter: 5
+cand: [0]
+expl: [0]
+  expltime: 0.30
+iter: 6
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.31
+iter: 7
+cand: [4, 9]
+core: [0, 1, 2, 5, 7, 8]
+coex: [0, 2, 5, 8, 9]
+  coextime: 0.37
+iter: 8
+cand: [4, 8]
+expl: [4, 9]
+  expltime: 0.37
+iter: 9
+cand: [2, 8]
+expl: [2, 9]
+  expltime: 0.38
+iter: 10
+cand: [8, 9]
+core: [0, 2, 3, 4, 5, 7]
+coex: [0, 2, 4, 5, 8]
+  coextime: 0.43
+iter: 11
+cand: [7, 8, 9]
+expl: [8, 9, 10]
+  expltime: 0.44
+iter: 12
+cand: [4, 7, 9]
+expl: [4, 8, 10]
+  expltime: 0.45
+iter: 13
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.28
+  explanation: "IF Number_of_Priors != 5 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.30
+  explanation: "IF Age_Above_FourtyFive != 0 AND African_American != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.31
+  explanation: "IF African_American != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.37
+  explanation: "IF Age_Above_FourtyFive != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.38
+  explanation: "IF Other != 0 AND Female != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.44
+  explanation: "IF African_American != 0 AND Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.45
+  dual explanation: "IF Number_of_Priors == 5 AND African_American == 0 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 5 AND Age_Above_FourtyFive == 0 AND African_American == 0 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 5 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 5 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 AND Female == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 5 AND Age_Above_FourtyFive == 0 AND African_American == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  calls: 9
+  rtime: 0.45
+
+inst: 52
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.05
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8, 9]
+coex: [0, 1]
+  coextime: 0.13
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.13
+
+inst: 53
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.09
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8, 9]
+coex: [0, 1, 2, 5, 9, 10]
+  coextime: 0.17
+iter: 4
+cand: [9]
+core: [0, 1, 2, 3, 4, 5, 7, 8]
+coex: [0, 1, 2, 5, 8, 9]
+  coextime: 0.27
+iter: 5
+cand: [8]
+core: [0, 1, 2, 3, 4, 5, 7, 9]
+coex: [0, 1, 2, 3, 5, 10]
+  coextime: 0.37
+iter: 6
+cand: [2]
+expl: [2]
+  expltime: 0.37
+iter: 7
+cand: [5]
+expl: [5]
+  expltime: 0.38
+iter: 8
+cand: [8, 9]
+core: [0, 1, 2, 3, 4, 5, 7]
+coex: [0, 1, 2, 3, 5, 8]
+  coextime: 0.47
+iter: 9
+cand: [7, 9]
+expl: [8, 10]
+  expltime: 0.48
+iter: 10
+cand: [3, 8]
+expl: [3, 9]
+  expltime: 0.49
+iter: 11
+cand: None
+  prediciton: 1
+  explanation: "IF score_factor != 1 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF Number_of_Priors != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.09
+  explanation: "IF Age_Above_FourtyFive != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.37
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.38
+  explanation: "IF Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.48
+  explanation: "IF Age_Below_TwentyFive != 1 AND Female != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.49
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 AND Female == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 6
+  calls: 10
+  rtime: 0.49
+
+inst: 54
+  explaining:  "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.05
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 6, 9]
+coex: [0, 1, 4, 6]
+  coextime: 0.12
+iter: 4
+cand: [6]
+core: [0, 1, 2, 3, 4, 9]
+coex: [0, 1, 3, 4]
+  coextime: 0.18
+iter: 5
+cand: [4]
+core: [0, 1, 2, 3, 6, 9]
+coex: [0, 1, 2, 3]
+  coextime: 0.24
+iter: 6
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.24
+iter: 7
+cand: [3, 4]
+expl: [3, 4]
+  expltime: 0.25
+iter: 8
+cand: [3, 6]
+expl: [3, 6]
+  expltime: 0.25
+iter: 9
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 2 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Age_Above_FourtyFive != 0 AND African_American != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.24
+  explanation: "IF Age_Below_TwentyFive != 0 AND African_American != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.25
+  explanation: "IF Age_Below_TwentyFive != 0 AND Hispanic != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.25
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 0 AND African_American == 0 AND Hispanic == 0 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 THEN 0"
+  dual explanation size: 4
+  calls: 10
+  rtime: 0.25
+
+inst: 55
+  explaining:  "IF Number_of_Priors == 1 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 1 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 7]
+coex: [0, 8]
+  coextime: 0.08
+iter: 2
+cand: [7]
+core: [0, 1, 2, 4, 5]
+coex: [0, 1]
+  coextime: 0.14
+iter: 3
+cand: [0]
+expl: [0]
+  expltime: 0.14
+iter: 4
+cand: [1, 7]
+core: [0, 2, 3, 4, 5]
+coex: [0, 3, 5]
+  coextime: 0.19
+iter: 5
+cand: [1, 5, 7]
+core: [0, 2, 3, 4]
+coex: [0, 2, 3]
+  coextime: 0.23
+iter: 6
+cand: [1, 3, 7]
+expl: [1, 3, 8]
+  expltime: 0.24
+iter: 7
+cand: [1, 2, 5, 7]
+expl: [1, 2, 5, 8]
+  expltime: 0.24
+iter: 8
+cand: None
+  prediciton: 0
+  explanation: "IF Number_of_Priors != 1 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.14
+  explanation: "IF score_factor != 0 AND Age_Below_TwentyFive != 0 AND Other != 1 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.24
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 0 AND Asian != 0 AND Other != 1 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.24
+  dual explanation: "IF Number_of_Priors == 1 AND Other == 1 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF Number_of_Priors == 1 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Below_TwentyFive == 0 AND Asian == 0 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 THEN 0"
+  dual explanation size: 3
+  calls: 7
+  rtime: 0.24
+
+inst: 56
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8, 9]
+coex: [0, 1]
+  coextime: 0.14
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.14
+
+inst: 57
+  explaining:  "IF Number_of_Priors == 12 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 5, 7, 8, 9]
+coex: [0, 5, 9, 10]
+  coextime: 0.14
+iter: 2
+cand: [8]
+core: [0, 1, 2, 5, 7, 9]
+coex: [0, 2, 5, 10]
+  coextime: 0.20
+iter: 3
+cand: [9]
+core: [0, 1, 2, 5, 7]
+coex: [0, 2, 5, 8]
+  coextime: 0.24
+iter: 4
+cand: [5]
+expl: [5]
+  expltime: 0.25
+iter: 5
+cand: [0]
+expl: [0]
+  expltime: 0.27
+iter: 6
+cand: [2, 8]
+core: [0, 1, 5, 7, 9]
+coex: [0, 1, 5, 10]
+  coextime: 0.31
+iter: 7
+cand: [7, 9]
+core: [0, 1, 2, 5]
+coex: [0, 1, 2, 5]
+  coextime: 0.35
+iter: 8
+cand: [2, 9]
+core: [0, 1, 5, 7]
+coex: [0, 1, 5, 8]
+  coextime: 0.39
+iter: 9
+cand: [1, 2, 9]
+core: [0, 5, 7, 8]
+coex: [0, 5, 8, 9]
+  coextime: 0.43
+iter: 10
+cand: [1, 2, 8]
+expl: [1, 2, 9]
+  expltime: 0.43
+iter: 11
+cand: [2, 7, 9]
+expl: [2, 8, 10]
+  expltime: 0.44
+iter: 12
+cand: [1, 7, 9]
+core: [0, 2, 5, 8]
+coex: [0, 2, 5, 9]
+  coextime: 0.49
+iter: 13
+cand: [1, 7, 8, 9]
+expl: [1, 8, 9, 10]
+  expltime: 0.49
+iter: 14
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.25
+  explanation: "IF Number_of_Priors != 12 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.27
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.43
+  explanation: "IF Age_Above_FourtyFive != 0 AND Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.44
+  explanation: "IF score_factor != 1 AND Other != 0 AND Female != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 4
+  expl time: 0.49
+  dual explanation: "IF Number_of_Priors == 12 AND Asian == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 12 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 12 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 12 AND score_factor == 1 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 12 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 12 AND score_factor == 1 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 12 AND Asian == 0 AND Other == 0 AND Female == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 12 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 4
+  calls: 6
+  rtime: 0.49
+
+inst: 58
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 1 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 1"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.07
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.09
+iter: 3
+cand: [7]
+expl: [8]
+  expltime: 0.10
+iter: 4
+cand: [6]
+core: [0, 1, 2, 3, 4, 5, 7, 8]
+coex: [0, 1, 2, 5, 8, 9]
+  coextime: 0.19
+iter: 5
+cand: [8]
+core: [0, 1, 2, 3, 4, 5, 7]
+coex: [0, 1, 2, 4, 5, 8]
+  coextime: 0.26
+iter: 6
+cand: [2]
+expl: [2]
+  expltime: 0.26
+iter: 7
+cand: [5]
+expl: [5]
+  expltime: 0.27
+iter: 8
+cand: [4, 8]
+core: [0, 1, 2, 3, 5, 7, 9]
+coex: [0, 1, 2, 5, 8, 10]
+  coextime: 0.33
+iter: 9
+cand: [4, 8, 9]
+expl: [4, 9, 10]
+  expltime: 0.34
+iter: 10
+cand: None
+  prediciton: 1
+  explanation: "IF score_factor != 1 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF Number_of_Priors != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.09
+  explanation: "IF Other != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF Age_Above_FourtyFive != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.26
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.27
+  explanation: "IF African_American != 0 AND Female != 0 AND Misdemeanor != 1 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.34
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 AND Female == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND African_American == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 AND Misdemeanor == 1 THEN 1"
+  dual explanation size: 6
+  calls: 9
+  rtime: 0.34
+
+inst: 59
+  explaining:  "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 5, 7, 8, 9]
+coex: [0, 3, 5, 8, 9]
+  coextime: 0.15
+iter: 2
+cand: [7]
+core: [0, 1, 2, 3, 5, 9]
+coex: [0, 1, 3, 5, 10]
+  coextime: 0.20
+iter: 3
+cand: [3]
+core: [0, 1, 2, 5, 7, 9]
+coex: [0, 1, 2, 5, 8]
+  coextime: 0.25
+iter: 4
+cand: [5]
+expl: [5]
+  expltime: 0.25
+iter: 5
+cand: [0]
+expl: [0]
+  expltime: 0.29
+iter: 6
+cand: [7, 9]
+core: [0, 1, 2, 3, 5]
+coex: [0, 1, 2, 3, 5]
+  coextime: 0.33
+iter: 7
+cand: [2, 3]
+expl: [2, 3]
+  expltime: 0.34
+iter: 8
+cand: [3, 7]
+expl: [3, 8]
+  expltime: 0.35
+iter: 9
+cand: [1, 3]
+expl: [1, 3]
+  expltime: 0.35
+iter: 10
+cand: [1, 8]
+core: [0, 2, 3, 5, 7, 9]
+coex: [0, 2, 3, 5, 8]
+  coextime: 0.41
+iter: 11
+cand: [1, 7]
+core: [0, 2, 3, 5, 8, 9]
+coex: [0, 2, 3, 5, 9, 10]
+  coextime: 0.46
+iter: 12
+cand: [1, 2, 7]
+expl: [1, 2, 8]
+  expltime: 0.46
+iter: 13
+cand: [1, 2, 8]
+expl: [1, 2, 9]
+  expltime: 0.47
+iter: 14
+cand: [1, 7, 9]
+expl: [1, 8, 10]
+  expltime: 0.48
+iter: 15
+cand: [1, 7, 8]
+expl: [1, 8, 9]
+  expltime: 0.48
+iter: 16
+cand: [2, 7, 9]
+expl: [2, 8, 10]
+  expltime: 0.49
+iter: 17
+cand: [2, 8, 9]
+core: [0, 1, 3, 5, 7]
+coex: [0, 1, 3, 5, 8]
+  coextime: 0.54
+iter: 18
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.25
+  explanation: "IF Number_of_Priors != 3 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.29
+  explanation: "IF Age_Above_FourtyFive != 0 AND Age_Below_TwentyFive != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.34
+  explanation: "IF Age_Below_TwentyFive != 1 AND Other != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.35
+  explanation: "IF score_factor != 1 AND Age_Below_TwentyFive != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.35
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Other != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.46
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.47
+  explanation: "IF score_factor != 1 AND Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.48
+  explanation: "IF score_factor != 1 AND Other != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.48
+  explanation: "IF Age_Above_FourtyFive != 0 AND Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.49
+  dual explanation: "IF Number_of_Priors == 3 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Other == 0 AND Female == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 3 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 3 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  calls: 6
+  rtime: 0.54
+
+inst: 60
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 1 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8]
+coex: [0, 1]
+  coextime: 0.12
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.12
+
+inst: 61
+  explaining:  "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 7, 8]
+coex: [0, 3, 5, 8, 9]
+  coextime: 0.14
+iter: 2
+cand: [7]
+core: [0, 1, 2, 3, 5]
+coex: [0, 1, 2, 3, 5]
+  coextime: 0.18
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.18
+iter: 4
+cand: [3]
+core: [0, 1, 2, 4, 5, 7]
+coex: [0, 1, 4, 5, 8]
+  coextime: 0.24
+iter: 5
+cand: [0]
+expl: [0]
+  expltime: 0.27
+iter: 6
+cand: [3, 7]
+expl: [3, 8]
+  expltime: 0.28
+iter: 7
+cand: [1, 3]
+expl: [1, 3]
+  expltime: 0.29
+iter: 8
+cand: [3, 4]
+core: [0, 1, 2, 5, 7, 9]
+coex: [0, 1, 2, 5, 8]
+  coextime: 0.34
+iter: 9
+cand: [2, 7]
+core: [0, 1, 3, 4, 5]
+coex: [0, 1, 3, 4, 5]
+  coextime: 0.38
+iter: 10
+cand: [1, 7]
+expl: [1, 8]
+  expltime: 0.39
+iter: 11
+cand: [1, 8]
+core: [0, 2, 3, 4, 5, 7]
+coex: [0, 2, 3, 5, 8]
+  coextime: 0.44
+iter: 12
+cand: [1, 2, 8]
+expl: [1, 2, 9]
+  expltime: 0.45
+iter: 13
+cand: [2, 4, 8]
+core: [0, 1, 3, 5, 7]
+coex: [0, 1, 3, 5, 8]
+  coextime: 0.49
+iter: 14
+cand: [2, 4, 7]
+expl: [2, 4, 8]
+  expltime: 0.49
+iter: 15
+cand: [2, 3, 4]
+expl: [2, 3, 4]
+  expltime: 0.50
+iter: 16
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.18
+  explanation: "IF Number_of_Priors != 3 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.27
+  explanation: "IF Age_Below_TwentyFive != 1 AND Other != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.28
+  explanation: "IF score_factor != 1 AND Age_Below_TwentyFive != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.29
+  explanation: "IF score_factor != 1 AND Other != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.39
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.45
+  explanation: "IF Age_Above_FourtyFive != 0 AND African_American != 0 AND Other != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.49
+  explanation: "IF Age_Above_FourtyFive != 0 AND Age_Below_TwentyFive != 1 AND African_American != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.50
+  dual explanation: "IF Number_of_Priors == 3 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Other == 0 AND Female == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND African_American == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Below_TwentyFive == 1 AND African_American == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 3 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  calls: 8
+  rtime: 0.50
+
+inst: 62
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 1 AND Native_American == 0 AND Other == 0 AND Female == 1 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.05
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8]
+coex: [0, 1]
+  coextime: 0.11
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.11
+
+inst: 63
+  explaining:  "IF Number_of_Priors == 4 AND score_factor == 0 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 7, 8]
+coex: [0, 2, 3, 5, 8, 9]
+  coextime: 0.09
+iter: 2
+cand: [7]
+expl: [8]
+  expltime: 0.10
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.10
+iter: 4
+cand: [5]
+core: [0, 1, 2, 3, 4, 7, 8]
+coex: [0, 1, 2, 3, 8]
+  coextime: 0.16
+iter: 5
+cand: [3]
+expl: [3]
+  expltime: 0.16
+iter: 6
+cand: [0]
+expl: [0]
+  expltime: 0.17
+iter: 7
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.17
+iter: 8
+cand: [1, 8]
+expl: [1, 9]
+  expltime: 0.18
+iter: 9
+cand: None
+  prediciton: 0
+  explanation: "IF Other != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF Age_Above_FourtyFive != 1 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF Age_Below_TwentyFive != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.16
+  explanation: "IF Number_of_Priors != 4 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.17
+  explanation: "IF score_factor != 0 AND Asian != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.17
+  explanation: "IF score_factor != 0 AND Female != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.18
+  dual explanation: "IF Number_of_Priors == 4 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND Asian == 0 AND Other == 0 AND Female == 0 THEN 0"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 4 AND score_factor == 0 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND Other == 0 THEN 0"
+  dual explanation size: 5
+  calls: 12
+  rtime: 0.18
+
+inst: 64
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8, 9]
+coex: [0, 1]
+  coextime: 0.14
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.14
+
+inst: 65
+  explaining:  "IF Number_of_Priors == 1 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.07
+iter: 2
+cand: [0]
+core: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+coex: [1, 2, 3, 4, 5, 8, 9, 10]
+  coextime: 0.30
+iter: 3
+cand: [9]
+expl: [10]
+  expltime: 0.30
+iter: 4
+cand: [8]
+expl: [9]
+  expltime: 0.31
+iter: 5
+cand: [2]
+expl: [2]
+  expltime: 0.31
+iter: 6
+cand: [3]
+expl: [3]
+  expltime: 0.32
+iter: 7
+cand: [4]
+expl: [4]
+  expltime: 0.33
+iter: 8
+cand: [5]
+expl: [5]
+  expltime: 0.34
+iter: 9
+cand: [7]
+expl: [8]
+  expltime: 0.34
+iter: 10
+cand: None
+  prediciton: 1
+  explanation: "IF score_factor != 1 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF Misdemeanor != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.30
+  explanation: "IF Female != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.31
+  explanation: "IF Age_Above_FourtyFive != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.31
+  explanation: "IF Age_Below_TwentyFive != 1 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.32
+  explanation: "IF African_American != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.33
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.34
+  explanation: "IF Other != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.34
+  dual explanation: "IF score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 0 AND Asian == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 8
+  calls: 17
+  rtime: 0.34
+
+inst: 66
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.10
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8, 9]
+coex: [0, 1, 2, 5, 9, 10]
+  coextime: 0.19
+iter: 4
+cand: [9]
+core: [0, 1, 2, 3, 4, 5, 7, 8]
+coex: [0, 1, 2, 5, 8, 9]
+  coextime: 0.32
+iter: 5
+cand: [8]
+core: [0, 1, 2, 3, 4, 5, 7]
+coex: [0, 1, 2, 3, 5, 8]
+  coextime: 0.43
+iter: 6
+cand: [2]
+expl: [2]
+  expltime: 0.44
+iter: 7
+cand: [5]
+expl: [5]
+  expltime: 0.44
+iter: 8
+cand: [3, 8]
+expl: [3, 9]
+  expltime: 0.45
+iter: 9
+cand: [7, 9]
+expl: [8, 10]
+  expltime: 0.46
+iter: 10
+cand: [7, 8]
+core: [0, 1, 2, 3, 4, 5, 9]
+coex: [0, 1, 2, 3, 5, 10]
+  coextime: 0.54
+iter: 11
+cand: None
+  prediciton: 1
+  explanation: "IF score_factor != 1 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF Number_of_Priors != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF Age_Above_FourtyFive != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.44
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.44
+  explanation: "IF Age_Below_TwentyFive != 1 AND Female != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.45
+  explanation: "IF Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.46
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 AND Female == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 6
+  calls: 8
+  rtime: 0.54
+
+inst: 67
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8]
+coex: [0, 1]
+  coextime: 0.13
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.13
+
+inst: 68
+  explaining:  "IF Number_of_Priors == 1 AND score_factor == 1 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 7, 8]
+coex: [0, 3, 5]
+  coextime: 0.11
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.11
+iter: 3
+cand: [3]
+core: [0, 1, 2, 4, 5, 7, 8]
+coex: [0, 2, 5]
+  coextime: 0.17
+iter: 4
+cand: [5]
+core: [0, 1, 2, 3, 4, 7, 8, 9]
+coex: [0, 3, 4, 9, 10]
+  coextime: 0.26
+iter: 5
+cand: [5, 8]
+expl: [5, 9]
+  expltime: 0.27
+iter: 6
+cand: [5, 9]
+expl: [5, 10]
+  expltime: 0.28
+iter: 7
+cand: [4, 5]
+expl: [4, 5]
+  expltime: 0.29
+iter: 8
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.29
+iter: 9
+cand: [2, 3]
+core: [0, 1, 4, 5, 7, 8, 9]
+coex: [0, 4, 5, 9, 10]
+  coextime: 0.36
+iter: 10
+cand: [2, 3, 8]
+expl: [2, 3, 9]
+  expltime: 0.37
+iter: 11
+cand: [2, 3, 9]
+expl: [2, 3, 10]
+  expltime: 0.38
+iter: 12
+cand: [2, 3, 4]
+expl: [2, 3, 4]
+  expltime: 0.38
+iter: 13
+cand: None
+  prediciton: 0
+  explanation: "IF Number_of_Priors != 1 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF Asian != 0 AND Female != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.27
+  explanation: "IF Asian != 0 AND Misdemeanor != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.28
+  explanation: "IF African_American != 1 AND Asian != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.29
+  explanation: "IF Age_Below_TwentyFive != 0 AND Asian != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.29
+  explanation: "IF Age_Above_FourtyFive != 1 AND Age_Below_TwentyFive != 0 AND Female != 0 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.37
+  explanation: "IF Age_Above_FourtyFive != 1 AND Age_Below_TwentyFive != 0 AND Misdemeanor != 0 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.38
+  explanation: "IF Age_Above_FourtyFive != 1 AND Age_Below_TwentyFive != 0 AND African_American != 1 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.38
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Below_TwentyFive == 0 AND Asian == 0 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Above_FourtyFive == 1 AND Asian == 0 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 1 AND African_American == 1 AND Asian == 0 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+  dual explanation size: 5
+  calls: 11
+  rtime: 0.38
+
+inst: 69
+  explaining:  "IF Number_of_Priors == 3 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.05
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 6, 9]
+coex: [0, 1, 3, 4, 6]
+  coextime: 0.11
+iter: 4
+cand: [6]
+expl: [6]
+  expltime: 0.12
+iter: 5
+cand: [3]
+expl: [3]
+  expltime: 0.12
+iter: 6
+cand: [4]
+expl: [4]
+  expltime: 0.13
+iter: 7
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 3 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Hispanic != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF Age_Below_TwentyFive != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF African_American != 1 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.13
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Hispanic == 0 THEN 0"
+  dual explanation size: 5
+  calls: 11
+  rtime: 0.13
+
+inst: 70
+  explaining:  "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 7, 8, 9]
+coex: [0, 3, 5, 8, 9]
+  coextime: 0.16
+iter: 2
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 9]
+coex: [0, 1, 3, 5, 10]
+  coextime: 0.22
+iter: 3
+cand: [3]
+core: [0, 1, 2, 4, 5, 7, 9]
+coex: [0, 1, 4, 5, 8]
+  coextime: 0.28
+iter: 4
+cand: [5]
+expl: [5]
+  expltime: 0.29
+iter: 5
+cand: [0]
+core: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+coex: [1, 2, 3, 4, 5, 8, 9, 10]
+  coextime: 0.52
+iter: 6
+cand: [0, 2]
+expl: [0, 2]
+  expltime: 0.54
+iter: 7
+cand: [0, 4]
+expl: [0, 4]
+  expltime: 0.57
+iter: 8
+cand: [0, 8]
+expl: [0, 9]
+  expltime: 0.58
+iter: 9
+cand: [0, 9]
+expl: [0, 10]
+  expltime: 0.61
+iter: 10
+cand: [3, 4]
+core: [0, 1, 2, 5, 7, 9]
+coex: [0, 1, 2, 5, 8]
+  coextime: 0.66
+iter: 11
+cand: [0, 3]
+expl: [0, 3]
+  expltime: 0.68
+iter: 12
+cand: [3, 7]
+core: [0, 1, 2, 4, 5, 9]
+coex: [0, 1, 2, 4, 5, 10]
+  coextime: 0.74
+iter: 13
+cand: [7, 9]
+core: [0, 1, 2, 3, 5]
+coex: [0, 1, 2, 3, 5]
+  coextime: 0.78
+iter: 14
+cand: [0, 7]
+expl: [0, 8]
+  expltime: 0.79
+iter: 15
+cand: [0, 1]
+expl: [0, 1]
+  expltime: 0.81
+iter: 16
+cand: [1, 8]
+core: [0, 2, 3, 4, 5, 7, 9]
+coex: [0, 2, 3, 5, 8]
+  coextime: 0.88
+iter: 17
+cand: [1, 7]
+core: [0, 2, 3, 4, 5, 8, 9]
+coex: [0, 2, 3, 5, 9, 10]
+  coextime: 0.94
+iter: 18
+cand: [1, 3]
+core: [0, 2, 4, 5, 7, 8, 9]
+coex: [0, 2, 4, 5, 8, 9, 10]
+  coextime: 1.02
+iter: 19
+cand: [1, 3, 4]
+expl: [1, 3, 4]
+  expltime: 1.03
+iter: 20
+cand: [1, 3, 8]
+expl: [1, 3, 9]
+  expltime: 1.03
+iter: 21
+cand: [1, 3, 9]
+expl: [1, 3, 10]
+  expltime: 1.04
+iter: 22
+cand: [1, 2, 3]
+expl: [1, 2, 3]
+  expltime: 1.05
+iter: 23
+cand: [1, 3, 7]
+expl: [1, 3, 8]
+  expltime: 1.06
+iter: 24
+cand: [1, 2, 8]
+expl: [1, 2, 9]
+  expltime: 1.07
+iter: 25
+cand: [1, 2, 7]
+expl: [1, 2, 8]
+  expltime: 1.07
+iter: 26
+cand: [1, 7, 9]
+expl: [1, 8, 10]
+  expltime: 1.08
+iter: 27
+cand: [1, 7, 8]
+expl: [1, 8, 9]
+  expltime: 1.09
+iter: 28
+cand: [2, 7, 9]
+core: [0, 1, 3, 4, 5]
+coex: [0, 1, 3, 4, 5]
+  coextime: 1.13
+iter: 29
+cand: [2, 3, 7]
+expl: [2, 3, 8]
+  expltime: 1.14
+iter: 30
+cand: [2, 3, 4]
+expl: [2, 3, 4]
+  expltime: 1.15
+iter: 31
+cand: [3, 7, 9]
+expl: [3, 8, 10]
+  expltime: 1.16
+iter: 32
+cand: [3, 4, 7]
+expl: [3, 4, 8]
+  expltime: 1.17
+iter: 33
+cand: [2, 4, 8, 9]
+core: [0, 1, 3, 5, 7]
+coex: [0, 1, 3, 5, 8]
+  coextime: 1.21
+iter: 34
+cand: [2, 4, 7, 9]
+expl: [2, 4, 8, 10]
+  expltime: 1.21
+iter: 35
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.29
+  explanation: "IF Number_of_Priors != 3 AND Age_Above_FourtyFive != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.54
+  explanation: "IF Number_of_Priors != 3 AND African_American != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.57
+  explanation: "IF Number_of_Priors != 3 AND Female != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.58
+  explanation: "IF Number_of_Priors != 3 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.61
+  explanation: "IF Number_of_Priors != 3 AND Age_Below_TwentyFive != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.68
+  explanation: "IF Number_of_Priors != 3 AND Other != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.79
+  explanation: "IF Number_of_Priors != 3 AND score_factor != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.81
+  explanation: "IF score_factor != 1 AND Age_Below_TwentyFive != 1 AND African_American != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 1.03
+  explanation: "IF score_factor != 1 AND Age_Below_TwentyFive != 1 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 1.03
+  explanation: "IF score_factor != 1 AND Age_Below_TwentyFive != 1 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 1.04
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Age_Below_TwentyFive != 1 THEN NOT 1"
+  explanation size: 3
+  expl time: 1.05
+  explanation: "IF score_factor != 1 AND Age_Below_TwentyFive != 1 AND Other != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 1.06
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 1.07
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Other != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 1.07
+  explanation: "IF score_factor != 1 AND Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 1.08
+  explanation: "IF score_factor != 1 AND Other != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 1.09
+  explanation: "IF Age_Above_FourtyFive != 0 AND Age_Below_TwentyFive != 1 AND Other != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 1.14
+  explanation: "IF Age_Above_FourtyFive != 0 AND Age_Below_TwentyFive != 1 AND African_American != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 1.15
+  explanation: "IF Age_Below_TwentyFive != 1 AND Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 1.16
+  explanation: "IF Age_Below_TwentyFive != 1 AND African_American != 0 AND Other != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 1.17
+  explanation: "IF Age_Above_FourtyFive != 0 AND African_American != 0 AND Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 4
+  expl time: 1.21
+  dual explanation: "IF Number_of_Priors == 3 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Other == 0 AND Female == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND African_American == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 0 AND Asian == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 8
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND African_American == 0 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 3 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 3 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 3 AND Age_Above_FourtyFive == 0 AND African_American == 0 AND Asian == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 7
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Below_TwentyFive == 1 AND African_American == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 1 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  calls: 7
+  rtime: 1.21
+
+inst: 71
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.05
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8]
+coex: [0, 1]
+  coextime: 0.13
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.13
+
+inst: 72
+  explaining:  "IF Number_of_Priors == 2 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.08
+iter: 3
+cand: [7]
+core: [0, 1, 2, 4, 5, 9]
+coex: [0, 1, 4, 5, 10]
+  coextime: 0.14
+iter: 4
+cand: [9]
+core: [0, 1, 2, 4, 5, 7]
+coex: [0, 1, 4, 5, 8]
+  coextime: 0.23
+iter: 5
+cand: [4]
+core: [0, 1, 2, 3, 5, 6, 7, 8, 9]
+coex: [0, 1, 2, 5, 10]
+  coextime: 0.34
+iter: 6
+cand: [5]
+expl: [5]
+  expltime: 0.35
+iter: 7
+cand: [7, 9]
+expl: [8, 10]
+  expltime: 0.36
+iter: 8
+cand: [2, 4]
+expl: [2, 4]
+  expltime: 0.37
+iter: 9
+cand: [4, 9]
+core: [0, 1, 2, 3, 5, 6, 7, 8]
+coex: [0, 1, 2, 5, 8]
+  coextime: 0.48
+iter: 10
+cand: None
+  prediciton: 1
+  explanation: "IF score_factor != 1 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF Number_of_Priors != 2 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.35
+  explanation: "IF Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.36
+  explanation: "IF Age_Above_FourtyFive != 0 AND African_American != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.37
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 1 AND African_American == 1 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 1 AND African_American == 1 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  calls: 9
+  rtime: 0.48
+
+inst: 73
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 1 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.07
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.07
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 9]
+coex: [0, 1, 2, 4, 5, 10]
+  coextime: 0.14
+iter: 4
+cand: [9]
+core: [0, 1, 2, 3, 4, 5, 7]
+coex: [0, 1, 2, 4, 5, 8]
+  coextime: 0.22
+iter: 5
+cand: [4]
+core: [0, 1, 2, 3, 5, 7, 9]
+coex: [0, 1, 2, 3, 5, 10]
+  coextime: 0.28
+iter: 6
+cand: [5]
+expl: [5]
+  expltime: 0.28
+iter: 7
+cand: [2]
+expl: [2]
+  expltime: 0.29
+iter: 8
+cand: [3, 4]
+expl: [3, 4]
+  expltime: 0.30
+iter: 9
+cand: [4, 9]
+core: [0, 1, 2, 3, 5, 7]
+coex: [0, 1, 2, 3, 5, 8]
+  coextime: 0.38
+iter: 10
+cand: [7, 9]
+expl: [8, 10]
+  expltime: 0.38
+iter: 11
+cand: None
+  prediciton: 1
+  explanation: "IF score_factor != 1 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF Number_of_Priors != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.28
+  explanation: "IF Age_Above_FourtyFive != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.29
+  explanation: "IF Age_Below_TwentyFive != 1 AND African_American != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.30
+  explanation: "IF Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.38
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND African_American == 0 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND African_American == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 6
+  calls: 8
+  rtime: 0.38
+
+inst: 74
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8, 9]
+coex: [0, 1]
+  coextime: 0.15
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.15
+
+inst: 75
+  explaining:  "IF Number_of_Priors == 2 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 1 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.08
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.10
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 6, 9]
+coex: [0, 1, 2, 5, 10]
+  coextime: 0.17
+iter: 4
+cand: [9]
+core: [0, 1, 2, 3, 4, 5, 6, 7]
+coex: [0, 1, 2, 5, 8]
+  coextime: 0.24
+iter: 5
+cand: [2]
+expl: [2]
+  expltime: 0.25
+iter: 6
+cand: [5]
+expl: [5]
+  expltime: 0.26
+iter: 7
+cand: [7, 9]
+core: [0, 1, 2, 3, 4, 5, 6]
+coex: [0, 1, 2, 4, 5, 6]
+  coextime: 0.31
+iter: 8
+cand: [6, 7, 9]
+expl: [6, 8, 10]
+  expltime: 0.32
+iter: 9
+cand: [4, 7, 9]
+expl: [4, 8, 10]
+  expltime: 0.33
+iter: 10
+cand: None
+  prediciton: 1
+  explanation: "IF score_factor != 1 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.08
+  explanation: "IF Number_of_Priors != 2 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF Age_Above_FourtyFive != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.25
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.26
+  explanation: "IF Hispanic != 1 AND Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.32
+  explanation: "IF African_American != 0 AND Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.33
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 1 THEN 1"
+  dual explanation size: 6
+  calls: 10
+  rtime: 0.33
+
+inst: 76
+  explaining:  "IF Number_of_Priors == 1 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 4, 5, 8]
+coex: [0, 1]
+  coextime: 0.12
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 1 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF Number_of_Priors == 1 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 7
+  rtime: 0.12
+
+inst: 77
+  explaining:  "IF Number_of_Priors == 5 AND score_factor == 0 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8, 9]
+coex: [0, 1, 2, 3, 4]
+  coextime: 0.12
+iter: 4
+cand: [3]
+expl: [3]
+  expltime: 0.13
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.13
+iter: 6
+cand: [2]
+expl: [2]
+  expltime: 0.14
+iter: 7
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 5 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF Age_Below_TwentyFive != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF African_American != 1 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF Age_Above_FourtyFive != 1 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.14
+  dual explanation: "IF Number_of_Priors == 5 AND score_factor == 0 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND African_American == 1 THEN 0"
+  dual explanation size: 5
+  calls: 12
+  rtime: 0.14
+
+inst: 78
+  explaining:  "IF Number_of_Priors == 10 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 5, 7, 8]
+coex: [0, 5, 9]
+  coextime: 0.13
+iter: 2
+cand: [8]
+core: [0, 1, 2, 5, 7]
+coex: [0, 2, 5]
+  coextime: 0.18
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.19
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.21
+iter: 5
+cand: [2, 8]
+core: [0, 1, 5, 7]
+coex: [0, 1, 5]
+  coextime: 0.26
+iter: 6
+cand: [1, 2, 8]
+expl: [1, 2, 9]
+  expltime: 0.27
+iter: 7
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF Number_of_Priors != 10 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.21
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.27
+  dual explanation: "IF Number_of_Priors == 10 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 10 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 10 AND score_factor == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  calls: 6
+  rtime: 0.27
+
+inst: 79
+  explaining:  "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 6]
+coex: [0, 2, 4, 5]
+  coextime: 0.09
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.09
+iter: 3
+cand: [2]
+core: [0, 1, 3, 4, 5, 6]
+coex: [0, 1, 4, 6]
+  coextime: 0.15
+iter: 4
+cand: [4]
+expl: [4]
+  expltime: 0.15
+iter: 5
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.16
+iter: 6
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.16
+iter: 7
+cand: [2, 6]
+core: [0, 1, 3, 4, 5]
+coex: [0, 1, 3, 4]
+  coextime: 0.21
+iter: 8
+cand: [2, 3, 6]
+expl: [2, 3, 6]
+  expltime: 0.22
+iter: 9
+cand: [3, 5, 6]
+core: [0, 1, 2, 4]
+coex: [0, 1, 2, 4]
+  coextime: 0.25
+iter: 10
+cand: None
+  prediciton: 0
+  explanation: "IF Number_of_Priors != 2 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.09
+  explanation: "IF African_American != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.15
+  explanation: "IF score_factor != 0 AND Asian != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.16
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 1 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.16
+  explanation: "IF Age_Above_FourtyFive != 1 AND Age_Below_TwentyFive != 0 AND Hispanic != 0 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.22
+  dual explanation: "IF Number_of_Priors == 2 AND Age_Above_FourtyFive == 1 AND African_American == 0 AND Asian == 0 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 0 AND African_American == 0 AND Hispanic == 0 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 THEN 0"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Above_FourtyFive == 1 AND African_American == 0 THEN 0"
+  dual explanation size: 4
+  calls: 5
+  rtime: 0.25
+
+inst: 80
+  explaining:  "IF Number_of_Priors == 6 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 5, 7, 8, 9]
+coex: [0, 5, 9]
+  coextime: 0.16
+iter: 2
+cand: [8]
+core: [0, 1, 2, 3, 5, 7, 9]
+coex: [0, 3, 5, 10]
+  coextime: 0.24
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 7, 9]
+coex: [0, 1, 3, 10]
+  coextime: 0.30
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.34
+iter: 5
+cand: [8, 9]
+core: [0, 1, 2, 3, 5, 7]
+coex: [0, 3, 5, 8]
+  coextime: 0.41
+iter: 6
+cand: [3, 8]
+core: [0, 1, 2, 5, 7, 9]
+coex: [0, 2, 5]
+  coextime: 0.47
+iter: 7
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.47
+iter: 8
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.48
+iter: 9
+cand: [5, 9]
+core: [0, 1, 2, 3, 7]
+coex: [0, 1, 3, 8]
+  coextime: 0.53
+iter: 10
+cand: [5, 7, 9]
+expl: [5, 8, 10]
+  expltime: 0.53
+iter: 11
+cand: [2, 3, 8]
+core: [0, 1, 5, 7, 9]
+coex: [0, 1, 5]
+  coextime: 0.58
+iter: 12
+cand: [1, 2, 3, 8]
+expl: [1, 2, 3, 9]
+  expltime: 0.59
+iter: 13
+cand: [1, 2, 7, 8, 9]
+expl: [1, 2, 8, 9, 10]
+  expltime: 0.60
+iter: 14
+cand: None
+  prediciton: 1
+  explanation: "IF Number_of_Priors != 6 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.34
+  explanation: "IF Age_Below_TwentyFive != 1 AND Asian != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.47
+  explanation: "IF score_factor != 1 AND Asian != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.48
+  explanation: "IF Asian != 0 AND Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.53
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Age_Below_TwentyFive != 1 AND Female != 0 THEN NOT 1"
+  explanation size: 4
+  expl time: 0.59
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Other != 0 AND Female != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 5
+  expl time: 0.60
+  dual explanation: "IF Number_of_Priors == 6 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 6 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 6 AND score_factor == 1 AND Age_Below_TwentyFive == 1 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 6 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 6 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 6 AND score_factor == 1 AND Age_Below_TwentyFive == 1 AND Other == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 6 AND score_factor == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  calls: 8
+  rtime: 0.60
+
+inst: 81
+  explaining:  "IF Number_of_Priors == 3 AND score_factor == 0 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 5, 6]
+coex: [0, 1, 2, 3, 6]
+  coextime: 0.11
+iter: 4
+cand: [6]
+expl: [6]
+  expltime: 0.11
+iter: 5
+cand: [2]
+expl: [2]
+  expltime: 0.12
+iter: 6
+cand: [3]
+expl: [3]
+  expltime: 0.13
+iter: 7
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 3 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF Hispanic != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF Age_Above_FourtyFive != 1 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF Age_Below_TwentyFive != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.13
+  dual explanation: "IF Number_of_Priors == 3 AND score_factor == 0 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND Hispanic == 0 THEN 0"
+  dual explanation size: 5
+  calls: 10
+  rtime: 0.13
+
+inst: 82
+  explaining:  "IF Number_of_Priors == 1 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 7, 8, 9]
+coex: [0, 4, 5, 9, 10]
+  coextime: 0.12
+iter: 2
+cand: [8]
+core: [0, 1, 2, 4, 5, 7, 9]
+coex: [0, 1]
+  coextime: 0.19
+iter: 3
+cand: [0]
+expl: [0]
+  expltime: 0.19
+iter: 4
+cand: [1, 8]
+core: [0, 2, 3, 4, 5, 7, 9]
+coex: [0, 3, 5]
+  coextime: 0.26
+iter: 5
+cand: [1, 5]
+core: [0, 2, 3, 4, 7, 8, 9]
+coex: [0, 3, 4, 9, 10]
+  coextime: 0.34
+iter: 6
+cand: [1, 3, 4]
+expl: [1, 3, 4]
+  expltime: 0.35
+iter: 7
+cand: [1, 4, 5]
+core: [0, 2, 3, 7, 8]
+coex: [0, 2, 3]
+  coextime: 0.40
+iter: 8
+cand: [1, 3, 5]
+core: [0, 2, 4, 7, 8, 9]
+coex: [0, 2, 4, 9, 10]
+  coextime: 0.46
+iter: 9
+cand: [1, 3, 9]
+expl: [1, 3, 10]
+  expltime: 0.46
+iter: 10
+cand: [1, 3, 8]
+expl: [1, 3, 9]
+  expltime: 0.46
+iter: 11
+cand: [1, 2, 5, 9]
+expl: [1, 2, 5, 10]
+  expltime: 0.48
+iter: 12
+cand: [1, 2, 5, 8]
+expl: [1, 2, 5, 9]
+  expltime: 0.49
+iter: 13
+cand: [1, 2, 3, 5]
+expl: [1, 2, 3, 5]
+  expltime: 0.49
+iter: 14
+cand: [1, 2, 4, 5]
+expl: [1, 2, 4, 5]
+  expltime: 0.50
+iter: 15
+cand: None
+  prediciton: 0
+  explanation: "IF Number_of_Priors != 1 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.19
+  explanation: "IF score_factor != 0 AND Age_Below_TwentyFive != 0 AND African_American != 1 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.35
+  explanation: "IF score_factor != 0 AND Age_Below_TwentyFive != 0 AND Misdemeanor != 0 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.46
+  explanation: "IF score_factor != 0 AND Age_Below_TwentyFive != 0 AND Female != 0 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.46
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 0 AND Asian != 0 AND Misdemeanor != 0 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.48
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 0 AND Asian != 0 AND Female != 0 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.49
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 0 AND Age_Below_TwentyFive != 0 AND Asian != 0 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.49
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 0 AND African_American != 1 AND Asian != 0 THEN NOT 0"
+  explanation size: 4
+  expl time: 0.50
+  dual explanation: "IF Number_of_Priors == 1 AND African_American == 1 AND Asian == 0 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 1 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Below_TwentyFive == 0 AND Asian == 0 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+  dual explanation size: 5
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Above_FourtyFive == 0 AND African_American == 1 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+  dual explanation size: 5
+  calls: 13
+  rtime: 0.50
+
+inst: 83
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8, 9]
+coex: [0, 1]
+  coextime: 0.15
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.15
+
+inst: 84
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 1 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 8, 9]
+coex: [0, 2]
+  coextime: 0.12
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.13
+iter: 3
+cand: [2]
+core: [0, 1, 3, 4, 5, 8, 9]
+coex: [0, 1]
+  coextime: 0.19
+iter: 4
+cand: [1, 2]
+expl: [1, 2]
+  expltime: 0.20
+iter: 5
+cand: None
+  prediciton: 0
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.13
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 1 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.20
+  dual explanation: "IF Number_of_Priors == 0 AND Age_Above_FourtyFive == 1 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.20
+
+inst: 85
+  explaining:  "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 9]
+coex: [0, 1, 2, 3]
+  coextime: 0.11
+iter: 4
+cand: [3]
+expl: [3]
+  expltime: 0.12
+iter: 5
+cand: [2]
+expl: [2]
+  expltime: 0.12
+iter: 6
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 2 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF Age_Below_TwentyFive != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF Age_Above_FourtyFive != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.12
+  dual explanation: "IF Number_of_Priors == 2 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 THEN 0"
+  dual explanation size: 4
+  calls: 9
+  rtime: 0.12
+
+inst: 86
+  explaining:  "IF Number_of_Priors == 6 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 1 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 5, 7, 9]
+coex: [0, 2, 5]
+  coextime: 0.11
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.11
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.12
+iter: 4
+cand: [5]
+expl: [5]
+  expltime: 0.13
+iter: 5
+cand: None
+  prediciton: 1
+  explanation: "IF Number_of_Priors != 6 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF Age_Above_FourtyFive != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.13
+  dual explanation: "IF Number_of_Priors == 6 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  calls: 9
+  rtime: 0.13
+
+inst: 87
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8]
+coex: [0, 1]
+  coextime: 0.13
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 8
+  rtime: 0.13
+
+inst: 88
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 1"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.07
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.11
+iter: 3
+cand: [7]
+expl: [8]
+  expltime: 0.12
+iter: 4
+cand: [6]
+core: [0, 1, 2, 3, 4, 5, 7, 8]
+coex: [0, 1, 2, 5, 8, 9]
+  coextime: 0.23
+iter: 5
+cand: [8]
+core: [0, 1, 2, 3, 4, 5, 7]
+coex: [0, 1, 2, 4, 5, 8]
+  coextime: 0.31
+iter: 6
+cand: [2]
+expl: [2]
+  expltime: 0.32
+iter: 7
+cand: [5]
+expl: [5]
+  expltime: 0.33
+iter: 8
+cand: [4, 8]
+core: [0, 1, 2, 3, 5, 7, 9]
+coex: [0, 1, 2, 5, 8, 10]
+  coextime: 0.41
+iter: 9
+cand: [4, 8, 9]
+core: [0, 1, 2, 3, 5, 7]
+coex: [0, 1, 2, 3, 5, 8]
+  coextime: 0.49
+iter: 10
+cand: [3, 4, 8, 9]
+expl: [3, 4, 9, 10]
+  expltime: 0.50
+iter: 11
+cand: None
+  prediciton: 1
+  explanation: "IF score_factor != 1 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.07
+  explanation: "IF Number_of_Priors != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.11
+  explanation: "IF Other != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF Age_Above_FourtyFive != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.32
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.33
+  explanation: "IF Age_Below_TwentyFive != 1 AND African_American != 0 AND Female != 0 AND Misdemeanor != 1 THEN NOT 1"
+  explanation size: 4
+  expl time: 0.50
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 AND Female == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND African_American == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Asian == 0 AND Other == 0 AND Misdemeanor == 1 THEN 1"
+  dual explanation size: 6
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 6
+  calls: 8
+  rtime: 0.50
+
+inst: 89
+  explaining:  "IF Number_of_Priors == 6 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 4, 5, 7, 8, 9]
+coex: [0, 5, 9]
+  coextime: 0.15
+iter: 2
+cand: [8]
+core: [0, 2, 3, 4, 5, 7, 9]
+coex: [0, 4, 5, 10]
+  coextime: 0.23
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.24
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.25
+iter: 5
+cand: [8, 9]
+core: [0, 2, 3, 4, 5, 7]
+coex: [0, 4, 5, 8]
+  coextime: 0.32
+iter: 6
+cand: [4, 8]
+core: [0, 2, 5, 7]
+coex: [0, 2, 5]
+  coextime: 0.37
+iter: 7
+cand: [2, 4, 8]
+expl: [2, 4, 9]
+  expltime: 0.38
+iter: 8
+cand: [2, 7, 8, 9]
+expl: [2, 8, 9, 10]
+  expltime: 0.39
+iter: 9
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.24
+  explanation: "IF Number_of_Priors != 6 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.25
+  explanation: "IF Age_Above_FourtyFive != 0 AND African_American != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.38
+  explanation: "IF Age_Above_FourtyFive != 0 AND Other != 0 AND Female != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 4
+  expl time: 0.39
+  dual explanation: "IF Number_of_Priors == 6 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 6 AND African_American == 0 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 6 AND African_American == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 6 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  calls: 7
+  rtime: 0.39
+
+inst: 90
+  explaining:  "IF Number_of_Priors == 20 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 1 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 4, 5, 7, 8, 9]
+coex: [0, 5, 9]
+  coextime: 0.15
+iter: 2
+cand: [8]
+core: [0, 1, 2, 4, 5, 7, 9]
+coex: [0, 4, 5, 10]
+  coextime: 0.23
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.24
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.26
+iter: 5
+cand: [8, 9]
+core: [0, 1, 2, 5, 7]
+coex: [0, 2, 5]
+  coextime: 0.32
+iter: 6
+cand: [2, 8, 9]
+core: [0, 1, 4, 5, 7]
+coex: [0, 4, 5, 8]
+  coextime: 0.38
+iter: 7
+cand: [2, 4, 8]
+core: [0, 1, 5, 7]
+coex: [0, 1, 5]
+  coextime: 0.42
+iter: 8
+cand: [1, 2, 4, 8]
+expl: [1, 2, 4, 9]
+  expltime: 0.43
+iter: 9
+cand: [1, 2, 7, 8, 9]
+expl: [1, 2, 8, 9, 10]
+  expltime: 0.45
+iter: 10
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.24
+  explanation: "IF Number_of_Priors != 20 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.26
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND African_American != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 4
+  expl time: 0.43
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Other != 0 AND Female != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 5
+  expl time: 0.45
+  dual explanation: "IF Number_of_Priors == 20 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 20 AND African_American == 0 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 20 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 20 AND African_American == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 20 AND score_factor == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  calls: 7
+  rtime: 0.45
+
+inst: 91
+  explaining:  "IF Number_of_Priors == 2 AND score_factor == 1 AND Age_Above_FourtyFive == 1 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 6]
+coex: [0, 2, 4, 5]
+  coextime: 0.09
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.09
+iter: 3
+cand: [2]
+expl: [2]
+  expltime: 0.09
+iter: 4
+cand: [5]
+expl: [5]
+  expltime: 0.10
+iter: 5
+cand: [4]
+expl: [4]
+  expltime: 0.11
+iter: 6
+cand: None
+  prediciton: 0
+  explanation: "IF Number_of_Priors != 2 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.09
+  explanation: "IF Age_Above_FourtyFive != 1 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.09
+  explanation: "IF Asian != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.10
+  explanation: "IF African_American != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.11
+  dual explanation: "IF Number_of_Priors == 2 AND Age_Above_FourtyFive == 1 AND African_American == 0 AND Asian == 0 THEN 0"
+  dual explanation size: 4
+  calls: 11
+  rtime: 0.11
+
+inst: 92
+  explaining:  "IF Number_of_Priors == 1 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 7, 8]
+coex: [0, 3, 5]
+  coextime: 0.11
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.12
+iter: 3
+cand: [3]
+core: [0, 1, 2, 4, 5, 7, 8]
+coex: [0, 1]
+  coextime: 0.20
+iter: 4
+cand: [1, 3]
+expl: [1, 3]
+  expltime: 0.21
+iter: 5
+cand: [1, 5]
+core: [0, 2, 3, 4, 7, 8]
+coex: [0, 2, 3]
+  coextime: 0.28
+iter: 6
+cand: [1, 2, 5]
+expl: [1, 2, 5]
+  expltime: 0.29
+iter: 7
+cand: None
+  prediciton: 0
+  explanation: "IF Number_of_Priors != 1 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.12
+  explanation: "IF score_factor != 0 AND Age_Below_TwentyFive != 0 THEN NOT 0"
+  explanation size: 2
+  expl time: 0.21
+  explanation: "IF score_factor != 0 AND Age_Above_FourtyFive != 0 AND Asian != 0 THEN NOT 0"
+  explanation size: 3
+  expl time: 0.29
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Below_TwentyFive == 0 AND Asian == 0 THEN 0"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 1 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  dual explanation: "IF Number_of_Priors == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 THEN 0"
+  dual explanation size: 3
+  calls: 8
+  rtime: 0.29
+
+inst: 93
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8, 9]
+coex: [0, 1]
+  coextime: 0.15
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.15
+
+inst: 94
+  explaining:  "IF Number_of_Priors == 8 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 0 AND Asian == 0 AND Hispanic == 1 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 7, 8, 9]
+coex: [0, 5, 9]
+  coextime: 0.16
+iter: 2
+cand: [8]
+core: [0, 1, 2, 3, 4, 5, 7, 9]
+coex: [0, 4, 5, 10]
+  coextime: 0.26
+iter: 3
+cand: [5]
+core: [0, 1, 2, 3, 4, 7, 9]
+coex: [0, 1, 3, 10]
+  coextime: 0.33
+iter: 4
+cand: [0]
+core: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+coex: [1, 2, 3, 4, 5, 8, 9, 10]
+  coextime: 0.59
+iter: 5
+cand: [0, 2]
+expl: [0, 2]
+  expltime: 0.63
+iter: 6
+cand: [0, 7]
+expl: [0, 8]
+  expltime: 0.63
+iter: 7
+cand: [0, 4]
+expl: [0, 4]
+  expltime: 0.67
+iter: 8
+cand: [0, 3]
+expl: [0, 3]
+  expltime: 0.69
+iter: 9
+cand: [0, 8]
+expl: [0, 9]
+  expltime: 0.70
+iter: 10
+cand: [3, 5]
+expl: [3, 5]
+  expltime: 0.70
+iter: 11
+cand: [0, 5]
+expl: [0, 5]
+  expltime: 0.71
+iter: 12
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.71
+iter: 13
+cand: [5, 9]
+core: [0, 1, 2, 3, 4, 7]
+coex: [0, 1, 3, 8]
+  coextime: 0.78
+iter: 14
+cand: [0, 9]
+expl: [0, 10]
+  expltime: 0.81
+iter: 15
+cand: [0, 1]
+expl: [0, 1]
+  expltime: 0.85
+iter: 16
+cand: [1, 4, 8]
+core: [0, 2, 3, 5, 7, 9]
+coex: [0, 3, 5, 10]
+  coextime: 0.90
+iter: 17
+cand: [3, 4, 8]
+core: [0, 1, 2, 5, 7, 9]
+coex: [0, 2, 5]
+  coextime: 0.96
+iter: 18
+cand: [5, 7, 9]
+expl: [5, 8, 10]
+  expltime: 0.97
+iter: 19
+cand: [2, 7, 8, 9]
+core: [0, 1, 3, 4, 5]
+coex: [0, 3, 4, 5]
+  coextime: 1.01
+iter: 20
+cand: [2, 3, 8, 9]
+core: [0, 1, 4, 5, 7]
+coex: [0, 4, 5, 8]
+  coextime: 1.06
+iter: 21
+cand: [2, 3, 4, 8]
+core: [0, 1, 5, 7, 9]
+coex: [0, 1, 5]
+  coextime: 1.11
+iter: 22
+cand: [1, 2, 3, 4, 8]
+expl: [1, 2, 3, 4, 9]
+  expltime: 1.12
+iter: 23
+cand: [1, 2, 4, 8, 9]
+core: [0, 3, 5, 7]
+coex: [0, 3, 5, 8]
+  coextime: 1.16
+iter: 24
+cand: [1, 2, 4, 7, 8, 9]
+expl: [1, 2, 4, 8, 9, 10]
+  expltime: 1.16
+iter: 25
+cand: [1, 2, 3, 7, 8, 9]
+expl: [1, 2, 3, 8, 9, 10]
+  expltime: 1.16
+iter: 26
+cand: None
+  prediciton: 1
+  explanation: "IF Number_of_Priors != 8 AND Age_Above_FourtyFive != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.63
+  explanation: "IF Number_of_Priors != 8 AND Other != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.63
+  explanation: "IF Number_of_Priors != 8 AND African_American != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.67
+  explanation: "IF Number_of_Priors != 8 AND Age_Below_TwentyFive != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.69
+  explanation: "IF Number_of_Priors != 8 AND Female != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.70
+  explanation: "IF Age_Below_TwentyFive != 1 AND Asian != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.70
+  explanation: "IF Number_of_Priors != 8 AND Asian != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.71
+  explanation: "IF score_factor != 1 AND Asian != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.71
+  explanation: "IF Number_of_Priors != 8 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.81
+  explanation: "IF Number_of_Priors != 8 AND score_factor != 1 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.85
+  explanation: "IF Asian != 0 AND Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.97
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Age_Below_TwentyFive != 1 AND African_American != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 5
+  expl time: 1.12
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND African_American != 0 AND Other != 0 AND Female != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 6
+  expl time: 1.16
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Age_Below_TwentyFive != 1 AND Other != 0 AND Female != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 6
+  expl time: 1.16
+  dual explanation: "IF Number_of_Priors == 8 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 8 AND African_American == 0 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 8 AND score_factor == 1 AND Age_Below_TwentyFive == 1 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 1 AND African_American == 0 AND Asian == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 8
+  dual explanation: "IF Number_of_Priors == 8 AND score_factor == 1 AND Age_Below_TwentyFive == 1 AND Other == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 8 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 8 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 8 AND Age_Below_TwentyFive == 1 AND African_American == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 8 AND African_American == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 8 AND score_factor == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 8 AND Age_Below_TwentyFive == 1 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 4
+  calls: 7
+  rtime: 1.16
+
+inst: 95
+  explaining:  "IF Number_of_Priors == 11 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 3, 4, 5, 7, 8]
+coex: [0, 5, 9]
+  coextime: 0.14
+iter: 2
+cand: [8]
+core: [0, 2, 3, 4, 5, 7]
+coex: [0, 4, 5, 8]
+  coextime: 0.20
+iter: 3
+cand: [5]
+expl: [5]
+  expltime: 0.20
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.23
+iter: 5
+cand: [7, 8]
+core: [0, 2, 3, 4, 5]
+coex: [0, 2, 5]
+  coextime: 0.27
+iter: 6
+cand: [2, 7, 8]
+expl: [2, 8, 9]
+  expltime: 0.28
+iter: 7
+cand: [2, 4, 8]
+expl: [2, 4, 9]
+  expltime: 0.29
+iter: 8
+cand: None
+  prediciton: 1
+  explanation: "IF Asian != 0 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.20
+  explanation: "IF Number_of_Priors != 11 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.23
+  explanation: "IF Age_Above_FourtyFive != 0 AND Other != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.28
+  explanation: "IF Age_Above_FourtyFive != 0 AND African_American != 0 AND Female != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.29
+  dual explanation: "IF Number_of_Priors == 11 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 11 AND African_American == 0 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 11 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  calls: 8
+  rtime: 0.29
+
+inst: 96
+  explaining:  "IF Number_of_Priors == 15 AND score_factor == 1 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 0 THEN 1"
+iter: 1
+cand: [1]
+core: [0, 2, 4, 5, 7, 8, 9]
+coex: [0, 5, 10]
+  coextime: 0.14
+iter: 2
+cand: [9]
+core: [0, 1, 2, 4, 5, 7]
+coex: [0, 5, 8]
+  coextime: 0.22
+iter: 3
+cand: [5]
+core: [0, 1, 2, 4, 7, 8, 9]
+coex: [0, 1, 4, 10]
+  coextime: 0.29
+iter: 4
+cand: [0]
+expl: [0]
+  expltime: 0.31
+iter: 5
+cand: [1, 5]
+expl: [1, 5]
+  expltime: 0.32
+iter: 6
+cand: [5, 9]
+core: [0, 1, 2, 4, 7, 8]
+coex: [0, 1, 4, 8]
+  coextime: 0.38
+iter: 7
+cand: [4, 5]
+expl: [4, 5]
+  expltime: 0.38
+iter: 8
+cand: [7, 9]
+core: [0, 1, 2, 4, 5]
+coex: [0, 2, 5]
+  coextime: 0.43
+iter: 9
+cand: [2, 7, 9]
+core: [0, 1, 4, 5]
+coex: [0, 1, 5]
+  coextime: 0.47
+iter: 10
+cand: [5, 7, 9]
+expl: [5, 8, 10]
+  expltime: 0.48
+iter: 11
+cand: [1, 2, 7, 9]
+core: [0, 4, 5, 8]
+coex: [0, 5, 9]
+  coextime: 0.52
+iter: 12
+cand: [1, 2, 7, 8, 9]
+expl: [1, 2, 8, 9, 10]
+  expltime: 0.53
+iter: 13
+cand: None
+  prediciton: 1
+  explanation: "IF Number_of_Priors != 15 THEN NOT 1"
+  explanation size: 1
+  expl time: 0.31
+  explanation: "IF score_factor != 1 AND Asian != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.32
+  explanation: "IF African_American != 1 AND Asian != 0 THEN NOT 1"
+  explanation size: 2
+  expl time: 0.38
+  explanation: "IF Asian != 0 AND Other != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 3
+  expl time: 0.48
+  explanation: "IF score_factor != 1 AND Age_Above_FourtyFive != 0 AND Other != 0 AND Female != 0 AND Misdemeanor != 0 THEN NOT 1"
+  explanation size: 5
+  expl time: 0.53
+  dual explanation: "IF Number_of_Priors == 15 AND Asian == 0 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 15 AND Asian == 0 AND Other == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 15 AND score_factor == 1 AND African_American == 1 AND Misdemeanor == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 15 AND score_factor == 1 AND African_American == 1 AND Other == 0 THEN 1"
+  dual explanation size: 4
+  dual explanation: "IF Number_of_Priors == 15 AND Age_Above_FourtyFive == 0 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 15 AND score_factor == 1 AND Asian == 0 THEN 1"
+  dual explanation size: 3
+  dual explanation: "IF Number_of_Priors == 15 AND Asian == 0 AND Female == 0 THEN 1"
+  dual explanation size: 3
+  calls: 6
+  rtime: 0.53
+
+inst: 97
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 1 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8, 9]
+coex: [0, 1]
+  coextime: 0.13
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.13
+
+inst: 98
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 0 AND Asian == 0 AND Hispanic == 1 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.06
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8, 9]
+coex: [0, 1]
+  coextime: 0.14
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.14
+
+inst: 99
+  explaining:  "IF Number_of_Priors == 0 AND score_factor == 0 AND Age_Above_FourtyFive == 0 AND Age_Below_TwentyFive == 0 AND African_American == 1 AND Asian == 0 AND Hispanic == 0 AND Native_American == 0 AND Other == 0 AND Female == 0 AND Misdemeanor == 1 THEN 0"
+iter: 1
+cand: [1]
+expl: [1]
+  expltime: 0.05
+iter: 2
+cand: [0]
+expl: [0]
+  expltime: 0.06
+iter: 3
+cand: [7]
+core: [0, 1, 2, 3, 4, 5, 8, 9]
+coex: [0, 1]
+  coextime: 0.13
+iter: 4
+cand: None
+  prediciton: 0
+  explanation: "IF score_factor != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.05
+  explanation: "IF Number_of_Priors != 0 THEN NOT 0"
+  explanation size: 1
+  expl time: 0.06
+  dual explanation: "IF Number_of_Priors == 0 AND score_factor == 0 THEN 0"
+  dual explanation size: 2
+  calls: 9
+  rtime: 0.13

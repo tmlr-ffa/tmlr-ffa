@@ -1,0 +1,2 @@
+compas-train-data.csv & 0.61 & 0 &25  &3 & 0.0 \\ 
+ \hline 

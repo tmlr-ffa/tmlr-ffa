@@ -1,0 +1,602 @@
+loading model from  ./temp/recidivism/recidivism_train1_data/recidivism_train1_data_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl
+loading data from  ./temp/recidivism/recidivism_train1_data/recidivism_train1_data_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl.splitdata.pkl
+
+inst: 0
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = 1 to 5 AND Age = Age <= 21.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.18954190611839294, 1: -0.0675881877541542, 2: -0.027605397626757622, 3: -0.008341665379703045, 4: 0.07590045034885406, 5: -0.10964152961969376, 6: -0.01645677164196968, 7: 0.08026525378227234, 8: 0.028923457488417625, 9: 0.04112967848777771, 10: -0.2608234361978248, 11: 0.1374302131589502, 12: 0.12549506599316373, 13: 0.43880427069962025, 14: -0.29400505125522614}
+  time: 0.04
+
+inst: 1
+  explaining: Race = White AND Alcohol = Yes AND Junky = No AND Supervised Release = Yes AND Married = Married AND Felony = No AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.018800897523760796, 1: 0.21202223002910614, 2: 0.0010887247044593096, 3: 0.019851360470056534, 4: -0.17676201462745667, 5: 0.07301503419876099, 6: 0.04333200678229332, 7: -0.08424538373947144, 8: 0.00979798473417759, 9: 0.027127552777528763, 10: 0.19282975746318698, 11: 0.13048954715486616, 12: -0.094326211954467, 13: -0.41021084785461426, 14: 0.0090351696126163}
+  time: 0.03
+
+inst: 2
+  explaining: Race = White AND Alcohol = Yes AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = NO AND Age = 26.00 < Age <= 33.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.04656963050365448, 1: 0.158641517162323, 2: -0.022742822766304016, 3: 0.028467996045947075, 4: 0.03776415437459946, 5: 0.08345326781272888, 6: -0.031109625473618507, 7: -0.09533268213272095, 8: 0.010953984223306179, 9: 0.04871413856744766, 10: -0.35828813444823027, 11: 0.14292727946303785, 12: -0.20362026884686202, 13: -0.16336841508746147, 14: 0.015272170538082719}
+  time: 0.04
+
+inst: 3
+  explaining: Race = White AND Alcohol = Yes AND Junky = Yes AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = NO AND Age = Age <= 21.00 AND MonthsServed = 9.00 < MonthsServed <= 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.07484015822410583, 1: 0.20149767398834229, 2: 0.11394520103931427, 3: 0.02336210571229458, 4: 0.021314147859811783, 5: 0.05645894259214401, 6: 0.042462307959795, 7: -0.09923338145017624, 8: 0.01038955245167017, 9: 0.03541868180036545, 10: -0.34045686677563936, 11: 0.21573453932069242, 12: -0.16878261871170253, 13: 0.5144775360822678, 14: -0.0054938726825639606}
+  time: 0.03
+
+inst: 4
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = No AND Felony = Yes AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = Yes AND Gender = Male AND Priors = NO AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = 1 to 5 AND Age = 26.00 < Age <= 33.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.0924420952796936, 1: -0.06423027813434601, 2: -0.022742822766304016, 3: -0.06768530607223511, 4: 0.060555294156074524, 5: 0.018237609416246414, 6: 0.02171172760426998, 7: -0.08475525677204132, 8: -0.05188296362757683, 9: 0.037649162113666534, 10: -0.2676668841158971, 11: 0.019608290633186698, 12: 0.24947456928202882, 13: -0.18861277028918266, 14: 0.2292412167880684}
+  time: 0.03
+
+inst: 5
+  explaining: Race = Black AND Alcohol = Yes AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = UNKNOWN AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = 21.00 < Age <= 26.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.1642187535762787, 1: 0.06107448786497116, 2: -0.019482046365737915, 3: -0.03467053920030594, 4: 0.061405573040246964, 5: 0.057169247418642044, 6: -0.041202299296855927, 7: 0.25029972195625305, 8: 0.016171183437108994, 9: 0.0317145437002182, 10: 0.3372359052300453, 11: -0.011683678603731096, 12: -0.09393839386757463, 13: 0.0885000191628933, 14: 0.005823328625410795}
+  time: 0.02
+
+inst: 6
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = 1 to 5 AND Age = Age <= 21.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.09350074082612991, 1: -0.0582825131714344, 2: -0.022742822766304016, 3: 0.00966303888708353, 4: 0.0444997102022171, 5: -0.0834134891629219, 6: -0.014398481696844101, 7: -0.09926480054855347, 8: 0.010953984223306179, 9: 0.03746281936764717, 10: -0.2598352722125128, 11: 0.004369053756818175, 12: 0.18560202891239896, 13: 0.4559212476015091, 14: 0.15291143069043756}
+  time: 0.02
+
+inst: 7
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = Married AND Felony = No AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = Yes AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.08354637026786804, 1: -0.05126461386680603, 2: 0.02658507600426674, 3: -0.05614881590008736, 4: -0.17931967973709106, 5: 0.06133472919464111, 6: 0.01885995641350746, 7: -0.13101546466350555, 8: -0.048599161207675934, 9: 0.02963196486234665, 10: -0.3957600229186937, 11: -0.08223908022046089, 12: -0.19657378771807998, 13: -0.33333051577210426, 14: 0.05515055172145367}
+  time: 0.03
+
+inst: 8
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = 21.00 < Age <= 26.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.1915527582168579, 1: -0.026130281388759613, 2: -0.020038949325680733, 3: -0.044930532574653625, 4: 0.10424315184354782, 5: 0.0575554333627224, 6: -0.0265494491904974, 7: 0.25029972195625305, 8: 0.03633546084165573, 9: 0.018102264031767845, 10: 0.3580237138085067, 11: -0.007827594468835741, 12: -0.05436301452573389, 13: 0.04474649205803871, 14: -0.11815633298829198}
+  time: 0.02
+
+inst: 9
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = 1 to 5 AND Age = Age <= 21.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.18420667946338654, 1: -0.030381856486201286, 2: -0.009950383566319942, 3: 0.08365382254123688, 4: 0.06933183968067169, 5: 0.03056110069155693, 6: -0.02449115738272667, 7: -0.21150211989879608, 8: 0.02719392254948616, 9: 0.028073720633983612, 10: 0.30692681041546166, 11: -9.896245319396257e-05, 12: 0.06540471693733707, 13: 0.657989801838994, 14: 0.05027757119387388}
+  time: 0.03
+
+inst: 10
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = 1 to 5 AND Age = Age <= 21.00 AND MonthsServed = 9.00 < MonthsServed <= 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.13666902482509613, 1: -0.0582825131714344, 2: -0.022742822766304016, 3: 0.0023421894293278456, 4: 0.02602742239832878, 5: 0.04477863013744354, 6: -0.014398481696844101, 7: -0.07478688657283783, 8: 0.010953984223306179, 9: 0.03203504905104637, 10: -0.2598352722125128, 11: 0.007862331112846732, 12: 0.18560202891239896, 13: 0.3935667723417282, 14: 0.0003092056140303612}
+  time: 0.03
+
+inst: 11
+  explaining: Race = White AND Alcohol = Yes AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.021447960287332535, 1: 0.14912915229797363, 2: 0.0005318217445164919, 3: 0.01699613220989704, 4: 0.07833385467529297, 5: 0.08345326781272888, 6: -0.043260589241981506, 7: -0.12058717757463455, 8: 0.03111826255917549, 9: 0.022391648963093758, 10: 0.22759940987452865, 11: 0.12850137054920197, 12: -0.06383946433197707, 13: -0.33535829186439514, 14: -0.09074477571994066}
+  time: 0.03
+
+inst: 12
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = Yes AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = NO AND Age = 26.00 < Age <= 33.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.1616477072238922, 1: -0.042658090591430664, 2: -0.019482046365737915, 3: -0.008137783035635948, 4: 0.09940814226865768, 5: 0.009855058044195175, 6: 0.034633051604032516, 7: 0.2670930325984955, 8: 0.01560675073415041, 9: 0.01737629808485508, 10: 0.3021715930663049, 11: 0.03194830217398703, 12: -0.07169654814060777, 13: -0.22315480932593346, 14: 0.22830147994682193}
+  time: 0.03
+
+inst: 13
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = Yes AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = 1 to 5 AND Age = Age > 33.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.011121999472379684, 1: -0.05981602892279625, 2: 0.024832699447870255, 3: 0.00724255945533514, 4: 0.07448827475309372, 5: 0.009855058044195175, 6: 0.02171172760426998, 7: -0.17433711886405945, 8: -0.118245929479599, 9: 0.02153218351304531, 10: -0.25940455542877316, 11: 0.05080368299968541, 12: 0.22281993931392208, 13: -0.45018503442406654, 14: 0.2092906692996621}
+  time: 0.02
+
+inst: 14
+  explaining: Race = Black AND Alcohol = Yes AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = 10.00 < YearsSchool <= 11.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.23617970943450928, 1: 0.0710524469614029, 2: -0.010752217844128609, 3: -0.04383761063218117, 4: 0.10102060437202454, 5: 0.057169247418642044, 6: -0.043260589241981506, 7: 0.26858770847320557, 8: 0.0391618013381958, 9: 0.015330149792134762, 10: 0.2886466863565147, 11: -0.04406130453571677, 12: -0.056658743298612535, 13: -0.3640209585428238, 14: -0.10594687913544476}
+  time: 0.03
+
+inst: 15
+  explaining: Race = Black AND Alcohol = No AND Junky = Yes AND Supervised Release = No AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = 10.00 < YearsSchool <= 11.00 AND PrisonViolations = More than 5 AND Age = 21.00 < Age <= 26.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.23984463512897491, 1: -0.04372643306851387, 2: 0.0832817554473877, 3: -0.02800147980451584, 4: 0.05615498498082161, 5: -0.047772087156772614, 6: -0.014398481696844101, 7: -0.19593828916549683, 8: 0.014918738044798374, 9: 0.020070761442184448, 10: -0.23958926869090647, 11: -0.036729280138388276, 12: 0.3126822487683967, 13: -0.039228782057762146, 14: -0.018867178820073605}
+  time: 0.03
+
+inst: 16
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = Yes AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = 1 to 5 AND Age = 21.00 < Age <= 26.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.1434819996356964, 1: -0.0559360571205616, 2: -0.0340268649160862, 3: -0.008658790960907936, 4: 0.06541965901851654, 5: 0.013500308617949486, 6: 0.020271873101592064, 7: 0.18825924396514893, 8: 0.01560675073415041, 9: 0.028519487008452415, 10: -0.3818028145469725, 11: -0.0026948372833430767, 12: 0.18962769029894844, 13: -0.06855084747076035, 14: 0.23903681291267276}
+  time: 0.03
+
+inst: 17
+  explaining: Race = Black AND Alcohol = Yes AND Junky = No AND Supervised Release = Yes AND Married = Married AND Felony = No AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = 1 to 5 AND Age = 26.00 < Age <= 33.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.0913226306438446, 1: 0.18851648271083832, 2: -0.009950383566319942, 3: 0.014180155470967293, 4: -0.14588689804077148, 5: -0.011990743689239025, 6: 0.04333200678229332, 7: -0.1675555557012558, 8: 0.026037922129034996, 9: -0.00010826252400875092, 10: 0.09985149605199695, 11: -0.07589994266163558, 12: 0.11135987285524607, 13: -0.1409374624490738, 14: 0.05321946809999645}
+  time: 0.02
+
+inst: 18
+  explaining: Race = Black AND Alcohol = Yes AND Junky = No AND Supervised Release = Yes AND Married = Married AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = UNKNOWN AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = NO AND Age = 26.00 < Age <= 33.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.10667619854211807, 1: 0.10444600880146027, 2: -0.009950383566319942, 3: 0.01780679076910019, 4: -0.12318003177642822, 5: 0.04673101007938385, 6: -0.03172082453966141, 7: -0.15206095576286316, 8: 0.026602357625961304, 9: 0.010506471619009972, 10: 0.22570953518152237, 11: -0.07544288143981248, 12: -0.09693407535087317, 13: -0.08969549089670181, 14: 0.02133875945582986}
+  time: 0.03
+
+inst: 19
+  explaining: Race = Black AND Alcohol = Yes AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.020366176962852478, 1: 0.07062602788209915, 2: -0.0006636524340137839, 3: -0.00014094356447458267, 4: 0.054732855409383774, 5: 0.05959152430295944, 6: -0.041202299296855927, 7: -0.2008858621120453, 8: 0.02719392254948616, 9: 0.027388671413064003, 10: 0.21260143024846911, 11: 0.05102351401001215, 12: -0.10046718118246645, 13: -0.4365956783294678, 14: 0.006382934749126434}
+  time: 0.03
+
+inst: 20
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = More than 5 AND Age = 21.00 < Age <= 26.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.18981759250164032, 1: -0.039097920060157776, 2: -0.017928730696439743, 3: -0.004191161133348942, 4: 0.09389148652553558, 5: 0.013500308617949486, 6: -0.02449115738272667, 7: 0.2709212303161621, 8: 0.0010696565732359886, 9: 0.016873395070433617, 10: 0.2229752796702087, 11: -0.0013107826234772801, 12: 0.16722728696186095, 13: 0.014512035995721817, 14: 0.2353224284015596}
+  time: 0.04
+
+inst: 21
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = Married AND Felony = No AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = 1 to 5 AND Age = Age > 33.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.06541258096694946, 1: -0.06359399110078812, 2: -0.0006636524340137839, 3: 0.01308723445981741, 4: -0.23331677913665771, 5: -0.011604555882513523, 6: 0.021141570061445236, 7: -0.18958505988121033, 8: 0.026037922129034996, 9: 0.013276910409331322, 10: 0.11168118519708514, 11: -0.01952775800600648, 12: 0.08558691811049357, 13: -0.4757367819547653, 14: 0.03851941227912903}
+  time: 0.03
+
+inst: 22
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = 1 to 5 AND Age = 21.00 < Age <= 26.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.1973029524087906, 1: -0.028911856934428215, 2: -0.020038949325680733, 3: -0.04715702310204506, 4: 0.11722226440906525, 5: 0.0575554333627224, 6: -0.0265494491904974, 7: 0.23620925843715668, 8: 0.03633546084165573, 9: 0.010180650278925896, 10: 0.2726246486417949, 11: -0.05575713491998613, 12: 0.056603373028337955, 13: 0.0904967151582241, 14: -0.13227325025945902}
+  time: 0.03
+
+inst: 23
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = No AND Crime against Property = No AND Crime against Person = Yes AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.015907123684883118, 1: -0.03251072019338608, 2: -0.0006636524340137839, 3: 0.014337447471916676, 4: 0.08538369089365005, 5: 0.009855058044195175, 6: -0.025364438071846962, 7: -0.24331676959991455, 8: -0.1199946328997612, 9: 0.015153631567955017, 10: 0.24026278546079993, 11: 0.04326351173222065, 12: -0.0837826308561489, 13: -0.4709562063217163, 14: 0.21580038871616125}
+  time: 0.04
+
+inst: 24
+  explaining: Race = Black AND Alcohol = Yes AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.0781254842877388, 1: 0.07981952279806137, 2: 0.024832699447870255, 3: -0.00274866446852684, 4: 0.054227862507104874, 5: 0.057169247418642044, 6: -0.031109625473618507, 7: -0.16298770904541016, 8: 0.02719392254948616, 9: 0.03271585702896118, 10: -0.39144705096259713, 11: -0.058751499047502875, 12: -0.2062281317776069, 13: -0.34262289479374886, 14: 0.01605236902832985}
+  time: 0.02
+
+inst: 25
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = Married AND Felony = Yes AND WorkRelease = Yes AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = 1 to 5 AND Age = 21.00 < Age <= 26.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.19766469299793243, 1: -0.05912082642316818, 2: -0.0340268649160862, 3: -0.025446513667702675, 4: -0.2460290938615799, 5: -0.0032315123826265335, 6: 0.017420101910829544, 7: 0.1952790766954422, 8: 0.01501518301665783, 9: 0.02677297592163086, 10: -0.3144800871377811, 11: -0.003215030999854207, 12: 0.193375293223653, 13: -0.06004466861486435, 14: 0.07519769109785557}
+  time: 0.03
+
+inst: 26
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = 10.00 < YearsSchool <= 11.00 AND PrisonViolations = NO AND Age = Age <= 21.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.19321024417877197, 1: -0.027812516316771507, 2: -0.0244951993227005, 3: -0.008947476744651794, 4: 0.044215258210897446, 5: 0.03056110069155693, 6: -0.014398481696844101, 7: -0.1542113870382309, 8: 0.03002026304602623, 9: 0.03426333889365196, 10: -0.4112690977053717, 11: -0.031760709593072534, 12: -0.1496170962927863, 13: 0.49030153825879097, 14: 0.04775138292461634}
+  time: 0.03
+
+inst: 27
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = Married AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = NO AND Age = 26.00 < Age <= 33.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.11291716992855072, 1: -0.03687230125069618, 2: -0.027459735050797462, 3: 0.010482791811227798, 4: -0.221955344080925, 5: 0.0471171997487545, 6: -0.014452619478106499, 7: -0.13988909125328064, 8: 0.0417814664542675, 9: 0.012401662766933441, 10: -0.3539162897504866, 11: -0.05758742353646085, 12: -0.13144296628888696, 13: -0.0797480009496212, 14: -0.21277121268212795}
+  time: 0.02
+
+inst: 28
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = No AND Crime against Property = No AND Crime against Person = Yes AND Gender = Male AND Priors = UNKNOWN AND YearsSchool = 10.00 < YearsSchool <= 11.00 AND PrisonViolations = 1 to 5 AND Age = 26.00 < Age <= 33.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.13171447813510895, 1: -0.039097920060157776, 2: -0.009950383566319942, 3: 0.007929922081530094, 4: 0.07152059674263, 5: 0.013500308617949486, 6: -0.025364438071846962, 7: -0.23064884543418884, 8: -0.13847002387046814, 9: 0.016209110617637634, 10: 0.14838171377778053, 11: -0.05925421975553036, 12: 0.07761921087512746, 13: -0.15430881083011627, 14: 0.2269197003915906}
+  time: 0.03
+
+inst: 29
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = 1 to 5 AND Age = 21.00 < Age <= 26.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.13628724217414856, 1: -0.0616782121360302, 2: -0.025707358494400978, 3: -0.03460194170475006, 4: 0.08332609385251999, 5: 0.08383946120738983, 6: -0.01645677164196968, 7: -0.09473548084497452, 8: 0.03111826255917549, 9: 0.032126910984516144, 10: -0.3053511403268203, 11: 0.08736589341424406, 12: 0.22922392009058967, 13: -0.046355947852134705, 14: -0.1439804711844772}
+  time: 0.02
+
+inst: 30
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = Married AND Felony = Yes AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.0963987186551094, 1: -0.03401879966259003, 2: 0.024832699447870255, 3: 0.010482791811227798, 4: -0.1485455483198166, 5: -0.08187814056873322, 6: -0.012394328601658344, 7: -0.16191859543323517, 8: 0.026602357625961304, 9: 0.040477003902196884, 10: -0.3652363703586161, 11: -0.021662574727088213, 12: -0.18261075566988438, 13: -0.4659588374197483, 14: -0.006754077970981598}
+  time: 0.02
+
+inst: 31
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = No AND Felony = Yes AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = More than 5 AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = 9.00 < MonthsServed <= 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.31403446197509766, 1: -0.09099757671356201, 2: -0.010195314884185791, 3: 0.14008893072605133, 4: 0.08426870405673981, 5: -0.08667947351932526, 6: -0.02219901792705059, 7: 0.3002336323261261, 8: 0.01594480313360691, 9: 0.015825843438506126, 10: 0.8877229891950265, 11: 0.052914908388629556, 12: -0.03960399329662323, 13: -0.20945845544338226, 14: -0.025327538140118122}
+  time: 0.03
+
+inst: 32
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = 1 to 5 AND Age = Age <= 21.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.1604456752538681, 1: -0.03886391595005989, 2: -0.03699139878153801, 3: -0.048096418380737305, 4: 0.08729143440723419, 5: 0.03298337757587433, 6: -0.01645677164196968, 7: 0.14090107381343842, 8: 0.03633546084165573, 9: 0.022997232154011726, 10: -0.30145269085187465, 11: 0.10824186517857015, 12: 0.12347955821314827, 13: 0.41429082304239273, 14: -0.2101052557118237}
+  time: 0.03
+
+inst: 33
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = More than 5 AND Age = 21.00 < Age <= 26.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.16375862061977386, 1: -0.045788686722517014, 2: -0.025790801271796227, 3: -0.0012551711406558752, 4: 0.06396066397428513, 5: 0.013500308617949486, 6: -0.014398481696844101, 7: 0.18825924396514893, 8: 0.0010696565732359886, 9: 0.028333140537142754, 10: -0.3393669300712645, 11: -0.0031657121144235134, 12: 0.33369970705825835, 13: -0.06855084747076035, 14: 0.24025969160720706}
+  time: 0.04
+
+inst: 34
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = Married AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = Yes AND Gender = Male AND Priors = UNKNOWN AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = 21.00 < Age <= 26.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.07393579185009003, 1: -0.04557910934090614, 2: -0.008198006078600883, 3: -0.052988048642873764, 4: -0.16791896522045135, 5: 0.06133472919464111, 6: -0.015882963314652443, 7: -0.12782666087150574, 8: -0.05034785717725754, 9: 0.03728821501135826, 10: 0.2674815570935607, 11: 0.00034617213532328606, 12: -0.09081284457352012, 13: 0.08859941363334656, 14: 0.07941133715212345}
+  time: 0.03
+
+inst: 35
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = Married AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = UNKNOWN AND YearsSchool = 10.00 < YearsSchool <= 11.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.14174571633338928, 1: -0.03728489205241203, 2: -0.0006636524340137839, 3: 0.01671386882662773, 4: -0.20848889648914337, 5: 0.0471171997487545, 6: -0.01500968262553215, 7: -0.1740904301404953, 8: 0.029428698122501373, 9: 0.013863313011825085, 10: 0.24211367219686508, 11: -0.03580763621721417, 12: -0.07143243250902742, 13: -0.420089989900589, 14: 0.03733041509985924}
+  time: 0.03
+
+inst: 36
+  explaining: Race = Black AND Alcohol = Yes AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = Yes AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = 1 to 5 AND Age = 26.00 < Age <= 33.00 AND MonthsServed = 9.00 < MonthsServed <= 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.08613775670528412, 1: 0.14439968764781952, 2: -0.009950383566319942, 3: -0.01571553200483322, 4: 0.028964132070541382, 5: 0.057169247418642044, 6: 0.05826334282755852, 7: -0.19045177102088928, 8: -0.118245929479599, 9: 0.004785632714629173, 10: 0.11930702580139041, 11: -0.07957084942609072, 12: 0.1088266340084374, 13: -0.13424095511436462, 14: 0.045828301226720214}
+  time: 0.04
+
+inst: 37
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = Married AND Felony = No AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = NO AND Age = 26.00 < Age <= 33.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.14224453270435333, 1: -0.061399947851896286, 2: -0.008198006078600883, 3: 0.008862321265041828, 4: -0.1749504953622818, 5: 0.06133472919464111, 6: 0.021141570061445236, 7: -0.08419466763734818, 8: 0.00979798473417759, 9: 0.017938610166311264, 10: 0.21136379381641746, 11: -0.10477741400245577, 12: -0.07100557105150074, 13: -0.13574331998825073, 14: 0.021803483366966248}
+  time: 0.03
+
+inst: 38
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = More than 5 AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = More than 5 AND Age = 21.00 < Age <= 26.00 AND MonthsServed = 9.00 < MonthsServed <= 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.1694088578224182, 1: -0.10376567393541336, 2: -0.00839706789702177, 3: 0.012319490313529968, 4: 0.06931836903095245, 5: 0.0493793711066246, 6: -0.02219901792705059, 7: -0.20454031229019165, 8: 0.011866018176078796, 9: 0.013752534985542297, 10: 0.556313842185773, 11: -0.006022126646712422, 12: 0.16990813799202442, 13: 0.06745835393667221, 14: 0.06758570566307753}
+  time: 0.02
+
+inst: 39
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = More than 5 AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = 9.00 < MonthsServed <= 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.1318918615579605, 1: -0.08784198015928268, 2: -0.0006636524340137839, 3: -0.006777577102184296, 4: 0.06988462060689926, 5: 0.046957094222307205, 6: 0.031312279403209686, 7: -0.172623410820961, 8: 0.025953378528356552, 9: 0.016849907115101814, 10: 0.7901692292653024, 11: -0.01124728808645159, 12: -0.07561763795092702, 13: -0.2938910573720932, 14: 0.03693684842437506}
+  time: 0.03
+
+inst: 40
+  explaining: Race = White AND Alcohol = Yes AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = NO AND Age = 21.00 < Age <= 26.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.05131440609693527, 1: 0.14912915229797363, 2: -0.008754909038543701, 3: 0.01699613220989704, 4: 0.06353471428155899, 5: 0.08345326781272888, 6: -0.043260589241981506, 7: -0.11749598383903503, 8: 0.03111826255917549, 9: 0.022391648963093758, 10: 0.2688321745954454, 11: 0.13041328778490424, 12: -0.06383946433197707, 13: 0.048912953585386276, 14: -0.11413486767560244}
+  time: 0.02
+
+inst: 41
+  explaining: Race = White AND Alcohol = Yes AND Junky = Yes AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = NO AND Age = 26.00 < Age <= 33.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.05132836103439331, 1: 0.19737368822097778, 2: 0.128475621342659, 3: 0.028467996045947075, 4: 0.0644887238740921, 5: 0.08345326781272888, 6: 0.04555663838982582, 7: -0.10128457844257355, 8: 0.020248588174581528, 9: 0.040461525321006775, 10: -0.31999178091064095, 11: 0.13664349424652755, 12: -0.16695093817543238, 13: -0.14662840589880943, 14: -0.11259805748704821}
+  time: 0.04
+
+inst: 42
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = Married AND Felony = No AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = 1 to 5 AND Age = Age > 33.00 AND MonthsServed = 9.00 < MonthsServed <= 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.12847048044204712, 1: -0.07154761254787445, 2: 0.0010887247044593096, 3: 0.00189478718675673, 4: -0.18083010613918304, 5: 0.06133472919464111, 6: 0.021141570061445236, 7: -0.09876468777656555, 8: 0.00979798473417759, 9: 0.006480782758444548, 10: 0.12371148134116083, 11: -0.08070111798588187, 12: 0.10615880182012916, 13: -0.33784058690071106, 14: 0.07937883399426937}
+  time: 0.04
+
+inst: 43
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = UNKNOWN AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = Age <= 21.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.26851531863212585, 1: -0.01991468109190464, 2: -0.019482046365737915, 3: 0.16514432430267334, 4: 0.089417964220047, 5: 0.03056110069155693, 6: -0.02449115738272667, 7: 0.2857614755630493, 8: 0.016171183437108994, 9: 0.03271614760160446, 10: 0.23852474801242352, 11: -0.004304103902541101, 12: -0.03740852314513177, 13: 0.5085793975740671, 14: 0.06294968724250793}
+  time: 0.03
+
+inst: 44
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = Age <= 21.00 AND MonthsServed = 9.00 < MonthsServed <= 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.19961990416049957, 1: -0.04867052286863327, 2: -0.02464086189866066, 3: -0.0073456792160868645, 4: 0.019746776670217514, 5: -0.09148282557725906, 6: -0.014398481696844101, 7: 0.1272953301668167, 8: 0.008759180083870888, 9: 0.04949100688099861, 10: -0.3798209886299446, 11: 0.02924394770525396, 12: -0.12389783456455916, 13: 0.4982971288263798, 14: -0.09598926082253456}
+  time: 0.03
+
+inst: 45
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = 1 to 5 AND Age = Age <= 21.00 AND MonthsServed = 9.00 < MonthsServed <= 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.25223878026008606, 1: -0.03813865780830383, 2: -0.019482046365737915, 3: -0.06348931789398193, 4: 0.052278220653533936, 5: -0.07008705288171768, 6: -0.02449115738272667, 7: 0.1778130680322647, 8: 0.016171183437108994, 9: 0.011445627547800541, 10: 0.3273877379251644, 11: 0.019156622351147234, 12: 0.0342792845913209, 13: 0.5762079302221537, 14: -0.05856224428862333}
+  time: 0.03
+
+inst: 46
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = NO AND Age = Age <= 21.00 AND MonthsServed = 9.00 < MonthsServed <= 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.16289053857326508, 1: -0.06525612622499466, 2: -0.02464086189866066, 3: -0.006115172989666462, 4: 0.029023505747318268, 5: 0.056845128536224365, 6: -0.014398481696844101, 7: 0.11461107432842255, 8: 0.008759180083870888, 9: 0.04454002156853676, 10: -0.36096434586215764, 11: 0.17016438185237348, 12: -0.12389783456455916, 13: 0.4973382093012333, 14: -0.024332307279109955}
+  time: 0.03
+
+inst: 47
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = 1 to 5 AND Age = 26.00 < Age <= 33.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.0903400331735611, 1: -0.08099434524774551, 2: -0.008198006078600883, 3: 0.017091238871216774, 4: 0.07765743881464005, 5: 7.890164852142334e-05, 6: 0.034633051604032516, 7: -0.13299058377742767, 8: 0.01038955245167017, 9: 0.024892177432775497, 10: 0.1322846314869821, 11: 0.08506092056632042, 12: 0.09062647545943037, 13: -0.21199922636151314, 14: 0.25159723148681223}
+  time: 0.03
+
+inst: 48
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = 1 to 5 AND Age = Age <= 21.00 AND MonthsServed = 9.00 < MonthsServed <= 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.2525878846645355, 1: -0.05244693160057068, 2: -0.010096045210957527, 3: -0.032270438969135284, 4: 0.0506136529147625, 5: -0.09148282557725906, 6: -0.02449115738272667, 7: 0.10334410518407822, 8: 0.008759180083870888, 9: 0.0295780748128891, 10: 0.2658719242317602, 11: 0.04202651989180595, 12: 0.03629478911170736, 13: 0.5168743338435888, 14: -0.09512844868004322}
+  time: 0.03
+
+inst: 49
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = No AND Felony = Yes AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = UNKNOWN AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = 1 to 5 AND Age = 21.00 < Age <= 26.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.2787250578403473, 1: -0.03840184211730957, 2: -0.010652948170900345, 3: 0.01830386556684971, 4: 0.10836200416088104, 5: -0.13119108974933624, 6: -0.0265494491904974, 7: 0.18183258175849915, 8: 0.028923457488417625, 9: 0.038565266877412796, 10: 0.2523162653669715, 11: 0.013303146813996136, 12: 0.06510387925663963, 13: 0.06954149529337883, 14: -0.19994468614459038}
+  time: 0.04
+
+inst: 50
+  explaining: Race = White AND Alcohol = Yes AND Junky = No AND Supervised Release = No AND Married = No AND Felony = No AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = 1 to 5 AND Age = Age > 33.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.11569120734930038, 1: 0.15083619952201843, 2: 0.023620540276169777, 3: -0.033938683569431305, 4: 0.09479769319295883, 5: 0.07138677686452866, 6: 0.04555663838982582, 7: -0.09388551115989685, 8: 0.020248588174581528, 9: 0.019903315231204033, 10: -0.28359986504074186, 11: -0.07179511548019946, 12: 0.23576616635546088, 13: -0.27379102632403374, 14: -0.11920048843603581}
+  time: 0.04
+
+inst: 51
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = 1 to 5 AND Age = Age <= 21.00 AND MonthsServed = 9.00 < MonthsServed <= 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.23486411571502686, 1: -0.051591746509075165, 2: -0.010096045210957527, 3: -0.032270438969135284, 4: 0.060340069234371185, 5: 0.04477863013744354, 6: -0.02449115738272667, 7: 0.10334410518407822, 8: 0.008759180083870888, 9: 0.0295780748128891, 10: 0.26714773557614535, 11: 0.031689133611507714, 12: 0.03629478911170736, 13: 0.46840604208409786, 14: -0.023471495136618614}
+  time: 0.03
+
+inst: 52
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = Married AND Felony = No AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = 26.00 < Age <= 33.00 AND MonthsServed = 9.00 < MonthsServed <= 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.12971989810466766, 1: -0.05191974341869354, 2: -0.009950383566319942, 3: -0.022213516756892204, 4: -0.18064194917678833, 5: 0.0471171997487545, 6: 0.021141570061445236, 7: -0.21638968586921692, 8: 0.026037922129034996, 9: 0.012038440443575382, 10: 0.22985525394324213, 11: -0.00728014693595469, 12: -0.09147386986296624, 13: -0.1673196405172348, 14: 0.1147241088328883}
+  time: 0.02
+
+inst: 53
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = NO AND Age = Age <= 21.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.16015663743019104, 1: -0.05956157669425011, 2: -0.02464086189866066, 3: -0.006115172989666462, 4: 0.04693250730633736, 5: 0.056845128536224365, 6: -0.014398481696844101, 7: 0.11734498292207718, 8: 0.008759180083870888, 9: 0.06025239825248718, 10: -0.36046099581290036, 11: 0.16267791553400457, 12: -0.12389783456455916, 13: 0.49947289004921913, 14: 0.019434248097240925}
+  time: 0.04
+
+inst: 54
+  explaining: Race = Black AND Alcohol = Yes AND Junky = No AND Supervised Release = Yes AND Married = Married AND Felony = No AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = UNKNOWN AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = 26.00 < Age <= 33.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.160345658659935, 1: 0.10519128292798996, 2: -0.019482046365737915, 3: -0.02034616284072399, 4: -0.18890661001205444, 5: 0.04673101007938385, 6: -0.03172082453966141, 7: 0.20201371610164642, 8: 0.015579615719616413, 9: 0.02715693600475788, 10: 0.2481047287583351, 11: -0.013536223210394382, 12: -0.09148408321198076, 13: -0.11405111849308014, 14: 0.014501113910228014}
+  time: 0.03
+
+inst: 55
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = UNKNOWN AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = 1 to 5 AND Age = 21.00 < Age <= 26.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.12275158613920212, 1: -0.03703566640615463, 2: -0.009950383566319942, 3: -0.02421865239739418, 4: 0.06989511847496033, 5: -0.047772087156772614, 6: -0.02449115738272667, 7: -0.22833766043186188, 8: 0.02719392254948616, 9: 0.018781423568725586, 10: 0.16777638159692287, 11: -0.006386440363712609, 12: 0.1107184105203487, 13: 0.06273850798606873, 14: -0.018098163418471813}
+  time: 0.03
+
+inst: 56
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = 1 to 5 AND Age = 21.00 < Age <= 26.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.10124728828668594, 1: -0.0626983791589737, 2: -0.008198006078600883, 3: 0.011547527275979519, 4: 0.06469255685806274, 5: -0.0509200319647789, 6: 0.034633051604032516, 7: -0.1425369828939438, 8: 0.01038955245167017, 9: 0.026189414784312248, 10: 0.18222429929301143, 11: 0.004357572761364281, 12: 0.09062647545943037, 13: 0.03439156338572502, 14: 0.06261910335160792}
+  time: 0.03
+
+inst: 57
+  explaining: Race = Black AND Alcohol = Yes AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = 1 to 5 AND Age = Age > 33.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.00397886848077178, 1: 0.1741868108510971, 2: 0.024832699447870255, 3: 0.008335481397807598, 4: 0.05718620494008064, 5: -0.04573599621653557, 6: 0.042462307959795, 7: -0.15409153699874878, 8: 0.02662949077785015, 9: 0.024570519104599953, 10: -0.25963252456858754, 11: 0.05960877635516226, 12: 0.2557823937968351, 13: -0.43092015758156776, 14: 0.03763431787956506}
+  time: 0.02
+
+inst: 58
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = Married AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = More than 5 AND YearsSchool = 10.00 < YearsSchool <= 11.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.14710654318332672, 1: -0.12518854439258575, 2: 0.0010887247044593096, 3: -0.025884615257382393, 4: -0.16618317365646362, 5: 0.05073639005422592, 6: -0.012717543169856071, 7: -0.10058365762233734, 8: 0.010698927566409111, 9: 0.02461560070514679, 10: 0.7664131211349741, 11: -0.13220316672232002, 12: -0.06547808274626732, 13: -0.27262788265943527, 14: 0.08923577796667814}
+  time: 0.03
+
+inst: 59
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = No AND Gender = Female AND Priors = NO AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = 1 to 5 AND Age = 26.00 < Age <= 33.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.167904794216156, 1: -0.04446866735816002, 2: -0.0244951993227005, 3: 0.0016988487914204597, 4: 0.0361577570438385, 5: 0.013500308617949486, 6: 0.018307004123926163, 7: -0.0918542891740799, 8: 0.02662949077785015, 9: -0.161951944231987, 10: -0.29532513255253434, 11: 0.05992095358669758, 12: 0.2638827948831022, 13: -0.12156892567873001, 14: 0.2394333751872182}
+  time: 0.03
+
+inst: 60
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = No AND Felony = Yes AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = 1 to 5 AND Age = 21.00 < Age <= 26.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.22891727089881897, 1: -0.054082904011011124, 2: -0.02464086189866066, 3: -0.10356579720973969, 4: 0.06437714397907257, 5: 0.018237609416246414, 6: -0.014398481696844101, 7: 0.10196571052074432, 8: 0.008759180083870888, 9: 0.046465590596199036, 10: -0.3634819540893659, 11: 0.02200684859417379, 12: 0.19649599312106147, 13: -0.0884905718266964, 14: 0.18398986384272575}
+  time: 0.04
+
+inst: 61
+  explaining: Race = Black AND Alcohol = Yes AND Junky = No AND Supervised Release = No AND Married = No AND Felony = No AND WorkRelease = Yes AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = 1 to 5 AND Age = 21.00 < Age <= 26.00 AND MonthsServed = 9.00 < MonthsServed <= 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.2026212215423584, 1: 0.15186235308647156, 2: -0.019482046365737915, 3: 0.13989892601966858, 4: 0.061325713992118835, 5: 0.05959152430295944, 6: 0.0568234883248806, 7: 0.29290202260017395, 8: 0.01560675073415041, 9: 0.011563709005713463, 10: 0.23933860810939223, 11: 0.04323150753043592, 12: 0.11376978835323825, 13: 0.03695571795105934, 14: 0.0452244586776942}
+  time: 0.03
+
+inst: 62
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = No AND Felony = Yes AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = Yes AND Gender = Male AND Priors = NO AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = 21.00 < Age <= 26.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.1307617872953415, 1: -0.04261653125286102, 2: -0.027459735050797462, 3: 0.01630384661257267, 4: 0.06362836062908173, 5: -0.10979531705379486, 6: 0.06534811109304428, 7: -0.24354425072669983, 8: -0.1838306337594986, 9: 0.03455142676830292, 10: -0.4506065755849704, 11: -0.005594566930085421, 12: -0.1889916918007657, 13: -0.049155186861753464, 14: -0.22547395434230566}
+  time: 0.03
+
+inst: 63
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = NO AND Age = Age <= 21.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.22351449728012085, 1: -0.04263538867235184, 2: -0.02464086189866066, 3: -0.0073456792160868645, 4: 0.037206098437309265, 5: -0.09148282557725906, 6: -0.014398481696844101, 7: 0.09005990624427795, 8: 0.008759180083870888, 9: 0.051312319934368134, 10: -0.40888654172886163, 11: -0.33185139135457575, 12: -0.12281903938855976, 13: 0.323424581438303, 14: -0.05249081738293171}
+  time: 0.04
+
+inst: 64
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = Yes AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = Age <= 21.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.19569283723831177, 1: -0.05717260763049126, 2: -0.027605397626757622, 3: -0.0073456792160868645, 4: 0.06438034027814865, 5: -0.09148282557725906, 6: 0.023366201668977737, 7: 0.13002923130989075, 8: 0.018053781241178513, 9: 0.0547201931476593, 10: -0.39952234469819814, 11: 0.011745312949642539, 12: -0.10656431212555617, 13: 0.4565629679709673, 14: -0.25718244910240173}
+  time: 0.03
+
+inst: 65
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = Married AND Felony = Yes AND WorkRelease = Yes AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = 9.00 < MonthsServed <= 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.19647575914859772, 1: -0.06382840871810913, 2: 0.024687036871910095, 3: 0.0006154411239549518, 4: -0.10491321980953217, 5: -0.1032739132642746, 6: 0.017420101910829544, 7: 0.1208343356847763, 8: 0.007603178732097149, 9: 0.03490768373012543, 10: -0.36336681665852666, 11: -0.09006874822080135, 12: -0.15147412137594074, 13: -0.3094891123473644, 14: -0.028723130002617836}
+  time: 0.04
+
+inst: 66
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = More than 5 AND Age = 21.00 < Age <= 26.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.16375862061977386, 1: -0.045788686722517014, 2: -0.025790801271796227, 3: -0.0012551711406558752, 4: 0.06396066397428513, 5: 0.013500308617949486, 6: -0.014398481696844101, 7: 0.18825924396514893, 8: 0.0010696565732359886, 9: 0.028333140537142754, 10: -0.3393669300712645, 11: -0.0031657121144235134, 12: 0.33369970705825835, 13: -0.06855084747076035, 14: 0.24025969160720706}
+  time: 0.05
+
+inst: 67
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = NO AND Age = 26.00 < Age <= 33.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.17303355038166046, 1: -0.02596098743379116, 2: -0.019482046365737915, 3: -0.04370002821087837, 4: 0.07852790504693985, 5: 0.059977710247039795, 6: -0.02449115738272667, 7: 0.2376154661178589, 8: 0.016171183437108994, 9: 0.030426599085330963, 10: 0.29190687788650393, 11: 0.034895571414381266, 12: -0.07169654814060777, 13: -0.18959606811404228, 14: 0.020727817434817553}
+  time: 0.02
+
+inst: 68
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = Yes AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = NO AND Age = 26.00 < Age <= 33.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.13968215882778168, 1: -0.0772179365158081, 2: -0.02464086189866066, 3: 0.034552961587905884, 4: 0.06236935406923294, 5: 7.890164852142334e-05, 6: 0.020271873101592064, 7: 0.15201888978481293, 8: 0.00819474644958973, 9: 0.05015413463115692, 10: -0.3961328682489693, 11: 0.07224266673438251, 12: -0.15500722720753402, 13: -0.2085144892334938, 14: 0.2885823678225279}
+  time: 0.02
+
+inst: 69
+  explaining: Race = Black AND Alcohol = No AND Junky = Yes AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = Yes AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = More than 5 AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = 1 to 5 AND Age = 26.00 < Age <= 33.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.22398841381072998, 1: -0.12263961136341095, 2: 0.10784493386745453, 3: -0.011594780720770359, 4: 0.11913909763097763, 5: 0.036616161465644836, 6: 0.031312279403209686, 7: 0.2713625729084015, 8: 0.014930637553334236, 9: 0.022700203582644463, 10: 0.5876334807835519, 11: 0.01937484776135534, 12: 0.07635071221739054, 13: -0.13675422221422195, 14: 0.2577582816593349}
+  time: 0.03
+
+inst: 70
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = Married AND Felony = Yes AND WorkRelease = Yes AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = 1 to 5 AND Age = 21.00 < Age <= 26.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.1656678467988968, 1: -0.06444917619228363, 2: -0.019482046365737915, 3: 0.002729596570134163, 4: -0.2928469479084015, 5: -0.0032315123826265335, 6: 0.021141570061445236, 7: 0.22263526916503906, 8: 0.01501518301665783, 9: 0.015313230454921722, 10: 0.2008272255770862, 11: -0.00269245239906013, 12: 0.07656892162049189, 13: 0.035102374851703644, 14: 0.1818738803267479}
+  time: 0.04
+
+inst: 71
+  explaining: Race = Black AND Alcohol = No AND Junky = Yes AND Supervised Release = Yes AND Married = Married AND Felony = Yes AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = More than 5 AND Age = 26.00 < Age <= 33.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.21249303221702576, 1: -0.049839939922094345, 2: 0.1388518512248993, 3: 0.013069206848740578, 4: -0.1908721923828125, 5: -0.0032315123826265335, 6: -0.012394328601658344, 7: 0.20817238092422485, 8: 0.0004780893214046955, 9: 0.011483687907457352, 10: -0.20408575842157006, 11: -0.07748589874245226, 12: 0.28636676038149744, 13: -0.0820319689810276, 14: 0.17958423029631376}
+  time: 0.04
+
+inst: 72
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = UNKNOWN AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = Age <= 21.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.221716046333313, 1: -0.04033447057008743, 2: -0.010652948170900345, 3: -0.027582483366131783, 4: 0.0928521677851677, 5: -0.09148282557725906, 6: -0.0265494491904974, 7: 0.1149340569972992, 8: 0.028923457488417625, 9: 0.0401790589094162, 10: 0.2336789108812809, 11: 0.005954139051027596, 12: -0.014767468790523708, 13: 0.4289825465530157, 14: -0.24642431735992432}
+  time: 0.02
+
+inst: 73
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = More than 5 AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.2588062286376953, 1: -0.11471531540155411, 2: -0.0013662170385941863, 3: 0.03583353012800217, 4: 0.10515452176332474, 5: 0.07324111461639404, 6: -0.02425730973482132, 7: 0.17293675243854523, 8: 0.025170305743813515, 9: 0.039351776242256165, 10: 0.5583007825771347, 11: 0.02882974222302437, 12: -0.0516083799302578, 13: -0.24759192764759064, 14: -0.12854197586420923}
+  time: 0.03
+
+inst: 74
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = No AND Felony = Yes AND WorkRelease = No AND Crime against Property = No AND Crime against Person = Yes AND Gender = Male AND Priors = UNKNOWN AND YearsSchool = 10.00 < YearsSchool <= 11.00 AND PrisonViolations = NO AND Age = 21.00 < Age <= 26.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.17024269700050354, 1: -0.021729128435254097, 2: -0.009950383566319942, 3: -0.003561984747648239, 4: 0.05732066556811333, 5: -0.10979531705379486, 6: -0.025364438071846962, 7: -0.2844829559326172, 8: -0.13847002387046814, 9: 0.023562297224998474, 10: 0.27634810097515583, 11: -0.0389794185757637, 12: -0.09514688316266984, 13: 0.059462741017341614, 14: 0.022490806877613068}
+  time: 0.02
+
+inst: 75
+  explaining: Race = Black AND Alcohol = Yes AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = More than 5 AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = 1 to 5 AND Age = Age > 33.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.09600775688886642, 1: 0.2329159379005432, 2: -0.0006636524340137839, 3: -0.00014422181993722916, 4: 0.04424889013171196, 5: -0.06935767829418182, 6: 0.05350271612405777, 7: -0.19311796128749847, 8: 0.025953378528356552, 9: 0.01242008525878191, 10: 0.8031944534741342, 11: -0.05337279592640698, 12: 0.0650081685744226, 13: -0.2386268898844719, 14: 0.058757349965162575}
+  time: 0.02
+
+inst: 76
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Female AND Priors = NO AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = Age <= 21.00 AND MonthsServed = 9.00 < MonthsServed <= 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.3459567129611969, 1: -0.05973410978913307, 2: -0.02464086189866066, 3: -0.0073456792160868645, 4: 0.024566832929849625, 5: -0.09148282557725906, 6: -0.012918779626488686, 7: 0.058088529855012894, 8: 0.008759180083870888, 9: -0.6210635900497437, 10: -0.47570111707318574, 11: -0.04221326671540737, 12: -0.15403857722412795, 13: 0.4982971288263798, 14: 0.03494637832045555}
+  time: 0.03
+
+inst: 77
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = NO AND Age = 21.00 < Age <= 26.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.17040489614009857, 1: -0.03248046338558197, 2: -0.03699139878153801, 3: -0.04199454188346863, 4: 0.07386264204978943, 5: 0.0575554333627224, 6: -0.01645677164196968, 7: 0.19062700867652893, 8: 0.03633546084165573, 9: 0.026439832523465157, 10: -0.4864946031011641, 11: -0.062211431039031595, 12: -0.14028155279811472, 13: 0.012456376105546951, 14: -0.11455197539180517}
+  time: 0.02
+
+inst: 78
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = Married AND Felony = Yes AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = NO AND Age = 26.00 < Age <= 33.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.12883032858371735, 1: -0.06387507915496826, 2: -0.008198006078600883, 3: -0.04123732075095177, 4: -0.14014530181884766, 5: -0.12143261730670929, 6: -0.01500968262553215, 7: -0.12123069167137146, 8: 0.010362417437136173, 9: 0.029857292771339417, 10: 0.22342792863491923, 11: 0.06359753233846277, 12: -0.08970606129150838, 13: -0.18699102103710175, 14: -0.011308962479233742}
+  time: 0.03
+
+inst: 79
+  explaining: Race = White AND Alcohol = No AND Junky = Yes AND Supervised Release = No AND Married = Married AND Felony = Yes AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = 21.00 < Age <= 26.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.15034541487693787, 1: -0.04636228457093239, 2: 0.128475621342659, 3: -0.05614881590008736, 4: -0.19929295778274536, 5: -0.1032739132642746, 6: -0.014452619478106499, 7: -0.1363508403301239, 8: 0.025541525334119797, 9: 0.04183555021882057, 10: -0.3732219043886289, 11: 0.003418593667447567, 12: -0.14272854092996567, 13: -0.02700396627187729, 14: -0.2664504759013653}
+  time: 0.03
+
+inst: 80
+  explaining: Race = White AND Alcohol = Yes AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = 1 to 5 AND Age = Age > 33.00 AND MonthsServed = 9.00 < MonthsServed <= 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.036260053515434265, 1: 0.1944674700498581, 2: 0.0010887247044593096, 3: 0.006965256296098232, 4: 0.03609533980488777, 5: 0.08345326781272888, 6: -0.041202299296855927, 7: -0.11160387098789215, 8: 0.010953984223306179, 9: 0.015735015273094177, 10: 0.09842542698606849, 11: 0.13609811663627625, 12: 0.11803163314471021, 13: -0.3619313985109329, 14: 7.200404070317745e-05}
+  time: 0.03
+
+inst: 81
+  explaining: Race = White AND Alcohol = Yes AND Junky = No AND Supervised Release = No AND Married = Married AND Felony = No AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = 9.00 < MonthsServed <= 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.19321374595165253, 1: 0.12967455387115479, 2: 0.024687036871910095, 3: -0.014832554385066032, 4: -0.13017994165420532, 5: 0.06094853952527046, 6: -0.029105471447110176, 7: 0.16869835555553436, 8: 0.008167611435055733, 9: 0.04858631640672684, 10: -0.4078475203132257, 11: -0.024484853260219097, 12: -0.17833448003511876, 13: -0.3956064321100712, 14: 0.0965087884105742}
+  time: 0.03
+
+inst: 82
+  explaining: Race = Black AND Alcohol = Yes AND Junky = No AND Supervised Release = Yes AND Married = Married AND Felony = No AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = NO AND Age = 26.00 < Age <= 33.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.08828040957450867, 1: 0.13092711567878723, 2: -0.027459735050797462, 3: 0.011575712822377682, 4: -0.21337155997753143, 5: 0.04673101007938385, 6: 0.04270486906170845, 7: -0.13988909125328064, 8: 0.03091178834438324, 9: 0.015626346692442894, 10: -0.3883287967182696, 11: -0.06344737223116681, 12: -0.1380772836273536, 13: -0.07894621416926384, 14: -0.21071106370072812}
+  time: 0.02
+
+inst: 83
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = No AND Crime against Property = No AND Crime against Person = Yes AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.015907123684883118, 1: -0.03251072019338608, 2: -0.0006636524340137839, 3: 0.014337447471916676, 4: 0.08538369089365005, 5: 0.009855058044195175, 6: -0.025364438071846962, 7: -0.24331676959991455, 8: -0.1199946328997612, 9: 0.015153631567955017, 10: 0.24026278546079993, 11: 0.04326351173222065, 12: -0.0837826308561489, 13: -0.4709562063217163, 14: 0.21580038871616125}
+  time: 0.04
+
+inst: 84
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = UNKNOWN AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.08463926613330841, 1: -0.02208101376891136, 2: -0.0006636524340137839, 3: 0.0023894915357232094, 4: 0.07275454699993134, 5: 0.0575554333627224, 6: -0.02449115738272667, 7: -0.2104322463274002, 8: 0.02719392254948616, 9: 0.030679825693368912, 10: 0.26750192418694496, 11: -0.02166972344275564, 12: -0.07822533545549959, 13: -0.38324466347694397, 14: 0.02327205054461956}
+  time: 0.04
+
+inst: 85
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = UNKNOWN AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = 1 to 5 AND Age = 26.00 < Age <= 33.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.09608530253171921, 1: -0.04839010536670685, 2: -0.009950383566319942, 3: 0.007929922081530094, 4: 0.06635712087154388, 5: -0.047772087156772614, 6: 0.034633051604032516, 7: -0.2104032337665558, 8: 0.02662949077785015, 9: 0.0189677681773901, 10: 0.16357479244470596, 11: -0.012388995965011418, 12: 0.08861097466433421, 13: -0.1367693990468979, 14: 0.0283370828256011}
+  time: 0.03
+
+inst: 86
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = Yes AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = 1 to 5 AND Age = Age > 33.00 AND MonthsServed = 9.00 < MonthsServed <= 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.043124597519636154, 1: -0.0801391676068306, 2: 0.0010887247044593096, 3: 0.0015199293848127127, 4: 0.059670716524124146, 5: 0.08383946120738983, 6: 0.036072906106710434, 7: -0.11563509702682495, 8: -0.05188296362757683, 9: 0.019464408978819847, 10: 0.13903924217447639, 11: 0.09782781731337309, 12: 0.08951969217741862, 13: -0.3627331852912903, 14: 0.008059061132371426}
+  time: 0.02
+
+inst: 87
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = Married AND Felony = No AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = 26.00 < Age <= 33.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.11363028734922409, 1: -0.05148152634501457, 2: -0.01050728652626276, 3: 0.007546800188720226, 4: -0.2735823094844818, 5: 0.0471171997487545, 6: 0.02423590049147606, 7: -0.15856684744358063, 8: 0.03091178834438324, 9: 0.012556763365864754, 10: 0.24124713568016887, 11: -0.017514604318421334, 12: -0.025682002655230463, 13: -0.15377424657344818, 14: -0.2124458234757185}
+  time: 0.02
+
+inst: 88
+  explaining: Race = White AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = Married AND Felony = Yes AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = Yes AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = NO AND Age = 26.00 < Age <= 33.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.07226269692182541, 1: -0.06382840871810913, 2: -0.022742822766304016, 3: 0.035905495285987854, 4: -0.1674438714981079, 5: 0.001505788415670395, 6: 0.01885995641350746, 7: -0.11701473593711853, 8: -0.048599161207675934, 9: 0.02215844951570034, 10: -0.3544292007572949, 11: -0.10063483193516731, 12: -0.17895208520349115, 13: -0.1271093711256981, 14: 0.18802042119204998}
+  time: 0.02
+
+inst: 89
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = Age <= 21.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.17879578471183777, 1: -0.03186178207397461, 2: -0.03699139878153801, 3: -0.047100432217121124, 4: 0.07431232184171677, 5: 0.03056110069155693, 6: -0.01645677164196968, 7: 0.19066506624221802, 8: 0.03633546084165573, 9: 0.036401402205228806, 10: -0.4274461428867653, 11: -0.006131122470833361, 12: -0.11025097023230046, 13: 0.43204955011606216, 14: -0.177212402690202}
+  time: 0.03
+
+inst: 90
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = UNKNOWN AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.2590393126010895, 1: -0.020533358678221703, 2: -0.010195314884185791, 3: 0.11298549175262451, 4: 0.10376743972301483, 5: 0.0575554333627224, 6: -0.02449115738272667, 7: 0.3487251102924347, 8: 0.016171183437108994, 9: 0.026408327743411064, 10: 0.2885820474475622, 11: -0.04924918198958039, 12: -0.07223862071987242, 13: -0.297226682305336, 14: 0.06035535130649805}
+  time: 0.03
+
+inst: 91
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = Married AND Felony = No AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = 10.00 < YearsSchool <= 11.00 AND PrisonViolations = 1 to 5 AND Age = 26.00 < Age <= 33.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.32587930560112, 1: -0.03912797197699547, 2: -0.03699139878153801, 3: 0.09326238930225372, 4: -0.35001665353775024, 5: 0.0471171997487545, 6: -0.014452619478106499, 7: 0.2173037827014923, 8: 0.033585064113140106, 9: 0.012885255739092827, 10: -0.25312699971254915, 11: -0.043815949466079473, 12: 0.12622392555931583, 13: -0.1146424151957035, 14: -0.30208219680935144}
+  time: 0.02
+
+inst: 92
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.06814730912446976, 1: -0.04015762358903885, 2: -0.0012205553939566016, 3: -0.001233864575624466, 4: 0.104472815990448, 5: 0.059977710247039795, 6: 0.03772738203406334, 7: -0.2008858621120453, 8: 0.036488525569438934, 9: 0.014955053105950356, 10: 0.272269198205322, 11: 0.04482237790944055, 12: -0.060891794390045106, 13: -0.40031392872333527, 14: -0.08200593385845423}
+  time: 0.04
+
+inst: 93
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = Yes AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = 1 to 5 AND Age = 21.00 < Age <= 26.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.16954095661640167, 1: -0.04924529045820236, 2: -0.019482046365737915, 3: -0.011594780720770359, 4: 0.10079386830329895, 5: 0.013500308617949486, 6: 0.034633051604032516, 7: 0.2709212303161621, 8: 0.01560675073415041, 9: 0.01705974154174328, 10: 0.26143097458407283, 11: -0.0008399077923968434, 12: 0.07959297817433253, 13: 0.014512035995721817, 14: 0.23409955529496074}
+  time: 0.03
+
+inst: 94
+  explaining: Race = White AND Alcohol = Yes AND Junky = No AND Supervised Release = Yes AND Married = Married AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.06016630306839943, 1: 0.14988787472248077, 2: 0.0005318217445164919, 3: 0.014307647943496704, 4: -0.25327450037002563, 5: 0.06094853952527046, 6: -0.033779118210077286, 7: -0.09379178285598755, 8: 0.025541525334119797, 9: 0.019993361085653305, 10: 0.21270064217969775, 11: -0.034741219598799944, 12: -0.028629668871872127, 13: -0.36834104359149933, 14: -0.19779458199627697}
+  time: 0.03
+
+inst: 95
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = No AND Crime against Property = Yes AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = Age <= 21.00 AND MonthsServed = 9.00 < MonthsServed <= 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.2513996958732605, 1: -0.027671484276652336, 2: -0.019482046365737915, 3: -0.0612628310918808, 4: 0.05134216696023941, 5: -0.07008705288171768, 6: -0.02449115738272667, 7: 0.18666909635066986, 8: 0.016171183437108994, 9: 0.013059420511126518, 10: 0.4213296518428251, 11: 0.017846655333414674, 12: -0.035787653527222574, 13: 0.6476913634687662, 14: -0.06436031963676214}
+  time: 0.03
+
+inst: 96
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = No AND Married = No AND Felony = Yes AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = 1 to 5 AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = NO AND Age = Age > 33.00 AND MonthsServed = 4.00 < MonthsServed <= 9.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.12483817338943481, 1: -0.029658369719982147, 2: -0.0012205553939566016, 3: 0.008188745006918907, 4: 0.09828440099954605, 5: -0.11344057321548462, 6: -0.0265494491904974, 7: -0.2771962285041809, 8: 0.047358203679323196, 9: 0.014768706634640694, 10: 0.26433341728989035, 11: 0.025936148886103183, 12: -0.07659465062897652, 13: -0.42645013332366943, 14: -0.13576315436512232}
+  time: 0.02
+
+inst: 97
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = Yes AND Gender = Male AND Priors = NO AND YearsSchool = YearsSchool > 11.00 AND PrisonViolations = NO AND Age = 26.00 < Age <= 33.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.09140476584434509, 1: -0.02843119204044342, 2: -0.0244951993227005, 3: -0.003841585945338011, 4: 0.04331624135375023, 5: 0.0575554333627224, 6: -0.015271761454641819, 7: -0.16770970821380615, 8: -0.1199946328997612, 9: 0.031908098608255386, 10: -0.3773419358767569, 11: -0.07267225487157702, 12: -0.18954356794711202, 13: -0.10212334245443344, 14: 0.07036576326936483}
+  time: 0.03
+
+inst: 98
+  explaining: Race = Black AND Alcohol = No AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = No AND WorkRelease = No AND Crime against Property = No AND Crime against Person = No AND Gender = Male AND Priors = NO AND YearsSchool = 8.00 < YearsSchool <= 10.00 AND PrisonViolations = NO AND Age = Age <= 21.00 AND MonthsServed = MonthsServed <= 4.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: 0.12585116922855377, 1: -0.027812516316771507, 2: -0.0244951993227005, 3: -0.008947476744651794, 4: 0.04466493800282478, 5: 0.03056110069155693, 6: -0.014398481696844101, 7: -0.1542113870382309, 8: 0.02719392254948616, 9: 0.04503461718559265, 10: -0.41224840201903135, 11: -0.01554178143851459, 12: -0.1539556885836646, 13: 0.49256761744618416, 14: 0.0423708101734519}
+  time: 0.03
+
+inst: 99
+  explaining: Race = Black AND Alcohol = Yes AND Junky = No AND Supervised Release = Yes AND Married = No AND Felony = Yes AND WorkRelease = Yes AND Crime against Property = No AND Crime against Person = Yes AND Gender = Male AND Priors = More than 5 AND YearsSchool = YearsSchool <= 8.00 AND PrisonViolations = 1 to 5 AND Age = Age > 33.00 AND MonthsServed = MonthsServed > 24.00
+  expl: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  lit2imprt: {0: -0.0007260222919285297, 1: 0.3472708463668823, 2: -0.0006636524340137839, 3: 0.0053994907066226006, 4: 0.05676443502306938, 5: 0.10071558505296707, 6: 0.05724511295557022, 7: -0.21032306551933289, 8: -0.11307118088006973, 9: 0.020595619454979897, 10: 0.8993842448107898, 11: 0.051499533001333475, 12: 0.10651342431083322, 13: -0.31413114815950394, 14: 0.2311297404812649}
+  time: 0.02

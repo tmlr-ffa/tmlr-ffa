@@ -1,0 +1,602 @@
+loading model from  ./temp/compas/compas_train1_data/compas_train1_data_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl
+loading data from  ./temp/compas/compas_train1_data/compas_train1_data_nbestim_25_maxdepth_3_testsplit_0.0.mod.pkl.splitdata.pkl
+
+inst: 0
+  explaining: Number_of_Priors = 3 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 1 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.3000883, 1: -0.0422937273979187, 2: 0.06917780637741089, 3: -0.033348895609378815, 4: 0.04547751694917679, 5: 0.011090771295130253, 6: 0.0011929299216717482, 8: -0.06022508442401886, 9: 0.02910768613219261, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 1
+  explaining: Number_of_Priors = 3 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 1 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.2345786, 1: 0.03306356444954872, 2: 0.0858021229505539, 3: 0.2076086401939392, 4: -0.028001729398965836, 5: 0.007334838155657053, 6: -0.000693620415404439, 8: 0.015044022351503372, 9: 0.02240855246782303, 10: 0.011378125287592411}
+  time: 0.02
+
+inst: 2
+  explaining: Number_of_Priors = 1 AND score_factor = 0 AND Age_Above_FourtyFive = 1 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 1 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.45112956, 1: -0.038275767117738724, 2: -0.131503164768219, 3: -0.016579432412981987, 4: 0.05759647861123085, 5: 0.01386477891355753, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: -0.016277845948934555, 10: 0.011656496673822403}
+  time: 0.03
+
+inst: 3
+  explaining: Number_of_Priors = 3 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.1783823, 1: 0.03306356444954872, 2: 0.0858021229505539, 3: -0.03591851517558098, 4: -0.055849459022283554, 5: 0.005475163459777832, 6: -0.000693620415404439, 8: 0.015044022351503372, 9: 0.021439801901578903, 10: -0.0030310784932225943}
+  time: 0.03
+
+inst: 4
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.3889851, 1: -0.0422937273979187, 2: 0.052473556250333786, 3: -0.017009200528264046, 4: 0.017233749851584435, 5: 0.023862840607762337, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: 0.02910768613219261, 10: -0.010800044983625412}
+  time: 0.02
+
+inst: 5
+  explaining: Number_of_Priors = 5 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.005872139, 1: 0.03306356444954872, 2: 0.07866998761892319, 3: -0.047714073210954666, 4: -0.07907058298587799, 5: 0.005618039518594742, 6: -0.000693620415404439, 8: 0.007109642028808594, 9: 0.017378170043230057, 10: -0.0030310784932225943}
+  time: 0.02
+
+inst: 6
+  explaining: Number_of_Priors = 2 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.3584975, 1: -0.0422937273979187, 2: 0.05264849215745926, 3: -0.02311292104423046, 4: 0.017233749851584435, 5: 0.012978622689843178, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: 0.02910768613219261, 10: -0.010800044983625412}
+  time: 0.02
+
+inst: 7
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 1 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.3687717, 1: -0.024594508111476898, 2: -0.131503164768219, 3: -0.017009200528264046, 4: 0.030386565253138542, 5: 0.015724454075098038, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: 0.02910768613219261, 10: -0.010800044983625412}
+  time: 0.02
+
+inst: 8
+  explaining: Number_of_Priors = 15 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.66870004, 1: 0.001684599556028843, 2: 0.07999899238348007, 3: -0.061221662908792496, 4: -0.027534328401088715, 5: 0.004538367502391338, 6: 0.009042386896908283, 8: -0.005228102207183838, 9: -0.009591734036803246, 10: -0.0030310784932225943}
+  time: 0.02
+
+inst: 9
+  explaining: Number_of_Priors = 2 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 1 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.38978612, 1: -0.025257021188735962, 2: 0.061627600342035294, 3: 0.15294311940670013, 4: -0.0037770152557641268, 5: 0.01111894752830267, 6: -0.0004549720324575901, 8: 0.015044022351503372, 9: 0.033131714910268784, 10: -0.0030310784932225943}
+  time: 0.02
+
+inst: 10
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 1 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 1 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.3352157, 1: -0.02729770913720131, 2: -0.131503164768219, 3: -0.017009200528264046, 4: 0.026182951405644417, 5: 0.015724454075098038, 6: -0.007086745463311672, 8: 0.015044022351503372, 9: 0.02910768613219261, 10: -0.010800044983625412}
+  time: 0.02
+
+inst: 11
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 1 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.4767416, 1: -0.0422937273979187, 2: 0.052473556250333786, 3: -0.017009200528264046, 4: 0.017233749851584435, 5: 0.023862840607762337, 6: 0.0011929299216717482, 8: -0.06022508442401886, 9: 0.02910768613219261, 10: -0.010800044983625412}
+  time: 0.02
+
+inst: 12
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 1 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 1 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.36500838, 1: -0.021239057183265686, 2: -0.15108628571033478, 3: -0.01914905197918415, 4: -0.01334027387201786, 5: 0.015724454075098038, 6: -0.0004549720324575901, 8: 0.015044022351503372, 9: -0.03326097130775452, 10: 0.011378125287592411}
+  time: 0.02
+
+inst: 13
+  explaining: Number_of_Priors = 1 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.33166155, 1: -0.025257021188735962, 2: 0.06145266443490982, 3: -0.01957882009446621, 4: 0.01063400600105524, 5: 0.023862840607762337, 6: -0.0004549720324575901, 8: 0.015044022351503372, 9: 0.03216296434402466, 10: 0.011378125287592411}
+  time: 0.02
+
+inst: 14
+  explaining: Number_of_Priors = 9 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.11285332, 1: 0.01606486551463604, 2: 0.07174497097730637, 3: -0.07301722466945648, 4: -0.08391860127449036, 5: 0.004955178126692772, 6: -0.000693620415404439, 8: -0.005228102207183838, 9: -0.005241815932095051, 10: -0.0030310784932225943}
+  time: 0.03
+
+inst: 15
+  explaining: Number_of_Priors = 7 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.048736274, 1: 0.04765300452709198, 2: 0.06969086825847626, 3: -0.0451444536447525, 4: 0.08281774818897247, 5: 0.005618039518594742, 6: 0.000954281771555543, 8: -0.005228102207183838, 9: 0.006926771719008684, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 16
+  explaining: Number_of_Priors = 1 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 1 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.47029597, 1: -0.025257021188735962, 2: 0.06145266443490982, 3: 0.12526743113994598, 4: 0.017352357506752014, 5: 0.023862840607762337, 6: -0.0004549720324575901, 8: 0.015044022351503372, 9: 0.033131714910268784, 10: 0.011378125287592411}
+  time: 0.02
+
+inst: 17
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 1 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.47134298, 1: -0.05597498640418053, 2: 0.052473556250333786, 3: -0.016579432412981987, 4: 0.04444366320967674, 5: 0.022003166377544403, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: -0.016277845948934555, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 18
+  explaining: Number_of_Priors = 0 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.38155672, 1: 0.04765300452709198, 2: 0.060118742287158966, 3: -0.017009200528264046, 4: 0.03198268264532089, 5: 0.01824723556637764, 6: 0.000954281771555543, 8: 0.015044022351503372, 9: 0.018384523689746857, 10: -0.010800044983625412}
+  time: 0.02
+
+inst: 19
+  explaining: Number_of_Priors = 6 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.04130789, 1: -0.0422937273979187, 2: 0.062045685946941376, 3: -0.0451444536447525, 4: 0.06806880235671997, 5: 0.011233647353947163, 6: 0.0011929299216717482, 8: -0.005228102207183838, 9: 0.017649933695793152, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 20
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.3889851, 1: -0.0422937273979187, 2: 0.052473556250333786, 3: -0.017009200528264046, 4: 0.017233749851584435, 5: 0.023862840607762337, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: 0.02910768613219261, 10: -0.010800044983625412}
+  time: 0.02
+
+inst: 21
+  explaining: Number_of_Priors = 3 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.1783823, 1: 0.03306356444954872, 2: 0.0858021229505539, 3: -0.03591851517558098, 4: -0.055849459022283554, 5: 0.005475163459777832, 6: -0.000693620415404439, 8: 0.015044022351503372, 9: 0.021439801901578903, 10: -0.0030310784932225943}
+  time: 0.03
+
+inst: 22
+  explaining: Number_of_Priors = 8 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.09661049, 1: 0.01606486551463604, 2: 0.07174497097730637, 3: -0.07301722466945648, 4: -0.06278923153877258, 5: 0.006814852822571993, 6: -0.000693620415404439, 8: -0.005228102207183838, 9: -0.005241815932095051, 10: 0.011378125287592411}
+  time: 0.02
+
+inst: 23
+  explaining: Number_of_Priors = 2 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.2692473, 1: 0.03306356444954872, 2: 0.06927278637886047, 3: -0.025682540610432625, 4: -0.027372580021619797, 5: 0.005503340624272823, 6: -0.000693620415404439, 8: 0.015044022351503372, 9: 0.021439801901578903, 10: -0.0030310784932225943}
+  time: 0.02
+
+inst: 24
+  explaining: Number_of_Priors = 2 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 1 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.35777137, 1: -0.03893828019499779, 2: 0.061627600342035294, 3: -0.025252772495150566, 4: 0.002069150796160102, 5: 0.012978622689843178, 6: -0.0004549720324575901, 8: 0.015044022351503372, 9: -0.03326097130775452, 10: 0.011378125287592411}
+  time: 0.02
+
+inst: 25
+  explaining: Number_of_Priors = 0 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.36724037, 1: 0.04765300452709198, 2: 0.060118742287158966, 3: -0.017009200528264046, 4: 0.04771905019879341, 5: 0.016387561336159706, 6: 0.000954281771555543, 8: 0.015044022351503372, 9: 0.018384523689746857, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 26
+  explaining: Number_of_Priors = 8 AND score_factor = 0 AND Age_Above_FourtyFive = 1 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.13187173, 1: -0.005954135209321976, 2: -0.16298118233680725, 3: -0.07301722466945648, 4: -0.08245081454515457, 5: 0.0007943474920466542, 6: -0.0004549720324575901, 8: -0.005228102207183838, 9: -0.0023400667123496532, 10: -0.0030310784932225943}
+  time: 0.02
+
+inst: 27
+  explaining: Number_of_Priors = 8 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 1 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.17060503, 1: 0.03117341734468937, 2: 0.06276585161685944, 3: -0.07044760137796402, 4: 0.08511516451835632, 5: 0.004955178126692772, 6: -0.004103081300854683, 8: -0.005228102207183838, 9: -0.030995182693004608, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 28
+  explaining: Number_of_Priors = 6 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.0132021755, 1: 0.03306356444954872, 2: 0.07866998761892319, 3: -0.047714073210954666, 4: -0.05794121325016022, 5: 0.007477714214473963, 6: -0.000693620415404439, 8: -0.005228102207183838, 9: 0.009982050396502018, 10: 0.011378125287592411}
+  time: 0.02
+
+inst: 29
+  explaining: Number_of_Priors = 1 AND score_factor = 0 AND Age_Above_FourtyFive = 1 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.3687717, 1: -0.024594508111476898, 2: -0.131503164768219, 3: -0.017009200528264046, 4: 0.030386565253138542, 5: 0.015724454075098038, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: 0.02910768613219261, 10: -0.010800044983625412}
+  time: 0.02
+
+inst: 30
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 1 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 1 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.60109967, 1: -0.0422937273979187, 2: 0.052473556250333786, 3: 0.11606456339359283, 4: 0.027915993705391884, 5: 0.022003166377544403, 6: 0.0011929299216717482, 8: -0.06022508442401886, 9: 0.030076434835791588, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 31
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.37466878, 1: -0.0422937273979187, 2: 0.052473556250333786, 3: -0.017009200528264046, 4: 0.0329701192677021, 5: 0.022003166377544403, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: 0.02910768613219261, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 32
+  explaining: Number_of_Priors = 5 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 1 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 1 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.02443127, 1: 0.04765300452709198, 2: 0.06969086825847626, 3: 0.2707011103630066, 4: 0.0777636170387268, 5: 0.005618039518594742, 6: 0.000954281771555543, 8: -0.01348832156509161, 9: 0.015291641466319561, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 33
+  explaining: Number_of_Priors = 7 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 1 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.010056107, 1: 0.06447717547416687, 2: 0.06969086825847626, 3: -0.044714685529470444, 4: 0.09429129958152771, 5: 0.005618039518594742, 6: 0.000954281771555543, 8: -0.005228102207183838, 9: 0.024187879636883736, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 34
+  explaining: Number_of_Priors = 1 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 1 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.35059175, 1: 0.04988774657249451, 2: 0.0690978541970253, 3: -0.01914905197918415, 4: -0.035937435925006866, 5: 0.016387561336159706, 6: -0.000693620415404439, 8: 0.015044022351503372, 9: -0.013478689827024937, 10: -0.0030310784932225943}
+  time: 0.03
+
+inst: 35
+  explaining: Number_of_Priors = 15 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.66870004, 1: 0.001684599556028843, 2: 0.07999899238348007, 3: -0.061221662908792496, 4: -0.027534328401088715, 5: 0.004538367502391338, 6: 0.009042386896908283, 8: -0.005228102207183838, 9: -0.009591734036803246, 10: -0.0030310784932225943}
+  time: 0.02
+
+inst: 36
+  explaining: Number_of_Priors = 11 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.30931258, 1: 0.015521175228059292, 2: 0.07999899238348007, 3: -0.07301722466945648, 4: -0.07047456502914429, 5: 0.004538367502391338, 6: -0.000693620415404439, 8: -0.005228102207183838, 9: -0.009591734036803246, 10: -0.0030310784932225943}
+  time: 0.02
+
+inst: 37
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.33166155, 1: -0.025257021188735962, 2: 0.06145266443490982, 3: -0.01957882009446621, 4: 0.01063400600105524, 5: 0.023862840607762337, 6: -0.0004549720324575901, 8: 0.015044022351503372, 9: 0.03216296434402466, 10: 0.011378125287592411}
+  time: 0.02
+
+inst: 38
+  explaining: Number_of_Priors = 11 AND score_factor = 1 AND Age_Above_FourtyFive = 1 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.30595607, 1: 0.01011174451559782, 2: -0.18943820893764496, 3: -0.07301722466945648, 4: -0.0858839899301529, 5: -0.002763529773801565, 6: -0.000693620415404439, 8: -0.005228102207183838, 9: -0.009591734036803246, 10: -0.0030310784932225943}
+  time: 0.03
+
+inst: 39
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 1 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.3544553, 1: -0.024594508111476898, 2: -0.131503164768219, 3: -0.017009200528264046, 4: 0.04612293094396591, 5: 0.01386477891355753, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: 0.02910768613219261, 10: 0.011656496673822403}
+  time: 0.03
+
+inst: 40
+  explaining: Number_of_Priors = 13 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.31751865, 1: 0.05365807190537453, 2: 0.06899507343769073, 3: -0.07044760137796402, 4: 0.03697579726576805, 5: 0.006078329868614674, 6: 0.015277309343218803, 8: -0.005228102207183838, 9: -0.032443348318338394, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 41
+  explaining: Number_of_Priors = 1 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.37466878, 1: -0.0422937273979187, 2: 0.052473556250333786, 3: -0.017009200528264046, 4: 0.0329701192677021, 5: 0.022003166377544403, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: 0.02910768613219261, 10: 0.011656496673822403}
+  time: 0.03
+
+inst: 42
+  explaining: Number_of_Priors = 1 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.36724037, 1: 0.04765300452709198, 2: 0.060118742287158966, 3: -0.017009200528264046, 4: 0.04771905019879341, 5: 0.016387561336159706, 6: 0.000954281771555543, 8: 0.015044022351503372, 9: 0.018384523689746857, 10: 0.011656496673822403}
+  time: 0.03
+
+inst: 43
+  explaining: Number_of_Priors = 4 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 1 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.07136296, 1: -0.044996924698352814, 2: 0.07250703126192093, 3: -0.0451444536447525, 4: 0.04127391427755356, 5: 0.011233647353947163, 6: -0.007086745463311672, 8: 0.007109642028808594, 9: 0.025046054273843765, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 44
+  explaining: Number_of_Priors = 8 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.12917732, 1: 0.030654301866889, 2: 0.06276585161685944, 3: -0.07044760137796402, 4: 0.07358241081237793, 5: 0.006814852822571993, 6: 0.000954281771555543, 8: -0.005228102207183838, 9: -0.030995182693004608, 10: -0.010800044983625412}
+  time: 0.02
+
+inst: 45
+  explaining: Number_of_Priors = 2 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 1 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.34152856, 1: -0.03893828019499779, 2: 0.061627600342035294, 3: -0.025252772495150566, 4: -0.019060224294662476, 5: 0.01111894752830267, 6: -0.0004549720324575901, 8: 0.015044022351503372, 9: -0.03326097130775452, 10: -0.0030310784932225943}
+  time: 0.03
+
+inst: 46
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 1 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 1 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.34876555, 1: -0.021239057183265686, 2: -0.15108628571033478, 3: -0.01914905197918415, 4: -0.03446964919567108, 5: 0.01386477891355753, 6: -0.0004549720324575901, 8: 0.015044022351503372, 9: -0.03326097130775452, 10: -0.0030310784932225943}
+  time: 0.02
+
+inst: 47
+  explaining: Number_of_Priors = 1 AND score_factor = 0 AND Age_Above_FourtyFive = 1 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.3687717, 1: -0.024594508111476898, 2: -0.131503164768219, 3: -0.017009200528264046, 4: 0.030386565253138542, 5: 0.015724454075098038, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: 0.02910768613219261, 10: -0.010800044983625412}
+  time: 0.02
+
+inst: 48
+  explaining: Number_of_Priors = 3 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 1 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.17877579, 1: -0.044996924698352814, 2: 0.06917780637741089, 3: -0.033348895609378815, 4: 0.04127391427755356, 5: 0.011090771295130253, 6: -0.007086745463311672, 8: 0.015044022351503372, 9: 0.02910768613219261, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 49
+  explaining: Number_of_Priors = 6 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.013761185, 1: -0.025257021188735962, 2: 0.07102479785680771, 3: -0.047714073210954666, 4: -0.0621933713555336, 5: 0.011233647353947163, 6: -0.0004549720324575901, 8: -0.005228102207183838, 9: 0.0207052119076252, 10: -0.0030310784932225943}
+  time: 0.03
+
+inst: 50
+  explaining: Number_of_Priors = 4 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 1 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.04307483, 1: 0.03306356444954872, 2: 0.08913134783506393, 3: 0.27990397810935974, 4: -0.028001729398965836, 5: 0.007477714214473963, 6: -0.000693620415404439, 8: 0.007109642028808594, 9: 0.018346920609474182, 10: 0.011378125287592411}
+  time: 0.02
+
+inst: 51
+  explaining: Number_of_Priors = 5 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.005990752, 1: -0.0422937273979187, 2: 0.062045685946941376, 3: -0.0451444536447525, 4: 0.06806880235671997, 5: 0.011233647353947163, 6: 0.0011929299216717482, 8: 0.007109642028808594, 9: 0.025046054273843765, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 52
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.33166155, 1: -0.025257021188735962, 2: 0.06145266443490982, 3: -0.01957882009446621, 4: 0.01063400600105524, 5: 0.023862840607762337, 6: -0.0004549720324575901, 8: 0.015044022351503372, 9: 0.03216296434402466, 10: 0.011378125287592411}
+  time: 0.02
+
+inst: 53
+  explaining: Number_of_Priors = 0 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 1 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.4383693, 1: 0.03306356444954872, 2: 0.0690978541970253, 3: 0.12526743113994598, 4: -0.02065422758460045, 5: 0.016387561336159706, 6: -0.000693620415404439, 8: 0.015044022351503372, 9: 0.02240855246782303, 10: -0.0030310784932225943}
+  time: 0.02
+
+inst: 54
+  explaining: Number_of_Priors = 2 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.3584975, 1: -0.0422937273979187, 2: 0.05264849215745926, 3: -0.02311292104423046, 4: 0.017233749851584435, 5: 0.012978622689843178, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: 0.02910768613219261, 10: -0.010800044983625412}
+  time: 0.02
+
+inst: 55
+  explaining: Number_of_Priors = 1 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 1 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.46242523, 1: -0.0422937273979187, 2: 0.052473556250333786, 3: -0.017009200528264046, 4: 0.0329701192677021, 5: 0.022003166377544403, 6: 0.0011929299216717482, 8: -0.06022508442401886, 9: 0.02910768613219261, 10: 0.011656496673822403}
+  time: 0.03
+
+inst: 56
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.31541875, 1: -0.025257021188735962, 2: 0.06145266443490982, 3: -0.01957882009446621, 4: -0.010495367459952831, 5: 0.022003166377544403, 6: -0.0004549720324575901, 8: 0.015044022351503372, 9: 0.03216296434402466, 10: -0.0030310784932225943}
+  time: 0.03
+
+inst: 57
+  explaining: Number_of_Priors = 12 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.07928646, 1: -0.00616847537457943, 2: 0.07999899238348007, 3: -0.07301722466945648, 4: -0.02351069450378418, 5: 0.004538367502391338, 6: 0.000694321352057159, 8: -0.005228102207183838, 9: -0.009591734036803246, 10: -0.0030310784932225943}
+  time: 0.02
+
+inst: 58
+  explaining: Number_of_Priors = 0 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 1 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.3544453, 1: 0.04817211627960205, 2: 0.060118742287158966, 3: -0.017009200528264046, 4: 0.027779068797826767, 5: 0.01824723556637764, 6: -0.004103081300854683, 8: 0.015044022351503372, 9: 0.018384523689746857, 10: -0.010800044983625412}
+  time: 0.02
+
+inst: 59
+  explaining: Number_of_Priors = 3 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 1 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.21833578, 1: 0.03306356444954872, 2: 0.0858021229505539, 3: 0.2076086401939392, 4: -0.049131106585264206, 5: 0.005475163459777832, 6: -0.000693620415404439, 8: 0.015044022351503372, 9: 0.02240855246782303, 10: -0.0030310784932225943}
+  time: 0.03
+
+inst: 60
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 1 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 1 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.4976419, 1: -0.03893828019499779, 2: 0.06145266443490982, 3: 0.11919286102056503, 4: -0.012341870926320553, 5: 0.022003166377544403, 6: -0.0004549720324575901, 8: 0.015044022351503372, 9: -0.038796547800302505, 10: -0.0030310784932225943}
+  time: 0.02
+
+inst: 61
+  explaining: Number_of_Priors = 3 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 1 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.25921324, 1: 0.04765300452709198, 2: 0.07682299613952637, 3: 0.19840578734874725, 4: 0.03943595290184021, 5: 0.007334838155657053, 6: 0.000954281771555543, 8: 0.015044022351503372, 9: 0.019353274255990982, 10: -0.010800044983625412}
+  time: 0.02
+
+inst: 62
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 1 AND Native_American = 0 AND Other = 0 AND Female = 1 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.43778694, 1: -0.05867818742990494, 2: 0.052473556250333786, 3: -0.016579432412981987, 4: 0.040240056812763214, 5: 0.022003166377544403, 6: -0.007086745463311672, 8: 0.015044022351503372, 9: -0.016277845948934555, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 63
+  explaining: Number_of_Priors = 4 AND score_factor = 0 AND Age_Above_FourtyFive = 1 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.15049957, 1: -0.024594508111476898, 2: -0.17726373672485352, 3: -0.0451444536447525, 4: 0.058630332350730896, 5: 0.003931749612092972, 6: 0.0011929299216717482, 8: 0.007109642028808594, 9: 0.025046054273843765, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 64
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.3889851, 1: -0.0422937273979187, 2: 0.052473556250333786, 3: -0.017009200528264046, 4: 0.017233749851584435, 5: 0.023862840607762337, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: 0.02910768613219261, 10: -0.010800044983625412}
+  time: 0.02
+
+inst: 65
+  explaining: Number_of_Priors = 1 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 1 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.50591475, 1: 0.04765300452709198, 2: 0.060118742287158966, 3: 0.11606456339359283, 4: 0.04266492277383804, 5: 0.016387561336159706, 6: 0.000954281771555543, 8: 0.015044022351503372, 9: 0.019353274255990982, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 66
+  explaining: Number_of_Priors = 0 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 1 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.4383693, 1: 0.03306356444954872, 2: 0.0690978541970253, 3: 0.12526743113994598, 4: -0.02065422758460045, 5: 0.016387561336159706, 6: -0.000693620415404439, 8: 0.015044022351503372, 9: 0.02240855246782303, 10: -0.0030310784932225943}
+  time: 0.02
+
+inst: 67
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.37466878, 1: -0.0422937273979187, 2: 0.052473556250333786, 3: -0.017009200528264046, 4: 0.0329701192677021, 5: 0.022003166377544403, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: 0.02910768613219261, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 68
+  explaining: Number_of_Priors = 1 AND score_factor = 1 AND Age_Above_FourtyFive = 1 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.2843171, 1: 0.012638879008591175, 2: -0.18156501650810242, 3: -0.01957882009446621, 4: -0.0427820049226284, 5: 0.008249172940850258, 6: -0.000693620415404439, 8: 0.015044022351503372, 9: 0.021439801901578903, 10: -0.0030310784932225943}
+  time: 0.02
+
+inst: 69
+  explaining: Number_of_Priors = 3 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.19406612, 1: -0.025257021188735962, 2: 0.07815691828727722, 3: -0.03591851517558098, 4: -0.03897224739193916, 5: 0.011090771295130253, 6: -0.0004549720324575901, 8: 0.015044022351503372, 9: 0.03216296434402466, 10: -0.0030310784932225943}
+  time: 0.01
+
+inst: 70
+  explaining: Number_of_Priors = 3 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 1 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.24489686, 1: 0.04765300452709198, 2: 0.07682299613952637, 3: 0.19840578734874725, 4: 0.05517232418060303, 5: 0.005475163459777832, 6: 0.000954281771555543, 8: 0.015044022351503372, 9: 0.019353274255990982, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 71
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.37466878, 1: -0.0422937273979187, 2: 0.052473556250333786, 3: -0.017009200528264046, 4: 0.0329701192677021, 5: 0.022003166377544403, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: 0.02910768613219261, 10: 0.011656496673822403}
+  time: 0.01
+
+inst: 72
+  explaining: Number_of_Priors = 2 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.2692473, 1: 0.03306356444954872, 2: 0.06927278637886047, 3: -0.025682540610432625, 4: -0.027372580021619797, 5: 0.005503340624272823, 6: -0.000693620415404439, 8: 0.015044022351503372, 9: 0.021439801901578903, 10: -0.0030310784932225943}
+  time: 0.02
+
+inst: 73
+  explaining: Number_of_Priors = 0 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 1 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 1 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.5838397, 1: 0.06447717547416687, 2: 0.060118742287158966, 3: 0.10999000072479248, 4: 0.05413847044110298, 5: 0.016387561336159706, 6: 0.000954281771555543, 8: 0.015044022351503372, 9: -0.0020311474800109863, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 74
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.3889851, 1: -0.0422937273979187, 2: 0.052473556250333786, 3: -0.017009200528264046, 4: 0.017233749851584435, 5: 0.023862840607762337, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: 0.02910768613219261, 10: -0.010800044983625412}
+  time: 0.02
+
+inst: 75
+  explaining: Number_of_Priors = 2 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 1 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.30964136, 1: 0.04817211627960205, 2: 0.06029367819428444, 3: -0.02311292104423046, 4: 0.043515440076589584, 5: 0.005503340624272823, 6: -0.004103081300854683, 8: 0.015044022351503372, 9: 0.018384523689746857, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 76
+  explaining: Number_of_Priors = 1 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 1 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.47029597, 1: -0.025257021188735962, 2: 0.06145266443490982, 3: 0.12526743113994598, 4: 0.017352357506752014, 5: 0.023862840607762337, 6: -0.0004549720324575901, 8: 0.015044022351503372, 9: 0.033131714910268784, 10: 0.011378125287592411}
+  time: 0.02
+
+inst: 77
+  explaining: Number_of_Priors = 5 AND score_factor = 0 AND Age_Above_FourtyFive = 1 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.024973534, 1: -0.0075577981770038605, 2: -0.1681823581457138, 3: -0.047714073210954666, 4: -0.0776027962565422, 5: 0.003931749612092972, 6: -0.0004549720324575901, 8: 0.007109642028808594, 9: 0.028101332485675812, 10: -0.0030310784932225943}
+  time: 0.03
+
+inst: 78
+  explaining: Number_of_Priors = 10 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.19979693, 1: 0.015521175228059292, 2: 0.07999899238348007, 3: -0.07301722466945648, 4: -0.07047456502914429, 5: 0.004538367502391338, 6: -0.000693620415404439, 8: -0.005228102207183838, 9: -0.009591734036803246, 10: -0.0030310784932225943}
+  time: 0.03
+
+inst: 79
+  explaining: Number_of_Priors = 2 AND score_factor = 0 AND Age_Above_FourtyFive = 1 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.3245296, 1: -0.024594508111476898, 2: -0.13189011812210083, 3: -0.02311292104423046, 4: 0.04612293094396591, 5: 0.004104336723685265, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: 0.02910768613219261, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 80
+  explaining: Number_of_Priors = 6 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 1 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.073582456, 1: 0.03306356444954872, 2: 0.07866998761892319, 3: 0.27990397810935974, 4: -0.07235223054885864, 5: 0.005618039518594742, 6: -0.000693620415404439, 8: -0.005228102207183838, 9: 0.010950799100100994, 10: -0.0030310784932225943}
+  time: 0.02
+
+inst: 81
+  explaining: Number_of_Priors = 3 AND score_factor = 0 AND Age_Above_FourtyFive = 1 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.24721907, 1: -0.024594508111476898, 2: -0.16989964246749878, 3: -0.033348895609378815, 4: 0.058630332350730896, 5: 0.0038951539900153875, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: 0.02910768613219261, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 82
+  explaining: Number_of_Priors = 1 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.31541875, 1: -0.025257021188735962, 2: 0.06145266443490982, 3: -0.01957882009446621, 4: -0.010495367459952831, 5: 0.022003166377544403, 6: -0.0004549720324575901, 8: 0.015044022351503372, 9: 0.03216296434402466, 10: -0.0030310784932225943}
+  time: 0.02
+
+inst: 83
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.3889851, 1: -0.0422937273979187, 2: 0.052473556250333786, 3: -0.017009200528264046, 4: 0.017233749851584435, 5: 0.023862840607762337, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: 0.02910768613219261, 10: -0.010800044983625412}
+  time: 0.02
+
+inst: 84
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 1 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 1 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.46544594, 1: -0.038275767117738724, 2: -0.131503164768219, 3: -0.016579432412981987, 4: 0.04186011105775833, 5: 0.015724454075098038, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: -0.016277845948934555, 10: -0.010800044983625412}
+  time: 0.02
+
+inst: 85
+  explaining: Number_of_Priors = 2 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.30117396, 1: -0.025257021188735962, 2: 0.061627600342035294, 3: -0.025682540610432625, 4: 0.01063400600105524, 5: 0.012978622689843178, 6: -0.0004549720324575901, 8: 0.015044022351503372, 9: 0.03216296434402466, 10: 0.011378125287592411}
+  time: 0.02
+
+inst: 86
+  explaining: Number_of_Priors = 6 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 1 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.010695002, 1: -0.03893828019499779, 2: 0.07102479785680771, 3: -0.04728430509567261, 4: -0.07075823098421097, 5: 0.011233647353947163, 6: -0.0004549720324575901, 8: -0.005228102207183838, 9: -0.012577520683407784, 10: -0.0030310784932225943}
+  time: 0.02
+
+inst: 87
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 1 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.51334316, 1: -0.0422937273979187, 2: 0.052473556250333786, 3: 0.11606456339359283, 4: 0.027915993705391884, 5: 0.022003166377544403, 6: 0.0011929299216717482, 8: 0.015044022351503372, 9: 0.030076434835791588, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 88
+  explaining: Number_of_Priors = 0 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 1 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.52023107, 1: 0.04765300452709198, 2: 0.060118742287158966, 3: 0.11606456339359283, 4: 0.026928553357720375, 5: 0.01824723556637764, 6: 0.000954281771555543, 8: 0.015044022351503372, 9: 0.019353274255990982, 10: -0.010800044983625412}
+  time: 0.02
+
+inst: 89
+  explaining: Number_of_Priors = 6 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.04130789, 1: -0.0422937273979187, 2: 0.062045685946941376, 3: -0.0451444536447525, 4: 0.06806880235671997, 5: 0.011233647353947163, 6: 0.0011929299216717482, 8: -0.005228102207183838, 9: 0.017649933695793152, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 90
+  explaining: Number_of_Priors = 20 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 1 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.893455, 1: 0.0562177449464798, 2: 0.06477205455303192, 3: -0.042312346398830414, 4: 0.3962371349334717, 5: 0.0046711210161447525, 6: -0.24421237409114838, 8: -0.00044005969539284706, 9: -0.05514158308506012, 10: 0.011656496673822403}
+  time: 0.03
+
+inst: 91
+  explaining: Number_of_Priors = 2 AND score_factor = 1 AND Age_Above_FourtyFive = 1 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.32493407, 1: 0.02722831629216671, 2: -0.16236883401870728, 3: -0.02311292104423046, 4: 0.06087186560034752, 5: -0.0015112697146832943, 6: 0.000954281771555543, 8: 0.015044022351503372, 9: 0.018384523689746857, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 92
+  explaining: Number_of_Priors = 1 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.33166155, 1: -0.025257021188735962, 2: 0.06145266443490982, 3: -0.01957882009446621, 4: 0.01063400600105524, 5: 0.023862840607762337, 6: -0.0004549720324575901, 8: 0.015044022351503372, 9: 0.03216296434402466, 10: 0.011378125287592411}
+  time: 0.02
+
+inst: 93
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.31541875, 1: -0.025257021188735962, 2: 0.06145266443490982, 3: -0.01957882009446621, 4: -0.010495367459952831, 5: 0.022003166377544403, 6: -0.0004549720324575901, 8: 0.015044022351503372, 9: 0.03216296434402466, 10: -0.0030310784932225943}
+  time: 0.02
+
+inst: 94
+  explaining: Number_of_Priors = 8 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 1 AND African_American = 0 AND Asian = 0 AND Hispanic = 1 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.4471875, 1: 0.03117341734468937, 2: 0.06276585161685944, 3: 0.477882981300354, 4: 0.08006103336811066, 5: 0.004955178126692772, 6: -0.004103081300854683, 8: -0.005228102207183838, 9: -0.022516706958413124, 10: 0.011656496673822403}
+  time: 0.02
+
+inst: 95
+  explaining: Number_of_Priors = 11 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.34647265, 1: -0.018390405923128128, 2: 0.06899507343769073, 3: -0.07044760137796402, 4: 0.057038918137550354, 5: 0.007938005030155182, 6: 0.0011929299216717482, 8: -0.005228102207183838, 9: -0.032443348318338394, 10: -0.010800044983625412}
+  time: 0.02
+
+inst: 96
+  explaining: Number_of_Priors = 15 AND score_factor = 1 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 0
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: 0.66870004, 1: 0.001684599556028843, 2: 0.07999899238348007, 3: -0.061221662908792496, 4: -0.027534328401088715, 5: 0.004538367502391338, 6: 0.009042386896908283, 8: -0.005228102207183838, 9: -0.009591734036803246, 10: -0.0030310784932225943}
+  time: 0.02
+
+inst: 97
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 1 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.38825896, 1: -0.03893828019499779, 2: 0.06145266443490982, 3: -0.01914905197918415, 4: 0.002069150796160102, 5: 0.023862840607762337, 6: -0.0004549720324575901, 8: 0.015044022351503372, 9: -0.03326097130775452, 10: 0.011378125287592411}
+  time: 0.02
+
+inst: 98
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 0 AND Asian = 0 AND Hispanic = 1 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.35542908, 1: -0.044996924698352814, 2: 0.052473556250333786, 3: -0.017009200528264046, 4: 0.013030136935412884, 5: 0.023862840607762337, 6: -0.007086745463311672, 8: 0.015044022351503372, 9: 0.02910768613219261, 10: -0.010800044983625412}
+  time: 0.02
+
+inst: 99
+  explaining: Number_of_Priors = 0 AND score_factor = 0 AND Age_Above_FourtyFive = 0 AND Age_Below_TwentyFive = 0 AND African_American = 1 AND Asian = 0 AND Hispanic = 0 AND Native_American = 0 AND Other = 0 AND Female = 0 AND Misdemeanor = 1
+  expl: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+  lit2imprt: {0: -0.33166155, 1: -0.025257021188735962, 2: 0.06145266443490982, 3: -0.01957882009446621, 4: 0.01063400600105524, 5: 0.023862840607762337, 6: -0.0004549720324575901, 8: 0.015044022351503372, 9: 0.03216296434402466, 10: 0.011378125287592411}
+  time: 0.02
